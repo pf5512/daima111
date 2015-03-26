@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_width">310dp</dimen>
+    <dimen name="clock_height">160dp</dimen>
+    
+    <dimen name="simulatorclock_width">310dp</dimen>
+    <dimen name="simulatorclock_height">190dp</dimen>
+    
+    
+    
+    
+    
+    <dimen name="digitclock_width">310dp</dimen>
+    <dimen name="digitclock_height">160dp</dimen>
+    
+    <dimen name="digitclock_digit_marginLeft">24dp</dimen>
+    <dimen name="digitclock_digit_marginTop">38dp</dimen>
+    <dimen name="digitclock_digit_space">3dp</dimen>
+    <dimen name="digitclock_digit_LRspace">24dp</dimen>
+    
+     <dimen name="digitclock_date_marginLeft">100dp</dimen>
+    <dimen name="digitclock_date_marginTop">40dp</dimen>   
+    <dimen name="digitclock_date_textsize">16dp</dimen>
+    
+    <dimen name="digitclock_AM_marginLeft">45dp</dimen>
+    <dimen name="digitclock_AM_marginTop">38dp</dimen>  
+    <dimen name="digitclock_AM_textsize">14dp</dimen>
+    
+    
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Comet Launcher Prime</string>
+    <string name="licensing_succeed">The authentication is successful, Congratulations on your update to Comet 3D Launcher Pro.</string>
+	<string name="licensing_checking">The information of Comet 3D Launcher Prime is being verified, please wait for a moment.</string>
+    <string name="licensing_failed">Authentication failed, Please check the network connection and try again.</string>
+    <string name="licensing_download">You can not be verified before download Comet 3D Launcher.</string>
+    
+</resources>

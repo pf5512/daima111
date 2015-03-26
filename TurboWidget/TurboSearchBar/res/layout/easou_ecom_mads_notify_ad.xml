@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_marginRight="0dp"
+    android:background="#181818">
+    <ImageView
+        android:id="@+id/notify_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@string/easou_search_sdk_img"
+    />
+    <RelativeLayout 
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/notify_image">
+<!--         <TextView  -->
+<!-- 	        android:id="@+id/notify_title" -->
+<!-- 	        android:layout_width="wrap_content" -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title" -->
+<!-- 	        android:textColor="#FFFFFF" -->
+<!-- 	        android:singleLine="true" -->
+<!-- 	        android:ellipsize="marquee" -->
+<!-- 	        android:fadingEdge="horizontal" -->
+<!--     		/> -->
+
+       <TextView 
+	        android:id="@+id/notify_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#FFFFFF"
+	        android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:fadingEdge="horizontal"
+    		/>
+	    <TextView 
+	        android:id="@+id/notify_when"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="10dp"
+			android:layout_toRightOf="@+id/notify_title"
+			android:layout_alignBaseline="@+id/notify_title"
+	        android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:fadingEdge="horizontal"
+	        android:layout_alignParentRight="true"
+	        android:gravity="right"
+	        />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/notify_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/notify_image"
+        android:layout_below="@+id/layout_title"
+       	android:singleLine="true"
+	    android:ellipsize="marquee"
+	    android:fadingEdge="horizontal"
+        />
+
+</RelativeLayout>

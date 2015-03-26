@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<!-- Full screen view projects under the status bar and contains the background -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.cooeeui.brand.turbolauncher"
+    android:id="@+id/launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.cooee.launcher.gesture.GesturePagedView
+        android:id="@+id/gesture_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.cooee.launcher.framework.drag.DragLayer
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:launcher="http://schemas.android.com/apk/res/com.cooeeui.brand.turbolauncher"
+            android:id="@+id/drag_layer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true" >
+
+            <com.cooee.launcher.Workspace
+                android:id="@+id/workspace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/workspace_bottom_padding"
+                android:paddingLeft="@dimen/workspace_left_padding"
+                android:paddingRight="@dimen/workspace_right_padding"
+                android:paddingTop="@dimen/workspace_top_padding"
+                launcher:cellCountX="@integer/cell_count_x"
+                launcher:cellCountY="@integer/cell_count_y"
+                launcher:defaultScreen="1"
+                launcher:pageIndicator="@id/page_indicator"
+                launcher:pageSpacing="@dimen/workspace_page_spacing"
+                launcher:scrollIndicatorPaddingLeft="@dimen/workspace_divider_padding_left"
+                launcher:scrollIndicatorPaddingRight="@dimen/workspace_divider_padding_right" >
+            </com.cooee.launcher.Workspace>
+
+            <include
+                android:id="@+id/hotseat"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_bar_height_plus_padding"
+                android:layout_gravity="bottom"
+                layout="@layout/hotseat" />
+
+            <include
+                android:id="@+id/page_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="@dimen/button_bar_height"
+                layout="@layout/page_indicator" />
+
+            <!-- 桌面编辑模块代码 LinYu@2014/12/19 UPD START -->
+
+            <include
+                android:id="@+id/fl_desktop_edit"
+                layout="@layout/de_bottom_layout"
+                android:visibility="invisible" />
+            <!-- 桌面编辑模块代码 LinYu@2014/12/19 UPD END -->
+
+
+            <!-- Trashcan Hugo.ye@2014/12/20 ADD START -->
+
+            <com.cooee.launcher.trashcan.Trashcan
+                android:id="@+id/trashcan"
+                style="@style/Trashcan"
+                android:focusable="false"
+                android:visibility="gone" >
+
+                <com.cooee.launcher.trashcan.DeleteDropTarget
+                    android:id="@+id/delete_target_text"
+                    style="@style/DropTargetButton"
+                    android:drawableLeft="@drawable/remove_target_selector"
+                    android:text="@string/delete_zone_label_workspace" />
+            </com.cooee.launcher.trashcan.Trashcan>
+            <!-- Trashcan Hugo.ye@2014/12/20 ADD END -->
+
+
+            <!--
+             The Workspace cling must appear under the AppsCustomizePagedView below to ensure
+             that it is still visible during the transition to AllApps and doesn't overlay on
+             top of that view.
+            -->
+
+            <include
+                android:id="@+id/workspace_cling"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/workspace_cling"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/folder_cling"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/folder_cling"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/apps_customize_pane"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/apps_customize_pane"
+                android:visibility="invisible" />
+        </com.cooee.launcher.framework.drag.DragLayer>
+    </com.cooee.launcher.gesture.GesturePagedView>
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+桌面编辑模块代码
+@author LinYu
+-->
+<com.cooee.launcher.desktopedit.TabEffectContent xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.cooeeui.brand.turbolauncher"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/desktop_edit_container_height" >
+
+    <com.cooee.launcher.desktopedit.DesktopEditEffectPage
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF00FF"
+        launcher:pageIndicator="@+id/page_indicator" >
+    </com.cooee.launcher.desktopedit.DesktopEditEffectPage>
+
+    <include
+        android:id="@+id/page_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        layout="@layout/page_indicator" />
+
+</com.cooee.launcher.desktopedit.TabEffectContent>

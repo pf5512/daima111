@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">3D機器人</string>
+	<string name="clear_success_msg">機器人辛辛苦苦為您清理了${count}個耗電應用，為您節省了${memory}M内存
+	</string>
+	<string name="clear_empty_msg">已達最佳省電狀態，請稍后再清理
+	</string>
+	<string name="battery_percent">電量:
+	</string>
+	<string name="max_instance_alert">機器人已經存在，不可以重復添加</string>
+	<string name="download_toast">請鏈接網絡後重試.</string>
+</resources>

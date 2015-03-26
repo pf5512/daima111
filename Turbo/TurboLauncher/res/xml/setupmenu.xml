@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setupmenu row ="2" columns="4" >
+	<menu id="0" name="@string/mostly_used" count="8" >
+		<item id="1001" name="@string/addition"	icon="add_nor.png"/>
+		<item id="1006" name="@string/desktop_setting" 	icon="ds_nor.png"/>
+		<item id="1005" name="@string/screen_editor" 	icon="se_nor.png"/>
+		<item id="1003" name="@string/theme" 		icon="theme_nor.png"/>
+		<item id="1007" name="@string/system_setting" 	icon="ss_nor.png"/>
+		<item id="1002" name="@string/wallpaper" 		icon="wp_nor.png"/>
+		<item id="1106" name="@string/update_check" icon="uc_nor.png"/>
+		<item id="1305" name="@string/user_feedback"  icon="fb_nor.png"/>
+	</menu>
+
+	
+</setupmenu>
+<!-- 
+
+	<menu id="1" name="@string/more" count="3">
+	<item id="1303" name="@string/show_desktop" 		icon="sd_nor.png"/>
+				
+		<item id="1306" name="@string/more"  icon="more_nor.png"/>
+		<item id="1302" name="@string/desktop_effect" 		icon="de_nor.png"/>
+	</menu>
+ -->

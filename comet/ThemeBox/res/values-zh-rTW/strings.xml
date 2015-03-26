@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+	<string name="gadget_error_text">問題裝載窗口小部件</string>
+	
+    <string name="default_theme">默認主題</string>
+	<string name="menu_settings">設置</string>
+	<string name="title_activity_main">主題選擇</string>
+	<string name="zheshanlock">折扇解鎖</string>
+	<string name="title_activity_setting">鎖屏設置</string>
+	<string name="timeStyle">時間格式</string>
+	<string name="preferSound">鎖屏音效</string>
+	<string name="preferVibrate">鎖屏振動</string>
+	<string name="preferTitle1">個性化</string>
+	<string name="preferLock">開啟鎖屏</string>
+	<string name="preferTitle2">其他</string>
+	<string name="preferClickLock">一鍵鎖屏</string>
+	<string name="preferCreateShortcut">創建一鍵鎖屏快捷方式</string>
+	<string name="preferSendDesktop">點擊發送快捷方式到當前桌面</string>
+	<string name="preferOn">開啟</string>
+	<string name="preferOff">關閉</string>
+	<string name="clickLock">一鍵鎖屏</string>
+	<string name="btnReturn">返回</string>
+	<string name="btnShare">分享</string>
+	<string name="bgSpace">背景</string>
+	<string name="btnApply">應用</string>
+	<string name="btnDownload">下載</string>
+	<string name="btnInstall">安裝</string>
+	<string name="textPreview">預覽</string>
+	<string name="toastPreviewApply">應用%s已成功</string>
+	<string name="btnLocalLock">本地鎖屏</string>
+	<string name="btnLocalTheme">本地主題</string>
+	<string name="btnHotLock">熱門推薦</string>
+	<string name="btnSetting">設置</string>
+	<string name="shareSubject">分享主題</string>
+	<string name="shareText">我正在使用@CoCo主題，的確不錯，你也快來試試吧。下載地址：http://www.coolauncher.cn/download/apk/cocolauncher.apk</string>
+	<string name="previewLockSize">鎖屏包大小:%1$dKB&#160;&#160;&#160;&#160;&#160;&#160;作者:%2$s</string>
+	<string name="previewThemeSize">主題包大小:%1$dKB&#160;&#160;&#160;&#160;&#160;&#160;作者:%2$s</string>
+	<string name="previewIntroduction">簡介:</string>
+	<string name="btnUninstall">卸載</string>
+	<string name="textIntroduction">介紹</string>
+	<string name="textLockSize">尺寸</string>
+	<string name="thumbImage">縮略圖</string>
+	<string name="getMoreTheme">獲取更多主題</string>
+	<string name="getMoreLock">獲取更多解鎖</string>
+	<string name="textLock"> 鎖屏</string>
+	<string name="textTheme"> 主題</string>
+	<string name="bgTheme">主題</string>
+	<string name="textDownloading">%d%%</string>
+	<string name="textPause">%d%%</string>
+	<string name="btnDelete">刪除</string>
+	<string name="internet_err">網絡連接不可用，請檢查網絡設置</string>
+	 <string name="internet_unusual">網絡不穩定，請稍後再試</string>
+	<string name="defaulttheme">默認主題</string>
+    <string name="zorespace"></string>
+    <string name="themetype">類型:</string>
+    <string name="themeversion">版本:</string>
+    <string name="themeauthor">開發者:</string>
+    <string name="themedata">日期:</string>
+    <string name="themefeedback">反饋:</string>
+	<string name="textSdCardNotPrepare">SD卡未準備好</string>
+	<string name="sdcard_not_available">無可用SD卡，請檢查連接</string>
+	
+	<string name="airpush_dialog_positive">開始更新</string>
+	<string name="airpush_dialog_negative">下次再說</string>
+	<string name="airpush_dialog_name">名稱: </string>
+	<string name="airpush_dialog_size">大小: </string>
+	<string name="airpush_dialog_updating_tip">有新應用需要更新</string>
+	<string name="airpush_dialog_introduction">簡介: </string>
+	<string name="server_download_file_name">CoCo鎖屏</string>
+    <string name="server_begin_download">開始下載</string>
+	<string name="server_download_finish">下載完成，點擊安裝</string>
+	<string name="server_download_fail">下載失敗</string>
+	<string name="server_downloading">正在下載</string>
+	
+	<string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">鬆開後刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    
+    <string name="pull_to_refresh_footer_release_label">鬆開後加載</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加載更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加載中\u2026</string>
+    
+    <string name="is_downloading">正在下載</string>
+
+    <string name="localtheme">我的主題</string>
+    <string name="applytheme">應用主題</string>
+    <string name="removetheme">刪除主題</string>
+    <string name="onlinetheme">線上主題</string>
+    <string name="desktop_setting">桌面設置</string>
+    <string name="basic_setting">基本設置</string>
+    <string name="vibrator">震動</string>
+    <string name="vibrate_on_long_click">長按時震動</string>
+    <string name="circle_select">圈選</string>
+    <string name="circle_select_switch">雙指圈選開關</string>
+    <string name="effect_setting">特效設置</string>
+    <string name="desktop_slide">桌面切頁</string>
+    <string name="app_list_slide">功能表切頁</string>
+    <string name="backup_and_restore">備份與恢復</string>
+    <string name="backup_desktop">備份桌面</string>
+    <string name="restore_desktop">恢復桌面</string>
+    <string name="more">更多</string>
+    <string name="restart_launcher">重啟桌面</string>
+    <string name="version_update">版本更新</string>
+    <string name="share_friends">朋友分享</string>
+    <string name="feedback">建議回饋</string>
+    <string name="guide_help">使用幫助</string>
+    <string name="guide_install">安裝介紹</string>
+    <string name="reset_guide">重置使用貼士</string>
+    <string name="exit_launcher">退出桌面</string>
+    <string name="backup_restore_setting">備份/恢復設置</string>
+    <string name="update_feedback">更新回饋</string>
+    <string name="mostly_used">常用</string>
+    <string name="system_widget">外掛程式</string>
+    <string name="wallpaper">壁紙</string>
+    <string name="theme">主題</string>
+    <string name="software_manager">軟體管理</string>
+    <string name="screen_editor">桌面縮略圖</string>
+    <string name="system_setting">系統設置</string>
+    <string name="locker_setting">鎖屏設置</string>
+    <string name="shake_wallpaper">甩動換壁紙 </string>
+    <string name="shake_wallpaper_not_supported">您的手機不支持甩壁紙功能</string>
+    <string name="shake_wallpaper_description">甩動手機換壁紙</string>
+    <string name="theme_select">主題選擇</string>
+    <string name="theme_change">一鍵換裝</string>
+    <string name="no_theme_to_be_replaced">沒有可替換的主題！</string>
+	<string name="airpush_dialog_unit">（字節）</string>
+	<string name="airpush_dialog_url">地址</string>
+	<string name="fenlei_all">全部</string>
+    <string name="fenlei_simple">最新</string>
+    <string name="fenlei_classic">最熱</string>
+	<string name="memory_prompt">下載已超過5個，請先刪除手機中已下載的apk文件</string>
+</resources>

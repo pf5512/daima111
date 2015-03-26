@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:switch="http://schemas.android.com/apk/res/com.iLoong.launcher.SetupMenu.Actions" 
+    android:title="@string/desktop_settins_manual_control"
+    android:key="@string/desktop_settins_manual_control">
+    
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined 
+            android:title="@string/circle_select"
+            android:key="@string/setting_key_circled"
+            android:summary="@string/circle_select_switch"
+            />
+        
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined 
+            android:key="@string/setting_key_shake_wallpaper" 
+            android:title="@string/shake_wallpaper"
+			android:summary="@string/shake_wallpaper_description"
+            />
+        
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/setting_key_shake_theme"
+            android:summary="@string/shake_theme_description"
+            android:title="@string/shake_theme" 
+            />           
+</PreferenceScreen>

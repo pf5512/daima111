@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent" android:layout_height="wrap_content"
+     android:minHeight="12dp"
+     android:gravity="center_vertical" android:paddingRight="?android:attr/scrollbarSize"
+     android:background="@drawable/bondfont">
+     <RelativeLayout android:layout_width="wrap_content"
+         android:layout_height="wrap_content" android:layout_marginLeft="15dip"
+         android:layout_marginRight="6dip">
+ 
+         <TextView android:id="@+android:id/title"
+             android:layout_width="wrap_content" android:layout_height="wrap_content"
+             android:singleLine="true" android:textAppearance="?android:attr/textAppearanceSmall"
+             android:ellipsize="marquee" android:fadingEdge="horizontal" 
+             android:textColor="#FFFFFF" 
+             android:textStyle="bold"/>
+     </RelativeLayout>
+</LinearLayout>

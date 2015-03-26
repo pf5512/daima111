@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="numberclockapp_name">Turbo_NumberClockEx</string>
+    <string name="default_cityname">Unknow</string>
+    <string name="default_prompt">Enter the name of your city</string>
+    <string name="weathercurve_title">Forecast</string>
+    <string name="firstweek">Mon.</string>
+    <string name="secondweek">Tues.</string>
+    <string name="thirdweek">Wed.</string>
+    <string name="forthweek">Thur.</string>
+    <string name="fiveweek">Tri.</string>
+    <string name="sixweek">Sat.</string>
+    <string name="sevenweek">Sun.</string>
+    <string name="defaultWeatherconditionName">Cloudy</string>
+    <string name="unkonwweek">unkonw</string>
+    <string name="notsetcity">You have not set the city,Please set the city first</string>
+    <string name="flushfailed">Update Failed</string>
+    <string name="flushsuccess">Update Sucess</string>
+    <string name="networkerror">Network connection exception</string>
+    <string name="flush_Prompt">Refreshing Please wait....</string>
+    <string name="citynotfound">Not found this city</string>
+    <string name="default_foreigncorf">Temperature unit</string>
+    <string name="default_foreigncity">Unknow</string>
+    <string name="searchfailed_foreign">Search Failed</string>
+    <string name="Flushfailed_foreign">Flush Failed</string>
+    <string name="Flushsuccess_foreign">Flush Success</string>
+    <string name="networkerror_foreign">Network connection exception</string>
+    <string name="citynotfound_foreign">Not found this city</string>
+    <string name="defaultWeatherconditionName_foreign">Cloudy</string>
+    <string name="firstweek_foreign">Mon.</string>
+    <string name="secondweek_foreign">Tues.</string>
+    <string name="thirdweek_foreign">Wed.</string>
+    <string name="forthweek_foreign">Thur.</string>
+    <string name="fiveweek_foreign">Tri.</string>
+    <string name="sixweek_foreign">Sat.</string>
+    <string name="sevenweek_foreign">Sun.</string>
+    <string name="flush_Prompt_foreign">Refreshing Please wait....</string>
+    <string name="notsetcity_foreign">You have not set the city,Please set the city first</string>
+
+</resources>

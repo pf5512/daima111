@@ -1,0 +1,27 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 13.09.2013 15:45:18
+
+mtllib seconddot.mtl
+
+#
+# object ____01
+#
+
+v  49.7375 195.9928 3.1316
+v  42.0737 161.1957 3.1316
+v  10.2737 165.4930 3.1316
+v  13.1974 200.7089 3.1316
+# 4 vertices
+
+vt 0.0100 0.9528 0.0000
+vt 0.1073 0.0100 0.0000
+vt 0.9608 0.0274 0.0000
+vt 0.9900 0.9670 0.0000
+# 4 texture coords
+
+g ____01
+usemtl Material__25
+s 1
+f 1/1 2/2 3/3 4/4 
+# 1 polygons
+

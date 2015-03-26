@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">主题時鐘</string>
+	<string name="max_instance_alert">時鐘已經存在，不可以重復添加</string>
+	
+	<string name="week0">"星期日"</string>
+    <string name="week1">"星期一"</string>
+    <string name="week2">"星期二"</string>
+    <string name="week3">"星期三"</string>
+    <string name="week4">"星期四"</string>
+    <string name="week5">"星期五"</string>
+    <string name="week6">"星期六"</string>
+    <string name="monthA">"1月"</string>
+    <string name="monthB">"2月"</string>
+    <string name="monthC">"3月"</string>
+    <string name="monthD">"4月"</string>
+    <string name="monthE">"5月"</string>
+    <string name="monthF">"6月"</string>
+    <string name="monthG">"7月"</string>
+    <string name="monthH">"8月"</string>
+    <string name="monthI">"9月"</string>
+    <string name="monthJ">"10月"</string>
+    <string name="monthK">"11月"</string>
+    <string name="monthL">"12月"</string>
+      
+   <string name="date_widget_format_string">%1$s %2$s  %3$s日 </string>
+</resources>

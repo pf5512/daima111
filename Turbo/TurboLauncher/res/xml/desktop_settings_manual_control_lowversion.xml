@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/desktop_settins_manual_control"
+    android:key="@string/desktop_settins_manual_control">
+    
+        <CheckBoxPreference 
+            android:title="@string/circle_select"
+            android:key="@string/setting_key_circled"
+            android:summary="@string/circle_select_switch"
+            />
+        
+        <CheckBoxPreference 
+            android:key="@string/setting_key_shake_wallpaper" 
+            android:title="@string/shake_wallpaper"
+			android:summary="@string/shake_wallpaper_description"
+            />
+        
+        <CheckBoxPreference
+            android:key="@string/setting_key_shake_theme"
+            android:summary="@string/shake_theme_description"
+            android:title="@string/shake_theme" />           
+</PreferenceScreen>

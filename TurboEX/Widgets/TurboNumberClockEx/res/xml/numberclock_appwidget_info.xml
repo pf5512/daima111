@@ -1,0 +1,7 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/appwidget_numberclock"
+    android:minHeight="144dp"
+    android:minWidth="294dp"
+    android:updatePeriodMillis="1000" >
+
+</appwidget-provider>

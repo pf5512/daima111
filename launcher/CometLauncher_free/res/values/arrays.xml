@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hotseats" translatable="false">
+        <item>*WALLPAPER*</item>
+        <item>*PREFERENCE*</item>
+        <item>intent:#Intent;action=android.intent.action.DIAL;end</item>
+        <item>intent:content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;end</item>
+        <item>*MAINMENU*</item>
+        <item>intent:#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;end</item>
+        <item>*BROWSER*</item>
+        <item>intent:#Intent;action=android.media.action.STILL_IMAGE_CAMERA;end</item>
+        <item>*MUSIC*</item>
+    </string-array>
+    <string-array name="hotseat_icons" translatable="false">
+        <item>theme/hotseatbar/wallpaper.png</item>
+        <item>theme/hotseatbar/zhuomianshezhi.png</item>
+        <item>theme/hotseatbar/phone.png</item>
+        <item>theme/hotseatbar/contacts.png</item>
+        <item>theme/hotseatbar/middle.png</item>
+        <item>theme/hotseatbar/messaging.png</item>
+        <item>theme/hotseatbar/browser.png</item>
+        <item>theme/hotseatbar/camera.png</item>
+        <item>theme/hotseatbar/music.png</item>
+    </string-array>
+    <string-array name="hotseat_icon_index" translatable="false">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="hotseat_page" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+</resources>

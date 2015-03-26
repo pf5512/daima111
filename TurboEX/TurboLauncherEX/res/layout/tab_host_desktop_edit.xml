@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+桌面编辑模块代码
+@author LinYu
+-->
+<com.cooee.launcher.desktopedit.DesktopEditModeTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.cooeeui.brand.turbolauncher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/tabs_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/desktop_edit_tab_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" >
+
+            <com.cooee.launcher.drawer.FocusOnlyTabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:tabStripEnabled="false" />
+
+            <com.cooee.launcher.desktopedit.TabSelecteLine
+                android:id="@+id/tsl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <include
+                android:id="@+id/ll_tab_add"
+                layout="@layout/desktop_edit_tab_add"
+                android:visibility="invisible" />
+
+            <include
+                android:id="@+id/fl_tab_theme"
+                layout="@layout/desktop_edit_tab_theme"
+                android:visibility="invisible" />
+
+            <include
+                android:id="@+id/fl_tab_wallpaper"
+                layout="@layout/destop_edit_tab_wallpaper"
+                android:visibility="invisible" />
+
+            <include
+                android:id="@+id/fl_tab_effect"
+                layout="@layout/desktop_edit_tab_effect"
+                android:visibility="invisible" />
+        </FrameLayout>
+    </LinearLayout>
+
+</com.cooee.launcher.desktopedit.DesktopEditModeTabHost>

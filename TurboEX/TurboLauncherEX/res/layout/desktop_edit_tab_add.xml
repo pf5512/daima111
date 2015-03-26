@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+桌面编辑模块代码
+@author LinYu
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+<com.cooee.launcher.desktopedit.TabAddContent xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/desktop_edit_container_height"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp"
+        android:paddingTop="20dp" >
+
+        <Button
+            android:id="@+id/btn_widgets"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/default_theme_bg"
+            android:drawableTop="@drawable/de_widgets"
+            android:paddingTop="10dp"
+            android:text="@string/de_option_widget_text"
+            android:textColor="@drawable/desktop_edit_hot_title_text_color" />
+
+        <Button
+            android:id="@+id/btn_shortcuts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/default_theme_bg"
+            android:drawableTop="@drawable/de_shortcuts"
+            android:paddingTop="10dp"
+            android:text="@string/de_option_shortcut_text"
+            android:textColor="@drawable/desktop_edit_hot_title_text_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="20dp"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/btn_apps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/default_theme_bg"
+            android:drawableTop="@drawable/de_apps"
+            android:paddingTop="10dp"
+            android:text="@string/de_option_app_text"
+            android:textColor="@drawable/desktop_edit_hot_title_text_color" />
+
+        <Button
+            android:id="@+id/btn_folder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/default_theme_bg"
+            android:drawableTop="@drawable/de_folder"
+            android:paddingTop="10dp"
+            android:text="@string/de_option_folder_text"
+            android:textColor="@drawable/desktop_edit_hot_title_text_color" />
+    </LinearLayout>
+
+</com.cooee.launcher.desktopedit.TabAddContent>

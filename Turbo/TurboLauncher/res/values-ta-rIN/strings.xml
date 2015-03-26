@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Turbo Launcher</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">கோப்புறை</string>
+    <string name="contact_name">தொடர்புகள்</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">லிருந்து வால்பேப்பர் தேர்வு செய்க</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">ஒரு 3 டி விட்ஜெட்டை தேர்ந்தெடுக்கவும்</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">வால் பேப்பர் அமைக்கவும்</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">வால் பேப்பர்கள்</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure...</string>
+    <string name="iloong_shellstr">லாஞ்சர் ஏற்றமாகிறது...</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="circle_autoSort">தன்னியக்க வகை பிரிப்பு</string>
+    <string name="circle_iconOverlap">ஒன்றன் மேல் ஒன்றாக்கு</string>
+    <string name="circle_iconTrans">மொழி பெயர்ப்பு</string>
+    <string name="circle_multiSelect">பல்முனை தெரிவு</string>
+    <string name="circle_createFolder">கோப்புறை உருவாக்கவும்</string>
+    <string name="circle_deleteAll">அனைத்தையும் அழிக்கவும்</string>
+    <string name="circle_noticeToast">தேர்வு செய்ய மூலத்திற்கு திரும்பி செல்க</string>
+    <string name="circle_dstOverToast">பொறிவைக்கும் எல்லைக்கு அப்பால்</string>
+    <string name="circle_deleteALLToast">அனைத்தையும் அழிக்க உறுதிதானா?</string>
+    <string name="circle_selectMutiToOperToast">பல உருவக இயக்கப்படுத்தல்</string>
+    <string name="circle_notSupportToast">இந்தப் பதிப்பு இந்த அம்சத்தினை தற்காலிகமாக பயன்படுத்த இயலவில்லை</string>
+    <string name="circle_ok_action">சரி</string>
+    <string name="circle_cancel_action">நிராகரிக்கவும்</string>
+    <string name="circle_unselectAppIconToast">உருவகம் எதுவும் தேர்வு செய்யப்படவில்லை</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">கோப்புறையை மறுபெயரிடுக</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">சரி</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">நிராகரிக்கவும்</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder3D_del_toast">இந்தக் கோப்புறையை அழிக்கவா?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">உங்கள் தொலைபேசியில் இன்னமும் நிறுவப்படவில்லை, தரவிறக்கம் செய் ு நிறுவ ஓ </string>
+    <string name="apk_cannot_found_content">உங்களது SD கார்டில் இந்த அப்ளிகேஷனுக்கான  APK காண முடியவில்லை!</string>
+    <string name="folder3D_full">கோப்புறை நிறைந்து உள்ளது</string>
+    <string name="folder3D_name">கோப்புறை</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">அப்ளிகேஷன்கள்</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">குறுக்கு வழிகள்</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">கோப்புறை</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">விட்ஜெட்டுகள்</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_wallpapers">வால் பேப்பர்கள்</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_3D_widgets">3D widgets</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_contacts">தொடர்புகள்</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">கோப்புறை</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">இந்த முகப்புத் திரையில் இனிமேல் இடம் இல்லை.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">குறுக்கு வழி தேர்வு செய்க</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">அப்ளிகேஷன் தேர்வு செய்க</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!-- All applications label for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_button_label">All applications</string>
+    <!--
+         Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google".
+    -->
+    <string name="default_browser_url" >        http://www.google.com/m?client=ms-{CID}source=android-home-hotseat</string>
+    <string name="errorHint">A error has happened %1$s.Please click <i><b>"REPORT"</b></i> to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">இந்தப் பக்கத்திற்கு சேர்க்க முடியாது. </string>
+    <string name="can_not_delete_page">குறைந்தபட்ச எண்ணிக்கையிலான திரைகள் அடையப்பட்டன</string>
+    <string name="delete_page">பக்கம் காலியாக இல்லை, அதனை அழிக்க உறுதிதானா?</string>
+
+    <!-- AppBar -->
+  
+    <string name="appbar_tab_app">பயன்பாட்டை</string>
+    <string name="appbar_tab_widget">விட்ஜெட்</string>
+    <string name="appbar_tab_uninstall">நீக</string>
+    <string name="appbar_tab_hide">அப்ளிகேஷன்களை மறைக்கவும்</string>
+    <string name="sort_app_init">     தொழிற்சாலை தரவு வாரியாக ரகம் பிரிக்கவும்a</string>
+    <string name="sort_app_name">     அப்ளிகேஷன் பெயர் வாரியாக ரகம் பிரிக்கவும்</string>
+    <string name="sort_app_install_time">     நிறுவுதல் நேரம் வாரியாக ரகம் பிரிக்கவும் </string>
+    <string name="sort_app_use_frequency">     அடிக்கடியான பயன்பாடு வாரியாக ரகம் பிரிக்கவும்</string>
+    <string name="sort_dialog_title">உருவகங்களை  ரகம் பிரிக்கவும்</string>
+    <string name="widget_empty_dialog">இந்த 3 டி விட்ஜெட் நிறுவப்படவில்லை, தயவு செய்து நிறுவி, சேர்க்கவும்</string>
+    <string name="widget_empty_title">3D widget</string>
+    <string name="hotseat_mainmenu">அப்ளிகேஷன்கள்</string>
+    <string name="hotseat_workspace">முகப்பு</string>
+    <string name="main_menu">அப்ளிகேஷன்கள்</string>
+    <string name="trash_icon_title">அழிக்கவும்</string>
+    <!-- adjust -->
+    <string name="fold_name_too_long">கோப்புறை பெயர் அதிக பட்ச நீளத்தை தாண்டுகிறது</string>
+    <string name="app_downloading">தரவிறக்குகிறது</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>தரமான</item>
+        <item>தோராயமான</item>
+        <item>அடுக்குக</item>
+        <item>உள்புறப் பெட்டி</item>
+        <item>வெளிப்புறப் பெட்டி</item>
+        <item>சுண்டிவிடுக</item>
+        <item>குறுக்காக சுண்டிவிடுதல்</item>
+        <item>காற்றாலை</item>
+        <item>அலை</item>
+        <item>சக்கரம்</item>
+        <item>பந்து</item>
+        <item>உருளை</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>தரமான</item>
+        <item>தோராயமான</item>
+        <item>உள்புறப் பெட்டி</item>
+        <item>வெளிப்புறப் பெட்டி</item>
+        <item>சுண்டிவிடுக</item>
+        <item>குறுக்காக சுண்டிவிடுதல்</item>
+        <item>காற்றாலை</item>
+        <item>அலை</item>
+        <item>இயல்பான</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="effect_standard">தரமான</string>
+    <string name="effect_random">தோராயமான</string>
+    <string name="effect_cascade">அடுக்குக</string>
+    <string name="effect_outbox">வெளிப்புறப் பெட்டி</string>
+    <string name="effect_inbox">உள்புறப் பெட்டி</string>
+    <string name="effect_flip">சுண்டிவிடுக</string>
+    <string name="effect_bigfan">குறுக்காக சுண்டிவிடுதல்</string>
+    <string name="effect_fan">காற்றாலை</string>
+    <string name="effect_wave">அலை</string>
+    <string name="effect_ball">பந்து</string>
+    <string name="effect_wheel">சக்கரம்</string>
+    <string name="effect_cylinder">உருளை</string>
+    <string name="effect_default">இயல்பான</string>
+    <string name="uninstall_app">நிறுவல்நீக்கம்</string>
+     <string name="download_apps">தரவிறக்கப்பட்ட அப்ளிகேஷன்கள்</string>
+    <string name="hide_icon">உருவகம் மறைக்கவும்</string>
+    <string name="sort_icon">வகை</string>
+    <string name="no_space_add_icon">சேர்ப்பதற்கு காலியிடம் இல்லை </string>
+    <string name="exceed_num_add_icon">தேர்வு செய்யப்பட்ட உருவக எண் அதிகபட்ச கிடைக்கப்பெறும் காலியிடத்தை!</string>
+    <string name="contact_error_pls_check">தொடர்பு சேர்ப்பு தவறியது, தொடர்பு தகவல் முழுமையாக இருப்பதை தயவு செய்து சரிபார்க்கவும்</string>
+    <string name="download_to_install">விட்ஜெட் நிறுவப்பட்டிருக்கவில்லை, தயவு செய்து அதனை தரவிறக்கவும்</string>
+    <string name="add_failure">சேர்த்தல் தவறயது.</string>
+    <string name="deny_add_on_mainmenu">இது பிரதான பட்டியல் உள்ளிடுதல் ஆகும்</string>
+    <string name="dlmng_check_network">தரவிறக்கப்பட்ட தகவல்களைப் பெற இயலவில்லை, தயவு செய்து வலை அமைப்பை சரிபார்த்து மீண்டும் முயலவும்!</string>
+    <string name="dlmng_comeout_soon">விரைவில் வருகிறது</string>
+    <string name="dlmng_pls_insert_SD">தயவு செய்து SD கார்டினை செருகி பின்னர் தரவிறக்கவும்!</string>
+     <string name="backup_pls_insert_SD">தயவு செய்து SD கார்டினை செருகி பின்னர் பின்புல சேமிப்பு செய்க!</string>
+    <string name="dlmng_network_error">வலை அமைப்புப் பிழை, பின்னர் தயவு செய்து மீண்டும் முயற்சிக்கவும்!</string>
+    <string name="dlmng_download_error">இணைப்புப் பிழை, பின்னர் தயவு செய்து மீண்டும் முயற்சிக்கவும்!</string>
+    <string name="dlmng_download_configwrong">தவறான சுற்றளவு தரவிறக்கம்</string>
+    <string name="backup_title_back">CooeeHomeS3 Backup</string>
+    <string name="backup_back_to_SD">CooeeHomeS3 அமைப்புக்களை SD காடுக்கு பின்புல சேமிப்பு செய்க!</string>
+    <string name="backup_title_restore">CooeeHomeS3 அமைப்பு  மீட்டெடுக்கவும்</string>
+    <string name="backup_restore">அமைப்பினை மீட்டெடுக்கவும், CooeeHomeS3 மறுதுவக்கம் ஆகும்!</string>
+    <string name="backup_latest">கடைசி பின்புல சேமிப்பு நேரம்</string>
+    <string name="backup_no_back">சிஸ்டத்தில் பின்புல சேமிப்பு இல்லை</string>
+    <string name="backup_success">பின்புல செமிப்பு வெற்றி!</string>
+    <string name="backup_fail">பின்புல செமிப்பு தோல்வி!</string>
+    <string name="restore_fail">மீட்டெடுத்தல் தோல்வி!</string>
+    <string name="guide_title">பயனர் வழிகாட்டி</string>
+    <string name="guide_proceed">பயனர் வழிகாட்டி காட்டவும், அப்ளிகேஷம் மறு துவக்கம் செய்யப்படும்</string>
+    <string name="lock_editor_title">திருத்துதல் பூட்டவும்</string>
+    <string name="lock_editor">குறிப்பு: திருத்துதல் பூட்டியதை திறக்கவும், திரையை இழுப்பது இனிமேலும் .</string>
+    <string name="warning_msg">எச்சரிக்கை செய்தி</string>
+    <string name="version_msg_title">பதிப்பு செய்தி</string>
+    <string name="version_msg">உங்கள் மென்பொருள் புதுப்பிக்கப்பட்டது!</string>
+    <string name="update_msg_title">உங்கள் மென்பொருள் பதிப்பு:</string>
+    <string name="update_needed_version">சமீபத்திய பதிப்பு:</string>
+    <string name="update_need_now">இப்போது புதுப்பிக்கவும்!\n</string>
+    <string name="system_update">சிஸ்டம் புதிப்பித்தல்</string>
+    <string name="max_added_thirty">30 வரை மட்டுமே நீங்கள் சேர்க்க முடியும்</string>
+    <string name="max_added_twenty">20 வரை மட்டுமே நீங்கள் சேர்க்க முடியும்</string>
+    <string name="catnot_add_to_sidebar">பக்க வாட்டு பட்டையுடன் இந்த விட்ஜெட் சேர்க்கப்பட முடியாது</string>
+    <string name="common_add">சேர்க்கவும்</string>
+    <string name="common_commit">உடன்படுக</string>
+    <string name="reach_max">உயர்ந்த வரையறையை எட்டியது</string>
+    <string name="can_drag_to_desktop">டெஸ்க்டாப்புக்கு இழுக்க நீடித்த அழுத்தம்</string>
+    <string name="setting_backup_restore">பின்புல சேமிப்பு/அமைப்புக்களை மீட்டெடுக்கவும்</string>
+    <string name="setting_add_system_widget">பிரதான திரையை சேர்க்கவும்</string>
+    <string name="setting_share_friend">"Hi, I'm using CooeeHomeS3, it is so cool, browse the following URL http://www.coolauncher.cn"</string>
+    <string name="setting_feedback">உங்கள் பின்னூட்டத்தை தயவு செய்து சமர்ப்பிக்கவும்;</string>
+    <string name="defaulttheme">இயல்பான தீம்</string>
+    <string name="localtheme">எனது தீம்</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">தீம் பிரயோகிக்கவும்</string>
+    <string name="removetheme">தீம் அகற்றவும்</string>
+    <string name="onlinetheme">ஆன்லைன் தீம்</string>
+    <string name="themetype">வகை:</string>
+    <string name="themeversion">பதிப்பு:</string>
+    <string name="themeauthor">ஆசிரியர்:</string>
+    <string name="themedata">தேதி:</string>
+    <string name="themefeedback">பின்னூட்டம்:</string>
+   
+    <string name="basic_setting">அடிப்படை அமைப்புக்கள்</string>
+    <string name="vibrator">அதிரவைப்பான்</string>
+    <string name="vibrate_on_long_click">அதிரவைக்க நீடித்த சொடுக்குதல்</string>
+    <string name="circle_select">தேர்வினை வட்டமிடுக</string>
+    <string name="circle_select_switch">தேர்வு சுவிட்சினை வட்டமிடுக</string>
+    <string name="effect_setting">விளைவு அமைப்பு</string>
+    <string name="shake_wallpaper">வால் பேப்பர்களை குலுக்கவும்</string>
+    <string name="shake_wallpaper_description">வால் பேப்பர்களை மாற்ற குலுக்கவும்</string>
+	<string name="shake_wallpaper_not_supported">உங்கள் தொலைபேசியில் இந்த அப்ளிகேஷன் துணை நிற்கவில்லை</string>
+    <bool name="enable_setting_key_shake_wallpaper">true</bool>    
+
+    <string name="desktop_slide">டெஸ்க்டாப் சரிக்கவும்</string>
+    <string name="app_list_slide">அப்ளிகேஷன் பட்டியல் சரிக்கவும்</string>
+    <string name="backup_and_restore">பின்புல சேமிப்பு செய்து மீட்டெடுக்கவும்</string>
+    <string name="backup_desktop">டெஸ்க்டாப்பினை பின்புல சேமிப்பு செய்க</string>
+    <string name="restore_desktop">டெஸ்க் டாப்பினை மீட்டெடுக்கவும்</string>
+    <string name="more">மேலும்</string>
+    <string name="restart_launcher">CooeeHomeS3 மறுதுவக்கம் செய்க</string>
+    <string name="version_update">புதுப்பிக்கவும்</string>
+    <string name="share_friends">நண்பர்களுடன் பகிரவும்</string>
+    <string name="feedback">பின்னூட்டம்</string>
+    <string name="guide_help">வழிகாட்டி உதவி</string>
+    <string name="guide_install">வழிகாட்டி </string>
+    <string name="reset_guide">வழிகாட்டிக் கொடியை மறுஅமைப்பு செய்க</string>
+    <string name="exit_launcher">வெளியேறுக</string>
+    <string name="backup_restore_setting">பின்புல சேமிப்பு/மீட்டெடுத்தல் அமைப்புக்கள்</string>
+    <string name="update_feedback">பின்னூட்டம் புதுப்பிக்கவும்</string>
+    <string name="mostly_used">அதிகமாக பயன்படுத்தப்பட்டவை</string>
+     <string name="desktop_setting">டெஸ்க் டாப் அமைப்பு</string>
+    <string name="system_widget">விட்ஜெட்டுகள்</string>
+    <string name="wallpaper">வால் பேப்பர்கள்</string>
+    <string name="theme">தீம்</string>
+    <string name="software_manager">மென்பொருள் மேனேஜர்</string>
+    <string name="screen_editor">திரை திருத்துபவர்</string>
+    <string name="locker_editor">பூட்டும் அமைப்பு</string>
+    <string name="system_setting">சிஸ்டம் அமைப்பு</string>
+    <string name="clock">3 டி கடிகாரம்</string>
+    <string name="memo">3 டி நினைவூட்டல்</string>
+    <string name="robot">3 டி ரோபோ</string>
+    <string name="theme_select">தீம் தேர்வு</string>
+    <string name="theme_change">தீம் மாறிக்கொள்ளுதல்</string>
+    <string name="no_theme_to_be_replaced">தீம் எதுவும் மாற்றி வைக்க வேண்டாம்!</string>    
+    <string name="Internet">இணையதளம்</string>
+    <string name="Explorer">எக்ஸ்புளோரர்</string>    
+    <string name="beyond_mtkwidget_num">இந்த விட்ஜெட் இருக்கிறது, அதிகம் சேர்க்க முடியாது!</string>
+    
+</resources>

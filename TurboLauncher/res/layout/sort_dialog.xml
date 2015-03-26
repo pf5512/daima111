@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+<!--         <RadioButton
+            android:id="@+id/radioDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_default"
+            android:textSize="16sp"/> -->       <RadioButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioFactory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_init"
+            android:textSize="16sp"/>
+        
+        <RadioButton
+           
+            android:id="@+id/radioInstall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_install_time" 
+            android:textSize="16sp"/>
+        
+        <RadioButton
+             android:layout_marginTop="10dp"
+            android:id="@+id/radioName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_name"
+            android:textSize="16sp"/>
+        <RadioButton
+             android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+            android:id="@+id/radioFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_use_frequency" 
+            android:textSize="16sp"/>
+ 
+		<!-- xiatian add start --><!-- //for mainmenu sort by user -->
+		<!-- xiatian del start --><!-- //for mainmenu sort by user -->
+<!--         <RadioButton -->
+<!--             android:id="@+id/radioByUser" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="@string/sort_app_by_user"  -->
+<!--             android:textSize="16sp"/> -->
+        <!-- xiatian del end -->
+		<!-- xiatian add end -->        
+
+    </RadioGroup>
+
+</LinearLayout>

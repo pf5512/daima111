@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setupmenu row ="2" columns="4" >
+	<menu id="0" name="@string/mostly_used" count="8" >
+		<item id="1001" name="@string/system_widget"	icon="m1.png"/>
+		<item id="1002" name="@string/wallpaper" 		icon="m2.png"/>
+		
+		<item id="1005" name="@string/screen_editor" 	icon="m6.png"/>
+		<item id="1003" name="@string/theme" 		icon="m3.png"/>
+		<!-- <item id="1118" name="@string/start_scene"		icon="m18.png"/> -->
+		<item id="1302" name="@string/desktop_effect" 		icon="m9.png"/>
+		<item id="1006" name="@string/desktop_setting" 	icon="m8.png"/>
+		<item id="1007" name="@string/system_setting" 	icon="m7.png"/>
+		<item id="1303" name="@string/show_desktop" 		icon="share.png"/>
+	</menu>
+	<menu id="1" name="@string/mostly_used" count="2">
+		<item id="1106" name="@string/update_check" icon="m5.png"/>
+		<item id="1305" name="@string/user_feedback"  icon="m11.png"/>
+		
+	</menu>
+	
+</setupmenu>
+	

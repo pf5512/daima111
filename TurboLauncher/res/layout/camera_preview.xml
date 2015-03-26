@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:id="@+id/fl_preview"
+        android:layout_width="582px"
+        android:layout_height="339px"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:visibility="invisible" >
+
+        <com.iLoong.launcher.camera.CameraTextureView
+            android:id="@+id/preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+        </com.iLoong.launcher.camera.CameraTextureView>
+
+        <ImageView
+            android:id="@+id/iv_page_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_switch_button"
+            android:layout_width="27.0dip"
+            android:layout_height="27.0dip"
+            android:layout_gravity="top|right|center"
+            android:clickable="true"
+            android:src="@drawable/switch_button"
+            android:visibility="visible" />
+          <ImageView
+            android:id="@+id/iv_preview_fg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/camera_preview_fg"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</AbsoluteLayout>

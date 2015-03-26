@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hotseats" translatable="false">
+        <item>intent:#Intent;action=android.intent.action.DIAL;end</item>
+        <item>intent:content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;end</item>
+        <item>*MAINMENU*</item>
+         <item>intent:#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;end</item>
+        <item>*BROWSER*</item>
+    </string-array>
+    <string-array name="hotseat_icons" translatable="false">
+        <item>theme/hotseatbar/phone.png</item>
+        <item>theme/hotseatbar/contacts.png</item>
+        <item>theme/dock3dbar/middle.png</item>
+        <item>theme/hotseatbar/messaging.png</item>
+        <item>theme/hotseatbar/browser.png</item>
+    </string-array>
+    
+</resources>

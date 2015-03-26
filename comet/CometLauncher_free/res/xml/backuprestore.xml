@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/backup_restore_setting">
+    <PreferenceCategory android:title="@string/backup_restore_setting">
+        <Preference android:title="@string/backup_desktop" android:key="backup"/>
+        <Preference android:key="restore" android:summary="恢复备份桌面" android:title="@string/backup_restore"/>
+    </PreferenceCategory>
+</PreferenceScreen>

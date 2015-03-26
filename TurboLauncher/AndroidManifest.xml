@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cooeeui.brand.turbolauncher"
+    android:installLocation="internalOnly"
+
+    android:versionCode="31961"
+    android:versionName="1.0.2" >
+
+    <uses-sdk android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+    
+    <tool-api-level>14</tool-api-level>
+    
+
+    <permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        android:description="@string/permdesc_install_shortcut"
+        android:label="@string/permlab_install_shortcut"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        android:description="@string/permdesc_uninstall_shortcut"
+        android:label="@string/permlab_uninstall_shortcut"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.iLoong.permission.READ_SETTINGS"
+        android:description="@string/permdesc_read_settings"
+        android:label="@string/permlab_read_settings"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.iLoong.permission.WRITE_SETTINGS"
+        android:description="@string/permdesc_write_settings"
+        android:label="@string/permlab_write_settings"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.iLoong.permission.READ_FRAME_BUFFER"
+        android:description="@string/permdesc_write_settings"
+        android:label="@string/permlab_write_settings"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="android.permission.ACCES_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.iLoong.launcher.desktop.iLoongApplication"
+        android:icon="@drawable/logo3"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:process="com.cooeeui.brand.turbolauncher.DeskTop"
+        android:taskAffinity="com.iLoong" >
+
+        <!-- android:name=".launcher.desktop.iLoongLauncher" -->
+        <activity
+            android:name="com.iLoong.launcher.desktop.iLoongLauncher"
+            android:allowTaskReparenting="true"
+            android:configChanges="orientation|navigation|keyboard|keyboardHidden|mcc|mnc|locale|fontScale|uiMode"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:taskAffinity="com.iLoong"
+            android:theme="@style/Theme"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.Theme" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.iLoong.launcher.setting.FakeLauncher"
+     		android:enabled="true"
+            android:theme="@style/DefaultSettingDialogStyle" >
+        </activity>
+        
+        <activity
+            android:name="com.iLoong.launcher.desktop.WallpaperChooser"
+            android:finishOnCloseSystemDialogs="true"
+            android:icon="@drawable/ic_launcher_wallpaper"
+            android:label="@string/pick_wallpaper"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <action android:name="com.cooee.action.type.LAUNCHER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.excpetion.ActErrorReport"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/Theme" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopAction$DesktopSettingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.EffectAction$EffectSettingActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettingManualCtrlActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.theme.ThemeManagerActivity"
+            android:icon="@drawable/theme"
+            android:label="@string/theme_select"
+            android:launchMode="singleTask" >
+        </activity>
+        <!--
+        <activity
+            android:name="com.iLoong.launcher.theme.ThemeChangeActivity"
+            android:icon="@drawable/theme_change"
+            android:label="@string/theme_change"
+            android:launchMode="singleTask" >
+        </activity>
+        -->
+        <activity
+            android:name="com.iLoong.launcher.theme.ThemeDetailedActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.SystemAction$ResestActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.ShareAction$ContactPicker"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.FeedBackAction$FeedBack"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.LockEditAction$LockEditActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.BackupDesktopAction$BackupActivity"
+            android:label="@string/setting_backup_restore"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.FirstActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.DrawerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.DrawerBackgroundActiivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.DrawerIconLineActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.ScreenActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.AboutActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.PrivacyNoticeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.IconsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.SystemActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+		<!--Install Clean Master -->
+        <activity
+            android:name="com.iLoong.launcher.clean.InstallCleanMasterActivity"
+            android:theme="@style/MyDialogStyle" >
+        </activity>
+        <!--End Install Clean Master-->
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.NewspageSettingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.UpdateFeedbackAction$UpdateFeedbackSettingActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iLoong.NumberClock.view.CityFinderActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.iLoong.cityfinder.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iLoong.NumberClock.view.CityFindInLand"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.iLoong.cityfinderinland.MAIN" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.iLoong.NumberClock.view.WeatherDataService" >
+        </service>
+        <service
+            android:name="com.iLoong.launcher.SetupMenu.ForegroundService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.iLoong.service.ForegroundService" >
+                </action>
+            </intent-filter>
+        </service>
+
+        <!-- Intent received used to install shortcuts from other applications -->
+        <receiver
+            android:name="com.iLoong.launcher.desktop.InstallShortcutReceiver"
+            android:permission="com.android.launcher.permission.INSTALL_SHORTCUT" >
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+        <!-- Intent received used to uninstall shortcuts from other applications -->
+        <receiver
+            android:name="com.iLoong.launcher.desktop.UninstallShortcutReceiver"
+            android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT" >
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.iLoong.launcher.desktop.BootCompletedReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.iLoong.launcher.DesktopEdit.mThemeReceiver" >
+            <intent-filter>
+                <action android:name="com.coco.theme.action.DEFAULT_THEME_CHANGED" />
+                <action android:name="com.coco.wallpaper.action.DOWNLOAD_STATUS_CHANGED" />
+                <action android:name="com.coco.theme.action.DOWNLOAD_STATUS_CHANGED" />
+                <action android:name="com.android.launcher.changed.resume" />
+            </intent-filter>
+        </receiver>
+        <!-- enable_themebox -->
+        <receiver android:name="com.iLoong.launcher.desktop.ThemeReceiver" >
+            <intent-filter>
+                <action android:name="com.coco.launcher.restart" />
+                <action android:name="com.coco.launcher.apply_theme" />
+                <action android:name="com.cooee.launcher.click_theme" />
+                <action android:name="com.cooee.launcher.req_resume_time" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.iLoong.launcher.desktop.OneKeyUpdateReciever" >
+            <intent-filter>
+                <action android:name="com.cooee.doov.ONEKEY_THEME_UPDATE" />
+                <action android:name="com.cooee.doov.ONEKEY_LOCKSCREEN_UPDATE" />
+                <action android:name="com.cooee.doov.ONEKEY_TYPEFACE_UPDATE" />
+                <action android:name="com.cooee.doov.ONEKEY_EFFECTS_UPDATE" />
+                <action android:name="com.cooee.doov.ONEKEY_ALLSKIN_UPDATE" />
+                <action android:name="com.cooee.doov.ONEKEY_WALLPAPER_UPDATE" />
+                <action android:name="com.font.type.changed.ACTION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.iLoong.launcher.desktop.WallpaperChangedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.WALLPAPER_CHANGED" />
+                <action android:name="com.cooee.scene.wallpaper.change" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.coco.theme.themebox.MainActivity"
+            android:icon="@drawable/theme"
+            android:label="@string/theme_box_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.cooee.themebox" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iLoong.launcher.update.UpdateActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.theme.themebox.preview.ThemePreviewHotActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.font.fontbox.FontPreviewLocalActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.wallpaper.wallpaperbox.WallpaperPreviewActivity"
+            android:label="@string/title_activity_main"
+            android:process=":wallpaper"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.widget.widgetbox.WidgetPreviewHotActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.lock2.lockbox.SettingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.coco.lock2.lockbox.preview.PreviewHotActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.coco.lock2.lockbox.LockService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.coco.wf.wfbox.FontPreviewActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.wf.wfbox.WallpaperPreviewActivity"
+            android:label="@string/title_activity_main"
+            android:process=":wallpaper"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.theme.themebox.preview.ThemePreviewFullActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <service
+            android:name="com.iLoong.theme.adapter.DownloadLockBoxService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.coco.theme.themebox.DownloadLockBoxService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.coco.theme.themebox.apprecommend.DownloadRecomdService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.coco.lock2.app.sectorlock.entrance.DownloadRecomdService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.coco.theme.themebox.apprecommend.LoadRecomandActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.coco.lock2.lockbox.LockHomeSettingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name="com.coco.theme.themebox.DownloadApkContentService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.iLoong.theme.adapter.DownloadLockBoxService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.coco.theme.themebox.DownloadLockBoxService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.iLoong.launcher.pub.provider.TurboPubContentProvider"
+            android:authorities="com.cooeeui.brand.turbolauncher.pub.provider" >
+        </provider>
+        <!--
+        <receiver android:name="com.iLoong.launcher.media.MediaReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_SCANNER_STARTED" />
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <action android:name="android.intent.action.MEDIA_SCANNER_SCAN_FILE" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        -->
+        <provider
+            android:name="com.iLoong.launcher.app.LauncherProvider"
+            android:authorities="com.cooeeui.brand.turbolauncher.app"
+            android:readPermission="com.iLoong.permission.READ_SETTINGS"
+            android:writePermission="com.iLoong.permission.WRITE_SETTINGS" >
+        </provider>
+        <!-- xiatian add start -->
+        <!-- fix bug like 0001880 -->
+        <receiver android:name="com.iLoong.theme.adapter.InstallDownloadAPKReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.iLoong.launcher.DownloadAPKComplete" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.iLoong.launcher.ToDownloadAPK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.iLoong.launcher.GetToDownloadAPKName" />
+            </intent-filter>
+        </receiver>
+        <!-- xiatian add end -->
+
+
+        <!-- //Introduction -->
+        <activity
+            android:name="com.iLoong.launcher.Desktop3D.IntroductionCircleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- xiatian add end -->
+        <activity
+            android:name="cn.sh.hct.wallpaperchooser.ActivityWallpaperSelectList"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.sh.hct.wallpaperchooser.HctPersonalSettings"
+            android:label="@string/app_name"
+            android:theme="@style/hctstyle_translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.coco.wallpaper.wallpaperbox.LiveWallpaperPreviewActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.cooee.searchbar.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.iLoong.searchbar.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cooee.searchbar.EasouActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.iLoong.searchbar.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cooee.searchbar.GoogleSearchActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.iLoong.searchbar.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.iLoong.launcher.custom.PackageTransfer" >
+            <intent-filter>
+                <action android:name="retrieve.action.send.package.info" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Themebox -->
+        <service
+            android:name="com.coco.lock2.lockbox.LockService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.iLoong.launcher.newspage.DownloadDialog"
+            android:theme="@style/MyDialogStyle" >
+        </activity>
+
+        <!-- added by diaosixu start -->
+        <activity
+            android:name="com.iLoong.launcher.SetupMenu.Actions.DesktopSettings.RateDialogActivity"
+            android:enabled="true"
+            android:theme="@style/RateDialogStyle" >
+        </activity>
+        <!-- added by diaosixu end -->
+
+ 		<activity
+            android:name="com.iLoong.launcher.setting.DefaultClear"
+            android:enabled="true"
+            android:theme="@style/DefaultSettingDialogStyle" >
+        </activity>
+ 
+        <activity
+            android:name="com.iLoong.launcher.setting.DefaultSetting"
+            android:enabled="true"
+            android:theme="@style/DefaultSettingDialogStyle" >
+        </activity>
+
+        <receiver android:name="com.iLoong.launcher.newspage.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Used for Google Play Store Campaign Measurement -->
+
+        <service android:name="com.google.analytics.tracking.android.CampaignTrackingService" />
+
+        <receiver
+            android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- umeng start -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="523e637c56240bb6660057bd" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="develop" />
+
+        <activity android:name="com.umeng.fb.ConversationActivity" />
+        <activity android:name="com.umeng.fb.ContactActivity" />
+
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:exported="true"
+            android:process=":DownloadingService" >
+        </service>
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- 应用吧 -->
+        <activity
+            android:name="com.tencent.open.yyb.AppbarActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.tencent.connect.avatar.ImageActivity" />
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1101476808" />
+                <!-- 100380359 100381104 222222 -->
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.easou.search.sdk.demo.TestFramentAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.easou.search.sdk.act.EasouSearchResultAct"
+            android:screenOrientation="portrait" />
+        
+       <service 
+		    android:name="com.iLoong.livewallpaper.TurboLWPService"
+		    android:enabled="true"
+		    android:icon="@drawable/logo3"
+		    android:label="@string/app_name"
+		    android:permission="android.permission.BIND_WALLPAPER">
+		    <intent-filter android:priority="1" >
+		        <action android:name="android.service.wallpaper.WallpaperService" />
+		    </intent-filter>
+		    <meta-data 
+		      android:name="android.service.wallpaper" 
+		      android:resource="@xml/wallpaper" />
+		</service>
+        
+       	<activity
+            android:name="com.iLoong.livewallpaper.Settings"
+            android:label="@string/lwp_settings"
+            android:theme="@android:style/Theme.Light.WallpaperSettings"
+            android:exported="true">
+        </activity>
+        
+        <meta-data
+            android:name="EASOU_SEARCH_SDK_CID"
+            android:value="ps_8692_779_1" />
+    </application>
+
+</manifest>

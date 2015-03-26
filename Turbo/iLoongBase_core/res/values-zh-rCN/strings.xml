@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /* * Copyright (C) 2008 The Android Open Source Project * * Licensed 
+	under the Apache License, Version 2.0 (the "License"); * you may not use 
+	this file except in compliance with the License. * You may obtain a copy 
+	of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless 
+	required by applicable law or agreed to in writing, software * distributed 
+	under the License is distributed on an "AS IS" BASIS, * WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. * See the License for 
+	the specific language governing permissions and * limitations under the License. 
+	*/ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- ThemeBox -->
+	<string name="gadget_error_text">问题装载窗口小部件</string>
+	
+	<string name="default_theme">默认主题</string>
+	<string name="menu_settings">设置</string>
+	<string name="title_activity_main">主题</string>
+	<string name="zheshanlock">折扇解锁</string>
+	<string name="title_activity_setting">锁屏设置</string>
+	<string name="timeStyle">时间格式</string>
+	<string name="preferSound">锁屏音效</string>
+	<string name="preferVibrate">锁屏振动</string>
+	<string name="preferTitle1">个性化</string>
+	<string name="preferLock">开启锁屏</string>
+	<string name="preferTitle2">其他</string>
+	<string name="preferClickLock">一键锁屏</string>
+	<string name="preferCreateShortcut">创建一键锁屏快捷方式</string>
+	<string name="preferSendDesktop">点击发送快捷方式到当前桌面</string>
+	<string name="preferOn">开启</string>
+	<string name="preferOff">关闭</string>
+	<string name="clickLock">一键锁屏</string>
+	<string name="btnReturn">返回</string>
+	<string name="btnShare">分享</string>
+	<string name="bgSpace">背景</string>
+	<string name="btnApply">应用</string>
+	<string name="btnDownload">下载</string>
+	<string name="btnInstall">安装</string>
+	<string name="textPreview">预览</string>
+	<string name="toastPreviewApply">应用成功</string>
+	<string name="btnLocalLock">本地锁屏</string>
+	<string name="btnLocalTheme">本地主题</string>
+	<string name="btnHotLock">热门推荐</string>
+	<string name="btnSetting">设置</string>
+	<string name="shareSubject">分享主题</string>
+	<string name="shareText">我正在使用Turbo主题的&quot;%s&quot;，你也来试试</string>
+	<string name="previewLockSize">锁屏包大小:%1$dKB&#160;&#160;&#160;&#160;&#160;&#160;作者:%2$s</string>
+	<string name="previewThemeSize">主题包大小:%1$dKB&#160;&#160;&#160;&#160;&#160;&#160;作者:%2$s</string>
+	<string name="previewIntroduction">简介:</string>
+	<string name="btnUninstall">卸载</string>
+	<string name="textIntroduction">介绍</string>
+	<string name="textLockSize">尺寸</string>
+	<string name="thumbImage">缩略图</string>
+	<string name="getMoreTheme">获取更多主题</string>
+	<string name="getMoreLock">获取更多解锁</string>
+	<string name="textLock"> 锁屏</string>
+	<string name="textTheme"> 主题</string>
+	<string name="bgTheme">主题</string>
+	<string name="textDownloading">%d%%</string>
+	<string name="textPause">%d%%</string>
+	<string name="btnDelete">删除</string>
+	<string name="internet_err">网络连接不可用，请检查网络设置</string>
+	 <string name="internet_unusual">网络不稳定，请稍后再试</string>
+	<string name="defaulttheme">默认主题</string>
+    <string name="zorespace"></string>
+    <string name="themetype">类型:</string>
+    <string name="themeversion">版本:</string>
+    <string name="themeauthor">开发者:</string>
+    <string name="themedata">日期:</string>
+    <string name="themefeedback">反馈:</string>
+	<string name="textSdCardNotPrepare">SD卡未准备好</string>
+	<string name="sdcard_not_available">无可用SD卡，请检查连接</string>
+
+	<string name="server_download_file_name">Comet锁屏</string>
+    <string name="server_begin_download">开始下载</string>
+	<string name="server_download_finish">下载完成，点击安装</string>
+	<string name="server_download_fail">下载失败</string>
+	<string name="server_downloading">正在下载</string>
+	
+	<string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    
+    <string name="is_downloading">正在下载</string>
+
+    <string name="localtheme">我的主题</string>
+    <string name="applytheme">应用主题</string>
+    <string name="removetheme">删除主题</string>
+    <string name="onlinetheme">线上主题</string>
+    <string name="desktop_setting">桌面设置</string>
+    <string name="basic_setting">基本设置</string>
+    <string name="vibrator">震动</string>
+    <string name="vibrate_on_long_click">长按时震动</string>
+    <string name="circle_select">圈选</string>
+    <string name="circle_select_switch">双指圈选开关</string>
+    <string name="effect_setting">特效设置</string>
+    <string name="desktop_slide">桌面切页</string>
+    <string name="app_list_slide">功能表切页</string>
+    <string name="backup_and_restore">备份与恢复</string>
+    <string name="backup_desktop">备份桌面</string>
+    <string name="restore_desktop">恢复桌面</string>
+    <string name="more">更多</string>
+    <string name="restart_launcher">重启桌面</string>
+    <string name="version_update">版本更新</string>
+    <string name="share_friends">朋友分享</string>
+    <string name="feedback">建议回馈</string>
+    <string name="guide_help">使用帮助</string>
+    <string name="guide_install">安装介绍</string>
+    <string name="reset_guide">重置使用贴士</string>
+    <string name="exit_launcher">退出桌面</string>
+    <string name="backup_restore_setting">备份/恢复设置</string>
+    <string name="update_feedback">更新回馈</string>
+    <string name="mostly_used">常用</string>
+    <string name="system_widget">外挂程式</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="theme">主题</string>
+    <string name="software_manager">软体管理</string>
+    <string name="screen_editor">桌面缩略图</string>
+    <string name="system_setting">系统设置</string>
+    <string name="locker_setting">锁屏设置</string>
+    <string name="shake_wallpaper">甩动换壁纸 </string>
+    <string name="shake_wallpaper_not_supported">您的手机不支持甩壁纸功能</string>
+    <string name="shake_wallpaper_description">甩动手机换壁纸</string>
+    <string name="theme_select">主题</string>
+    <string name="theme_change">一键换装</string>
+    <string name="no_theme_to_be_replaced">没有可替换的主题！</string>
+
+	<string name="server_downloadRecommend_file_name">%s</string>
+	<string name="recommend">精品推荐</string>
+	
+	
+	<string name="menu_OnKeyLove">一键钟情</string>
+	
+    <string name="to_download_content">还未安装在您的手机上，点击确定将会下载安装!</string>
+    <string name="to_download_ok">确定</string>
+    <string name="to_download_cancel">取消</string>	
+	</resources>

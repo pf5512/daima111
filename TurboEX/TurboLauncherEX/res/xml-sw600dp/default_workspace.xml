@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.cooeeui.brand.turbolauncher" >
+
+    <!-- liangxiaoling 2014/12/12 ,remove original widget configuration add now configuration start -->
+    <!-- liangxiaoling 2014/12/30 ,UPD widget configuration start 添加新的标签用来定义我们自己的widget，cooeewidget代表的itemType为ITEM_TYPE_COOEEWIDGET；appwidget代表的itemType为ITEM_TYPE_APPWIDGET -->
+    <!-- screen [0] -->
+    <appwidget
+        launcher:className="com.iLoong.SearchBar.SearchBarProvider"
+        launcher:dektop="true"
+        launcher:loadByInternal="true"
+        launcher:packageName="com.cooeeui.brand.turbolauncher"
+        launcher:screen="0"
+        launcher:spanX="4"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <!-- screen [1] -->
+    <cooeewidget
+        launcher:className="com.iLoong.NumberClock.NumberClockView"
+        launcher:dektop="true"
+        launcher:loadByInternal="true"
+        launcher:packageName="com.iLoong.NumberClockEx"
+        launcher:screen="1"
+        launcher:spanX="4"
+        launcher:spanY="2"
+        launcher:x="0"
+        launcher:y="0" />
+    <!-- liangxiaoling 2014/12/12 ,remove original widget configuration add now configuration end -->
+    <!-- liangxiaoling 2014/12/30 ,UPD widget configuration end -->
+
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <favorite
+        launcher:className="com.android.contacts.activities.DialtactsActivity"
+        launcher:container="-101"
+        launcher:icon="hotseat_phone"
+        launcher:packageName="com.android.contacts"
+        launcher:screen="0"
+        launcher:title="@string/hotseat_title_0"
+        launcher:uri="intent:#Intent;action=android.intent.action.DIAL;end"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:container="-101"
+        launcher:icon="hotseat_contacts"
+        launcher:packageName="com.android.contacts"
+        launcher:screen="1"
+        launcher:title="@string/hotseat_title_1"
+        launcher:uri="intent:content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;end"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:container="-101"
+        launcher:icon="hotseat_messaging"
+        launcher:packageName="com.android.mms"
+        launcher:screen="3"
+        launcher:title="@string/hotseat_title_2"
+        launcher:uri="intent:#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;end"
+        launcher:x="3"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:container="-101"
+        launcher:icon="hotseat_browser"
+        launcher:packageName="com.android.browser"
+        launcher:screen="4"
+        launcher:title="@string/hotseat_title_3"
+        launcher:uri="intent:http://www.google.cn#Intent;action=android.intent.action.VIEW;end"
+        launcher:x="4"
+        launcher:y="0" />
+
+    <!-- Zhongqihong@2014/12/19 ADD START VIRTUAL ICONS: -->
+    <!-- screen [0] -->
+    <favorite
+        launcher:className="virtual_invoke_wallpaper"
+        launcher:container="-100"
+        launcher:icon="virtual_wallpaper"
+        launcher:itemType="@integer/item_type_virtuality"
+        launcher:packageName="com.cooee.launcher.layout.virtualicon.VirtualInvoker"
+        launcher:screen="0"
+        launcher:title="@string/virtual_icon_wallpaper"
+        launcher:uri="virtual_themebox0"
+        launcher:x="0"
+        launcher:y="4" />
+    <favorite
+        launcher:className="virtual_invoke_themeBox"
+        launcher:container="-100"
+        launcher:icon="virtual_theme"
+        launcher:itemType="@integer/item_type_virtuality"
+        launcher:packageName="com.cooee.launcher.layout.virtualicon.VirtualInvoker"
+        launcher:screen="0"
+        launcher:title="@string/virtual_icon_themebox"
+        launcher:uri="virtual_themebox1"
+        launcher:x="1"
+        launcher:y="4" />
+
+    <!-- screen [1] -->
+
+
+    <!-- screen [2] -->
+
+
+    <!-- Zhongqihong@2014/12/19 ADD END -->
+
+</favorites>

@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".PrimeActivity" >
+	<LinearLayout android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginLeft="12.5dp"
+	    android:layout_marginTop="14.5dp"
+	    android:layout_marginRight="12.5dp" >
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/head_img1" />
+
+	    <RelativeLayout
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/head_img2" >
+
+	        <ImageView
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_centerInParent="true"
+	        	android:src="@drawable/head_text" />
+	    </RelativeLayout>
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/tvLicensing"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="18.5dp"
+	    android:layout_marginRight="18.5dp"
+	    android:layout_marginTop="5.5dp"
+	    android:layout_marginBottom="5.5dp"
+	    android:background="@drawable/licensing_text_bg"
+	    android:paddingBottom="4dp"
+	    android:paddingLeft="8dp"
+	    android:paddingRight="8dp"
+	    android:paddingTop="4dp"
+	    android:text="@string/licensing_checking"
+	    android:textColor="#fdff5a"
+	    android:textSize="11dp" />
+
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/viewPager"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1" >
+	    
+	</android.support.v4.view.ViewPager>
+
+	<LinearLayout android:id="@+id/layoutIndicator"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="5dp" >
+	    
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:layout_marginTop="5dp"
+	    android:background="@drawable/bottom_bg"
+	    android:orientation="vertical" >
+	    
+		<ImageButton
+		    android:id="@+id/ibTryAgain"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@null"
+		    android:src="@drawable/button_try_again"
+		    android:visibility="gone" />
+		
+		<ImageButton
+		    android:id="@+id/ibTryNow"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@null"
+		    android:src="@drawable/button_try_now"
+		    android:visibility="gone" />
+		
+		<ImageButton
+		    android:id="@+id/ibDownloadNow"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@null"
+		    android:src="@drawable/button_download_now"
+		    android:visibility="gone" />
+		
+		<ImageView
+		    android:id="@+id/ivCheck"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@null"
+		    android:src="@drawable/try_now_disable" />
+
+	</LinearLayout>
+</LinearLayout>

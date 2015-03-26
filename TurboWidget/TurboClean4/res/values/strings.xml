@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TurboClean4</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cleaning">Just clear %1$dM memory for you</string>
+    <string name="complete_clean">Device is clear no need to clean</string>
+    <string name="memory">memory</string>
+
+</resources>

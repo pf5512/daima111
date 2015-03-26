@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">音乐播放器</string>
+	<string name="max_instance_alert">音乐播放器已存在，不可以重复添加</string>
+	<string name="download_toast">请链接网络后重试.</string>			
+</resources>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Turbo Launcher</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">Pasta</string>
+    <string name="contact_name">Contactos</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">Seleccionar papel de parede de</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">Escolher um Wodget 3D</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Definir papel de parede</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Papeis de parede</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure...</string>
+    <string name="iloong_shellstr">A carregar iniciador…</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="circle_autoSort">AutoOrdenar</string>
+    <string name="circle_iconOverlap">Sobrepor</string>
+    <string name="circle_iconTrans">Tradução</string>
+    <string name="circle_multiSelect">MultiSeleccionar</string>
+    <string name="circle_createFolder">Criar Pasta</string>
+    <string name="circle_deleteAll">Apagar Todos</string>
+    <string name="circle_noticeToast">Regressar à origem para seleccionar</string>
+    <string name="circle_dstOverToast">Para além do limite de alcance</string>
+    <string name="circle_deleteALLToast">Deseja apagar todos?</string>
+    <string name="circle_selectMutiToOperToast">Operação de ícones múltiplos</string>
+    <string name="circle_notSupportToast">Esta versão está temporariamente indisponível para esta característica</string>
+    <string name="circle_ok_action">OK</string>
+    <string name="circle_cancel_action">Cancelar</string>
+    <string name="circle_unselectAppIconToast">Nenhum ícone seleccionado</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">Mudar o nome da Pasta</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">Cancelar</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder3D_del_toast">Deseja apagar esta pasta?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">Ainda não instalado no seu telefone. Clique OK para transferir e instalar!</string>
+    <string name="apk_cannot_found_content">Impossível encontrar APK para esta aplicação no cartão SD!</string>
+    <string name="folder3D_full">Pasta está cheia</string>
+    <string name="folder3D_name">Folder</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">Aplicações</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">Atalhos</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">Widgets</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_wallpapers">Wallpaper</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_3D_widgets">widget 3D</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_contacts">Contacts</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">Sem mais espaço neste ecrã Principal.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Seleccionar atalho</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">Seleccionar aplicação</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!-- All applications label for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_button_label">All applications</string>
+    <!--
+         Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google".
+    -->
+    <string name="default_browser_url">        http://www.google.com/m?client=ms-{CID}source=android-home-hotseat</string>
+    <string name="errorHint">A error has happened %1$s.Please click <i><b>"REPORT"</b></i> to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">Impossível adicionar a esta página</string>
+    <string name="can_not_delete_page">O número mínimo de ecrãs foi alcançado</string>
+    <string name="delete_page">Página não vazia, deseja apagar?</string>
+
+    <!-- AppBar -->
+    <string name="appbar_tab_app">Aplicações</string>
+    <string name="appbar_tab_widget">Widgets</string>
+    <string name="appbar_tab_uninstall">Desinstalar aps</string>
+    <string name="appbar_tab_hide">Esconder aps</string>
+    <string name="sort_app_init">     Ordenar por dados de fábrica</string>
+    <string name="sort_app_name">     Ordenar por nome de aplicação</string>
+    <string name="sort_app_install_time">     Ordenar por hora de instalação</string>
+    <string name="sort_app_use_frequency">     Ordenar por frequência de utilização</string>
+    <string name="sort_dialog_title">Ordenar Ícones</string>
+    <string name="widget_empty_dialog">Este widget 3D não está instalado, instale e adicione</string>
+    <string name="widget_empty_title">widget 3D</string>
+    <string name="hotseat_mainmenu">Aplicações</string>
+    <string name="hotseat_workspace">Página Principal</string>
+    <string name="main_menu">Apps</string>
+    <string name="trash_icon_title">Apagar</string>
+    <!-- adjust -->
+    <string name="fold_name_too_long">Nome de pasta excede o comprimento máximo</string>
+    <string name="app_downloading">A transferirg</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>Padrãod</item>
+        <item>Aleatório</item>
+        <item>Monte</item>
+        <item>Caixa interior</item>
+        <item>Caixa exterior</item>
+        <item>Girar</item>
+        <item>Virar ao contrário</item>
+        <item>Moínho</item>
+        <item>Onda</item>
+        <item>Roda</item>
+        <item>Bola</item>
+        <item>Cilíndro</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>Padrãod</item>
+        <item>Aleatório</item>
+        <item>Caixa interior</item>
+        <item>Caixa exterior</item>
+        <item>Girar</item>
+        <item>Virar ao contrário</item>
+        <item>Moínho</item>
+        <item>Onda</item>
+        <item>Padrão</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="effect_standard">Padrãod</string>
+    <string name="effect_random">Aleatóriom</string>
+    <string name="effect_cascade">Monte</string>
+    <string name="effect_outbox">Caixa exterior</string>
+    <string name="effect_inbox">Caixa interior</string>
+    <string name="effect_flip">Girar</string>
+    <string name="effect_bigfan">Virar ao contrário</string>
+    <string name="effect_fan">Moínho</string>
+    <string name="effect_wave">Onda</string>
+    <string name="effect_ball">Bola</string>
+    <string name="effect_wheel">Roda</string>
+    <string name="effect_cylinder">Cilíndro</string>
+    <string name="effect_default">Padrão</string>
+   
+    <string name="uninstall_app">Desinstalar</string>
+    
+     <string name="download_apps">Aplicações tranferidas</string>
+    <string name="hide_icon">Esconder ícone</string>
+    <string name="sort_icon">Ordenar ícone</string>
+    <string name="no_space_add_icon">Sem espaço para adicionar</string>
+    <string name="exceed_num_add_icon">SNúmero de ícone seleccionado excede o espaço máximo disponível; falha ao adicionar!</string>
+    <string name="contact_error_pls_check">Falha ao adicionar contacto, cverifique se a informação de contacto está completa</string>
+    <string name="download_to_install">Este widget não foi instalado, transfira-o</string>
+    <string name="add_failure">Falha ao adicionar</string>
+    <string name="deny_add_on_mainmenu">Esta é a entrada para o menu principal</string>
+    <string name="dlmng_check_network">Impossível obter informação transferida, verifique a rede e tente novamente!</string>
+    <string name="dlmng_comeout_soon">Brevemente</string>
+    <string name="dlmng_pls_insert_SD">Insira um cartão SD, e transfira!</string>
+     <string name="backup_pls_insert_SD">Insira um cartão SD, e realize cópia de segurança!</string>
+    <string name="dlmng_network_error">Erro de rede, tente novamente mais tarde!</string>
+    <string name="dlmng_download_error">Erro de conexão, tente novamente mais tarde!</string>
+    <string name="dlmng_download_configwrong">Parâmetro errado de tranferência</string>
+    <string name="backup_title_back">CooeeHomeS3 Backup</string>
+    <string name="backup_back_to_SD">Realize uma cópia de segurança das definições CooeeHomeS3 para o cartão SD!</string>
+    <string name="backup_title_restore">Restaurar definições de CooeeHomeS3</string>
+    <string name="backup_restore">RRestaurar definições, CooeeHomeS3 vai reiniciar!</string>
+    <string name="backup_latest">Hora da última cópia de segurança</string>
+    <string name="backup_no_back">O sistema não tem cópia de segurança</string>
+    <string name="backup_success">Cópia de segurança concluída!</string>
+    <string name="backup_fail">Falha ao realizar cópia de segurança!</string>
+    <string name="restore_fail">Falha ao restaurar!</string>
+    <string name="guide_title">Guia do utilizador</string>
+    <string name="guide_proceed">Mostrar guia do utilizador, aplicação será reiniciada</string>
+    <string name="lock_editor_title">Bloquear edição</string>
+    <string name="lock_editor">Nota: Se abrir o bloqueio de edição, arrastamento de ecrão não responderá, clique no botão novamente para desbloquear a edição.</string>
+    <string name="warning_msg">Mensagem de aviso</string>
+    <string name="version_msg_title">Mensagem de versão</string>
+    <string name="version_msg">O seu software está actualizado!</string>
+    <string name="update_msg_title">Versão do software:</string>
+    <string name="update_needed_version">Última versão:</string>
+    <string name="update_need_now">Actualizar agora!\n</string>
+    <string name="system_update">Actualização de sistema</string>
+    <string name="max_added_thirty">Só pode adicionar até 30</string>
+    <string name="max_added_twenty">Só pode adicionar até 20</string>
+    <string name="catnot_add_to_sidebar">Este widget não pode ser aicionado à barra lateralr</string>
+    <string name="common_add">Adicionar</string>
+    <string name="common_commit">Enviar</string>
+    <string name="reach_max">Alcançou limite superior</string>
+    <string name="can_drag_to_desktop">Toque longo para arrastar para o desktop</string>
+    <string name="setting_backup_restore">Definições de Cópia de segurança/Restauro</string>
+    <string name="setting_add_system_widget">Adicionar ecrã principal</string>
+    <string name="setting_share_friend">"Hi, I'm using CooeeHomeS3, it is so cool, browse the following URL http://www.coolauncher.cn"</string>
+    <string name="setting_feedback">Envie a sua opinião;</string>
+    <string name="defaulttheme">Hora padrão</string>
+    <string name="localtheme">Meu tema</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">Aplique tema</string>
+    <string name="removetheme">Remova tema</string>
+    <string name="onlinetheme">Tema onlinee</string>
+    <string name="themetype">Tipo:</string>
+    <string name="themeversion">Versão:</string>
+    <string name="themeauthor">Autor:</string>
+    <string name="themedata">Date:</string>
+    <string name="themefeedback">Opinião:</string>
+    
+    <string name="basic_setting">Definições básicas</string>
+    <string name="vibrator">Vibrador</string>
+    <string name="vibrate_on_long_click">Toque longo de vibração</string>
+    <string name="circle_select">Selecção de círculot</string>
+    <string name="circle_select_switch">Interruptor de selecção de círculo</string>
+    <string name="effect_setting">Definição de efeito</string>
+    <string name="shake_wallpaper">Agitar papeis de parede</string>
+    <string name="shake_wallpaper_description">Agite para alterar papel de parede</string>
+	<string name="shake_wallpaper_not_supported">esta aplicação não é suportada pelo seu telefone</string>
+    <bool name="enable_setting_key_shake_wallpaper">true</bool>    
+
+    <string name="desktop_slide">Deslize de desktop</string>
+    <string name="app_list_slide">Deslize de ListaApp</string>
+    <string name="backup_and_restore">Cópia de segurança e restauro</string>
+    <string name="backup_desktop">Realizar cópia de segurança de desktop</string>
+    <string name="restore_desktop">Restaurar desktop</string>
+    <string name="more">Mais</string>
+    <string name="restart_launcher">Reiniciar CooeeHomeS3</string>
+    <string name="version_update">Actualizar</string>
+    <string name="share_friends">Partilhr com Amigos</string>
+    <string name="feedback">Opinião</string>
+    <string name="guide_help">Ajuda de Guia</string>
+    <string name="guide_install">Guia </string>
+    <string name="reset_guide">Bandeira de restauro de guia</string>
+    <string name="exit_launcher">Sair</string>
+    <string name="backup_restore_setting">Definições de Cópia de segurança/Restauro</string>
+    <string name="update_feedback">Actualizar actualização</string>
+    <string name="mostly_used">Mais utilizado</string>
+    <string name="desktop_setting">Definição de desktop</string>
+    <string name="system_widget">widget</string>
+    <string name="wallpaper">papel de parede</string>
+    <string name="theme">tema</string>
+    <string name="software_manager">Gestor de software</string>
+    <string name="screen_editor">Editor de ecrã</string>
+    <string name="locker_editor">Definições de bloqueio</string>
+    <string name="system_setting">Definições de sistema</string>
+    <string name="clock">Relógio 3G</string>
+    <string name="memo">Memo 3G</string>
+    <string name="robot">Robô 3D</string>
+    <string name="theme_select">Selecção Tema</string>
+    <string name="theme_change">Alteração Tema</string>
+    <string name="no_theme_to_be_replaced">Sem tema para substituir!</string>    
+    <string name="Internet">Internet</string>
+    <string name="Explorer">Explorador</string>    
+    <string name="beyond_mtkwidget_num">Este widget já existe, não pode voltar a adicionar!</string>
+    
+</resources>

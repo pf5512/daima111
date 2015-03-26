@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"酷寶石天氣時鍾"</string>
+    <string name="menu_settings">设置</string>
+    <string name="no_data">不能顯示當前天氣</string>
+    <string name="city_fault">請輸入正確的城市名</string>
+    <string name="please_update">點擊刷新檢查更新</string>
+    <string name="please_add_city">請先添加城市</string>
+    <string name="updating">正在更新中</string>
+    <string name="update_failed">更新失敗，請檢查網絡連接</string>
+    <string name="update_fault">網絡數據錯誤</string>
+    <string name="search_city">搜索城市</string>
+    <string name="none">無</string>
+    <string name="na">N/A</string>
+    <string name="edit_list">編輯</string>
+    <string name="setting">设置</string>
+    <string name="exit">退出</string>
+    <string name="liststr1">啓動後更新</string>
+    <string name="liststr2">啓動天氣後自動刷新內容</string>
+    <string name="liststr3">定時同步</string>
+    <string name="liststr4">自動下載數據</string>
+    <string name="liststr12">聲音效果</string>
+    <string name="liststr13">選擇可啓用聲音效果</string>
+    <string name="liststr14">選擇自動下載數據</string>
+    <string name="warning">數據費警告</string>
+    <string name="cancel">取消</string>
+    <string name="yestoday">昨天</string>
+    <string name="thedaybeforeyestoday">前天</string>
+    <string name="afewdaysago">幾天前</string>
+    <string name="systemtimeerror">系統時間有誤</string>
+    <string name="weather_refresh">刷新</string>
+    <string name="weather_add">添加</string>
+    <string name="weather_menu">菜單</string>
+
+    <string name="lasttime">(最後更新時間)</string>
+    <string-array name="weekday">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+    <string name="updataingstr">正在更新...</string>
+    <string name="citymanage">城市管理</string>
+
+    <array name="dialoginfo">
+        <item name="updatecity">更新城市</item>
+        <item name="deletecity">刪除城市</item>
+    </array>
+
+    <string name="popcitys">熱門城市</string>
+    <string name="cityexitmessage">已經存在</string>
+    <string name="waitinfo">待同步</string>
+    <string name="temp_format_string">%1$s℃-%2$s℃</string>
+    <string name="date_widget_format_string">%1$s%2$s日  %3$s </string>
+    <string name="liststr5">更新日程</string>
+
+    <string-array name="updatetimesetting">
+        <item>每6小時</item>
+        <item>每12小時</item>
+        <item>每天一次</item>
+    </string-array>
+
+<!--    <string name="defaultcity">北京</string> -->
+    <string name="week0">"星期日"</string>
+    <string name="week1">"星期一"</string>
+    <string name="week2">"星期二"</string>
+    <string name="week3">"星期三"</string>
+    <string name="week4">"星期四"</string>
+    <string name="week5">"星期五"</string>
+    <string name="week6">"星期六"</string>
+    <string name="monthA">"1月"</string>
+    <string name="monthB">"2月"</string>
+    <string name="monthC">"3月"</string>
+    <string name="monthD">"4月"</string>
+    <string name="monthE">"5月"</string>
+    <string name="monthF">"6月"</string>
+    <string name="monthG">"7月"</string>
+    <string name="monthH">"8月"</string>
+    <string name="monthI">"9月"</string>
+    <string name="monthJ">"10月"</string>
+    <string name="monthK">"11月"</string>
+    <string name="monthL">"12月"</string>
+    <string name="lagmonth">月</string>
+    <string name="lagyear">年</string>
+    <string name="select_postalCode">選擇城市</string>
+    
+    <string name="selectpostakcode">點擊設置城市</string>
+    <string name="nodate">沒有可用數據</string>
+    <string name="addcity">添加</string>
+    <string name="setSkinTitle">皮膚選擇</string>
+	 <string name="liststr7">皮膚選擇</string>
+    <string-array name="updateSkinsetting">
+        <item>經典</item>
+        <item>卡通</item>
+    </string-array>
+
+    <!-- add 3d widget -->
+    <string name="load_obj_type">original</string>
+	<string name="save_compressed_obj">true</string>
+    <string name="month01">"1月"</string>
+    <string name="month02">"2月"</string>
+    <string name="month03">"3月"</string>
+    <string name="month04">"4月"</string>
+    <string name="month05">"5月"</string>
+    <string name="month06">"6月"</string>
+    <string name="month07">"7月"</string>
+    <string name="month08">"8月"</string>
+    <string name="month09">"9月"</string>
+    <string name="month10">"10月"</string>
+    <string name="month11">"11月"</string>
+    <string name="month12">"12月"</string>
+
+    <string name="date_format_string">%1$s%2$s日 %3$s</string>
+    
+	  <string name="setcity">"點擊設置城市"</string>
+	  <string name="nodata">"無可用數據"</string>
+	  
+	  <string name="max_instance_alert">3D天氣已存在，不可以重複拖出</string>
+</resources>

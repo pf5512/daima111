@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Turbo Launcher</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">โฟลเดอร์</string>
+    <string name="contact_name">ติดต่อ</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">เลือกพื้นหลังจาก</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">เลือกเครื่องมือ3มิติ</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">ตั้งวอลล์เปเปอร์</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">วอลล์เปเปอร์(พื้นหลัง)</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure...</string>
+    <string name="iloong_shellstr">กำลังโหลด…</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="circle_autoSort">เรียงโดยอัตโนมัติ</string>
+    <string name="circle_iconOverlap">คาบเกี่ยว/ซ้อนกัน</string>
+    <string name="circle_iconTrans">การแปล</string>
+    <string name="circle_multiSelect">การเลือกมากกว่าหนึ่ง</string>
+    <string name="circle_createFolder">สร้างโฟลเดอร์</string>
+    <string name="circle_deleteAll">ลบทั้งหมด</string>
+    <string name="circle_noticeToast">กลับจุดเริ่มต้นที่เลือกมา</string>
+    <string name="circle_dstOverToast">นอกขอบเขตที่จำกัด/เกินขอบเขตดักที่จำกัด</string>
+    <string name="circle_deleteALLToast">แน่ใจว่าจะลบทั้งหมดหรือไม่</string>
+    <string name="circle_selectMutiToOperToast">การดำเนินการหลายไอคอน</string>
+    <string name="circle_notSupportToast">รุ่นนี้ยังไม่สามารใช้ฟังก์ชันนี้ในชั่วคราว</string>
+    <string name="circle_ok_action">อเค(ตกลง)</string>
+    <string name="circle_cancel_action">ยกเลิก</string>
+    <string name="circle_unselectAppIconToast">ไม่มีไอคอนให้เลือก</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">เปลี่ยนชื่อโฟลเดอร์</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">อเค(ตกลง)</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">ยกเลิกl</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder3D_del_toast">แน่ใจว่าจะลบโฟลเดอร์นี้หรือไม่?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">ยังไม่ได้ติดตั้งบนโทรศัพท์มือถือของคุณ คลิก "OK" ดาวน์โหลดและติดตั้ง!</string>
+    <string name="apk_cannot_found_content">ไม่พบ APK สำหรับโปรแกรมประยุกต์บน SD การ์ด ของคุณนี้!!</string>
+    <string name="folder3D_full">โฟลเดอร์เต็ม</string>
+    <string name="folder3D_name">โฟลเดอร์</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">แอปพลิเคชั่น(โปรแกรมประยุกต์)s</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">ทางลัด</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">โฟลเดอร์</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">วิดเจ็ต</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_wallpapers">วอลล์เปเปอร์(พื้นหลัง)</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_3D_widgets">3D widgets</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_contacts">ติดต่อ</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">โฟลเดอร์</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">ไม่มีช่องว่างในหน้าหลัก.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">เลือกทางลัด</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">เลือกโปรแกรม</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!-- All applications label for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_button_label">All applications</string>
+    <!--
+         Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google".
+    -->
+    <string name="default_browser_url">http://www.google.com/m?client=ms-{CID}source=android-home-hotseat</string>
+    <string name="errorHint">A error has happened %1$s.Please click <i><b>"REPORT"</b></i> to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">ไม่สามารถเพิ่มในหน้านี้ได้</string>
+    <string name="can_not_delete_page">ถึงจำนวนน้อยสุดของหน้าจอ</string>
+    <string name="delete_page">หน้าไม่มีที่ว่าง แน่ใจว่าจะลบหรือไม่?</string>
+
+    <!-- AppBar -->
+
+    <string name="appbar_tab_app">ใบสมัคร</string>
+    <string name="appbar_tab_widget">วิดเจ็ต</string>
+    <string name="appbar_tab_uninstall">ถอนการติดตั้งแอปพลิเคชั่น</string>
+    <string name="appbar_tab_hide">ซ่อนแอปพลิเคชั่น</string>
+    <string name="sort_app_init">     เรียงตามประเภทของข้อมูล</string>
+    <string name="sort_app_name">     เรียงตามชื่อโปรแกรม</string>
+    <string name="sort_app_install_time">     เรียงตามเวลาที่ติดตั้ง</string>
+    <string name="sort_app_use_frequency">     เรียงตามความถี่ของการใช้งาน</string>
+    <string name="sort_dialog_title">เรียงไอคอน</string>
+    <string name="widget_empty_dialog">เครื่องมือ3มิติยังไม่ได้ติดตั้ง โปรดติดตั้งและเพิ่มเข้ามา</string>
+    <string name="widget_empty_title">3D widget</string>
+    <string name="hotseat_mainmenu">แอปพลิเคชั่น(โปรแกรมประยุกต์)</string>
+    <string name="hotseat_workspace">หน้าหลัก</string>
+    <string name="main_menu">แอปพลิเคชั่น(โปรแกรมประยุกต์)</string>
+    <string name="trash_icon_title">ลบ</string>
+    <!-- adjust -->
+    <string name="fold_name_too_long">ชื่อโฟลเดอร์เกินความยาวสูงสุด</string>
+    <string name="app_downloading">กำลังดาวน์โหลด</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>มาตรฐาน</item>
+        <item>สุ่ม</item>
+        <item>กอง</item>
+        <item>กล่องภายใน</item>
+        <item>กล่องภายนอก</item>
+        <item>ดีด</item>
+        <item>พลิกข้าม</item>
+        <item>กังหันลม </item>
+        <item>คลื่น</item>
+        <item>ล้อ</item>
+        <item>ลูกบอล</item>
+        <item>กระบอก</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>มาตรฐาน</item>
+        <item>สุ่ม</item>
+        <item>กล่องภายใน</item>
+        <item>กล่องภายนอก</item>
+        <item>ดีด</item>
+        <item>พลิกข้าม</item>
+        <item>กังหันลม </item>
+        <item>คลื่น</item>
+        <item>ค่าเริ่มต้น</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="effect_standard">มาตรฐาน</string>
+    <string name="effect_random">สุ่ม</string>
+    <string name="effect_cascade">กอง</string>
+    <string name="effect_outbox">กล่องภายนอก</string>
+    <string name="effect_inbox">กล่องภายใน</string>
+    <string name="effect_flip">ดีด</string>
+    <string name="effect_bigfan">พลิกข้าม</string>
+    <string name="effect_fan">กังหันลม </string>
+    <string name="effect_wave">คลื่น</string>
+    <string name="effect_ball">ลูกบอล</string>
+    <string name="effect_wheel">ล้อ</string>
+    <string name="effect_cylinder">กระบอก</string>
+    <string name="effect_default">ค่าเริ่มต้น</string>
+   <string name="uninstall_app">ถอนการติดตั้ง</string>
+     <string name="download_apps">แอปพลอเคชั่นที่ดาวน์โหลดเสร็จเรียบร้อย</string>
+    <string name="hide_icon">ซ่อนไอคอน</string>
+    <string name="sort_icon">เรียงไอคอน</string>
+    <string name="no_space_add_icon">ไม่มีพื้นที่ที่จะเพิ่ม</string>
+    <string name="exceed_num_add_icon">ตัวเลขไอคอนที่เลือกมาเกินช่องว่างใหญ่สุด การเพิ่มเติมไม่สำเร็จ!</string>
+    <string name="contact_error_pls_check">เพิ่มผู้ติดต่อไม่สำเร็จ โปรดตรวจสอบข้อมูลรายชื่อผู้ติดต่ออย่างเสร็จสมบูรณ์</string>
+    <string name="download_to_install">เครื่องมือนี้ยังไม่ได้ติดตั้ง โปรดดาวน์โหลด</string>
+    <string name="add_failure">การเพิ่มเติมไม่สำเร็จ</string>
+    <string name="deny_add_on_mainmenu">นี่คือเมนูหลัก</string>
+    <string name="dlmng_check_network">ไม่สามารถที่จะได้รับข้อมูลที่ดาวน์โหลดโปรดตรวจสอบเครือข่ายและลองใหม่อีกครั้ง!!</string>
+    <string name="dlmng_comeout_soon">เร็ว ๆ นี้</string>
+    <string name="dlmng_pls_insert_SD">โปรดใส่SDการ์ด และดาวน์โหลด!</string>
+     <string name="backup_pls_insert_SD">โปรดใส่SDการ์ด และสำรองข้อมูล!</string>
+    <string name="dlmng_network_error">เครือข่ายมีผิดความพลาด กรุณาลองใหม่อีกครั้ง!</string>
+    <string name="dlmng_download_error">การเชื่อมต่อมีความผิดพลาด กรุณาลองใหม่อีกครั้ง!</string>
+    <string name="dlmng_download_configwrong">พารามิเตอร์ของดาวน์โหลดผิด</string>
+    <string name="backup_title_back">CooeeHomeS3 Backup</string>
+    <string name="backup_back_to_SD">สำรองการตั้งค่าCooeeHomeS3 การตั้งค่าเข้าไป SDการ์ด!</string>
+    <string name="backup_title_restore">การตั้งค่าการเรียกคืน CooeeHomeS3</string>
+    <string name="backup_restore">เรียกคืนการตั้งค่า CooeeHomeS3 จะเริ่มต้นขึ้น!</string>
+    <string name="backup_latest">เวลาที่สำรองข้อมูลล่าสุด</string>
+    <string name="backup_no_back">ระบบไม่มีการสำรอง</string>
+    <string name="backup_success">สำรองสำเร็จ</string>
+    <string name="backup_fail">สำรองไม่สำเร็จ！</string>
+    <string name="restore_fail">เรียกคืนไม่สำเร็จ！</string>
+    <string name="guide_title">คู่มือผู้ใช้</string>
+    <string name="guide_proceed">แสดงคำแนะนำผู้ใช้ และโปรแกรมจะเริ่มต้นใหม่</string>
+    <string name="lock_editor_title">ล็อกการแก้ไข</string>
+    <string name="lock_editor">เปิดล็อกการแก้ไข หน้าจอที่ลากมาจะไม่มีการตอบสนอง คลิกที่ปุ่มอีกครั้งจะทำการปลดล็อค.</string>
+    <string name="warning_msg">ข้อความแจ้งเตือนe</string>
+    <string name="version_msg_title">ข้อมูลรุ่น</string>
+    <string name="version_msg">ซอฟแวร์ของคุณจะอยู่ถึงวันที่!</string>
+    <string name="update_msg_title">รุ่นซอฟต์แวร์ของคุณ:</string>
+    <string name="update_needed_version">รุ่นล่าสุด:</string>
+    <string name="update_need_now">อัพเดตทันที!\n</string>
+    <string name="system_update">การปรับปรุงระบบe</string>
+    <string name="max_added_thirty">คุณสามารถเพิ่มได้มากสุดถึง 30</string>
+    <string name="max_added_twenty">คุณสามารถเพิ่มได้มากสุดถึง 20</string>
+    <string name="catnot_add_to_sidebar">เครื่องมือนี้ไม่สามารถเพิ่มในแถบด้านข้าง</string>
+    <string name="common_add">เพิ่ม</string>
+    <string name="common_commit">ผูกมัด</string>
+    <string name="reach_max">ถึงขีดมากสุดที่จำกัดไว้</string>
+    <string name="can_drag_to_desktop">กดค้างเพื่อลากไปยังเดสก์ทอป</string>
+    <string name="setting_backup_restore">สำรอง / กู้คืนการตั้งค่า</string>
+    <string name="setting_add_system_widget">เพิ่มหน้าจอหลัก</string>
+    <string name="setting_share_friend">"Hi, I'm using CooeeHomeS3, it is so cool, browse the following URL http://www.coolauncher.cn"</string>
+    <string name="setting_feedback">กรุณาส่งความคิดเห็นของคุณมา;</string>
+    <string name="defaulttheme">รูปแบบเริ่มต้น</string>
+    <string name="localtheme">รูปแบบของตัวเอง</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">ยืนยันรูปแบบ</string>
+    <string name="removetheme">ลบรูปแบบ</string>
+    <string name="onlinetheme">ธีมออนไลน์</string>
+    <string name="themetype">ประเภท:</string>
+    <string name="themeversion">เวอร์ชัน(รุ่น)n:</string>
+    <string name="themeauthor">ผู้เขียน:</string>
+    <string name="themedata">วันที่:</string>
+    <string name="themefeedback">ข้อเสนอแนะ:</string>
+    
+    <string name="basic_setting">การตั้งค่าพื้นฐาน</string>
+    <string name="vibrator">เครื่องสั่น</string>
+    <string name="vibrate_on_long_click">คลิกค้าง</string>
+    <string name="circle_select">เลือกวงกลม</string>
+    <string name="circle_select_switch">สวิทช์เลือกวงกลม</string>
+    <string name="effect_setting">ผลการตั้งค่า</string>
+    <string name="shake_wallpaper">เขย่าวอลล์เปเปอร์</string>
+    <string name="shake_wallpaper_description">เขย่าเพื่อเปลี่ยนวอลล์เปเปอร์</string>
+	<string name="shake_wallpaper_not_supported">แอปพลิเคชั่นนี้ไม่รองรับบนโทรศัพท์ของคุณ</string>
+    <bool name="enable_setting_key_shake_wallpaper">true</bool>    
+
+    <string name="desktop_slide">สไลด์เดสก์ท็อป</string>
+    <string name="app_list_slide">สไลด์รายชื่อแอปพลิเคชั่น</string>
+    <string name="backup_and_restore">สำรองและเรียกคืน</string>
+    <string name="backup_desktop">สำรองเดสก์ทอป</string>
+    <string name="restore_desktop">เรียกคืนสก์ทอป</string>
+    <string name="more">มากขึ้น</string>
+    <string name="restart_launcher">เริ่มต้นใหม่ CooeeHomeS3</string>
+    <string name="version_update">อัพเดท</string>
+    <string name="share_friends">แบ่งปันกับเพื่อน</string>
+    <string name="feedback">ข้อเสนอแนะ</string>
+    <string name="guide_help">แนวทางช่วยเหลือp</string>
+    <string name="guide_install">แนะนำ</string>
+    <string name="reset_guide">ตั้งธงคู่มือ</string>
+    <string name="exit_launcher">ทางออก</string>
+    <string name="backup_restore_setting">สำรอง / กู้คืนการตั้งค่า</string>
+    <string name="update_feedback">อัพเดทคำติชม</string>
+    <string name="mostly_used">ใช้บ่อย</string>
+    <string name="desktop_setting">การตั้งค่าเดสก์ท็</string>
+    <string name="system_widget">วิดเจ็ต</string>
+    <string name="wallpaper">วอลล์เปเปอร์(พื้นหลัง)</string>
+    <string name="theme">ไฟล์ธีม</string>
+    <string name="software_manager">การจัดซอฟแวร์</string>
+    <string name="screen_editor">ผู้แก้ไขหน้าจอ</string>
+    <string name="locker_editor">การตั้งค่าล็อกเกอร์</string>
+    <string name="system_setting">การตั้งค่าระบบ</string>
+    <string name="clock">นาฬิกา3มิติ</string>
+    <string name="memo">บันทึก3มิติ</string>
+    <string name="robot">หุ่นยนต์3มิติ</string>
+    <string name="theme_select">การเลือกรูปแบบ</string>
+    <string name="theme_change">ThemeSwitchover</string>
+    <string name="no_theme_to_be_replaced">ไม่มีรูปแบบถูกแทนที่!</string>    
+    <string name="Internet">อินเทอร์เน็ต</string>
+    <string name="Explorer">ผู้สำรวจ</string>    
+    <string name="beyond_mtkwidget_num">เครื่องมือนี้ไม่สามารถที่จะเพิ่มได้อีก!</string>
+    
+</resources>

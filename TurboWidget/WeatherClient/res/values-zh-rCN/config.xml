@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 320 480 -->
+    <integer name="boat_distance">32</integer>
+    <integer name="boat_origin_x">10</integer>
+    <integer name="boat_origin_y">10</integer>
+
+</resources>

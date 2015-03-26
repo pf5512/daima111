@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nodata_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/tool_bar_layout"
+    android:background="#FF000000" >
+
+    <!-- 更新中 -->
+
+    <LinearLayout
+        android:id="@+id/updating_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:shadowColor="#ff000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="@string/updating"
+            android:textColor="#ffffffff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 无数据 -->
+
+    <LinearLayout
+        android:id="@+id/no_data_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nodate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:shadowColor="#ff000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="@string/no_data"
+            android:textColor="#ffffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pleaseupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:shadowColor="#ff000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="@string/please_update"
+            android:textColor="#ffffffff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</FrameLayout>

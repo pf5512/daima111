@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photo space</string>
+    <string name="delete">delete</string>
+    <string name="edit_mood_hint">Enter texts within 15 characters</string>
+    <string name="camera_save_error">Failed to store the image</string>
+    <string name="camera_in_use">Can not connect to camera!</string>
+    <string name="no_storage">No available storage</string>
+    <string name="no_img_data">Failed to get image data!</string>
+    <!--前置摄像头拍摄照片所需旋转角度-->
+    <string name="front_rotate_angle">270</string>
+
+</resources>

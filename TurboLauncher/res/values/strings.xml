@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     /* * Copyright (C) 2008 The Android Open Source Project * * Licensed 
+	under the Apache License, Version 2.0 (the "License"); * you may not use 
+	this file except in compliance with the License. * You may obtain a copy 
+	of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless 
+	required by applicable law or agreed to in writing, software * distributed 
+	under the License is distributed on an "AS IS" BASIS, * WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. * See the License for 
+	the specific language governing permissions and * limitations under the License. 
+	*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Turbo Launcher</string>
+    <string name="default_theme">Default theme</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">Folder</string>
+    <string name="contact_name">Contacts</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">Select wallpaper from</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">Complete action using</string>
+    <!--
+         Button label on Wallpaper Gallery screen; user selects this button 
+		to set a specific wallpaper
+    -->
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Wallpapers</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <string name="activity_not_found_from_intent">No Application can handle this.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure...</string>
+    <string name="iloong_shellstr">Launcher Loading...</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="circle_autoSort">AutoSort</string>
+    <string name="circle_iconOverlap">Overlap</string>
+    <string name="circle_iconTrans">Translation</string>
+    <string name="circle_multiSelect">MultiSelect</string>
+    <string name="circle_createFolder">Create Folder</string>
+    <string name="circle_deleteAll">DeleteAll</string>
+    <string name="circle_noticeToast">Return to the origin to select</string>
+    <string name="circle_dstOverToast">Beyond the trap range limit</string>
+    <string name="circle_deleteALLToast">Sure to delete all?</string>
+    <string name="circle_selectMutiToOperToast">Multiple icons operation</string>
+    <string name="circle_notSupportToast">This version is temporarily unable to use this
+		feature</string>
+    <string name="circle_ok_action">OK</string>
+    <string name="circle_cancel_action">Cancel</string>
+    <string name="circle_unselectAppIconToast">No icon selected</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">Rename Folder</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">Cancel</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder3D_del_toast">Sure to delete this folder?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">Not yet installed on your phone, click OK to
+		download and install!</string>
+    <string name="apk_cannot_found_content">Cannot found APK for this application on your SD
+		card!</string>
+    <string name="folder3D_full">Folder is full</string>
+    <string name="folder3D_name">Folder</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all apps
+    -->
+    <string name="group_applications">Applications</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all shortcuts
+    -->
+    <string name="group_shortcuts">Shortcuts</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all live folders
+    -->
+    <string name="group_live_folders">Folder</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all widgets/gadgets
+    -->
+    <string name="group_widgets">Widgets</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_wallpapers">Wallpaper</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_3D_widgets">3D widgets</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_contacts">Contacts</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">No more room on this Home screen.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">		Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">		Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" was removed.</string>
+    <!--
+         Message displayed when an external application attemps to create a 
+		shortcut that already exists
+    -->
+    <string name="shortcut_duplicate">		Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Select shortcut</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">Select application</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!--
+         All applications label for accessibilty (spoken when the button gets 
+		focus).
+    -->
+    <string name="all_apps_button_label">All applications</string>
+    <!--
+         Label for button in all applications label to go back home (to the 
+		workspace / desktop) for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+		shortcuts without user
+		intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+		shortcuts without
+		user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+		shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+		shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. Attempts to 
+		mimic homepage_base in Browser; {CID} should be replaced by the client-id, 
+		e.g. "android-google".
+    -->
+    <string name="default_browser_url" translatable="true">		http://www.google.com/m?client=ms-{CID}source=android-home-hotseat</string>
+    <string name="errorHint">		A error has happened %1$s.Please click<i><b>"REPORT"</b></i>		to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">Can\'t add to this page</string>
+    <string name="can_not_delete_page">The minimum number of screens has reached</string>
+    <string name="delete_page">Page is not empty, sure to delete it?</string>
+
+    <!-- AppBar -->
+    <string name="appbar_tab_app">Apps</string>
+    <string name="appbar_tab_widget">Widgets</string>
+    <string name="appbar_tab_uninstall">Uninstall apps</string>
+    <string name="appbar_tab_hide">Hide apps</string>
+    <string name="appbar_tab_edit_mode">Editor Mode</string>
+    <string name="sort_app_default">Sort by default</string>
+    <string name="sort_app_init">Sort by factory data</string>
+    <string name="sort_app_name">Sort by app name</string>
+    <string name="sort_app_install_time">Sort by install time</string>
+    <string name="app_bar_navigator_audioalbum">Audio</string>
+    <string name="app_bar_navigator_video">Video</string>
+    <string name="app_bar_navigator_photobucket">Photo</string>
+    <string name="app_bar_title_photo">Photo</string>
+    <string name="app_bar_title_audio">Song</string>
+    <string name="sort_app_use_frequency">Sort by frequency of use</string>
+    <string name="sort_dialog_title">Sort Icons</string>
+    <string name="widget_empty_dialog">This 3D widget is not installed，please install and then add it</string>
+    <string name="widget_empty_title">3D widget</string>
+    <string name="widget_other_tools">Other tools</string>
+    <string name="hotseat_mainmenu">Apps</string>
+    <string name="hotseat_workspace">Home</string>
+    <string name="main_menu">Apps</string>
+    <string name="trash_icon_title">Delete</string>
+    <string name="choose_widget">Choose widget</string>
+    <string name="choose_widget_ex">Choose Tools</string>
+    <!-- adjust -->
+    <string name="fold_name_too_long">Folder name exceeds the maximum length</string>
+    <string name="app_downloading">Downloading</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>Standard</item>
+        <item>Random</item>
+        <item>Stack</item>
+        <item>Inner Box</item>
+        <item>Outer Box</item>
+        <item>Flip</item>
+        <item>Cross Flip</item>
+        <item>Windmill</item>
+        <item>Wave</item>
+        <item>Wheel</item>
+        <item>Ball</item>
+        <item>Cylinder</item>
+        <item>Binaries</item>
+        <item>Jump</item>
+        <item>Melt</item>
+        <item>Window</item>
+        <item>Tornado</item>
+        <item>Erase</item>
+        <item>Cross</item>
+        <item>Ceraunite</item>
+        <item>Snake</item>
+        <item>Crystal</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>Standard</item>
+        <item>Random</item>
+        <item>Inner Box</item>
+        <item>Outer Box</item>
+        <item>Flip</item>
+        <item>Cross Flip</item>
+        <item>Windmill</item>
+        <item>Wave</item>
+        <item>Default</item>
+        <item>Crystal</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="icon_size_display">
+        <item>big</item>
+        <item>middle</item>
+        <item>small</item>
+    </string-array>
+    <string-array name="icon_size_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="icon_size_no_middle_display">
+        <item>big</item>
+        <item>small</item>
+    </string-array>
+    <string-array name="icon_size_no_middle_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="particle_list_preference">
+        <item>None</item>
+        <item>Nightclubs</item>
+        <item>Bright Star</item>
+        <item>Clover</item>
+        <item>Maple Leaf</item>
+    </string-array>
+    <string-array name="particle_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="effect_standard">Standard</string>
+    <string name="effect_random">Random</string>
+    <string name="effect_cascade">Stack</string>
+    <string name="effect_outbox">Outer Box</string>
+    <string name="effect_inbox">Inner Box</string>
+    <string name="effect_flip">Flip</string>
+    <string name="effect_bigfan">Cross Flip</string>
+    <string name="effect_fan">Windmill</string>
+    <string name="effect_wave">Wave</string>
+    <string name="effect_ball">Ball</string>
+    <string name="effect_wheel">Wheel</string>
+    <string name="effect_cylinder">Cylinder</string>
+    <string name="effect_default">Default</string>
+    <string name="effect_crystal">Crystal</string>
+    <string name="effect_binaries">Binaries</string>
+    <string name="effect_blind">Blind</string>
+    <string name="effect_jump">Jump</string>
+    <string name="effect_upright">UpRight</string>
+    <string name="effect_rotate">Rotate</string>
+    <string name="effect_press">Press</string>
+    <string name="effect_roll">Roll</string>
+    <string name="effect_wind">Wind</string>
+    <string name="effect_hump">hump</string>
+    <string name="effect_electric_fan">Electric fan</string>
+    <string name="effect_elasticity">Elasticity</string>
+    <string name="effect_melt">Melt</string>
+    <string name="effect_window">Window</string>
+    <string name="effect_tornado">Tornado</string>
+    <string name="effect_erase">Erase</string>
+    <string name="effect_cross">Cross</string>
+    <string name="effect_ceraunite">Ceraunite</string>
+    <string name="effect_snake">Snake</string>
+    <string name="uninstall_app">Uninstall app</string>
+    <string name="edit_mode">Edit Mode</string>
+    <string name="download_apps">Downloaded applications</string>
+    <string name="hide_icon">Hide icon</string>
+    <string name="sort_icon">Sort icon</string>
+    <string name="effect_icon">Switch Effect</string>
+    <string name="no_space_add_icon">No space to add</string>
+    <string name="exceed_num_add_icon">Selected icon number exceeds the maximum available
+		space, add fail!</string>
+    <string name="contact_error_pls_check">Add contact failed, please check the contact
+		information is complete</string>
+    <string name="download_to_install">This widget has not been installed, please download
+		it</string>
+    <string name="add_failure">Add failed</string>
+    <string name="deny_add_on_mainmenu">This is the main menu entry</string>
+    <string name="dlmng_check_network">Unable to get the download information, please
+		check the network and try again!</string>
+    <string name="dlmng_comeout_soon">Coming soon</string>
+    <string name="dlmng_pls_insert_SD">Please insert the SD card, and then download!</string>
+    <string name="backup_pls_insert_SD">Please insert the SD card, and then backup!</string>
+    <string name="dlmng_network_error">Network error, please try again later!</string>
+    <string name="dlmng_download_error">Download error, please try again later!</string>
+    <string name="dlmng_download_configwrong">Download wrong parameter </string>
+    <string name="backup_title_back">Turbo Launcher Backup</string>
+    <string name="backup_back_to_SD">Want to backup the Turbo Launcher settings?</string>
+    <string name="backup_title_restore">Turbo Launcher setting restore</string>
+    <string name="backup_restore">Restore setting, the Turbo Launcher will restart!</string>
+    <string name="backup_latest">Last backup time</string>
+    <string name="backup_no_back">The system has no backup</string>
+    <string name="backup_success">Backup success！</string>
+    <string name="backup_fail">Backup fail！</string>
+    <string name="restore_fail">Restore Fail！</string>
+    <string name="guide_title">User guide</string>
+    <string name="guide_proceed">Show user guide, application will be restarted</string>
+    <string name="lock_editor_title">Lock edit</string>
+    <string name="lock_editor">Note: Open the edit lock, screen dragging will no
+		longer responding, click the button again will unlock edit.</string>
+    <string name="warning_msg">Warning message</string>
+    <string name="version_msg_title">Version message</string>
+    <string name="version_msg">Your software is up to date!</string>
+    <string name="update_msg_title">Your software version:</string>
+    <string name="update_needed_version">The latest version:</string>
+    <string name="update_need_now">Update now!\n</string>
+    <string name="system_update">System update</string>
+    <string name="max_added_thirty">You can only add up to 30</string>
+    <string name="max_added_twenty">You can only add up to 20</string>
+    <string name="catnot_add_to_sidebar">This widget can\'t be added to the sidebar</string>
+    <string name="common_add">Add</string>
+    <string name="common_commit">Commit</string>
+    <string name="reach_max">Reached the upper limit</string>
+    <string name="can_drag_to_desktop">Long press to drag to the desktop</string>
+    <string name="setting_backup_restore">Backup / Restore Settings</string>
+    <string name="setting_add_system_widget">Add to IDLE</string>
+    <string name="setting_share_friend">"Hi, I'm using Turbo Launcher, it is so cool, browse
+		the following URL http://www.coolauncher.cn"</string>
+    <string name="setting_feedback">Please submit your feedback;</string>
+    <string name="defaulttheme">Default Theme</string>
+    <string name="localtheme">My theme</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">Apply theme</string>
+    <string name="removetheme">Remove theme</string>
+    <string name="onlinetheme">Online theme</string>
+    <string name="themetype">Type:</string>
+    <string name="themeversion">Version:</string>
+    <string name="themeauthor">Author:</string>
+    <string name="themedata">Date:</string>
+    <string name="themefeedback">Feedback:</string>
+    <string name="desktop_setting">Preferences</string>
+    <string name="basic_setting">Basic Settings</string>
+    <string name="vibrator">Vibrator</string>
+    <string name="vibrate_on_long_click">Long click vibrate</string>
+    <string name="circle_select">Circle select</string>
+    <string name="circle_select_switch">Circle select switch</string>
+    <string name="effect_setting">Effect setting</string>
+    <string name="shake_wallpaper">Shake wallpapers</string>
+    <string name="shake_wallpaper_description">shake to change wallpapers</string>
+    <string name="shake_wallpaper_not_supported">this application not supported on your phone</string>
+
+    <bool name="enable_setting_key_shake_wallpaper">true</bool>
+
+    <string name="shake_theme">Shake themes</string>
+    <string name="shake_theme_description">shake to change the themes</string>
+    <string name="shake_theme_not_supported">this application not supported on your phone</string>
+    <string name="appeffects_dialog_title">Switch Effect</string>
+    <string name="desktop_slide">Desktop slide</string>
+    <string name="app_list_slide">Applist slide</string>
+    <string name="backup_and_restore">Backup and restore</string>
+    <string name="backup_desktop">Backup desktop</string>
+    <string name="restore_desktop">Restore desktop</string>
+    <string name="restore_desktoptxt">Restore to latest backup</string>
+    <string name="restore_desktoptxt_nolatest">No backup</string>
+    <string name="welcome_guide">Tips</string>
+     <string name="welcome_guide_detail">Instruction about how to use our Desktop</string>
+    <string name="more">More</string>
+    <string name="restart_launcher">Restart Turbo Launcher</string>
+    <string name="version_update">Update</string>
+    <string name="share_friends">Share with Friends</string>
+    <string name="feedback">Feedback</string>
+    <string name="guide_help">Guide Help</string>
+    <string name="guide_install">Guide</string>
+    <string name="reset_guide">Reset guide Flag</string>
+    <string name="exit_launcher">Exit</string>
+    <string name="backup_restore_setting">Backup / Restore Settings</string>
+    <string name="update_feedback">Update Feedback</string>
+    <string name="mostly_used">Most Used</string>
+    <string name="system_widget">Widgets</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="theme">Themes</string>
+    <string name="software_manager">Software manager</string>
+    <string name="screen_editor">Editor</string>
+    <string name="system_setting">Settings</string>
+    <string name="locker_setting">Locker setting</string>
+    <string name="widget_weather_clock">Weather Clock</string>
+     <string name="widget_number_clock">Number Clock</string>
+    <string name="widget_clean_up">Clean</string>
+    <string name="widget_search_bar">Search</string>
+    <string name="widget_music_player">Turbo music player</string>
+    <string name="clock">3D Clock</string>
+    <string name="memo">3D Memo</string>
+    <string name="robot">3D Robot</string>
+    <string name="theme_select">ThemeSelection</string>
+    <string name="theme_change">ThemeSwitchover</string>
+    <string name="no_theme_to_be_replaced">No theme to be replaced!</string>
+    <string name="Internet">Internet</string>
+    <string name="Explorer">Explorer</string>
+    <string name="beyond_mtkwidget_num">This widget is exist,can not add more!</string>
+    <string name="bottombar_selectall">Select All</string>
+    <string name="bottombar_share">Share</string>
+    <string name="bottombar_setting">Setting As</string>
+    <string name="bottombar_delete">Delete</string>
+    <string name="media_share">Share</string>
+    <string name="media_setting_as">Setting As</string>
+    <string name="bottombar_album">Album</string>
+    <string name="bottombar_artist">Artist</string>
+    <string name="bottombar_folder">Folder</string>
+    <string name="default_album_name">unknow</string>
+    <string name="internet_err">The network connection is not available, please check your network settings</string>
+    <string name="applist_load_toast">Please wait for loading...</string>
+    <string name="medialist_no_photo">can not find image on your phone,please check your sdcard is properly connected</string>
+    <string name="medialist_no_audio">can not find audio on your phone,please check your sdcard is properly connected</string>
+    <string name="medialist_no_video">can not find video on your phone,please check your sdcard is properly connected</string>
+    <string name="app_unknow">unknow</string>
+    <string name="media_delete_ok">Has Delete</string>
+    <string name="icon_size_title">Icon Size</string>
+
+    <!-- xiatian add start -->
+    <!-- Widget3D adaptation "Naked eye 3D" -->
+    <string name="sensor_summary">Open sensor</string>
+    <string name="sensor_title">Sensor</string>
+    <string name="sensor_not_supported">this application not supported on your phone</string>
+    <!-- xiatian add end -->
+    <string name="update_desktop">auto update</string>
+
+    <!-- launcher update -->
+    <string name="soft_update_no">Already the newest version</string>
+    <string name="soft_update_title">Software updates</string>
+    <string name="soft_update_checking"> Checking for updates, please wait</string>
+    <string name="soft_update_info">To the new version is detected, Update</string>
+    <string name="soft_update_updatebtn">Update</string>
+    <string name="soft_update_later">Later update</string>
+    <string name="soft_updating">Being updated</string>
+    <string name="soft_update_cancel">Cancel</string>
+    <string name="noneed_update">Already the newest version</string>
+    <string name="update_err">Network connection error, check for updates failed</string>
+    <string name="soft_need_update">The Turbo Launcher has new update</string>
+    <string name="soft_check_update">For updates, click Update</string>
+    <string name="virtual_lock_name">CoCoLock</string>
+    <string name="coco_launcher_download_name">Turbo Launcher</string>
+    <string name="start_scene">Scene Launcher</string> <!-- xiatian add -->
+    <!-- DefaultScene -->
+
+
+    <!-- teapotXu add start -->
+    <string name="screen_scroll_circle">screen scroll circle</string>
+    <string name="desktop_wallpaper_mv">wallpaper move</string>
+    <string name="desktop_manual_control">manual control</string>
+    <string name="prefs_screen_scroll_circle">screen scroll circle state</string>
+    <string name="prefs_mv_wallpaper_state">move wallpaper state</string>
+    <string name="switch_preference_text_on">ON</string>
+    <string name="switch_preference_text_off">OFF</string>
+    <!-- teapotXu add end -->
+
+
+    <!-- xiatian add start -->
+    <!-- Mainmenu Bg -->
+    <string-array name="mainmenu_bg">
+        <item>default</item>
+        <item>darken</item>
+        <item>balck</item>
+    </string-array>
+    <string-array name="mainmenu_bg_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="mainmenu_bg_title">Mainmenu Bg</string>
+    <!-- xiatian add end -->
+
+    <string name="theme_box_name">Screens</string>
+
+    <!-- xiatian add start -->
+    <!-- mainmenu_background_alpha_progress -->
+    <string name="mainmenu_bg_dialog_title">Background transparency</string>
+    <string name="mainmenu_bg_alpha">Background transparency</string>
+    <!-- xiatian add end -->
+    <string name="application_manager">Application manager</string> <!-- zjp -->
+    <string name="set_wallpaper">Set wallpaper</string>
+    <string name="desktop_manager">Desktop manager</string>
+    <string name="multi_choice_mode_enter">Enter Multi-Choices mode</string>
+    <string name="system_setting">Settings</string>
+    <string name="changjing_scene">My FreeScene</string>
+    <string name="scene_load_title">Loading... Please wait</string>
+    <string name="scene_menu">classic scene</string>
+    <string name="classic_launcher">Classic Launcher</string>
+    <string name="change_scene">Change Scene</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="Create_folder">Create folder</string>
+    <string name="Remove">Remove</string>
+    <string name="cannot_delete_icon">Can not delete system app</string>
+
+    <!-- xiatian add start -->
+    <!-- //EffectPreview -->
+    <string name="EffectPreviewTips">EffectPreviewTips</string>
+    <!-- xiatian add end -->
+    <string name="setting_key_edit_mode">edit mode</string> <!-- zjp edit mode -->
+    <string name="edit_mode_summary">Prohibit editing mode</string>
+    <string name="edit_mode_title">Prohibit editing mode</string>
+    <string name="page_num_over_maximum">Total page number is Maximum</string>
+    <string name="current_in_miui_edit_mode">Now is at Desktop Edit mode</string>
+
+    <!-- xiatian add start -->
+    <!-- //Introduction -->
+    <string name="IntroductionDockbar">Slide open the bottom edge of the bar that displays frequently used applications</string>
+    <string name="IntroductionMultiSelect">Double-click the icon to enter multi-select mode</string>
+    <!-- xiatian add end -->
+    <string name="folder_add">Add app(%1$d/%1$d)</string>
+    <string name="particle_summary">Enable Desktop Particle Effects</string>
+    <string name="particle_title">Particle Effects</string>
+    <string name="desktop_settins_manual_control">Smart Control</string>
+    <string name="desktop_screen_scroll_circle">Screen Circulation Slide</string>
+    <string name="desktop_wallpaper_scroll">Wallpaper Scroll</string>
+    <string name="switch_preference_text_on">On</string>
+    <string name="switch_preference_text_off">Off</string>
+    <string name="workspace_out_of_space">Workspace Out Of Space,Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" Add Fail</string>
+    <string name="setwallpaper_success">Set wallpaper success！</string>
+    <string name="system_theme">System Theme</string>
+    <string name="music_page_title">Music page</string>
+    <string name="text_name_max_length">The title string length is maximum</string>
+    <string name="widget_cannot_add_duplicate"><xliff:g id="name" example="Browser">%s</xliff:g>has already exit，can not allow to add twice.</string>
+    <string name="ApplistItemMoveToWorkspace">moveToWorkspace</string> <!-- xiatian add -->
+    <!-- //for mainmenu sort by user -->
+    <string name="new_particle_title">Magic Finger</string>
+    <string name="desktop_effect">Effect</string>
+    <string name="update_check">Update </string>
+    <string name="user_feedback">User Feedback</string>
+    <string name="show_desktop">Share</string>
+    <string name="desktop_download_info">I am using a desktop named Turbo. It is really funny. Do you want to have a try? The download path is: http://www.coolauncher.cn/download/apk/cocolauncher.apk</string>
+    <string name="space_not_enough">No more page can be created</string>
+    <string name="virtue_personal_center">Themes</string>
+    <string name="virtue_wallpaper">Wallpaper</string>
+    <string name="virtue_scene">Scence</string>
+    <string name="virtue_effects">Effects</string>
+    <string name="virtue_turbo_lock_screen">Lock Screen</string>
+    <string name="slipe_to_roll_dockbar">Slipe to roll Dockbar</string>
+    <string name="roll_dockbar">Roll Dockbar</string>
+    <string name="clean_up">Clean</string>
+    <string name="insert_sd_card">Please plug in SD card</string>
+    <string name="widget_clean_up">Clean</string>
+    <string name="widget_search_bar">Search</string>
+
+    <!-- destop edit start -->
+    <string name="shortcut_title">Turbo Shorcut</string>
+    <string name="title_tab_add">Add</string>
+    <string name="title_tab_theme">Theme</string>
+    <string name="title_tab_wallpaper">Wallpaper</string>
+    <string name="title_tab_effect">Effect</string>
+    <string name="title_destop_edit_add_widget">Widget</string>
+    <string name="title_destop_edit_add_shortcut">Shortcut</string>
+    <string name="title_destop_edit_add_app">App</string>
+    <string name="title_destop_edit_add_folder">Folder</string>
+    <string name="title_destop_edit_shortcut_theme">Theme</string>
+    <string name="title_destop_edit_shortcut_wallpaper">Wallpaper</string>
+    <string name="title_destop_edit_shortcut_preview">Preview</string>
+    <string name="title_destop_edit_shortcut_effect">Effect</string>
+    <string name="title_destop_edit_shortcut_app">App</string>
+    <string name="title_destop_edit_shortcut_appraise">Appraise</string>
+    <string name="title_destop_edit_shortcut_sys_shortcut">System shortcut</string>
+    <!-- destop edit end -->
+
+<!-- desktopsettings start -->
+<string name="dsfirst_morentxt">Set as default launcher</string>
+<string name="dsfirst_screentxt">Screen</string>
+<string name="dsfirst_drawertxt">App drawer</string>
+<string name="dsfirst_iconstxt">Icons</string>
+<string name="dsfirst_systemtxt">System</string>
+<string name="dsfirst_updatetxt">Update</string>
+<string name="dsfirst_appbartxt">AppBar</string>
+<string name="dsfirst_abouttxt">About</string>
+
+<string name="dsscreen_wallpapertxt">Wallpaper</string>
+<string name="dsscreen_wallpaperscrolltxt">Wallpaper Scrolling</string>
+<string name="dsscreen_traneffecttxt">Screen transition effect</string>
+<string name="dsscreen_infinitescrolltxt">Infinite scrolling</string>
+<string name="dsscreen_newspagetxt">Newspage</string>
+
+<string name="dsabout_title">Turbo Launcher EX</string>
+<string name="dsabout_version">v1.7</string>
+<string name="dsabout_check_updates">Check for updates</string>
+<string name="dsabout_facebook">Facebook</string>
+<string name="dsabout_facebook_site">www.facebook.com/turbolauncher</string>
+<string name="dsabout_email">Email</string>
+<string name="dsabout_email_address">turbolauncher@cooee.cn</string>
+<string name="dsabout_weibo">Official weibo</string>
+<string name="dsabout_weibo_site">weibo.com/turboui</string>
+<string name="dsabout_qqgroup">Official QQ group</string>
+<string name="dsabout_qqgroup_address">223934516</string>
+<string name="dsabout_feedback">Feedback</string>
+<string name="dsabout_privacy_notice">Privacy Notice</string>
+
+<string name="dsabout_qq_installation_alert">QQ is not installed on this phone.</string>
+
+
+<string name="ds_privacy_notice_title">Privacy Notice</string>
+<string name="ds_privacy_notice_text">The system permissions we used does not disclose your private information, in order togive you more confidence to use Turbo Launcher ,we write this statement to describes how we use these permissions.</string>
+<string name="ds_pn_1">Device &amp; app history</string>
+<string name="ds_pn_1_detail">Record the used history of those applications, so we can show you the recently used applications more quickly.</string>
+<string name="ds_pn_2">Mobile data settings</string>
+<string name="ds_pn_2_detail">We used this function in network switches on dock bar.</string>
+<string name="ds_pn_3">Contacts / Calendar</string>
+<string name="ds_pn_3_detail">This permission will be used when you add contact shortcut on the launcher.
+      Calendar widget will read the schedule, and displayed in the calendar widget and facilitate access you to view.</string>
+<string name="ds_pn_4">Location</string>
+<string name="ds_pn_4_detail">We used this function in GPS positioning on dock bar.</string>
+<string name="ds_pn_5">Phone</string>
+<string name="ds_pn_5_detail">With this function, you can click to dial contactsdirectly when you add contacts shortcuts on desktop.</string>
+<string name="ds_pn_6">Photos / Media / Files </string>
+<string name="ds_pn_6_detail">This permission is used to start the installation on SD card to store applications and wallpaper. They are the basic functions of Android launcher.</string>
+<string name="ds_pn_7">Wi-Fi connection information</string>
+<string name="ds_pn_7_detail">We used this function in .Wi-Fi switch on dock bar.</string>
+<string name="ds_pn_8">Device ID &amp; call information</string>
+<string name="ds_pn_8_detail">In order to provide user a better product, we use this permission to collect some data for analyze the user experience, such as: What kind of wallpaper you like best.</string>
+<string name="ds_pn_9">Other</string>
+<string name="ds_pn_9_1">access check-in properties</string>
+<string name="ds_pn_9_2">adjust your wallpaper size</string>
+<string name="ds_pn_9_3">choose widgets</string>
+<string name="ds_pn_9_4">access SurfaceFlinger</string>
+<string name="ds_pn_9_5">view network connections</string>
+<string name="ds_pn_9_6">connect and disconnect from Wi-Fi</string>
+<string name="ds_pn_9_7">mock location sources for testing</string>
+<string name="ds_pn_9_8">prevent device from sleeping</string>
+<string name="ds_pn_9_9">pair with Bluetooth devices</string>
+<string name="ds_pn_9_10">access Bluetooth settings</string>
+<string name="ds_pn_9_11">expand/collapse status bar</string>
+<string name="ds_pn_9_12">set wallpaper</string>
+<string name="ds_pn_9_13">control vibration</string>
+<string name="ds_pn_9_14">modify system settings</string>
+<string name="ds_pn_9_15">full network access</string>
+<string name="ds_pn_9_16">close other apps</string>
+<string name="ds_pn_9_17">change network connectivity</string>
+<string name="ds_pn_9_18">send sticky broadcast</string>
+<string name="ds_pn_end"> We use these permissions offers many useful functions , such as shortcuts bar, clock, calendar and a key clean-up and so on.</string>
+
+<string name="dsnewspage_opennewspagetxt">Open newspage</string>
+<string name="dsnewspage_tips">Select the following way to call out newspage</string>
+<string name="dsnewspage_handle_tips">Click on hand to call out the newspage</string>
+<string name="dsnewspage_back_tips">Click on back to call out the newspage</string>
+<string name="dsnewspage_shake_tips">Shake to call out the newspage</string>
+<string name="dsnewspage_showwithhandle">Handle</string>
+<string name="dsnewspage_showwithback">Back</string>
+<string name="dsnewspage_showwithshake">Shake</string>
+
+<string name="system_vibrator">Vibrator</string>
+<string name="system_restoredefault">Reset to default</string>
+<string name="system_reset_msg">Want to reset the Turbo Launcher to default?</string>
+
+<string name="drawer_backgroundtxt">Background</string>
+<string name="drawer_transitioneffecttxt">Horizontal transition effect</string>
+<string name="drawer_gridsizetxt">Grid Size</string>
+<string name="drawer_infinitescrolltxt">Infinite Scrolling</string>
+<string name="drawer_folderfirsttxt">Folder first</string>
+
+<string name="app_pop_newfolder">New Folder</string>
+<string name="app_pop_appSort">Sort App</string>
+<string name="app_pop_appEffect">App  Effect</string>
+<string name="app_pop_appHide">App Hiding</string>
+<string name="app_pop_editModel">Edit Model</string>
+<string name="app_pop_appSetting">App Setting</string>
+
+<string name="drawer_default">Default</string>
+<string name="drawer_opacity">Opacity:</string>
+<string name="drawer_custom">Custom</string>
+<string name="drawer_adjust">Auto-adjust</string>
+<string name="drawer_hangshuthin">Thin 4*4</string>
+<string name="drawer_hangshumodest">Modest 4*5</string>
+<string name="drawer_hangshudense">Dense 5*5</string>
+<string name="drawer_customsdjuse">Custom adjust</string>
+<string name="drawer_hangshu">Line number:</string>
+<string name="drawer_lieshu">Column number:</string>
+<string name="update_dialogmsg">Your version is already the latest version.</string>
+<string name="update_toastmsg">The latest version is already</string>
+<string name="update_wifi">No wifi connection, wifi only in the next update</string>
+<string name="update_timeout">Network connection failure,please check</string>
+
+<string name="icon_big">big</string>
+<string name="icon_middle">middle</string>
+<string name="icon_small">small</string>
+<string name="addition">Extensions</string>
+<string name="dstoastmsg">Detecting,Please wait...</string>
+
+
+<string name="already_exist">Already exists, can not add another one</string>
+
+<string name="dockbar_musicoff">Sound Off</string>
+<string name="dockbar_previous_song">Previous</string>
+<string name="dockbar_next_song">Next</string>
+<string name="dockbar_pause_music">Pause</string>
+<string name="dockbar_song_list">Song List</string>
+ <string name="mainmenu">Main Menu</string>
+ 
+<!-- added by diaosixu start -->
+<string name="rate_string_1">Please give Turbo praise</string>
+<string name="rate_string_2">Hello, if you like Turbo,\nplease give us a five-star praise.</string>
+<string name="rate_string_3">Go to praise</string>
+<string name="rate_string_4">Don\'t want to go</string>
+<!-- added by diaosixu end --> 
+ 
+<!-- desktopsettings end -->
+
+
+<string name="calendar_download_dialog_title_text">3D Calendar</string>
+<string name="calendar_download_dialog_message_text">Manage your life efficiently</string>
+<string name="newspage_download_dialog_title_text">Turbo News</string>
+<string name="newspage_download_dialog_message_text">Know the global information in time</string>
+<string name="newspage_download_dialog_btn_text">Download Now</string>
+<string name="delete_main_menu_tip">You can re-find the Main Menu from the Shortcut Group</string>
+<string name="delete_main_menu_tip1">Tips</string>
+<string name="delete_main_menu_tip_text">You can not delete</string>
+<string name="delete_main_menu_tip_button_text">OK</string>
+
+<!-- medal start -->
+<string name="medal_title_gem_spirit">Gem Spirit</string>
+<string name="medal_title_diamond_spirit">Diamond Spirit</string>
+<string name="medal_title_diadema_spirit">Diadema Spirit</string>
+<string name="medal_title_desktop_eredar">Desktop Eredar</string>
+<string name="medal_title_weather_trendsetter">Weather Trendsetter</string>
+<string name="medal_title_news_eredar">News Eredar</string>
+<string name="medal_title_social_contact_eredar">Social Contact Eredar</string>
+<string name="medal_title_omnipotent">Omnipotent</string>
+<string name="medal_title_medal_eredar">Medal Eredar</string>
+<string name="medal_gem_spirit_left_content">启动桌面已获得</string>
+<string name="medal_gem_spirit_right_content">颗宝石精灵</string>
+<string name="medal_diamond_spirit_left_content">换壁纸即可获得</string>
+<string name="medal_diamond_spirit_right_content">颗钻石</string>
+<string name="medal_diadema_spirit_left_content">换主题即可获取</string>
+<string name="medal_diadema_spirit_right_content">枚王冠</string>
+<string name="medal_desktop_eredar_left_content">设置为默认桌面即获</string>
+<string name="medal_desktop_eredar_right_content">桌面达人勋章</string>
+<string name="medal_weather_trendsetter_left_content">下载天气即可获取</string>
+<string name="medal_weather_trendsetter_right_content">枚勋章</string>
+<string name="medal_news_eredar_left_content">使用新闻页获取</string>
+<string name="medal_news_eredar_right_content">枚勋章</string>
+<string name="medal_social_contact_eredar_left_content">关注微博/微信即可获取</string>
+<string name="medal_social_contact_eredar_right_content">枚勋章</string>
+<string name="medal_omnipotent_left_content">秀主题即获取</string>
+<string name="medal_omnipotent_right_content">枚勋章</string>
+<string name="medal_medal_eredar_left_content">集满</string>
+<string name="medal_medal_eredar_right_content">颗勋章即获取勋章达人</string>
+<!-- medal end-->
+
+<!--显示安装闪电清理大师是的文字  -->
+<string name="install_cleanmaster_title">Clean Master</string>
+<string name="install_cleanmaster_message">Speed ​​up your phone</string>
+<string name="ds_default_step1">Make sure that "Turbo Launcher" is selected</string>
+<string name="ds_default_step2">Click "Always"</string>
+<string name="ds_default_start">Start</string>
+<string name="ds_default_set">Set</string>
+<string name="ds_default_dismiss">Dismiss</string>
+<string name="ds_default_clear_title">Clear default setting</string>
+<string name="ds_default_tips">are you sure to clear default setting </string>
+<string name="ds_default_ask_title">Set Launcher </string>
+<string name="ds_default_ask_content">Do you want to set Turbo launcher as default launcher </string>
+<string name="ds_default_ask_yes">Yes </string>
+<string name="ds_default_ask_no">No </string>
+
+
+<string name="action_slide_down">Silde down</string>
+<string name="action_slide_up">Slide open recently used</string>
+<string name="action_slide_up_dockbar">Slide up</string>
+<string name="action_slide_around">Sliding around</string>
+<string name="action_locate_city">Click to locate the city</string>
+<string name="action_see_weather">Click to see the weather trend</string>
+<string name="action_gotit">Got it</string>
+<string name="action_start">Start</string>
+<string name="action_show_qsearch">Slide left to show Quick Search</string>
+<string name="action_next">Next</string>
+<!-- Quick search start -->
+<string name="guess_title_text">Guess what you want</string>
+<string name="qs_no_search_result_tip_text">No results found</string>
+<string name="qs_loading_tip_text">Data loading...</string>
+<!-- Quick search end -->
+
+<!-- Live Wallpaper Service -->
+<string name="lwp_description">Turbo Laucher</string>
+<string name="lwp_settings">Settings</string>
+<string name="launch_launcher_title">Turbo Launcher</string>
+<string name="launch_launcher_summary">Start Turbo Launcher</string>
+</resources>

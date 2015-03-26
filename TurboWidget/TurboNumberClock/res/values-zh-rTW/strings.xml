@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">數字時鐘</string>
+	<string name="max_instance_alert">已經存在，不可以重復添加
+	</string>
+	 <string name="networt_notconneted">網絡沒有連接</string>
+	<string name="networt_notconnetederror">連接超時</string>
+	<string name="city_notfound">沒有發現此城市</string>
+	<string name="requestfailed">請求時報</string>
+	<string name="network_exception">網絡連接異常</string>
+</resources>

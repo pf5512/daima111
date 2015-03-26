@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coco.theme.themebox.PullToRefreshView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_pull_refresh_view"
+   android:background="#d0dbdf"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+	<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/gridViewLock"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:columnWidth="@dimen/gridItemWidth"
+	    android:numColumns="3"
+	    android:paddingBottom="12dip"
+	    android:paddingTop="12dip"
+	    android:stretchMode="columnWidth"
+	    android:verticalSpacing="12dip"
+	    android:fadingEdgeLength="0dip"
+	    android:listSelector="@drawable/grid_selector">
+	</GridView>
+	
+</com.coco.theme.themebox.PullToRefreshView>

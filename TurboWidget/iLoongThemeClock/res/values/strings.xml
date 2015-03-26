@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Theme Clock</string>
+	<string name="max_instance_alert">the clock already exists,can not add another one</string>
+	    
+	<string name="week0">"Sun"</string>
+    <string name="week1">"Mon"</string>
+    <string name="week2">"Tue"</string>
+    <string name="week3">"Wed"</string>
+    <string name="week4">"Thu"</string>
+    <string name="week5">"Fri"</string>
+    <string name="week6">"Sat"</string>
+    <string name="monthA">"jan"</string>
+    <string name="monthB">"Feb"</string>
+    <string name="monthC">"Mar"</string>
+    <string name="monthD">"Apr"</string>
+    <string name="monthE">"May"</string>
+    <string name="monthF">"june"</string>
+    <string name="monthG">"july"</string>
+    <string name="monthH">"Aug"</string>
+    <string name="monthI">"Sept"</string>
+    <string name="monthJ">"Oct"</string>
+    <string name="monthK">"Nov"</string>
+    <string name="monthL">"Dec"</string>    
+	<string name="date_widget_format_string">%1$s %2$sth  %3$s </string>
+	  
+	<integer name="spanX">4</integer>
+    <integer name="spanY">2</integer>
+    <integer name="max_instance">1</integer>
+    
+    <integer name="width">320</integer>
+    <integer name="height">200</integer> 
+</resources>

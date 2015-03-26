@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- 搜索框 -->
+    <dimen name="easou_search_sdk_search_box_txt_size">18sp</dimen>
+    <dimen name="easou_search_sdk_search_box_icon_marginleft">4dip</dimen>
+    <dimen name="easou_search_sdk_search_box_tv_paddingleft">6dp</dimen>
+    <dimen name="easou_search_sdk_search_box_iv_paddingright">13dp</dimen>
+    <dimen name="easou_search_sdk_search_box_search_iv_width">45dp</dimen>
+    
+    <dimen name="easou_search_sdk_search_box_stroke_height">1dp</dimen>
+
+    <dimen name="easou_search_sdk_radius">2dip</dimen>
+    <dimen name="easou_search_sdk_radius_top_left">0dip</dimen>
+    <dimen name="easou_search_sdk_radius_left_bottom">2dip</dimen>
+    <dimen name="easou_search_sdk_radius_right_bottom">0dip</dimen>
+
+    <!-- sug -->
+    <dimen name="easou_search_sdk_sug_item_txt_size">18sp</dimen>
+    <dimen name="easou_search_sdk_sug_item_height">34dp</dimen>
+
+</resources>

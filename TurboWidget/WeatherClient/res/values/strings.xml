@@ -1,0 +1,131 @@
+<resources>
+
+    <string name="app_name">JewelWeatherClock</string>
+    <string name="menu_settings">Settings</string>
+    <string name="no_data">Can\'t display weather</string>
+    <string name="please_update">Please refresh</string>
+    <string name="updating">Updating</string>
+    <string name="update_failed">Update failed</string>
+    <string name="search_city">Search city</string>
+    <string name="none">None</string>
+    <string name="na">N/A</string>
+    <string name="edit_list">Edit</string>
+    <string name="setting">Setting</string>
+    <string name="exit">Exit</string>
+    <string name="liststr1">Update when opened</string>
+    <string name="liststr2">Refresh content when I open weather</string>
+    <string name="liststr3">Scheduled sync</string>
+    <string name="liststr4">Automatically download data</string>
+    <string name="liststr12">Sound effects</string>
+    <string name="liststr13">Select to enable sound effects</string>
+    <string name="liststr14">Select to download data automatically</string>
+    <string name="warning">Data fee warning</string>
+    <string name="cancel">cancel</string>
+    <string name="yestoday">yestoday</string>
+    <string name="thedaybeforeyestoday">the day before yestoday</string>
+    <string name="afewdaysago">a few days ago</string>
+    <string name="systemtimeerror">system time error</string>
+    <string name="centigrade">℃</string>
+    <string name="update_fault">Network Data Error</string>
+    <string name="city_fault">Please Input Correct City</string>
+    <string name="please_add_city">Please add city</string>
+    <string name="popcitys">Popular Cities</string>
+    <string name="citymanage">City Manage</string>
+    <string name="weather_refresh">Refresh</string>
+    <string name="weather_add">Add</string>
+    <string name="weather_menu">menu</string>
+
+    <string name="lasttime">(Last Updated)</string>
+    <string-array name="weekday">
+        <item>Sun.</item>
+        <item>Mon.</item>
+        <item>Tue.</item>
+        <item>Wed.</item>
+        <item>Thu.</item>
+        <item>Fri.</item>
+        <item>Sat.</item>
+    </string-array>
+   
+    <string name="week0">"Sun."</string>
+    <string name="week1">"Mon."</string>
+    <string name="week2">"Tue."</string>
+    <string name="week3">"Wed."</string>
+    <string name="week4">"Thu."</string>
+    <string name="week5">"Fri."</string>
+    <string name="week6">"Sat."</string>
+    <string name="monthA">"Jan."</string>
+    <string name="monthB">"Feb."</string>
+    <string name="monthC">"Mar."</string>
+    <string name="monthD">"Apr."</string>
+    <string name="monthE">"May."</string>
+    <string name="monthF">"June."</string>
+    <string name="monthG">"July."</string>
+    <string name="monthH">"Aug."</string>
+    <string name="monthI">"Sept."</string>
+    <string name="monthJ">"Oct."</string>
+    <string name="monthK">"Nov."</string>
+    <string name="monthL">"Dec."</string>
+
+    <array name="dialoginfo">
+        <item name="updatecity">Updata City</item>
+        <item name="deletecity">Delete City</item>
+    </array>
+
+    <string name="updataingstr">Updating...</string>
+    <string name="liststr5">Update schedule</string>
+    <string name="liststr6">Every 6 hour</string>
+
+    <string-array name="updatetimesetting">
+        <item>Every 6 hour</item>
+        <item>Every 12 hour</item>
+        <item>Once a day</item>
+    </string-array>
+
+    <string name="setSkinTitle">SELECT SKIN</string>
+    <string name="nodate">No Data</string>
+    <string name="addcity">Add</string>
+    <string name="select_postalCode">Select City</string>
+    <string name="selectpostakcode">Click Slect City</string>
+    <string name="cityexitmessage">Exiting</string>
+    <string name="waitinfo">Waiting for sync</string>
+    <string name="temp_format_string">%1$s℃-%2$s℃</string>
+    <string name="date_widget_format_string">%1$s %2$sth  %3$s </string>
+<!-- <string name="defaultcity">北京</string> -->
+    <string name="liststr7">Skin Selection</string>
+
+    <string-array name="updateSkinsetting">
+        <item>Classic</item>
+        <item>Cartoon</item>
+    </string-array>
+
+<!-- add 3d widget -->
+	 <string name="load_obj_type">original</string>
+	 <string name="save_compressed_obj">true</string>
+    <string name="month01">"Jan."</string>
+    <string name="month02">"Feb."</string>
+    <string name="month03">"Mar."</string>
+    <string name="month04">"Apr."</string>
+    <string name="month05">"May."</string>
+    <string name="month06">"June."</string>
+    <string name="month07">"July."</string>
+    <string name="month08">"Aug."</string>
+    <string name="month09">"Sept."</string>
+    <string name="month10">"Oct."</string>
+    <string name="month11">"Nov."</string>
+    <string name="month12">"Dec."</string>
+    
+	 <string name="date_format_string">%1$s%2$sth %3$s</string>
+	 
+	 <string name="setcity">Click Slect City</string>
+	  <string name="nodata">No Data</string>
+	 
+	  <string name="max_instance_alert">the 3D Weather already exists,can not add another one
+	</string>
+	
+	<integer name="spanX">4</integer>
+    <integer name="spanY">2</integer>
+    <integer name="max_instance">1</integer>
+    
+    <integer name="width">320</integer>
+    <integer name="height">200</integer>
+</resources>

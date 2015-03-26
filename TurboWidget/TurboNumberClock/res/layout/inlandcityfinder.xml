@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="339dp"
+    android:background="@drawable/wc_bgkuang" >
+
+    <RelativeLayout
+        android:id="@+id/inlandtop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/wc_BigBackgroundColor" >
+
+        <ImageView
+            android:id="@+id/inlandwc_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/wc_city" />
+
+        <EditText
+            android:id="@+id/inlandedtCity"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/inlandsearchcity"
+            android:layout_toRightOf="@+id/inlandwc_city"
+            android:background="@null"
+            android:singleLine="true"
+            android:textColor="@color/wc_TitleFontColor"
+            android:textCursorDrawable="@drawable/wc_shuxian"
+            android:textSize="35px" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/inlandsearchcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/wc_search" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inlandtop"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="2dp" >
+
+        <ListView
+            android:id="@+id/inlandlistview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="min" format="integer" />
+
+    <!-- key -->
+    <string name="setting_key_desktop_setting">desktop_setting</string>
+    <string name="setting_key_backup_and_restore">backup_and_restore</string>
+    <string name="setting_key_desktopeffects">desktopeffects</string>
+    <string name="setting_key_appeffects">appeffects</string>
+    <string name="setting_key_exit">exit</string>
+    <string name="setting_key_backup">backup</string>
+    <string name="setting_key_restore">restore</string>
+    <string name="setting_key_restart">restart</string>
+    <string name="setting_key_share">share</string>
+    <string name="setting_key_update">update</string>
+    <string name="setting_key_feedback">feedback</string>
+    <string name="setting_key_vibrator">vibrator</string>
+    <string name="setting_key_installhelp">installhelp</string>
+    <string name="setting_key_resetwizard">resetwizard</string>
+    <string name="setting_key_circled">circled</string>
+    <string name="setting_key_shake_wallpaper">shake_wallpaper</string>
+    <string name="setting_key_basic_setting">setting_key_basic_setting</string>
+    <string name="setting_key_effect_setting">setting_key_effect_setting</string>
+    <string name="setting_report">"http://www.coolauncher.cn/iloong/service/report"</string>
+    <string name="setting_onlinetheme">"http://www.coolauncher.cn/zt.htm"</string>
+    <string name="setting_apkdownload">"http://www.coolauncher.cn/iloong/service/download"</string>
+    <string name="server_app_url">"http://w1.mumucloud.com/openAPI/DownurlHandler.ashx"</string>
+    <string name="other_app_url">"http://w1.mumucloud.com/openAPI/packageDownurlHandler.ashx"</string>
+    <string name="download_response_url">"http://w1.mumucloud.com/openAPI/UI_apkDownHandler.ashx"</string>
+    <string name="icon_size_key">icon_size_key</string>
+    <string name="setting_key_sensor">sensor</string> <!-- xiatian add --> <!-- Widget3D adaptation "Naked eye 3D" -->
+    <string name="setting_update_desktop">update_launcher</string>
+    <string name="setting_key_particle">particle</string> <!-- added by zhenNan.ye particle -->
+    <string name="dock_row_key">dock_row_key</string>
+    <string name="setting_key_other">other</string>
+    <string name="setting_key_rate">rate</string>
+    <string name="setting_key_upgrade">upgrade</string>
+    <!-- default -->
+    <integer name="default_zeor">0</integer>
+    <integer name="setting_showFadeOutTime">800</integer>
+    <integer name="setting_showFadeInTime">800</integer>
+
+    <!-- workspace -->
+    <integer name="Workspace_cellCountX">4</integer>
+    <integer name="Workspace_cellCountY">4</integer>
+
+    <!-- dimension -->
+    <dimen name="menu_padding_top">3dp</dimen>
+    <dimen name="menu_padding_bottom">3dp</dimen>
+    
+    <string name="mainmenu_bg_key">mainmenu_bg_key</string> <!-- xiatian add --> <!-- Mainmenu Bg -->
+
+</resources>

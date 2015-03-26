@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">3D日历</string>
+	<string name="max_instance_alert">日历已經存在，不可以重復添加
+	</string>
+	<string name="download_toast">請鏈接網絡後重試.</string>
+	
+	<string name="turbo_launcher_name">Turbo 桌面</string>
+	<string name="turbo_launcher_desc">極速酷炫的3D桌面主題</string>
+	<string name="turbo_apply_content">在官方桌面中應用此主題</string>
+	<string name="turbo_button_download">下載 Turbo 桌面</string>
+</resources>

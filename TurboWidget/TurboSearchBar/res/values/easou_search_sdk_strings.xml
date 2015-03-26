@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="easou_search_sdk_img">img</string>
+    <string name="easou_search_sdk_input_keyword">请输入关键词</string>
+</resources>

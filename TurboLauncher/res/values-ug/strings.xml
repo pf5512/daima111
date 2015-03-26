@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserId" />
+    <string name="process" />
+    <string name="app_name">ئۇسلۇب</string>
+    <string name="uid_name">ئاندرويىد يادرولۇق پىروگىرامما</string>
+    <string name="folder_name">ھۆججەت قىسقۇچ</string>
+    <string name="contact_name">ئالاقىداش</string>
+    <string name="chooser_wallpaper">تەگلىك تاللاڭ</string>
+    <string name="chooser_3dwidget">ئەپلىك قورال تاللاڭ</string>
+    <string name="wallpaper_instructions">تەگلىك تەڭشىكى</string>
+    <string name="pick_wallpaper">ئۈستەل تەگلىكى</string>
+    <string name="activity_not_found">يانفۇنىڭىزغا بۇ پروگىرامما قاچىلانمىغان</string>
+    <string name="configure_wallpaper">Configure...</string>
+    <string name="iloong_shellstr">يۈكلىنىۋاتىدۇ...</string>
+    <string name="circle_autoSort">ئاپتۇماتىك رەتلەش</string>
+    <string name="circle_iconOverlap">سېن بەلگە قاتلىمى</string>
+    <string name="circle_iconTrans">سېن بەلگە يۆتكەش</string>
+    <string name="circle_multiSelect">سېن بەلگىنى كۆپ تاللاش</string>
+    <string name="circle_createFolder">ھۆججەت قىسقۇچ قۇرۇش</string>
+    <string name="circle_deleteAll">ھەممىنى ئۆچۈرۈش</string>
+    <string name="circle_noticeToast">ئەسلىدىكى تاللاشقا قايتىش</string>
+    <string name="circle_dstOverToast">چەكلىمىدىن ئېشىپ كەتتىڭىز</string>
+    <string name="circle_deleteALLToast">ھەممىنى ئۆچۈرەمسىز?</string>
+    <string name="circle_selectMutiToOperToast">كۆپ سېن بەلگىنى تاللاپ مەشغۇلات قىلىڭ</string>
+    <string name="circle_notSupportToast">بۇ نەشىردىن بۇ ئىقتىدار يوق</string>
+    <string name="circle_ok_action">مۇقىملاش</string>
+    <string name="circle_cancel_action">بىكار قىلىش</string>
+    <string name="circle_unselectAppIconToast">پروگىرامما سېن بەلگىسى تاللانمىدى</string>
+    <string name="rename_folder_label">ھۆججەت نامى</string>
+    <string name="rename_folder_title">ھۆججەت قىسقۇچقا قايتا نام بېرىش</string>
+    <string name="rename_action">مۇقىملاش</string>
+    <string name="cancel_action">بىكار قىلىش</string>
+    <string name="folder_hint_text">قايتا نام بېرىش</string>
+    <string name="folder3D_del_toast">ھۆججەت قىسقۇچنى ئۆچۈرەمسىز?</string>
+    <string name="widget_download_content"> چۈشۈرۈپ قاچىلاڭ</string>
+    <string name="apk_cannot_found_content">كارتىڭىزدا قاچىلاش بولىقى يوق</string>
+    <string name="folder3D_full">ھۆججەت قىسقۇچ توشۇق</string>
+    <string name="folder3D_name">ھۆججەت قىسقۇچ</string>
+    <string name="menu_item_add_item" />
+    <string name="group_applications">پروگىراممىلار</string>
+    <string name="group_shortcuts">تېزلەتمە شەكلى</string>
+    <string name="group_folder">يېڭى ھۆججەت قىسقۇچ</string>
+    <string name="group_live_folders">ھۆججەت قىسقۇچ</string>
+    <string name="group_widgets">ئەپلىك دىتال</string>
+    <string name="group_wallpapers">تام قەغىزى</string>
+    <string name="group_3D_widgets">3Dئەپلىك دىتال</string>
+    <string name="group_contacts">ئالاقىداش</string>
+    <string name="add_folder">ھۆججەت قىسقۇچ</string>
+    <string name="add_clock">سائەت</string>
+    <string name="add_photo_frame">رەسىم جازىسى</string>
+    <string name="out_of_space">بۇ بەتتە بوشلۇق قالمىدى</string>
+    <string name="shortcut_installed">Shortcut \"%s\" created.</string>
+    <string name="shortcut_uninstalled">Shortcut \"%s\" was removed.</string>
+    <string name="shortcut_duplicate">Shortcut \"%s\" already exists.</string>
+    <string name="title_select_shortcut">Select shortcut</string>
+    <string name="title_select_application">پروگىرامما تاللاش</string>
+    <string name="title_select_live_folder">ھۆججەت قىسقۇچ تاللاش</string>
+    <string name="all_apps_button_label">بارلىق پروگىراممىلار</string>
+    <string name="all_apps_home_button_label">باش بەت</string>
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <string name="permdesc_install_shortcut">Allows an application to add shortcuts without user intervention.</string>
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove shortcuts without user intervention.</string>
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <string name="permdesc_read_settings">Allows an application to read the settings and shortcuts in Home.</string>
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <string name="permdesc_write_settings">Allows an application to change the settings and shortcuts in Home.</string>
+    <string name="gadget_error_text">Problem loading widget</string>
+    <string name="default_browser_url">http://www.google.com/m?client=ms-{CID}&amp;source=android-home-hotseat</string>
+    <string name="errorHint">A error has happened %1$s.Please click <i><b>REPORT</b></i> to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+    <string name="can_not_add_widget">بۇ بەتكە قوشقىلى بۇلمايدۇ</string>
+    <string name="can_not_delete_page">ئەڭ كىچىك چەككە يەتتى ئۆچۈرۈشكە ئامالسىز</string>
+    <string name="delete_page">بەت قۇرۇق قالسا بولمايدۇ،راستىنلا ئۆچۈرەمسىز؟</string>
+    <string name="appbar_tab_app">پروگىرامما</string>
+    <string name="appbar_tab_widget">ئەپلىك كونترول دىتال</string>
+    <string name="appbar_tab_uninstall">پروگىراممىنى ئۆچۈرۈش</string>
+    <string name="appbar_tab_hide">پروگىراممىنى يوشۇرۇش</string>
+    <string name="sort_app_init">پروگىرامما تەڭشىكى بويىچە</string>
+    <string name="sort_app_name">پروگىرمما نامى بۇيىچە رەتلەش</string>
+    <string name="sort_app_install_time">قاچىلغان ۋاقتى بۇيىچە رەتلەش</string>
+    <string name="sort_app_use_frequency">ئىشلىتىش نىسپىتى بۇيىچە رەتلەش</string>
+    <string name="sort_dialog_title">سىن بەلگە رەتلەش ئۇسۇلى بۇيىچە</string>
+    <string name="widget_empty_dialog">يانفۇنىڭىزغا  ئەپلىك قورال سەپلەنمىگەن ئاۋۋال قاچىلاپ ئاندىن قوشۇڭ</string>
+    <string name="widget_empty_title">3Dئەپلىك قورال</string>
+    <string name="hotseat_mainmenu">پروگىرامما</string>
+    <string name="hotseat_workspace">باش بەت</string>
+    <string name="main_menu">تىزىملىك</string>
+    <string name="trash_icon_title">ئۆچۈرۈش</string>
+    <string name="fold_name_too_long">ھۆججەت قىسقۇچ نامى چەكتىن ئېشىپ كەتتى</string>
+    <string name="app_downloading">چۈشۈۋاتىدۇ...</string>
+    <string name="effect_standard">نورمال</string>
+    <string name="effect_random">خالىغانچە</string>
+    <string name="effect_cascade">قاتلام</string>
+    <string name="effect_outbox">تاشقى قاپ</string>
+    <string name="effect_inbox">ئىچكى قاپ</string>
+    <string name="effect_flip">ئۆرۈش</string>
+    <string name="effect_bigfan">قۇشۇش بەلگىسى بۇيىچە ئۆرۈش</string>
+    <string name="effect_fan">شامال</string>
+    <string name="effect_wave">دولقۇن</string>
+    <string name="effect_ball">توپ</string>
+    <string name="effect_wheel">غۇۋا</string>
+    <string name="effect_cylinder">سېلىندىر</string>
+    <string name="effect_default">سۈكۈتتىكى</string>
+    <string name="uninstall_app">پروگىراممىنى ئۆچۈرۈش</string>
+    <string name="download_apps">چۈشۈرگەن پروگىرامما</string>
+    <string name="hide_icon">سىن بەلگىنى ئۆچۈرۈش</string>
+    <string name="sort_icon">سىن بەلگىنى رەتلەش</string>
+    <string name="no_space_add_icon">بۇ بەتتە بوشلۇق قالمىدى،قۇشۇشقا ئامالسىز</string>
+    <string name="exceed_num_add_icon">تاللىغان سانىڭىز چەكتىن ئېشىپ كەتتى قۇشۇش مەغلۇپ</string>
+    <string name="contact_error_pls_check">بۇ ئالاقىداشنى قۇشۇش مەغلۇپ ، ساقلىغان ئالاقىداشنىڭ ئۇچۇرلىرى تۇلۇق بولدىمۇ تەكشۈرۈڭ</string>
+    <string name="download_to_install">قاچىلانمىدى ،چۈشۈرۈڭ</string>
+    <string name="add_failure">قۇشۇش تاماملانمىدى</string>
+    <string name="deny_add_on_mainmenu">تىزىملىك كىرش ئېغىزى ،قۇشۇشقا بولمايدۇ</string>
+    <string name="dlmng_check_network">چۈشۈرۈشكە ئامالسىز تور يۇلىنى تەكشۈرۈڭ!</string>
+    <string name="dlmng_comeout_soon">پات ئارىدا ،تۆت كۆزىڭىز بىلەن كۈرۈڭ!</string>
+    <string name="dlmng_pls_insert_SD">ئاۋۋال SD كارتا قاچىلاپ ئاندىن سىناڭ</string>
+    <string name="backup_pls_insert_SD">ئاۋۋال SDكارتا قاچىلاپ ئاندىن زاپاسلاڭ</string>
+    <string name="dlmng_network_error">تور خاتالىقى سەل تۇرۇپ قايتا سىناڭ</string>
+    <string name="dlmng_download_error">چۈشۈرۈشكە ئامالسىز سەل تۇرۇپ قايتا سىناڭ</string>
+    <string name="dlmng_download_configwrong">پارامىتىرلارنى سەپلەش خاتالىقى</string>
+    <string name="backup_title_back">تەگلىك زاپاسلاش</string>
+    <string name="backup_back_to_SD">تەگلىك تەڭشىكىنى زاپاسلاش SD اكارتىدا!</string>
+    <string name="backup_title_restore">تەگلىكنى ئەسلىگە كەلتۈرۈش</string>
+    <string name="backup_restore">زاپاسلىغان تەگلىك تەڭشىكى ئەسلىگە كەلدى سىستېما قايتا قوزغىلىدۇ!</string>
+    <string name="backup_latest">يېقىنقى زاپاسلاش ۋاقتى</string>
+    <string name="backup_no_back">سىستېما زاپاسلانمىغان</string>
+    <string name="backup_success">زاپاسلاش تامام</string>
+    <string name="backup_fail">زاپاسلاش مەغلۇپ</string>
+    <string name="restore_fail">ئەسلىگە كەلتۈرۈش مەغلۇپ</string>
+    <string name="guide_title">چۈشەندۈرۈش قوللانمىسى</string>
+    <string name="guide_proceed">سىستېما قايتا قوزغىلىدۇ</string>
+    <string name="lock_editor_title">تەھرىرلەشنى قۇلۇپلاش</string>
+    <string name="lock_editor">دىققەت</string>
+    <string name="warning_msg">ئاگاھلاندۇرۇش ئۇچۇرى</string>
+    <string name="version_msg_title">نەشىر ئۇچۇرى</string>
+    <string name="version_msg">سىزنىڭ نەشىرى ئۇچۇرىڭىز ئەڭ يېڭى!</string>
+    <string name="update_msg_title">سىزنىڭ يۇمتال نەشىرىڭىز:</string>
+    <string name="update_needed_version">چۈشۈرۈشكە ئېھتىياجلىق يۇمتال نەشىرى:</string>
+    <string name="update_need_now">"ھازىر يېڭىلامسىز!
+"</string>
+    <string name="system_update">سىستېما يېڭىلاش</string>
+    <string name="max_added_thirty">ئەڭ كۆپ بولغاندا ئۇتتۇزنى قۇشقىلى بۇلىدۇ</string>
+    <string name="max_added_twenty">ئەڭ كۆپ بولغاندا يىگىرمىنى قوشقىلى بۇلىدۇ</string>
+    <string name="catnot_add_to_sidebar">قۇشۇشقا بولمايدۇ</string>
+    <string name="common_add">قۇشۇش</string>
+    <string name="common_commit">جەزىملەش</string>
+    <string name="reach_max">ئەڭ يۇقىرى چەككە يەتتى</string>
+    <string name="can_drag_to_desktop">بېسىپ تۇرسىڭىز تەگلىككە سۆرىيەلەيسز</string>
+    <string name="setting_backup_restore">زاپاسلاش ۋە ئەسلىگە كەلتۈرۈش تەڭشىكى</string>
+    <string name="setting_add_system_widget">باش ئىكرانغا قۇشۇش</string>
+    <string name="setting_share_friend">ھەي دوستلار ئىشلىتىۋاتقىنىڭلار ئەسىر ئەقلىي يانفۇنلىرى تېخمۇ كۆپ ئۇچۇرلارغا قىززىقماقچى بولسىڭىزwww.esir.com.cnمەرھەممەت</string>
+    <string name="setting_feedback">پىكر تەكلىپىڭىزنى يوللاڭ بىز ۋاقىتىدا بىر تەرەپ قىلىمىز</string>
+    <string name="defaulttheme">ئالدىن بەلگىلەنگەن ئۇسلۇب</string>
+    <string name="localtheme">مىنىڭ ئۇسلۇبىم</string>
+    <string name="zorespace" />
+    <string name="applytheme">ئۇسلۇپ ئىشلىتىش</string>
+    <string name="removetheme">ئۇسلۇب ئۆچۈرۈش</string>
+    <string name="onlinetheme">توردىكى ئۇسلۇب</string>
+    <string name="themetype">تۈرى:</string>
+    <string name="themeversion">نەشرى:</string>
+    <string name="themeauthor">ياسىغۇچى:</string>
+    <string name="themedata">ۋاقتى:</string>
+    <string name="themefeedback">ئىنكاس:</string>
+    
+    <string name="basic_setting">ئاساسلىق تەڭشەش</string>
+    <string name="vibrator">تىترەش</string>
+    <string name="vibrate_on_long_click">بېسپ تۇرغاندا تىترەش</string>
+    <string name="circle_select">تاللاش</string>
+    <string name="circle_select_switch">تاللاش ئېچىقى</string>
+    <string name="effect_setting">ئالاھىدە ئۈنۈم</string>
+    <string name="shake_wallpaper">سىلكىپ تام قەغىزىنى ئالماشتۇرۇش</string>
+    <string name="shake_wallpaper_description">سىلكىپ تام قەغىزىنى ئالماشتۇرۇش</string>
+    <string name="shake_wallpaper_not_supported">يانفۇنىڭىز سىلكىپ تام قەغىزىنى ئالماشتۇرۇش ئىقتىدارنى قوللىمايدۇ</string>
+    <string name="desktop_slide">تەگلىك ئالمىشىش</string>
+    <string name="app_list_slide">تىزىملىك ئالمىشىش</string>
+    <string name="backup_and_restore">زاپاسلاش ۋە ئەسلىگە كەلتۈرۈش</string>
+    <string name="backup_desktop">ئۈستەك يۈزىنى زاپاسلاش</string>
+    <string name="restore_desktop">ئۈستەل يۈزىنى ئەسلىگە كەلتۈرۈش</string>
+    <string name="more">تېخىمۇ كۆپ</string>
+    <string name="restart_launcher">ئۇسلۇپنى قايتا قوزغىتىش</string>
+    <string name="version_update">نەشىرنى يېڭىلاش</string>
+    <string name="share_friends">دوسلار ئورتاقلىشىش</string>
+    <string name="feedback">ئىنكاس</string>
+    <string name="guide_help">ئىشلىتىش قوللانمىسى</string>
+    <string name="guide_install">قاچىلاش تەپسىلاتى</string>
+    <string name="reset_guide">قايتا تەڭشەش</string>
+    <string name="exit_launcher">ئۇسلۇپتىن چېكىنىش</string>
+    <string name="backup_restore_setting">زاپاسلاش ئەسلىگە كەلتۈرۈش تەڭشىكى</string>
+    <string name="update_feedback">يېڭىلاش</string>
+    <string name="mostly_used">ئادەتتە </string>
+    <string name="desktop_setting">تەگلىك تەڭشىكى</string>
+    <string name="system_widget">ئەپلىك دىتال</string>
+    <string name="wallpaper">تام قەغىزى</string>
+    <string name="theme">ئۇسلۇب</string>
+    <string name="software_manager">پروگىرامما باشقۇرۇش</string>
+    <string name="screen_editor">ئىكران تەڭشىكى</string>
+    <string name="system_setting">سىستېما تەڭشىكى</string>
+    <string name="clock">3Dسائەت</string>
+    <string name="memo">3Dمېمو</string>
+    <string name="robot">3Dماشىنا ئادەم</string>
+    <string name="theme_select">ئۇسلۇب تاللاش</string>
+    <string name="theme_change">بىر كونۇپكا بىلەن ئالماشتۇرۇش</string>
+    <string name="no_theme_to_be_replaced">ئالماشتۇردىغان ئۇسلۇپ يوق</string>
+    <string name="Internet">ئېنترنېت</string>
+    <string name="Explorer">تور كۆرگۈ</string>
+    
+     <string-array name="app_effects_list_preference">
+        <item>نورمال</item>
+        <item>خالىغانچە</item>
+        <item>قاتلام</item>
+        <item>ئىچكى قاپ</item>
+        <item>تاشقى قاپ</item>
+        <item>ئۆرۈش</item>
+        <item>قۇشۇش بەلگىسى بۇيىچە ئۆرۈش</item>
+        <item>شامال</item>
+        <item>دولقۇن</item>
+        <item>غۇۋا</item>
+        <item>توپ</item>
+        <item>سېلىندىر</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>نورمال</item>
+        <item>خالىغانچە</item>
+        <item>ئىچكى قاپ</item>
+        <item>تاشقى قاپ</item>
+        <item>ئۆرۈش</item>
+        <item>قۇشۇش بەلگىسى بۇيىچە ئۆرۈش</item>
+        <item>شامال</item>
+        <item>دولقۇن</item>
+        <item>سۈكۈتتىكى</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>

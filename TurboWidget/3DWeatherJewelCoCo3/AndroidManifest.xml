@@ -1,0 +1,114 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cooee.widget3D.JewelWeather"
+    android:installLocation="internalOnly"
+    android:versionCode="9366"
+    android:versionName="1.3.15704" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     
+    <application
+        android:icon="@drawable/preview"
+        android:label="@string/app_name"
+        android:name="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:persistent="true" 
+		android:allowClearUserData="false">
+         
+         <activity
+            android:name="com.cooee.widget3D.JewelWeather.iLoongWeather"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.iLoong.widget" />
+            </intent-filter>
+        </activity> 
+        
+         <activity
+            android:name="com.cooee.app.cooeejewelweather3D.view.MainActivity"
+            android:screenOrientation="portrait"
+             android:finishOnTaskLaunch="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cooee.app.cooeejewelweather3D.view.WeatherAddPost"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.ADD_POST" />
+            </intent-filter>
+        </activity>        
+         <activity
+            android:name="com.cooee.app.cooeejewelweather3D.view.WeatherEditPost"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.EDIT_POST" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooee.app.cooeejewelweather3D.view.WeatherSetting"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <receiver android:name="com.cooee.app.cooeejewelweather3D.view.WeatherReceiver" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.data.action.UPDATE_RESULT" />
+            </intent-filter>
+        </receiver>
+        
+         <!-- dataprovider -->
+        <service android:name="com.cooee.app.cooeejewelweather3D.dataprovider.weatherDataService" >
+            <intent-filter>
+                <action android:name="com.cooee.app.cooeejewelweather3D.dataprovider.weatherDataService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.cooee.app.cooeejewelweather3D.dataprovider.weatherdataprovider"
+            android:authorities="com.cooee.app.cooeejewelweather3D.dataprovider" >
+        </provider>
+
+       <meta-data
+            android:name="preInitialize"
+            android:value="false" >
+        </meta-data>
+        <meta-data
+            android:name="max_instance_count"
+            android:value="1" />
+        <meta-data
+            android:name="max_instance_alert"
+            android:value="3D天气已存在，不可以重复拖出" />
+        <meta-data
+            android:name="spanX"
+            android:value="4" />
+        <meta-data
+            android:name="spanY"
+            android:value="3" />
+        <meta-data
+            android:name="widget_width"
+            android:value="306.666667" />
+        <meta-data
+            android:name="widget_height"
+            android:value="216.00" />
+        <meta-data
+            android:name="useTheme"
+            android:value="true" /> 
+    </application>
+
+</manifest>

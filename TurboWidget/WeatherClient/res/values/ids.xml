@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="celllayout01">false</item>
+    <item type="id" name="celllayout02">false</item>
+    <item type="id" name="celllayout03">false</item>
+    <item type="id" name="celllayout04">false</item>
+    
+    
+     <item type="id" name="cell_textview_week01">false</item>
+     <item type="id" name="cell_textview_week02">false</item>
+     <item type="id" name="cell_textview_week03">false</item>
+     <item type="id" name="cell_textview_week04">false</item>
+
+     <item type="id" name="textview_tmp01">false</item>
+     <item type="id" name="textview_tmp02">false</item>
+     <item type="id" name="textview_tmp03">false</item>
+     <item type="id" name="textview_tmp04">false</item>
+     
+     
+     <item type="id" name="textview_condition1">false</item>
+     <item type="id" name="textview_condition2">false</item>
+     <item type="id" name="textview_condition3">false</item>
+     <item type="id" name="textview_condition4">false</item>
+     
+     
+     <item type="id" name="imageview_week01">false</item>
+     <item type="id" name="imageview_week02">false</item>
+     <item type="id" name="imageview_week03">false</item>
+     <item type="id" name="imageview_week04">false</item>
+     
+</resources>

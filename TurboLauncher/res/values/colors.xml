@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<resources>
+    <color name="window_background">#FF191919</color>
+    <color name="grid_dark_background">#EB191919</color>     
+    <color name="bubble_dark_background">#B2191919</color>
+    <color name="delete_color_filter">#A5FF0000</color>
+
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="snag_callout_color">#F444</color>
+
+    <color name="gesture_color">#ff0563c1</color>
+    <color name="uncertain_gesture_color">#ff848484</color>
+    
+    <color name="delete_target_hover_tint">#DAFF0000</color>
+    <color name="info_target_hover_tint">#DA0099CC</color>
+
+    <!-- The alpha/color to apply to the drag image -->
+    <color name="drag_view_multiply_color">#CCFFFFFF</color>
+<!--     enable_themebox -->
+ 	<color name="transparent">#0000</color>
+<!-- 	enable_themebox -->
+
+    <color name="workspace_all_apps_and_delete_zone_text_color">#CCFFFFFF</color>
+    <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#A0000000</color>    
+    <color name="translucent_background">#60000000</color>
+    
+    
+    
+    <color name="BigBackgroundColor">#ffffff</color>
+    <color name="TitleColor">#ffffff</color>
+    <color name="FontColor">#8b8a8a</color>
+    <color name="FontColorPre">#ffffff</color>
+    <color name="ClickColor">#07c2af</color>
+    <color name="PromptColor">#8b9198</color>
+    
+     <color name="dsclearClickColor">#008678</color>
+    <color name="dsclearNormalColor">#3dccbd</color>
+    
+    <color name="white">#ffffff</color>
+     
+</resources>
+
+
+

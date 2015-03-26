@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature ver="1.0" >
+
+    <!--
+         一般的配置说明
+		themebox_theme_visible:主题盒子主题页面是否显示，true为显示，false不显示
+		enable_wallpapervisible:主题盒子壁纸页面，false则不显示页面，反之.
+		enable_fontvisible：主题盒子字体页面，false则不显示页面，反之.
+		show_theme_lock:设为false，主题盒子中不显示锁屏的tab页面，设为true，则显示.
+		themebox_widget_visible:主题盒子中是否显示widget的tab，true显示，false不显示.
+    	enable_hotlockVisible:设为false，主题盒子中不显示热门锁屏，只显示本地锁屏，设为true显示热门和本地锁屏.
+		themebox_hot_widget_visible:主题盒子中是否显示热门widget的tab，true显示，false不显示.
+    	themebox_hot_font_visible:主题盒子中是否显示热门font的tab，true显示，false不显示
+    	themebox_hot_wallpaper_visible:主题盒子中是否显示热门wallpaper的tab，true显示，false不显示.
+		enable_hotthemeVisible：设为false，主题盒子中不显示热门主题，只显示本地主题，设为true显示热门和本地主题.
+		themebox_livewallpaper_show:主题盒子中，壁纸中是否显示动态壁纸，true显示，false不显示.
+		enable_lockset_visible:为true时，主题盒子中lock界面setting的button显示，为false时，不显示.
+		enable_theme_introducation:为true，主题预览界面上拉，则显示主题介绍，false则不显示.
+    	show_theme_share :为true，则显示主题预览界面的分享button，false则不显示,默认false.
+		lockvisible_regradless_whether_install_lockbox:为true时，不管是否安装锁屏盒子，个人中心都显示锁屏tab，为false时，未安装，就不显示，默认为true，show_theme_lock为true时有效.		
+		enable_themebox_showmore:主题盒子中预览界面是否显示关于主题的详细信息，true为显示，false不显示.
+    	enable_themebox_showstar:主题盒子中锁屏界面title部分的星星（可以下拉的精品推荐）是否显示，true显示，false不显示，默认false.
+      	enable_themebox_loading:第一次进入主题盒子，是否显示loading界面，false不显示，默认false.
+    	enable_background_configuration_tab：后台配置tab功能，true为打开，false不开启
+     	tab_sequence:个人中心tab顺序，填nothing为默认顺序，enable_background_configuration_tab为false时有效，以数字代表tab类型，以逗号隔开
+    				主题为 "1"，墙纸 "2"，锁屏"3"，小组件 "4";场景 "5"，字体 "6";特效"0",若要配置主题、锁屏、场景、字体、特效、壁纸的顺序，则配置"1,3,5,6,0,2"
+		tab_first_default_highlight:第一次进入个人中心，默认高亮项，nothing表示默认高亮主题，主题为 "1"，墙纸 "2"，锁屏"3"，小组件 "4";场景 "5"，字体 "6";特效"0"，若高亮锁屏，则为"3"			    	
+	 	static_wallpapers_to_icon:本地壁纸页面，本地壁纸不是第一级显示，只显示一个icon，点击这个icon，进入预览。
+	 	lockwallpaper_icon_show:鼎勤需求，壁纸页面，是否显示锁屏的icon，true为显示
+	 	lockwallpaper_custom_path：客户可配置的锁屏壁纸路径，如"/system/lockwallpapers"，再在该路径下放置客户的壁纸图片，
+	 				填"nothing"为无配置,则默认放在个人中心的assets/launcher/lockwallpapers下,这个在lockwallpaper_icon_show为true时有效
+	 	enable_topwise_style:鼎智定制开关，true为鼎智定制，false为公版，默认false
+	 	enable_tophard_style:鼎勤鼎智开关，true为鼎勤鼎智，false为公版，默认false，此开关打开时，static_wallpapers_to_icon和lockwallpaper_icon_show均为true
+	 	wallpapers_from_other_apk:配置包名，表示墙纸的内容取该包名的apk内的资源，并显示出来，默认为nothing
+    -->
+
+    <general_config
+        enable_background_configuration_tab="false"
+        enable_fontvisible="false"
+        enable_hotlockVisible="true"
+        enable_hotthemeVisible="true"
+        enable_lockset_visible="true"
+        enable_theme_introducation="true"
+        enable_themebox_loading="false"
+        enable_themebox_showmore="true"
+        enable_themebox_showstar="false"
+        enable_tophard_style="false"
+        enable_topwise_style="false"
+        enable_wallpapervisible="true"
+        lockvisible_regradless_whether_install_lockbox="true"
+        lockwallpaper_custom_path="nothing"
+        lockwallpaper_icon_show="false"
+        show_theme_lock="true"
+        show_theme_share="false"
+        static_wallpapers_to_icon="false"
+        tab_first_default_highlight="nothing"
+        tab_sequence="nothing"
+        themebox_hot_font_visible="true"
+        themebox_hot_wallpaper_visible="true"
+        themebox_hot_widget_visible="true"
+        themebox_livewallpaper_show="true"
+        themebox_theme_visible="true"
+        themebox_widget_visible="false"
+        wallpapers_from_other_apk="nothing" />
+
+</feature>

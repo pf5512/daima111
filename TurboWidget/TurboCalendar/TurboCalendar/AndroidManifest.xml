@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iLoong.Calendar"
+    android:installLocation="auto"
+    android:versionCode="30340"
+    android:versionName="1.0.15" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <!-- teapotXu add start -->
+    <!-- in !CoCoLauncher show theme icon in Launcher.if CoCoLauncher uninstalled goto download CoCoCoCoLauncher,else goto themes activity. -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="com.htc.task" />
+    <!-- teapotXu add end -->
+
+    <application
+        android:icon="@drawable/widget_ico"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.iLoong.Calender.iLoongCalender"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.iLoong.widget" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iLoong.Calender.activity.TurboActivity"
+            android:enabled="true"
+            android:icon="@drawable/widget_ico"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.coco.themes.ThemeInitActivity"
+            android:enabled="true"
+            android:icon="@drawable/widget_ico"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--  <activity
+            android:name="com.iLoong.Calender.activity.AdActivity"
+            android:enabled="true"
+            android:icon="@drawable/widget_ico"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iLoong.Calender.activity.AdPreviewFullActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iLoong.Calender.activity.PreviewFullActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>-->
+        <!-- Used for Google Play Store Campaign Measurement -->
+        <service android:name="com.google.analytics.tracking.android.CampaignTrackingService" />
+
+        <receiver
+            android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        <activity android:name="com.iLoong.Clock.View.ClockSettings" >
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        
+        
+        <service
+            android:icon="@drawable/widget_ico"
+            android:label="@string/app_name"
+            android:name="com.iLoong.Clock.Timer.ClockTimerService" >
+            <intent-filter >
+                <action android:name="com.iLoong.widget.Clock.start" />
+                <action android:name="com.iLoong.Clock.stop" />
+            </intent-filter>
+        </service>
+        -->
+
+        <meta-data
+            android:name="preInitialize"
+            android:value="false" >
+        </meta-data>
+        <meta-data
+            android:name="max_instance_count"
+            android:value="1" />
+        <meta-data
+            android:name="spanX"
+            android:value="4" />
+        <meta-data
+            android:name="spanY"
+            android:value="4" />
+        <meta-data
+            android:name="widget_width"
+            android:value="236.00" />
+        <meta-data
+            android:name="widget_height"
+            android:value="236.00" />
+        <meta-data
+            android:name="useTheme"
+            android:value="true" />
+    </application>
+
+</manifest>

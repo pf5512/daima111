@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="umeng_fb_contact_info_hint">请填写您常用的邮箱地址，以便我们联系您！</string>
+    <string name="umeng_fb_contact_update_at">更新</string>
+    <string name="umeng_fb_back">返回</string>
+    <string name="umeng_fb_title">用户反馈</string>
+    <string name="umeng_fb_contact_title">联系方式</string>
+    <string name="umeng_fb_contact_info">联系方式</string>
+    <string name="umeng_fb_reply_content_hint">我想说</string>
+    <string name="umeng_fb_send">发送</string>
+    <string name="umeng_fb_reply_content_default">您上次的反馈对我们很有意义。</string>
+    <string name="umeng_fb_reply_date_default">2013-3-12 13:24:00</string>
+
+    <color name="umeng_fb_color_btn_pressed">#1495F7</color>
+    <color name="umeng_fb_color_btn_normal">#333333</color>
+
+    <string name="umeng_fb_powered_by">Powered by</string>
+    <string name="umeng_fb_notification_ticker_text">收到新的回复</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">New reply: %s</string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">You received %d new replies from the app developer.</string>
+
+</resources>

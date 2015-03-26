@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+tools:ignore="TypographyDashes">
+  <!--Replace placeholder ID with your tracking ID-->
+  <string name="ga_trackingId">UA-48567460-1</string>
+
+  <!--Enable automatic activity tracking-->
+  <bool name="ga_autoActivityTracking">true</bool>
+  
+  <!-- The screen names that will appear in reports -->
+  <string name="com.cooeecomet.launcher.key.PrimeActivity">PrimeHome</string>
+
+  <!--Enable automatic exception tracking-->
+  <bool name="ga_reportUncaughtExceptions">true</bool>
+</resources>

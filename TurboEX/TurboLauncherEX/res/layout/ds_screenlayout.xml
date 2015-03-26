@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ds_logofontcolor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_sceeenback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_height"
+        android:background="@color/ds_logobackgroudcolor" >
+
+        <ImageView
+            android:id="@+id/ds_iv_aboutback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_marginleft"
+            android:src="@drawable/ds_backicon_selector" />
+
+        <ImageView
+            android:id="@+id/ds_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_other_marginleft"
+            android:src="@drawable/ds_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_other_marginleftleft"
+            android:layout_toRightOf="@+id/ds_iv_logo"
+            android:gravity="center"
+            android:text="@string/ds_basicsettings_screen"
+            android:textColor="@color/ds_logofontcolor"
+            android:textSize="@dimen/ds_title_fontsize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+            android:gravity="center"
+            android:text="@string/ds_screen_wallpaper"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_2_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_wallpaperscroll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+            android:gravity="center"
+            android:text="@string/ds_screen_wallpaperscroll"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_2_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginright"
+            android:src="@drawable/ds_button_off" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_wallpapereffect"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+            android:gravity="center"
+            android:text="@string/ds_screen_wallpapereffect"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_2_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_wallpaperinfinite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+            android:gravity="center"
+            android:text="@string/ds_screen_wallpapereinfinite"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_2_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginright"
+            android:src="@drawable/ds_button_off" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+</LinearLayout>

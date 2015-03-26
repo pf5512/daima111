@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9fef7"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/underline">
+        <ImageButton
+            android:id="@+id/btnReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:contentDescription="@string/btnReturn" >
+        </ImageButton>
+        <TextView
+            android:id="@+id/textAppName"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:layout_marginBottom="2dip"
+            android:text="@string/textPreview"
+            android:textColor="#4c770e"
+            android:textSize="16dip"
+            android:layout_marginTop="2dip"
+            android:layout_gravity="center_vertical" />
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_share"
+            android:contentDescription="@string/btnShare" />
+        <ImageButton
+            android:id="@+id/btnSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_setting"
+            android:contentDescription="@string/btnSetting" />
+    </LinearLayout>
+    <com.coco.theme.themebox.PreViewGallery
+        android:id="@+id/galleryPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:spacing="10dp" 
+        android:paddingTop="24dip"
+        android:paddingBottom="10dip"
+        android:unselectedAlpha="1.0" />
+    <com.coco.theme.themebox.PageControl
+		android:id="@+id/page_control"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+ 	    android:paddingTop="0dip" 
+        android:paddingBottom="10dip" 
+	    android:orientation="horizontal"
+	    android:gravity="center_horizontal"
+	    android:background="#f9fef7"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RelativeLayout
+            android:id="@+id/layoutDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="fill_vertical"
+            android:background="@drawable/manager_bar_1">
+
+            <LinearLayout
+                android:id="@+id/linearDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8.7dip"
+                android:paddingRight="8.7dip"
+                android:paddingTop="24dip" >
+	            <ProgressBar
+	                android:id="@+id/progressBarDown"
+	                style="@android:style/Widget.ProgressBar.Horizontal"
+	                android:layout_width="match_parent"
+	                android:layout_height="10.7dip"
+	                android:max="100"
+	                android:minHeight="10.7dip"
+	                android:progress="0"
+	                android:progressDrawable="@drawable/progressbar_big_downloading" />
+	            <TextView
+	                android:id="@+id/textDownPercent"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+	                android:text="@string/textDownloading"
+	                android:textColor="#5fddfc"
+	                android:textSize="12dip" />	            
+			</LinearLayout>
+			<LinearLayout
+			    android:id="@+id/linearPause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8.7dip"
+                android:paddingRight="8.7dip"
+                android:paddingTop="24dip" >	            
+	            <ProgressBar
+	                android:id="@+id/progressBarPause"
+	                style="@android:style/Widget.ProgressBar.Horizontal"
+	                android:layout_width="match_parent"
+	                android:layout_height="10.7dip"
+	                android:max="100"
+	                android:minHeight="10.7dip"
+	                android:progress="0"
+	                android:progressDrawable="@drawable/progressbar_big_pause" />	
+	            <TextView
+	                android:id="@+id/textPausePercent"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+	                android:text="@string/textDownloading"
+	                android:textColor="#fd2323"
+	                android:textSize="12dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layoutNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/manager_bar_1"
+            >
+     
+            <Button
+                android:id="@+id/btnDownload"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnDownload"
+                android:textColor="#f6fafd"
+                android:textSize="18dip"
+                android:shadowColor="#86a025"
+                android:shadowDy="1"
+                android:shadowRadius="3" 
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btnInstall"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnInstall"
+                android:textColor="#f6fafd"
+                android:textSize="18dip"
+                android:shadowColor="#86a025"
+                android:shadowDy="1"
+                android:shadowRadius="3" 
+                android:gravity="center" />
+            <Button
+                android:id="@+id/btnApply"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnApply"
+                android:textColor="#f6fafd"
+                android:textSize="18dip" 
+                android:shadowColor="#86a025"
+                android:shadowDy="1"
+                android:shadowRadius="3" 
+                android:gravity="center"/>
+           <Button
+                android:id="@+id/btnUpdateApply"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_marginLeft="40dip"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnApply"
+                android:textColor="#f6fafd"
+                android:textSize="18dip" 
+                android:shadowColor="#86a025"
+                android:shadowDy="1"
+                android:shadowRadius="3" 
+                android:gravity="center"
+                android:visibility="invisible"/>
+           <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_marginLeft="160dip"
+               android:layout_centerVertical="true"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnUpdate"
+                android:textColor="#f6fafd"
+                android:textSize="18dip" 
+                android:shadowColor="#86a025"
+                android:shadowDy="1"
+                android:shadowRadius="3" 
+                android:gravity="center"
+                android:visibility="invisible"/>                
+            <Button
+                android:id="@+id/btnMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+       			android:layout_centerHorizontal="true" 
+                android:layout_alignParentRight="true"
+                android:background="@drawable/button_more" />
+        </RelativeLayout>        
+    </FrameLayout>
+</LinearLayout>
+</FrameLayout>

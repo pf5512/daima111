@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" >
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/gridItemWidth"
+            android:layout_height="@dimen/gridItemHeight"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/imgview_selector"
+            android:contentDescription="@string/thumbImage"
+            android:padding="6dip"
+            android:scaleType="fitXY" />
+            
+        
+        <ImageView
+            android:id="@+id/imageUsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/thumbnail"
+            android:layout_alignRight="@id/thumbnail"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/used"
+            android:contentDescription="@string/thumbImage" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/indication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#5a6063"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="14dip" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">多宝搜索</string>
+    
+    <string name="edit_text_hint">输入关键字</string>
+    <string name="nothing_input_tips">请输入关键字</string>
+    <string name="menu_clear_history">清空历史</string>
+    <string name="menu_exit">退出</string>
+    <string name="searchbar_no_voice_search_alert">没有找到语音搜索工具。</string>
+</resources>

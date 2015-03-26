@@ -1,0 +1,77 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/iv_cover"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:scaleType="fitXY"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/et_mood"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:background="#f0f0ee"
+        android:cursorVisible="true"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:gravity="bottom"
+        android:hint="@string/edit_mood_hint"
+        android:imeOptions="actionDone"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#ff505050"
+        android:textColorHint="#7d7d7d"
+        android:textCursorDrawable="@null"
+        android:textSize="10sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_text_count"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:background="#f0f0ee"
+        android:gravity="right"
+        android:text="0/25"
+        android:textColor="#ff505050"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:background="@drawable/camera_edit_button"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="#535353" />
+    </LinearLayout>
+
+</AbsoluteLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="weathercode_top">70dp</dimen>
+    <dimen name="halving_top">89dp</dimen>
+    <dimen name="halving_left">10dp</dimen>
+    <dimen name="ampm_top">70dp</dimen>
+    <dimen name="ampm_left">5dp</dimen>
+    <dimen name="time_top">72dp</dimen>
+
+</resources>

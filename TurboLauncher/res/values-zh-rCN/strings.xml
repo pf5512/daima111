@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     /* * Copyright (C) 2008 The Android Open Source Project * * Licensed 
+	under the Apache License, Version 2.0 (the "License"); * you may not use 
+	this file except in compliance with the License. * You may obtain a copy 
+	of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless 
+	required by applicable law or agreed to in writing, software * distributed 
+	under the License is distributed on an "AS IS" BASIS, * WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. * See the License for 
+	the specific language governing permissions and * limitations under the License. 
+	*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Turbo 桌面</string>
+    <string name="default_theme">默认主题</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">文件夹</string>
+    <string name="contact_name">联系人</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">选择壁纸</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">使用以下内容完成操作</string>
+    <!--
+         Button label on Wallpaper Gallery screen; user selects this button 
+		to set a specific wallpaper
+    -->
+    <string name="wallpaper_instructions">设置壁纸</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">桌面壁纸</string>
+    <string name="shake_wallpaper">甩动换壁纸</string>
+    <string name="shake_wallpaper_description">左右晃动手机切换壁纸</string>
+    <string name="shake_wallpaper_not_supported">您的手机不支持甩壁纸功能</string>
+    <string name="shake_theme">甩动换主题</string>
+    <string name="shake_theme_description">左右晃动手机切换主题</string>
+    <string name="shake_theme_not_supported">您的手机不支持甩主题功能</string>
+
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">没有安装此应用</string>
+    <string name="activity_not_found_from_intent">没有应用能响应此请求</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure...</string>
+    <string name="iloong_shellstr">桌面加载中...</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="circle_autoSort">自动排列</string>
+    <string name="circle_iconOverlap">图标堆叠</string>
+    <string name="circle_iconTrans">图标平移</string>
+    <string name="circle_multiSelect">图标多选</string>
+    <string name="circle_createFolder">创建文件夹</string>
+    <string name="circle_deleteAll">全部删除</string>
+    <string name="circle_noticeToast">返回原点选择</string>
+    <string name="circle_dstOverToast">超出圈套范围限制</string>
+    <string name="circle_deleteALLToast">确定全部删除?</string>
+    <string name="circle_selectMutiToOperToast">请选择多个图标进行操作</string>
+    <string name="circle_notSupportToast">此版本暂时无法使用该功能</string>
+    <string name="circle_ok_action">确定</string>
+    <string name="circle_cancel_action">取消</string>
+    <string name="circle_unselectAppIconToast">未选中应用图标</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">重命名文件夹</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">确定</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">取消</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder3D_del_toast">是否确定删除文件夹?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">还未安装，请下载安装!</string>
+    <string name="apk_cannot_found_content">SD卡上没有此应用的安装包！</string>
+    <string name="folder3D_full">文件夹已满</string>
+    <string name="folder3D_name">文件夹</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all apps
+    -->
+    <string name="group_applications">应用程序</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all shortcuts
+    -->
+    <string name="group_shortcuts">快捷方式</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all live folders
+    -->
+    <string name="group_live_folders">文件夹</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all widgets/gadgets
+    -->
+    <string name="group_widgets">小组件</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_wallpapers">壁纸</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_3D_widgets">3D小工具</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_contacts">联系人</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">此页面空间不足</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">		快捷方式 \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" 已创建.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">		快捷方式 \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" 已移除.</string>
+    <!--
+         Message displayed when an external application attemps to create a 
+		shortcut that already exists
+    -->
+    <string name="shortcut_duplicate">		快捷方式 \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" 已存在.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">选择快捷方式</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">选择应用程序</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!--
+         All applications label for accessibilty (spoken when the button gets 
+		focus).
+    -->
+    <string name="all_apps_button_label">All applications</string>
+    <!--
+         Label for button in all applications label to go back home (to the 
+		workspace / desktop) for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+		shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+		shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+		shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+		shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. Attempts to 
+		mimic homepage_base in Browser; {CID} should be replaced by the client-id, 
+		e.g. "android-google".
+    -->
+    <string name="default_browser_url" translatable="false">		http://www.google.com/m?client=ms-{CID}&amp;source=android-home-hotseat</string>
+    <string name="errorHint">		A error has happened %1$s.Please click<i><b>"REPORT"</b></i>		to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">不能添加到此页</string>
+    <string name="can_not_delete_page">已到达屏幕最小数，无法继续删除</string>
+    <string name="delete_page">页面不为空，确定删除吗？</string>
+
+    <!-- AppBar -->
+    <string name="appbar_tab_app">应用</string>
+    <string name="appbar_tab_widget">小组件</string>
+    <string name="appbar_tab_widget_ex">小工具</string>
+    <string name="app_bar_navigator_audioalbum">音乐</string>
+    <string name="app_bar_navigator_video">视频</string>
+    <string name="app_bar_navigator_photobucket">相册</string>
+    <string name="app_bar_title_photo">图片</string>
+    <string name="app_bar_title_audio">歌曲</string>
+    <string name="appbar_tab_uninstall">卸载应用</string>
+    <string name="appbar_tab_hide">隐藏应用</string>
+    <string name="appbar_tab_edit_mode">编辑模式</string>
+    <string name="sort_app_default"> 按默认方式排序</string>
+    <string name="sort_app_init"> 按出厂设置排序</string>
+    <string name="sort_app_name"> 按程序名称排序</string>
+    <string name="sort_app_install_time"> 按安装时间排序</string>
+    <string name="sort_app_use_frequency"> 按使用频率排序</string>
+    <string name="sort_dialog_title">图标排序方式</string>
+    <string name="widget_empty_dialog">手机还没有下载安装3D小工具，请下载后再添加</string>
+    <string name="widget_other_tools">增加小部件</string>
+    <string name="widget_empty_title">3D小工具</string>
+
+    <!-- hotseat -->
+    <string name="hotseat_mainmenu">应用程序</string>
+    <string name="hotseat_workspace">主页</string>
+    <string name="main_menu">主菜单</string>
+    <string name="trash_icon_title">删除</string>
+
+    <!-- adjust -->
+    <string name="fold_name_too_long">文件夹名称超过最大长度</string>
+    <string name="app_downloading">正在下载</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>"标准"</item>
+        <item>"随机"</item>
+        <item>"层叠"</item>
+        <item>"内盒子"</item>
+        <item>"外盒子"</item>
+        <item>"翻转"</item>
+        <item>"十字翻转"</item>
+        <item>"风车"</item>
+        <item>"波浪"</item>
+        <item>"车轮"</item>
+        <item>"球体"</item>
+        <item>"圆柱"</item>
+        <item>"双子星"</item>
+        <item>"弹跳"</item>
+        <item>"溶解"</item>
+        <item>"窗户"</item>
+        <item>"龙卷风"</item>
+        <item>"擦除"</item>
+        <item>"交叉"</item>
+        <item>"陨石"</item>
+        <item>"贪吃蛇"</item>
+        <item>"水晶"</item>
+
+        <!-- teapotXu add start：adding new effect -->
+        <!--
+        default: disable these new effects
+		
+		<item>"双子星"</item>
+		<item>"百叶窗"</item>
+		<item>"弹跳"</item>
+		<item>"溶解"</item>
+		<item>"垂直"</item>
+		<item>"旋转"</item>
+		<item>"挤压"</item>
+		<item>"卷帘"</item>
+		<item>"窗户"</item>
+		<item>"龙卷风"</item>
+		<item>"擦除"</item>
+		<item>"风暴"</item>
+		<item>"凸起"</item>
+		<item>"交叉"</item>
+		<item>"风扇"</item>
+		<item>"陨石"</item>
+		<item>"弹性"</item>
+		<item>"贪吃蛇"</item>
+        -->
+        <!-- teapotXu add end -->
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <!-- teapotXu add start：adding new effect -->
+        <!--
+        default: disable these new effects
+		
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+        -->
+        <!-- teapotXu add end -->
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>"标准"</item>
+        <item>"随机"</item>
+        <item>"内盒子"</item>
+        <item>"外盒子"</item>
+        <item>"翻转"</item>
+        <item>"十字翻转"</item>
+        <item>"风车"</item>
+        <item>"波浪"</item>
+        <item>"默认"</item>
+        <item>"水晶"</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="icon_size_display">
+        <item>大号</item>
+        <item>中号</item>
+        <item>小号</item>
+    </string-array>
+    <string-array name="icon_size_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="icon_size_no_middle_display">
+        <item>大号</item>
+        <item>小号</item>
+    </string-array>
+    <string-array name="particle_list_preference">
+        <item>无</item>
+        <item>夜店</item>
+        <item>璀璨星</item>
+        <item>四叶草</item>
+        <item>枫叶</item>
+    </string-array>
+    <string-array name="icon_size_no_middle_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="effect_standard">标准</string>
+    <string name="effect_random">随机</string>
+    <string name="effect_cascade">层叠</string>
+    <string name="effect_outbox">外盒子</string>
+    <string name="effect_inbox">内盒子</string>
+    <string name="effect_flip">翻转</string>
+    <string name="effect_bigfan">十字翻转</string>
+    <string name="effect_fan">风车</string>
+    <string name="effect_wave">波浪</string>
+    <string name="effect_ball">球体</string>
+    <string name="effect_wheel">车轮</string>
+    <string name="effect_cylinder">圆柱</string>
+    <string name="effect_default">默认</string>
+    <string name="effect_crystal">水晶</string>
+
+    <!-- teapotXu add start：adding new effect -->
+    <string name="effect_binaries">双子星</string>
+    <string name="effect_blind">百叶窗</string>
+    <string name="effect_jump">弹跳</string>
+    <string name="effect_melt">溶解</string>
+    <string name="effect_upright">垂直</string>
+    <string name="effect_rotate">旋转</string>
+    <string name="effect_press">挤压</string>
+    <string name="effect_roll">卷帘</string>
+    <string name="effect_window">窗户</string>
+    <string name="effect_tornado">龙卷风</string>
+    <string name="effect_erase">擦除</string>
+    <string name="effect_wind">风暴</string>
+    <string name="effect_hump">凸起</string>
+    <string name="effect_cross">交叉</string>
+    <string name="effect_electric_fan">风扇</string>
+    <string name="effect_ceraunite">陨石</string>
+    <string name="effect_elasticity">弹性</string>
+    <string name="effect_snake">贪吃蛇</string>
+    <!-- teapotXu add end -->
+
+    <string name="uninstall_app">卸载应用</string>
+    <string name="download_apps">下载的应用程序</string>
+    <string name="hide_icon">隐藏图标</string>
+    <string name="edit_mode">编辑模式</string>
+    <string name="choose_widget">选择小组件</string>
+    <string name="choose_widget_ex">选择小工具</string>
+    <string name="sort_icon">图标排序</string>
+    <string name="effect_icon">切页特效</string>
+    <string name="no_space_add_icon">本页空间不足,无法添加</string>
+    <string name="exceed_num_add_icon">选择的数量超过最大的可存放空间，添加失败!</string>
+    <string name="contact_error_pls_check">此联系人添加失败，请检查保存的联系人信息是否完整</string>
+    <string name="download_to_install">此控件还未安装，请先点击下载</string>
+    <string name="add_failure">添加不成功</string>
+    <string name="deny_add_on_mainmenu">主菜单入口，不能添加</string>
+    <string name="dlmng_check_network">无法获取下载信息，请检查网络后再试!</string>
+    <string name="dlmng_comeout_soon">即将推出，敬请期待!</string>
+    <string name="dlmng_pls_insert_SD">请插入SD卡,再下载!</string>
+    <string name="backup_pls_insert_SD">请插入SD卡,再备份!</string>
+    <string name="dlmng_network_error">网络错误,请稍后再试!</string>
+    <string name="dlmng_download_error">无法连接,请稍后再试!</string>
+    <string name="dlmng_download_configwrong">参数配置错误</string>
+    <string name="backup_title_back">桌面备份</string>
+    <string name="backup_back_to_SD">是否确认备份桌面设置？</string>
+    <string name="backup_title_restore">桌面恢复</string>
+    <string name="welcome_guide">使用帮助 </string>
+     <string name="welcome_guide_detail">了解如何使用Turbo桌面</string>
+    <string name="backup_restore">恢复备份的桌面设置,桌面将重新启动!</string>
+    <string name="backup_latest">最近备份时间</string>
+    <string name="backup_no_back">系统没有备份</string>
+    <string name="backup_success">备份成功！</string>
+    <string name="backup_fail">备份失败！</string>
+    <string name="restore_fail">恢复失败！</string>
+    <string name="guide_title">新手指引</string>
+    <string name="guide_proceed">重新显示新手指引,程序将重启</string>
+    <string name="lock_editor_title">锁定编辑</string>
+    <string name="lock_editor">注意:开启编辑锁定后,桌面,屏幕拖动将不再响应,再次点击按钮将解锁编辑.</string>
+    <string name="warning_msg">警告信息</string>
+    <string name="version_msg_title">版本信息</string>
+    <string name="version_msg">你的软件版本是最新的!</string>
+    <string name="update_msg_title">你的软件版本:</string>
+    <string name="update_needed_version">需要下载的软件版本:</string>
+    <string name="update_need_now">现在是否需要更新!\n</string>
+    <string name="system_update">系统更新</string>
+    <string name="max_added_thirty">最多只能加30个</string>
+    <string name="max_added_twenty">最多只能加20个</string>
+    <string name="catnot_add_to_sidebar">此插件不能添加到底边栏</string>
+    <string name="common_add">添加</string>
+    <string name="common_commit">提交</string>
+    <string name="reach_max">已经达到上限</string>
+    <string name="can_drag_to_desktop">长按可以拖到桌面上哦</string>
+    <string name="setting_backup_restore">备份/恢复设置</string>
+    <string name="setting_add_system_widget">添加到桌面</string>
+    <string name="setting_share_friend">"嗨,我正在使用酷桌面,它的界面很酷,功能强大,使用Android手机游览器访问以下网址
+		http://www.coolauncher.cn"</string>
+    <string name="setting_feedback">"请提交你的反馈意见,我们会及时处理"</string>
+    <string name="defaulttheme">默认主题</string>
+    <string name="localtheme">我的主题</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">应用主题</string>
+    <string name="removetheme">删除主题</string>
+    <string name="onlinetheme">在线主题</string>
+    <string name="themetype">类型:</string>
+    <string name="themeversion">版本:</string>
+    <string name="themeauthor">开发者:</string>
+    <string name="themedata">日期:</string>
+    <string name="themefeedback">反馈:</string>
+    <string name="desktop_setting">桌面设置</string>
+    <string name="basic_setting">基本设置</string>
+    <string name="vibrator">振动</string>
+    <string name="vibrate_on_long_click">长按时振动</string>
+    <string name="circle_select">双指圈选</string>
+    <string name="circle_select_switch">在桌面上，双指在屏幕空白区域画圈，快速选定应用图标。</string>
+    <string name="effect_setting">特效设置</string>
+    <string name="desktop_slide">桌面特效</string>
+    <string name="app_list_slide">主菜单特效</string>
+    <string name="backup_and_restore">备份与恢复</string>
+    <string name="backup_desktop">备份桌面</string>
+    <string name="restore_desktop">恢复桌面</string>
+    <string name="restore_desktoptxt">恢复到最新的备份数据</string>
+    <string name="restore_desktoptxt_nolatest">当前没有备份</string>
+    <string name="more">更多</string>
+    <string name="restart_launcher">重启桌面</string>
+    <string name="version_update">版本更新</string>
+    <string name="share_friends">朋友分享</string>
+    <string name="feedback">建议反馈</string>
+    <string name="guide_help">使用帮助</string>
+    <string name="guide_install">安装介绍</string>
+    <string name="reset_guide">重置使用贴士</string>
+    <string name="exit_launcher">退出桌面</string>
+    <string name="backup_restore_setting">备份/恢复设置</string>
+    <string name="update_feedback">更新反馈</string>
+    <string name="mostly_used">常用</string>
+    <string name="system_widget">小组件</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="theme">美化中心</string>
+    <string name="software_manager">软件管理</string>
+    <string name="screen_editor">屏幕编辑</string>
+    <string name="system_setting">系统设置</string>
+    <string name="locker_setting">锁屏设置</string>
+    <string name="widget_weather_clock">天气时钟</string>
+    <string name="widget_number_clock">数字时钟</string>
+    <string name="widget_clean_up">一键清理</string>
+    <string name="widget_search_bar">搜索</string>
+    <string name="widget_music_player">Turbo音乐播放器</string>
+    <string name="clock">3D时钟</string>
+    <string name="memo">3D便笺</string>
+    <string name="robot">3D机器人</string>
+    <string name="theme_select">主题选择</string>
+    <string name="theme_change">一键换装</string>
+    <string name="no_theme_to_be_replaced">没有可替换的主题！</string>
+    <string name="Internet">互联网</string>
+    <string name="Explorer">浏览器</string>
+    <string name="beyond_mtkwidget_num">此控件已存在，无法添加多个！</string>
+    <string name="bottombar_selectall">全选</string>
+    <string name="bottombar_share">分享</string>
+    <string name="bottombar_setting">设置为</string>
+    <string name="bottombar_delete">删除</string>
+    <string name="media_share">分享</string>
+    <string name="media_setting_as">设置为</string>
+    <string name="bottombar_album">专辑</string>
+    <string name="bottombar_artist">艺人</string>
+    <string name="bottombar_folder">文件夹</string>
+    <string name="default_album_name">未知</string>
+    <string name="textSdCardNotPrepare">SD卡未准备好</string>
+    <string name="appeffects_dialog_title">切页特效</string>
+    <string name="applist_load_toast">努力加载中，请稍等！</string>
+    <string name="medialist_no_photo">在您的手机没有找到图片资源，请检查存储卡是否连接正确</string>
+    <string name="medialist_no_audio">在您的手机没有找到音乐资源，请检查存储卡是否连接正确</string>
+    <string name="medialist_no_video">在您的手机没有找到视频资源，请检查存储卡是否连接正确</string>
+    <string name="app_unknow">未知</string>
+    <string name="media_delete_ok">已删除</string>
+    <string name="icon_size_title">图标大小</string>
+
+    <!-- xiatian add start -->
+    <!-- Widget3D adaptation "Naked eye 3D" -->
+    <string name="sensor_summary">开启重力感应</string>
+    <string name="sensor_title">重力感应</string>
+    <string name="sensor_not_supported">您的手机不支持重力感应功能</string>
+    <!-- xiatian add end -->
+
+
+    <!-- added by zhenNan.ye begin -->
+    <!-- particle -->
+    <string name="particle_summary">启用桌面粒子特效</string>
+    <string name="particle_title">粒子特效</string>
+    <!-- added by zhenNan.ye end -->
+
+
+    <!-- ThemeBox -->
+
+    <string name="update_desktop">自动更新</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_checking"> 正在检查更新，请稍候</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="noneed_update">已经是最新版本</string>
+    <string name="update_err">网络连接错误，检查更新失败</string>
+    <string name="internet_unusual">网络不稳定，请稍后再试</string>
+    <string name="soft_need_update">酷桌面有新更新</string>
+    <string name="soft_check_update">有更新，点击更新</string>
+    <string name="autoUpdate">自动更新</string>
+    <string name="lockHome">锁定HOME键</string>
+    <string name="internet_err">网络连接不可用，请检查网络设置</string>
+    <string name="virtual_lock_name">CoCo锁屏</string>
+    <string name="coco_launcher_download_name">酷桌面</string>
+    <string name="start_scene">场景桌面</string> <!-- xiatian add -->
+    <!-- DefaultScene -->
+
+    <!-- xiatian add start -->
+    <!-- Mainmenu Bg -->
+    <string-array name="mainmenu_bg">
+        <item>默认</item>
+        <item>变暗</item>
+        <item>纯黑</item>
+    </string-array>
+    <string-array name="mainmenu_bg_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="mainmenu_bg_title">主菜单背景</string>
+    <!-- xiatian add end -->
+
+
+    <!-- teapotXu add start -->
+    <string name="desktop_settins_manual_control">智能控制</string>
+    <string name="desktop_screen_scroll_circle">屏幕循环滑动</string>
+    <string name="desktop_wallpaper_scroll">壁纸滚动</string>
+    <string name="switch_preference_text_on">开</string>
+    <string name="switch_preference_text_off">关</string>
+    <!-- teapotXu add end -->
+
+    <string name="theme_box_name">手机美化</string>
+
+    <!-- xiatian add start -->
+    <!-- mainmenu_background_alpha_progress -->
+    <string name="mainmenu_bg_dialog_title">背景透明度</string>
+    <string name="mainmenu_bg_alpha">背景透明度</string>
+    <!-- xiatian add end -->
+    <string name="application_manager">应用管家</string> <!-- zjp -->
+    <string name="set_wallpaper">设置壁纸</string>
+    <string name="desktop_manager">桌面管理</string>
+    <string name="multi_choice_mode_enter">已进入多选模式，点击空白处退出</string>
+    <string name="Create_folder">新建文件夹</string>
+    <string name="Remove">移除</string>
+    <string name="cannot_delete_icon">系统应用无法移除</string>
+
+    <!-- xiatian add start -->
+    <!-- //EffectPreview -->
+    <string name="EffectPreviewTips">请滑动屏幕预览特效动画</string>
+    <!-- xiatian add end -->
+    <string name="setting_key_edit_mode">编辑模式</string> <!-- zjp edit mode -->
+    <string name="edit_mode_summary">禁止编辑模式</string>
+    <string name="edit_mode_title">禁止编辑模式</string>
+    <string name="page_num_over_maximum">总页数已经最大</string>
+    <string name="current_in_miui_edit_mode">当前已经位于屏幕编辑模式</string>
+
+    <!-- xiatian add start -->
+    <!-- //Introduction -->
+    <string name="IntroductionDockbar">向上滑动翻开底边栏，显示常用应用</string>
+    <string name="IntroductionMultiSelect">双击图标进入多选模式</string>
+    <!-- xiatian add end -->
+    <string name="folder_add">添加应用（%1$d/%2$d）</string>
+    <string name="workspace_out_of_space">桌面空间不足,快捷方式 \"<xliff:g id="name" example="Browser">%s</xliff:g>\" 无法添加</string>
+    <string name="setwallpaper_success">设置壁纸成功</string>
+    <string name="system_theme">系统主题</string>
+    <string name="text_name_max_length">目前已达最大字数限制</string>
+    <string name="news_page_title">新闻专属页</string>
+    <string name="space_not_enough">桌面已经达到最大页数，不能再添加</string>
+    <string name="widget_cannot_add_duplicate"><xliff:g id="name" example="Browser">%s</xliff:g>已存在，不可以重复添加.</string>
+    <string name="ApplistItemMoveToWorkspace">拖动到桌面</string> <!-- xiatian add -->
+    <!-- //for mainmenu sort by user -->
+    <string name="new_particle_title">魔法手指</string>
+    <string name="desktop_effect">桌面特效</string>
+    <string name="update_check">检测更新</string>
+    <string name="user_feedback">建议反馈</string>
+    <string name="show_desktop">秀桌面</string>
+    <string name="desktop_download_info">我正在使用@Turbo桌面 ，确实不错，大家快来试试吧。下载地址：http://www.coolauncher.cn/download/apk/cocolauncher.apk</string>
+    <string name="virtue_personal_center">美化中心</string>
+    <string name="virtue_wallpaper">壁纸</string>
+    <string name="virtue_scene">场景</string>
+    <string name="virtue_effects">特效</string>
+    <string name="virtue_turbo_lock_screen">多宝锁屏</string>
+    <string name="slipe_to_roll_dockbar">允许滑动屏幕翻转快捷栏</string>
+    <string name="roll_dockbar">翻转快捷栏</string>
+    <string name="clean_up">一键清理</string>
+    <string name="widget_clean_up">一键清理</string>
+    <string name="widget_search_bar">搜索</string>
+    <string name="insert_sd_card">请插入存储卡</string>
+
+    <!-- destop edit start -->
+    <string name="shortcut_title">Turbo 快捷键</string>
+    <string name="title_tab_add">添加</string>
+    <string name="title_tab_theme">主题</string>
+    <string name="title_tab_wallpaper">壁纸</string>
+    <string name="title_tab_effect">特效</string>
+    <string name="title_destop_edit_add_widget">小部件</string>
+    <string name="title_destop_edit_add_shortcut">快捷方式</string>
+    <string name="title_destop_edit_add_app">应用程序</string>
+    <string name="title_destop_edit_add_folder">文件夹</string>
+    <string name="title_destop_edit_shortcut_theme">主题</string>
+    <string name="title_destop_edit_shortcut_wallpaper">壁纸</string>
+    <string name="title_destop_edit_shortcut_preview">屏幕预览</string>
+    <string name="title_destop_edit_shortcut_effect">桌面特效</string>
+    <string name="title_destop_edit_shortcut_app">应用程序</string>
+    <string name="title_destop_edit_shortcut_appraise">评价</string>
+    <string name="title_destop_edit_shortcut_sys_shortcut">系统快捷</string>
+    <!-- destop edit end -->
+
+
+<!-- desktopsettings start -->
+<string name="dsfirst_morentxt">设置为默认桌面</string>
+<string name="dsfirst_screentxt">屏幕</string>
+<string name="dsfirst_drawertxt">抽屉</string>
+<string name="dsfirst_iconstxt">图标</string>
+<string name="dsfirst_systemtxt">系统设置</string>
+<string name="dsfirst_updatetxt">检测更新</string>
+<string name="dsfirst_appbartxt">应用吧</string>
+<string name="dsfirst_abouttxt">关于</string>
+
+<string name="dsscreen_wallpapertxt">桌面壁纸</string>
+<string name="dsscreen_wallpaperscrolltxt">桌面壁纸滚动</string>
+<string name="dsscreen_traneffecttxt">桌面切页效果</string>
+<string name="dsscreen_infinitescrolltxt">屏幕循环切换</string>
+<string name="dsscreen_newspagetxt">新闻插件</string>
+
+<string name="dsabout_title">Turbo桌面</string>
+<string name="dsabout_version">v1.7</string>
+<string name="dsabout_check_updates">检查版本</string>
+<string name="dsabout_facebook">Facebook</string>
+<string name="dsabout_facebook_site">www.facebook.com/turbolauncher</string>
+<string name="dsabout_email">电子邮件</string>
+<string name="dsabout_email_address">turbolauncher@cooee.cn</string>
+<string name="dsabout_weibo">官方微博</string>
+<string name="dsabout_weibo_site">weibo.com/turboui</string>
+<string name="dsabout_qqgroup">官方QQ群</string>
+<string name="dsabout_qqgroup_address">223934516</string>
+<string name="dsabout_feedback">吐个槽</string>
+<string name="dsabout_privacy_notice">隐私声明</string>
+<string name="dsabout_qq_installation_alert">手机尚未安装QQ。</string>
+
+<string name="ds_privacy_notice_title">隐私声明</string>
+<string name="ds_privacy_notice_text">我们所使用的系统权限完全没有透漏您的隐私信息，为了让您更放心的使用Turbo桌面，本声明将描述我们如何使用这些权限。</string>
+<string name="ds_pn_1">设备和应用历史记录</string>
+<string name="ds_pn_1_detail">记录那些应用被使用，以便将最近使用的应用更快捷的展示给您。</string>
+<string name="ds_pn_2">移动数据网络设置</string>
+<string name="ds_pn_2_detail">在功能栏内的快捷网络开关使用到了此权限。</string>
+<string name="ds_pn_3">通讯录/日历</string>
+<string name="ds_pn_3_detail"> 日历部件会进行行程的读取，并显示在日历插件中，方便您查阅。
+      在桌面建立快捷联系人时会用到调用通讯录的权限。</string>
+<string name="ds_pn_4">位置信息</string>
+<string name="ds_pn_4_detail">在功能栏内的快捷位置信息开关使用到了此权限。</string>
+<string name="ds_pn_5">电话</string>
+<string name="ds_pn_5_detail">在桌面建立快捷联系人后可直接点击联系人进行拨号。</string>
+<string name="ds_pn_6">照片/媒体/文件</string>
+<string name="ds_pn_6_detail">这个权限用来启动安装在SD卡中的应用程序和存储的壁纸。他们是Android启动器的基本功能。</string>
+<string name="ds_pn_7">WLAN网络连接信息</string>
+<string name="ds_pn_7_detail">在功能栏内的快捷wlan开关使用到了此权限。</string>
+<string name="ds_pn_8">设备ID和通话信息</string>
+<string name="ds_pn_8_detail">为了提供更好的产品，我们使用这个权限做一些用户体验的数据统计，例如：什么样的壁纸是被普遍喜欢的。</string>
+<string name="ds_pn_9">其他</string>
+<string name="ds_pn_9_1">访问登记属性</string>
+<string name="ds_pn_9_2">调整您的壁纸大小</string>
+<string name="ds_pn_9_3">选择小部件</string>
+<string name="ds_pn_9_4">访问 SurfaceFlinger</string>
+<string name="ds_pn_9_5">查看网络连接</string>
+<string name="ds_pn_9_6">连接 WLAN 和断开连接</string>
+<string name="ds_pn_9_7">用于测试的模拟位置源</string>
+<string name="ds_pn_9_8">阻止设备进入休眠状态</string>
+<string name="ds_pn_9_9">与蓝牙设备配对</string>
+<string name="ds_pn_9_10">访问蓝牙设置</string>
+<string name="ds_pn_9_11">展开/收拢状态栏</string>
+<string name="ds_pn_9_12">设置壁纸</string>
+<string name="ds_pn_9_13">控制振动</string>
+<string name="ds_pn_9_14">修改系统设置</string>
+<string name="ds_pn_9_15">完全的网络访问权限</string>
+<string name="ds_pn_9_16">关闭其他应用</string>
+<string name="ds_pn_9_17">更改网络连接</string>
+<string name="ds_pn_9_18">发送持久广播消息</string>
+<string name="ds_pn_end">我们使用这些权限提供了许多有用的功能，如功能栏的快捷设置，时钟、日历部件和一键清理等。</string>
+
+
+<string name="dsnewspage_opennewspagetxt">打开新闻插件</string>
+<string name="dsnewspage_tips">选择以下方式呼出新闻页</string>
+<string name="dsnewspage_handle_tips">点击把手呼出新闻页</string>
+<string name="dsnewspage_back_tips">点击返回键呼出新闻页</string>
+<string name="dsnewspage_shake_tips">甩动手机呼出新闻页</string>
+<string name="dsnewspage_showwithhandle">把手</string>
+<string name="dsnewspage_showwithback">返回</string>
+<string name="dsnewspage_showwithshake">甩动</string>
+
+<string name="system_vibrator">震动</string>
+<string name="system_restoredefault">恢复默认设置</string>
+<string name="system_reset_msg">是否确定恢复Turbo桌面默认设置？</string>
+
+<string name="drawer_backgroundtxt">抽屉背景</string>
+<string name="drawer_transitioneffecttxt">抽屉切页效果</string>
+<string name="drawer_gridsizetxt">图标行数</string>
+<string name="drawer_infinitescrolltxt">抽屉循环切换</string>
+<string name="drawer_folderfirsttxt">文件夹优先</string>
+<string name="drawer_default">使用桌面背景</string>
+<string name="drawer_opacity">透明度:</string>
+<string name="drawer_custom">自定义背景</string>
+<string name="drawer_adjust">自动调节</string>
+<string name="drawer_hangshuthin">稀疏4*4</string>
+<string name="drawer_hangshumodest">适中4*5</string>
+<string name="drawer_hangshudense">密集5*5</string>
+<string name="drawer_customsdjuse">自定义</string>
+<string name="drawer_hangshu">行数:</string>
+<string name="drawer_lieshu">列数:</string>
+<string name="update_dialogmsg">您的版本已经是最新版本。</string>
+<string name="update_toastmsg">已经是最新版本</string>
+<string name="update_wifi">只能在WIFI下更新，请连接WIFI</string>
+<string name="update_timeout">网络连接失败，请检查网络连接</string>
+<!-- desktopsettings end -->
+
+<!-- added by diaosixu start -->
+<string name="rate_string_1">请给Turbo好评</string>
+<string name="rate_string_2">您好，如果您喜欢Turbo,请给我们五星好评~</string>
+<string name="rate_string_3">去好评</string>
+<string name="rate_string_4">不想去</string>
+<!-- added by diaosixu end --> 
+
+<string name="app_pop_newfolder">新建文件夹</string>
+<string name="app_pop_appSort">应用排序</string>
+<string name="app_pop_appEffect">抽屉特效</string>
+<string name="app_pop_appHide">隐藏应用</string>
+<string name="app_pop_editModel">编辑模式</string>
+<string name="app_pop_appSetting">抽屉设置</string>
+
+<string name="icon_big">大</string>
+<string name="icon_middle">中</string>
+<string name="icon_small">小</string>
+<string name="addition">添加</string>
+<string name="dstoastmsg">正在检测，请稍后...</string>
+<string name="already_exist">已存在，不可重复添加</string>
+ <string name="mainmenu">功能表</string>
+ <string name="calendar_download_dialog_title_text">3D 日历</string>
+<string name="calendar_download_dialog_message_text">高效管理你的生活</string>
+<string name="newspage_download_dialog_title_text">Turbo新闻插件</string>
+<string name="newspage_download_dialog_message_text">及时掌握新闻资讯</string>
+<string name="newspage_download_dialog_btn_text">立即下载</string>
+<string name="delete_main_menu_tip">可通添加过快捷方式重新找回抽屉入口</string>
+<string name="delete_main_menu_tip1">提示</string>
+<string name="delete_main_menu_tip_text">此功能无法删除</string>
+<string name="delete_main_menu_tip_button_text">知道了</string>
+
+<!--显示安装闪电清理大师是的文字  -->
+<string name="install_cleanmaster_title">清理大师</string>
+<string name="install_cleanmaster_message">一键加速您的手机</string>
+
+
+<string name="ds_default_step1">1、确保选中“Turbo桌面”</string>
+<string name="ds_default_step2">2、再点击 “始终”</string>
+<string name="ds_default_start">开始设置</string>
+<string name="ds_default_set">确认</string>
+<string name="ds_default_dismiss">取消</string>
+<string name="ds_default_clear_title">清除默认设置</string>
+<string name="ds_default_tips">确认要清除默认设置吗？</string>
+<string name="ds_default_ask_title">设置默认桌面 </string>
+<string name="ds_default_ask_content">将Turbo桌面设置成默认桌面？</string>
+<string name="ds_default_ask_yes">现在设置 </string>
+<string name="ds_default_ask_no">下次再说</string>
+
+
+<string name="action_slide_down">手指向下滑动</string>
+<string name="action_slide_up">向上滑动显示最近使用</string>
+<string name="action_slide_around">左右滑动查看更多</string>
+<string name="action_locate_city">点击定位城市</string>
+<string name="action_see_weather">点击看天气趋势</string>
+<string name="action_gotit">我知道了</string>
+<string name="action_next">下一步</string>
+<string name="action_start">开始使用</string>
+<string name="action_show_qsearch">快速查找引导</string>
+<string name="action_slide_up_dockbar">向上滑动</string>
+
+
+<!-- Quick search start -->
+<string name="guess_title_text">猜你在找</string>
+<string name="qs_no_search_result_tip_text">未找到任何应用</string>
+<string name="qs_loading_tip_text">数据加载中...</string>
+<!-- Quick search end -->
+
+<!-- Live Wallpaper Service -->
+<string name="lwp_description">Turbo桌面</string>
+<string name="lwp_settings">设置</string>
+<string name="launch_launcher_title">Turbo桌面</string>
+<string name="launch_launcher_summary">启动Turbo桌面</string>
+</resources>

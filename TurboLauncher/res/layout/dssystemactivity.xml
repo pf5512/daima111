@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BigBackgroundColor"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/system_backll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dstopbackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/dsback_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/dsfirst_systemtxt"
+            android:textColor="@color/TitleColor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+	   
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            
+            <LinearLayout
+                android:id="@+id/system_guide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                       android:visibility="gone"
+                    android:background="@drawable/dsdesktop_selector" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                     
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/welcome_guide"
+                            android:textColor="@color/dsfont_selector"
+                            android:layout_marginTop="10dp"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/system_tv_guide"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/welcome_guide_detail"
+                            android:textColor="@color/dsfont_selector"
+                            android:layout_marginTop="10dp"
+                            android:textSize="14sp" />
+                        
+                    </LinearLayout>
+                       <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/dsgo_selector" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/system_vibrator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:background="@drawable/dsdesktop_selector" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/system_vibrator"
+                            android:textColor="@color/dsfont_selector"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/system_vibrator_checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/dscheckbox_selector" 
+                        android:button="@null"/>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/system_backupdesktop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:background="@drawable/dsdesktop_selector" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/backup_desktop"
+                            android:textColor="@color/dsfont_selector"
+                            android:layout_marginTop="10dp"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/system_backuptxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/backup_no_back"
+                            android:textColor="@color/dsfont_selector"
+                            android:layout_marginTop="10dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/system_restoredesktop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:background="@drawable/dsdesktop_selector" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:id="@+id/system_restore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/restore_desktop"
+                            android:textColor="@color/dsfont_selector"
+                            android:layout_marginTop="10dp"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/system_restoretxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/restore_desktoptxt"
+                            android:textColor="@color/dsfont_selector"
+                            android:layout_marginTop="10dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/system_restoredefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:background="@drawable/dsdesktop_selector" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/system_restoredefault"
+                            android:textColor="@color/dsfont_selector"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogcity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialogcityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上海" />
+
+    <TextView
+        android:id="@+id/dialogupdatcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新城市" />
+    
+    <TextView
+        android:id="@+id/dialogdelcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除城市" />
+
+</LinearLayout>

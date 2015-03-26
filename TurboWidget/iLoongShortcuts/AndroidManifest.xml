@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
+    package="com.iLoong.Shortcuts"
+    android:versionCode="7"
+    android:versionName="1.0.1.20131014" >
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name = "android.permission.ACCESS_WIFI_STATE"/>
+	<!-- <uses-permission android:name = "android.permission.ACCESS_CHECKIN_PROPERTIES"/> -->
+	<uses-permission android:name = "android.permission.ACCESS_WAKE_LOCK"/>
+	<uses-permission android:name = "android.permission.INTERNET"/>
+	<uses-permission android:name = "android.permission.CHANGE_WIFI_STATE"/>
+	<!--  <uses-permission android:name = "android.permission.MODIFY_PHONE_STATE"/> -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+	<uses-permission android:name="android.permission.BLUETOOTH" />  
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />  
+	<!-- <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />  -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.FLASHLIGHT" />  
+	<uses-permission android:name="android.permission.CAMERA"/> 
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-feature android:name="android.hardware.camera" />
+    <application
+        android:icon="@drawable/widget_ico"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="com.iLoong.Shortcuts.iLoongShortcuts" >
+            <intent-filter >
+                <action android:name="com.cooeecomet.widget" />
+            </intent-filter>
+        </activity>
+
+        
+        <meta-data
+            android:name="preInitialize"
+            android:value="false" >
+        </meta-data>
+        <meta-data
+            android:name="max_instance_count"
+            android:value="1" />
+	      <meta-data
+            android:name="max_instance_alert"
+            android:value="快捷开关 已存在，不可以重复拖出" />
+        <meta-data
+            android:name="spanX"
+            android:value="4" />
+        <meta-data
+            android:name="spanY"
+            android:value="1" />
+        <meta-data
+            android:name="widget_width"
+            android:value="320.00" />
+        <meta-data
+            android:name="widget_height"
+            android:value="110.00" />
+        <meta-data
+            android:name="useTheme"
+            android:value="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--   <dimen name="clock_width">290dp</dimen>
+    <dimen name="clock_height">168dp</dimen>
+    <dimen name="button_size">32dp</dimen>
+    <dimen name="previous_x">105dp</dimen>
+    <dimen name="previous_y">0dp</dimen>
+    <dimen name="previous_width">88dp</dimen>
+    <dimen name="previous_height">52dp</dimen>
+    <dimen name="play_x">203dp</dimen>
+    <dimen name="play_y">21dp</dimen>
+    <dimen name="play_width">61dp</dimen>
+    <dimen name="play_height">64dp</dimen>
+    <dimen name="next_x">270dp</dimen>
+    <dimen name="next_y">20dp</dimen>
+    <dimen name="next_width">46dp</dimen>
+    <dimen name="next_height">140dp</dimen>
+    <dimen name="album_front_x">0dp</dimen>
+    <dimen name="album_front_y">82dp</dimen>
+    <dimen name="album_front_width">293dp</dimen>
+    <dimen name="album_front_height">67dp</dimen>
+    <dimen name="lyrics_width">341dp</dimen>
+    <dimen name="lyrics_height">28dp</dimen>
+    <dimen name="lyrics_font_size">14dp</dimen>
+    <dimen name="x_origin_offset">0dp</dimen>
+    <dimen name="z_origin_offset">-40px</dimen> -->
+
+</resources>

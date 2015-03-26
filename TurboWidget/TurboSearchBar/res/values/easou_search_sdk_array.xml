@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="easou_search_sdk_red">
+        <item>@color/easou_search_sdk_red_light</item>
+        <item>@color/easou_search_sdk_red</item>
+        <item>@color/easou_search_sdk_red_press</item>
+        <item>@color/easou_search_sdk_red_icon</item>
+    </string-array>
+    <string-array name="easou_search_sdk_orange">
+        <item>@color/easou_search_sdk_orange_light</item>
+        <item>@color/easou_search_sdk_orange</item>
+        <item>@color/easou_search_sdk_orange_press</item>
+        <item>@color/easou_search_sdk_orange_icon</item>
+    </string-array>
+    <string-array name="easou_search_sdk_green">
+        <item>@color/easou_search_sdk_green_light</item>
+        <item>@color/easou_search_sdk_green</item>
+        <item>@color/easou_search_sdk_green_press</item>
+        <item>@color/easou_search_sdk_green_icon</item>
+    </string-array>
+    <string-array name="easou_search_sdk_black">
+        <item>@color/easou_search_sdk_black_light</item>
+        <item>@color/easou_search_sdk_black</item>
+        <item>@color/easou_search_sdk_black_press</item>
+        <item>@color/easou_search_sdk_black_icon</item>
+    </string-array>
+    <string-array name="easou_search_sdk_black_hot_word">
+        <item>@color/easou_search_sdk_black_light</item>
+        <item>@color/easou_search_sdk_black</item>
+        <item>@color/easou_search_sdk_gray_press</item>
+        <item>@color/easou_search_sdk_black_icon</item>
+    </string-array>
+    <string-array name="easou_search_sdk_blue">
+        <item>@color/easou_search_sdk_blue_light</item>
+        <item>@color/easou_search_sdk_blue</item>
+        <item>@color/easou_search_sdk_blue_press</item>
+        <item>@color/easou_search_sdk_blue_icon</item>
+    </string-array>
+    <string-array name="easou_search_sdk_blue_box_recommend">
+        <item>@color/easou_search_sdk_pure_white</item>
+        <item>@color/easou_search_sdk_blue</item>
+        <item>@color/easou_search_sdk_blue_press</item>
+        <item>@color/easou_search_sdk_blue_icon</item>
+        <item>@color/easou_search_sdk_gray_light</item>
+    </string-array>
+    <string-array name="easou_search_sdk_gray">
+        <item>@color/easou_search_sdk_gray_light</item>
+        <item>@color/easou_search_sdk_gray</item>
+        <item>@color/easou_search_sdk_gray_press</item>
+        <item>@color/easou_search_sdk_gray_icon</item>
+    </string-array>
+
+</resources>

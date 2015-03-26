@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">3D Robot</string>
+	<string name="clear_success_msg">The robot worked hard for you to clean up ${count}
+		power
+		consumption applications, and saved ${memory}M memory
+	</string>
+	<string name="clear_empty_msg">your phone has reached the best power-saving state,
+		later cleanup
+	</string>
+	<string name="battery_percent">battery:
+	</string>
+	<string name="max_instance_alert">the robot already exists, can not add another one
+	</string>
+<string name="download_toast">Please check the network connection and try again.</string>
+
+    <integer name="spanX">2</integer>
+    <integer name="spanY">2</integer>
+    <integer name="max_instance">1</integer>
+    	
+<!-- teapotXu add end  -->
+
+</resources>

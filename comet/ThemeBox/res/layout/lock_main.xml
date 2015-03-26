@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="#f9fef7"
+	android:orientation="vertical">
+<LinearLayout
+		android:id="@+id/title"
+ 		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlep_bg"
+        android:orientation="vertical">
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/linearLayout2">     
+        <ImageButton
+            android:id="@+id/btnSetting" 
+        	android:contentDescription="@string/btnSetting" 
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/button_setting"/>
+        <View android:visibility="invisible" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="0dip"></View>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/btnLocalLock"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dip"
+                android:background="@drawable/localbutton_underline"
+                android:button="@android:color/transparent"             
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/btnLocalLock"
+                android:textColor="@drawable/button_font_style"
+                android:textSize="14dip" />
+            <RadioButton
+                android:id="@+id/btnHotLock"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dip"   
+                android:checked="true"           
+                android:background="@drawable/hotbutton_underline"
+                android:button="@android:color/transparent"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/btnHotLock"
+                android:textColor="@drawable/button_font_style"
+                android:textSize="14dip" />
+        </RadioGroup>
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_setting"
+            android:contentDescription="@string/btnSetting" 
+			android:visibility="invisible" />	
+    </LinearLayout>
+
+	 <LinearLayout
+        android:id="@+id/fenleilinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        >
+
+	<HorizontalScrollView 
+			android:id="@+id/horizontalScrollView"
+	        android:layout_width="match_parent"
+	         android:layout_height="match_parent"
+	        android:scrollbars="none"
+            android:fadingEdge="none"  
+            android:background="@drawable/fenleibg"  
+            android:paddingBottom="0dip"
+           >
+       <LinearLayout
+            android:id="@+id/ll_main"
+            android:layout_width="match_parent"
+          	android:layout_height="wrap_content"       
+            android:orientation="horizontal"       
+             >
+        </LinearLayout>
+	</HorizontalScrollView>
+
+	</LinearLayout>
+
+	</LinearLayout>
+<android.support.v4.view.ViewPager android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dip" android:layout_weight="1" android:id="@+id/gridPager"></android.support.v4.view.ViewPager>
+
+</LinearLayout>

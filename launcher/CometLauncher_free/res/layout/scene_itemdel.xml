@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wanghongjian add whole file --><!-- enable_DefaultScene -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" >
+
+        <ImageView
+            android:id="@+id/imageSceneThumb"
+            android:layout_width="@dimen/scene_gridView_width"
+            android:layout_height="@dimen/scene_gridView_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/imgview_scene_not9"
+            android:contentDescription="@string/thumbSceneImage"
+            android:padding="6dip"
+            android:scaleType="fitXY" />
+      
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="-28dip" />
+
+</LinearLayout>

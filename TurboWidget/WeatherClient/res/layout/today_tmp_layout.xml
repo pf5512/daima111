@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/today_tmp_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/today_tmp_layout_height"
+    android:layout_below="@id/tool_bar_layout" >
+
+    <!-- 第几个城市 -->
+
+    <FrameLayout
+        android:layout_width="46.666666667dp"
+        android:layout_height="30.666666667dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8.6667dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/scroll_arrow" />
+
+        <TextView
+            android:id="@+id/textview_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="-1dp"
+            android:shadowColor="#ff101010"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text=""
+            android:textColor="#ffffffff"
+            android:textSize="12dp" />
+    </FrameLayout>
+
+    <!-- 当天温度 -->
+<!-- android:layout_marginLeft="197dp" -->
+    <LinearLayout
+        android:layout_width="128.666666667dp"
+        android:layout_height="39.3333dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="8.6667dp"
+        android:layout_marginTop="8.6667dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_now_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="℃"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/textview_now_tmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="-10dp"
+                android:layout_toLeftOf="@id/textview_now_c"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text=""
+                android:textColor="#ffffffff"
+                android:textSize="40dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_totay_high_tmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:paddingTop="0dp"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text=""
+                android:textColor="#ffffffff"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/textview_totay_low_tmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:paddingTop="0dp"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text=""
+                android:textColor="#ffffffff"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- android:layout_marginLeft="217dp" -->
+    <TextView
+        android:id="@+id/textview_condition"
+        android:layout_width="102.666666667dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:gravity="center"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="44dp"
+        android:paddingTop="0dp"
+        android:shadowColor="#ff101010"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text=""
+        android:textColor="#ffffffff"
+        android:textSize="16dp" />
+
+</FrameLayout>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_bg">
+        <Button 
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_search"/>
+        <EditText 
+            android:id="@+id/et_key_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/btn_search"
+            android:paddingLeft="10dp"
+            android:background="@null"
+            android:hint="@string/edit_text_hint"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:textColorHint="#b5b5b5" />
+    </RelativeLayout>
+	
+	<ListView 
+	    android:id="@+id/lv_history"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingLeft="15dp"
+	    android:paddingRight="15dp"
+	    android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:cacheColorHint="@android:color/transparent"
+	    android:background="@drawable/et_bg"
+	    android:divider="@drawable/item_line">
+	    
+	</ListView>
+</LinearLayout>

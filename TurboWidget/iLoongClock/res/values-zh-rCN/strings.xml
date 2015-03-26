@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">3D时钟</string>
+	<string name="max_instance_alert">时钟已存在，不可以重复添加
+	</string>
+	
+    <!-- teapotXu add start -->
+    <!-- add function: widget will download cooee launcher when there is no cooee launcher installed -->
+	<string name="pop_to_download_title">CoCo桌面下载</string>
+	<string name="pop_to_download_message">提示:"\n"当前系统未安装CoCo桌面，是否立即下载？ </string>
+	<string name="pop_to_download_botton_left">下载</string>
+	<string name="pop_to_download_botton_right">稍候下载</string>
+
+    <string name="server_download_file_name1">CoCo桌面</string>
+    <string name="server_begin_download">开始下载</string>
+	<string name="server_download_finish">下载完成，点击安装</string>
+	<string name="server_download_fail">下载失败</string>
+	<string name="server_downloading">正在下载</string>
+	<string name="textSdCardNotPrepare">SD卡未准备好</string>
+    <!-- teapotXu add end -->
+				
+</resources>

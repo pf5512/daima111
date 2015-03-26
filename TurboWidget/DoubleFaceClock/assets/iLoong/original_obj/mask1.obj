@@ -1,0 +1,27 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 16.09.2013 17:48:49
+
+mtllib mask.mtl
+
+#
+# object ____
+#
+
+v  6.1777 163.3802 16.0000
+v  45.7766 157.1937 16.0000
+v  56.5309 196.3602 16.0000
+v  9.3360 203.6281 16.0000
+# 4 vertices
+
+vt 0.4926 0.0081 0.0000
+vt 0.5117 0.0081 0.0000
+vt 0.5117 0.9881 0.0000
+vt 0.4926 0.9881 0.0000
+# 4 texture coords
+
+g ____
+usemtl Material__2
+s 1
+f 1/1 2/2 3/3 4/4 
+# 1 polygons
+

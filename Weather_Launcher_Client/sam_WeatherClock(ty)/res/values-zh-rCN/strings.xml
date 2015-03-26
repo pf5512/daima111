@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">天气时钟</string>
+    <string name="menu_settings">设置</string>
+    <string name="no_data">不能显示当前天气</string>
+    <string name="city_fault">请输入正确的城市名</string>
+    <string name="please_update">点击刷新检查更新</string>
+    <string name="please_add_city">请先添加城市</string>
+    <string name="updating">正在更新中</string>
+    <string name="update_failed">更新失败，请检查网络连接</string>
+    <string name="update_fault">网络数据错误</string>
+    <string name="search_city">搜索城市</string>
+    <string name="none">无</string>
+    <string name="na">N/A</string>
+    <string name="edit_list">编辑</string>
+    <string name="setting">设置</string>
+    <string name="exit">退出</string>
+    <string name="liststr1">启动后更新</string>
+    <string name="liststr2">启动天气后自动刷新内容</string>
+    <string name="liststr3">定时同步</string>
+    <string name="liststr4">自动下载数据</string>
+    <string name="liststr12">声音效果</string>
+    <string name="liststr13">选择可启用声音效果</string>
+    <string name="liststr14">选择自动下载数据</string>
+    <string name="warning">数据费警告</string>
+    <string name="cancel">取消</string>
+    <string name="yestoday">昨天</string>
+    <string name="thedaybeforeyestoday">前天</string>
+    <string name="afewdaysago">几天前</string>
+    <string name="systemtimeerror">系统时间有误</string>
+    <string name="weather_refresh">刷新</string>
+    <string name="weather_add">添加</string>
+    <string name="weather_menu">菜单</string>
+
+    <string name="lasttime">(最后更新时间)</string>
+    <string-array name="weekday">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+    <string name="updataingstr">正在更新...</string>
+    <string name="citymanage">城市管理</string>
+
+    <array name="dialoginfo">
+        <item name="updatecity">更新城市</item>
+        <item name="deletecity">刪除城市</item>
+    </array>
+
+    <string name="popcitys">热门城市</string>
+    <string name="cityexitmessage">已经存在</string>
+    <string name="waitinfo">待同步</string>
+    <string name="date_format_string">%1$s℃-%2$s℃</string>
+    <string name="liststr5">更新日程</string>
+
+    <string-array name="updatetimesetting">
+        <item>每6小时</item>
+        <item>每12小时</item>
+        <item>每天一次</item>
+    </string-array>
+
+<!--    <string name="defaultcity">北京</string> -->
+    <string name="week0">"星期日"</string>
+    <string name="week1">"星期一"</string>
+    <string name="week2">"星期二"</string>
+    <string name="week3">"星期三"</string>
+    <string name="week4">"星期四"</string>
+    <string name="week5">"星期五"</string>
+    <string name="week6">"星期六"</string>
+    <string name="monthA">"1月"</string>
+    <string name="monthB">"2月"</string>
+    <string name="monthC">"3月"</string>
+    <string name="monthD">"4月"</string>
+    <string name="monthE">"5月"</string>
+    <string name="monthF">"6月"</string>
+    <string name="monthG">"7月"</string>
+    <string name="monthH">"8月"</string>
+    <string name="monthI">"9月"</string>
+    <string name="monthJ">"10月"</string>
+    <string name="monthK">"11月"</string>
+    <string name="monthL">"12月"</string>
+    <string name="lagmonth">月</string>
+    <string name="lagyear">年</string>
+    <string name="select_postalCode">选择城市</string>
+    <string name="date_widget_format_string">%1$s%2$s日  %3$s </string>
+    <string name="selectpostakcode">点击设置城市</string>
+    <string name="nodate">没有可用数据</string>
+    <string name="addcity">添加</string>
+    <string name="setSkinTitle">皮肤选择</string>
+	 <string name="liststr7">皮肤选择</string>
+    <string-array name="updateSkinsetting">
+        <item>经典</item>
+        <item>卡通</item>
+    </string-array>
+
+</resources>

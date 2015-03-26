@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">3D Clock</string>
+	<string name="max_instance_alert">the clock already exists,can not add another one
+	</string>
+</resources>

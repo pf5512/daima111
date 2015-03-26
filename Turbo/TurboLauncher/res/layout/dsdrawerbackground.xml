@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BigBackgroundColor"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/drawerbg_backll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dstopbackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="21dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/dsback_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/drawer_backgroundtxt"
+            android:textColor="@color/TitleColor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/drawer_bgdefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drawer_default"
+                            android:textColor="@color/FontColor"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <RadioButton
+                        android:id="@+id/drawer_bgradiodefault"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:button="@drawable/dsradio_selector" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/drawer_bgshowtxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/drawer_opacity"
+                        android:textColor="@color/FontColor"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/drawer_bgopacitytxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50%"
+                        android:textColor="@color/FontColor"
+                        android:textSize="15sp" />
+                </LinearLayout>
+                
+                <RelativeLayout
+                    android:id="@+id/drawer_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="0%"
+                        android:textColor="@color/FontColor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:text="100%"
+                        android:textColor="@color/FontColor" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/drawer_bgrlsb"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <SeekBar
+                        android:id="@+id/drawer_seekbarbg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:max="100"
+                        android:progress="50"
+                        android:thumb="@drawable/dsseekbar_selector"
+                        android:thumbOffset="3dp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dsdrawer_bgcustom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:background="@drawable/dsdesktop_selector"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drawer_custom"
+                            android:textColor="@color/FontColor"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <RadioButton
+                        android:id="@+id/dsdrawer_bgradiocustom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:button="@drawable/dsradio_selector" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

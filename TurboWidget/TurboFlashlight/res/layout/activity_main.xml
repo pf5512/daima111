@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fl_led_bg_off" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <SurfaceView
+            android:id="@+id/sv"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip" />
+
+        <LinearLayout
+            android:id="@+id/ll_on_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fl_led_bg_on"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/light"
+            android:visibility="invisible" />
+
+        <com.iLoong.Flashlight.view.FlashlightView
+            android:id="@+id/flashlightView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ToggleButton
+            android:id="@+id/tb_sos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/sos_switch_toggle"
+            android:textOff=" "
+            android:textOn=" " />
+    </FrameLayout>
+
+</RelativeLayout>

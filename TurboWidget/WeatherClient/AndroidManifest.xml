@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cooeeui.weatherclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     
+    <application
+        android:icon="@drawable/preview"
+        android:label="@string/app_name"
+        android:name="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:persistent="true" 
+		android:allowClearUserData="false">
+         
+         <activity
+            android:name="com.cooee.widget3D.JewelWeather.iLoongWeather"
+            android:label="@string/app_name" >
+            <intent-filter>
+                
+                <action android:name="com.iLoong.widget" />
+            </intent-filter>
+        </activity> 
+        
+         <activity
+            android:name="com.cooee.app.cooeejewelweather3D.view.MainActivity"
+            android:screenOrientation="portrait"
+             android:finishOnTaskLaunch="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                 <action android:name="com.cooee.weather.MAIN" />
+              
+                <category android:name="android.intent.category.DEFAULT" />
+               <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+              
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cooee.app.cooeejewelweather3D.view.WeatherAddPost"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.ADD_POST" />
+            </intent-filter>
+        </activity>        
+         <activity
+            android:name="com.cooee.app.cooeejewelweather3D.view.WeatherEditPost"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.EDIT_POST" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooee.app.cooeejewelweather3D.view.WeatherSetting"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <receiver android:name="com.cooee.app.cooeejewelweather3D.view.WeatherReceiver" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.data.action.UPDATE_RESULT" />
+            </intent-filter>
+        </receiver>
+        
+         <!-- dataprovider -->
+        <service android:name="com.cooee.app.cooeejewelweather3D.dataprovider.weatherDataService" >
+            <intent-filter>
+                <action android:name="com.cooee.app.cooeejewelweather3D.dataprovider.weatherDataService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.cooee.app.cooeejewelweather3D.dataprovider.weatherdataprovider"
+            android:authorities="com.cooee.app.cooeejewelweather3D.dataprovider" >
+        </provider>
+    </application>
+
+</manifest>

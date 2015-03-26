@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Shortcuts</string>
+	<string name="clear_success_msg">The Logo worked hard for you to clean up ${count}
+		power
+		consumption applications, and saved ${memory}M memory
+	</string>
+	<string name="clear_empty_msg">your phone has reached the best power-saving state,
+		later cleanup
+	</string>
+	<string name="battery_percent">battery:
+	</string>
+	<string name="max_instance_alert">Already exists, can not add another one
+	</string>
+	    <string name="gps_err">no GPS</string>
+    <string name="bluetooth_err">no BlueTooth</string>
+    <string name="wifi_err">no Wifi</string>
+    <string name="gprs_err">no sim card</string>
+    
+      <integer name="spanX">4</integer>
+    <integer name="spanY">1</integer>
+    <integer name="max_instance">1</integer>
+</resources>

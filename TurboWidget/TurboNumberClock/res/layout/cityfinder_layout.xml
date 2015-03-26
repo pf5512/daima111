@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="339dp"
+    android:background="@drawable/wc_bgkuang" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/wc_BigBackgroundColor" >
+
+        <ImageView
+            android:id="@+id/wc_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/wc_city" />
+
+        <EditText
+            android:id="@+id/edtCity"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/searchcity"
+            android:layout_toRightOf="@+id/wc_city"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/wc_shuxian"
+            android:textColor="@color/wc_TitleFontColor"
+            android:textSize="35px" />
+
+        <ImageView
+            android:id="@+id/searchcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/wc_search" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@+id/bottom"
+        android:layout_below="@+id/top" >
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true" >
+
+        <ImageView
+            android:id="@+id/shuxian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/wc_background" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_height="39dp" >
+
+            <ImageView
+                android:id="@+id/sheshidu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/wc_sheshiclick" />
+
+            <ImageView
+                android:id="@+id/huashi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/wc_huashi" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

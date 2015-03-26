@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iLoong.base.themebox"
+    android:versionCode="19627"
+    android:versionName="2.2.2.19627.140225" >
+
+    <uses-sdk android:minSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+	<uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<uses-permission android:name="android.permission.DELETE_PACKAGES" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.BROADCAST_STICKY" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name = "android.permission.CHANGE_NETWORK_STATE"/>                            
+	<uses-permission android:name = "android.permission.SEND_SMS"/>
+	<uses-permission android:name = "android.permission.RECEIVE_SMS"/> 
+	<uses-permission android:name = "android.permission.ACCESS_COARSE_LOCATION"/> 
+	<uses-permission android:name = "android.permission.ACCESS_FINE_LOCATION" />  
+	<uses-permission android:name = "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />  
+	<uses-permission android:name = "android.permission.WRITE_APN_SETTINGS" />  
+	<uses-permission android:name = "android.permission.MODIFY_PHONE_STATE" />
+	    <uses-permission android:name="android.permission.READ_SMS" />
+      <uses-permission android:name="android.permission.READ_CALL_LOG" />
+      <uses-permission android:name="com.android.providers.contacts.CallLogProvider" />
+       <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+   	<uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.BIND_WALLPAPER" /> 
+	<uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT"/>
+
+    <application android:icon="@drawable/theme"
+        android:label="@string/theme_box_name">
+        <activity
+            android:name="com.coco.theme.themebox.MainActivity"
+            android:icon="@drawable/theme"
+            android:label="@string/theme_box_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               <category android:name="android.intent.category.cooee.themebox" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.coco.theme.themebox.preview.ThemePreviewHotActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+    
+        <activity
+            android:name="com.coco.theme.themebox.preview.ThemePreviewFullActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <service
+            android:name="com.coco.theme.themebox.apprecommend.DownloadRecomdService"
+            android:enabled="true" >
+           
+        </service>
+
+        <activity
+            android:name="com.coco.theme.themebox.apprecommend.LoadRecomandActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!--
+             <provider
+            android:name="com.coco.theme.themebox.apprecommend.MyProvider"
+            android:authorities="com.coco.theme.themebox.apprecommend" />
+        -->
+        <provider
+            android:name="com.coco.pub.provider.PubContentProvider"
+            android:authorities="com.coco.pub.provider" />
+
+
+       
+        
+        <receiver android:name="com.coco.theme.themebox.UIStaticsReceiver">
+            <intent-filter >
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.moppo.fontstore.flipfont.font_set"/>
+                <action android:name="com.coco.personalCenter.stop.update"/>
+                <action android:name="com.coco.engine.stop.download"/>
+                <action android:name="com.android.topwise.system_fonts"/>
+            </intent-filter>
+        </receiver>
+	<service
+            android:name="com.coco.theme.themebox.update.UpdateService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.coco.theme.themebox.util.DownloadEngineApkService"
+            android:enabled="true" >
+        </service>
+        
+        <activity
+            android:name="com.coco.font.fontbox.FontPreviewLocalActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.font.fontbox.FontPreviewActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        
+        <activity
+            android:name="com.coco.wallpaper.wallpaperbox.WallpaperPreviewActivity"
+            android:label="@string/title_activity_main"
+            android:process=":wallpaper"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" 
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.coco.action.wallpaper" />
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.coco.wallpaper.wallpaperbox.LockWallpaperPreview"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" 
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.coco.action.wallpaper" />
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.coco.wallpaper.wallpaperbox.LiveWallpaperPreviewActivity"
+            android:label="@string/title_activity_main"
+             android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.scene.scenebox.preview.ScenePreviewHotActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.coco.widget.widgetbox.WidgetPreviewHotActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+      
+         <service
+            android:name="com.coco.theme.themebox.DownloadApkContentService"
+            android:enabled="true" >
+        </service> 
+  
+    </application>
+
+</manifest>

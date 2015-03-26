@@ -1,0 +1,101 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cooee.widget.samweatherclock"
+    android:installLocation="internalOnly"
+    android:versionCode="921"
+    android:versionName="1.1.16.11472" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>  
+    
+    <application
+        android:name="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:allowClearUserData="false"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cooee.widget.samweatherclock.MainActivity"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cooee.widget.samweatherclock.localConfigureActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.cooee.app.cooeeweather.view.WeatherAddPost"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.ADD_POST" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooee.app.cooeeweather.view.WeatherEditPost"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.cooee.app.cooeeweather.view.WeatherSetting"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <receiver android:name="com.cooee.app.cooeeweather.view.WeatherReceiver" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.data.action.UPDATE_RESULT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- dataprovider -->
+        <service android:name="com.cooee.app.cooeeweather.dataprovider.weatherDataService" >
+            <intent-filter>
+                <action android:name="com.cooee.app.cooeeweather.dataprovider.weatherDataService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.cooee.app.cooeeweather.dataprovider.weatherdataprovider"
+            android:authorities="com.cooee.app.cooeeweather.dataprovider" >
+        </provider>
+
+ <!--       <receiver android:name="DataprociderReciever" >
+            <intent-filter>
+                <action android:name="com.cooee.weather.datacom.action.NUM_COUNT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" >
+                </action>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cooee.weather.data.action.UPDATE_RESULT" >
+                </action>
+
+                <data android:scheme="updateResult" >
+                </data>
+            </intent-filter>
+        </receiver>   --> 
+    </application>
+
+</manifest>

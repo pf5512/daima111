@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">3D時鐘</string>
+	<string name="max_instance_alert">時鐘已經存在，不可以重復添加
+	</string>
+</resources>

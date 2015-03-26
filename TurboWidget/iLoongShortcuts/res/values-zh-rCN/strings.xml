@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">快捷开关</string>
+	<string name="clear_success_msg">辛辛苦苦为您清理了${count}个耗电应用，为您节省了${memory}M内存
+	</string>
+	<string name="clear_empty_msg">已达最佳省电状态,请稍后再清理
+	</string>
+	<string name="battery_percent">电量:
+	</string>
+	<string name="max_instance_alert">已存在，不可以重复添加</string>
+	  <string name="gps_err">没有GPS功能</string>
+    <string name="bluetooth_err">没有蓝牙功能</string>
+    <string name="wifi_err">不支持WIFI设备或者在飞行模式中</string>
+    <string name="gprs_err">请检查SIM卡是否插好</string>
+</resources>

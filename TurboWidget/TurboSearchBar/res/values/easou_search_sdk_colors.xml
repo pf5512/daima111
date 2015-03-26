@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--     sug -->
+    <color name="easou_search_sdk_sug_txt_color">#FF000000</color>
+    
+<!-- search -->
+	<color name="easou_search_sdk_search_box_txt_color_hit">#cccccc</color>
+	<color name="easou_search_sdk_search_box_txt_color">#FF000000</color>
+    
+    
+    <color name="easou_search_sdk_search_btn_normal">#fcbe00</color>
+    <color name="easou_search_sdk_search_btn_press">#ea9500</color>
+    <color name="easou_search_sdk_search_box_margin_color">#eeeeee</color>
+    
+    
+    <color name="easou_search_sdk_hot_word_solid">#ffffff</color>
+    <color name="easou_search_sdk_hot_word_stroke">#aaaaaa</color>
+    
+    <color name="easou_search_sdk_hot_word_one_word_bg">#ffffff</color>
+    <color name="easou_search_sdk_hot_word_one_word_bg_press">#eeeeee</color>
+    
+    
+<!-- common color     -->
+    
+    <color name="easou_search_sdk_common_black">#FF000000</color>
+    <color name="easou_search_sdk_pure_white">#ffffff</color>
+    <color name="easou_search_sdk_transparent">#00000000</color>
+
+    
+<!--     search btn option color -->
+	<color name="easou_search_sdk_orange_light">#fef2cc</color>
+    <color name="easou_search_sdk_orange">#fcbe00</color>
+    <color name="easou_search_sdk_orange_press">#ea9500</color>
+    <color name="easou_search_sdk_orange_icon">#fb5b04</color>
+    
+    
+    <color name="easou_search_sdk_green_light">#ddf7e1</color>
+    <color name="easou_search_sdk_green">#53d769</color>
+    <color name="easou_search_sdk_green_press">#25be66</color>
+    <color name="easou_search_sdk_green_icon">#0e7e2e</color>
+    
+    
+    <color name="easou_search_sdk_red_light">#fedcda</color>
+    <color name="easou_search_sdk_red">#fa4e46</color>
+    <color name="easou_search_sdk_red_press">#d9321c</color>
+    <color name="easou_search_sdk_red_icon">#ff007e</color>
+        
+    
+    <color name="easou_search_sdk_blue_light">#dfecfd</color>
+    <color name="easou_search_sdk_blue">#5892f2</color>
+    <color name="easou_search_sdk_blue_press">#2868ea</color>
+    <color name="easou_search_sdk_blue_icon">#000066</color>
+    
+    <color name="easou_search_sdk_gray_light">#eeeeee</color>
+    <color name="easou_search_sdk_gray">#aaaaaa</color>
+    <color name="easou_search_sdk_gray_press">#808080</color>
+    <color name="easou_search_sdk_gray_icon">#9595bf</color>
+    
+<!--     <color name="easou_search_sdk_black_light">#d0d0d0</color> -->
+ <color name="easou_search_sdk_black_light">#eeeeee</color>
+    <color name="easou_search_sdk_black">#121212</color>
+    <color name="easou_search_sdk_black_press">#000000</color>
+    <color name="easou_search_sdk_black_icon">#333333</color>
+</resources>

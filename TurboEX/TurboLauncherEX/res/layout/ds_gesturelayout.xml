@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ds_logofontcolor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_gestureback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_height"
+        android:background="@color/ds_logobackgroudcolor" >
+
+        <ImageView
+            android:id="@+id/ds_iv_aboutback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_marginleft"
+            android:src="@drawable/ds_backicon_selector" />
+
+        <ImageView
+            android:id="@+id/ds_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_other_marginleft"
+            android:src="@drawable/ds_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_other_marginleftleft"
+            android:layout_toRightOf="@+id/ds_iv_logo"
+            android:gravity="center"
+            android:text="@string/ds_expandfunction_gesture"
+            android:textColor="@color/ds_logofontcolor"
+            android:textSize="@dimen/ds_title_fontsize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_singlesingerup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_singlesingerup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_singleupicon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_singlesingerup"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_singlefingerup"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_singlefingerup_default"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_singlesingerdown"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_singlesingerdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_singledownicon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_singlesingerdown"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_singlefingerdown"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_singlefingerdown_default"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_twosingerup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_twosingerup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_twoupicon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_twosingerup"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerup"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerup_defult"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_twosingerdown"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_twosingerdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_twodownicon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_twosingerdown"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerdown"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerdown_defult"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_twofingertogether"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_twofingertogether"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_twotogethericon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_twofingertogether"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerPinchtogether"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerPinchtogether_defult"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_twofingerexpand"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_twofingerexpand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_twoexpendicon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_twofingerexpand"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerexpand"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerexpand_defult"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_doubleclick"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_doubleclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_doubleclickicon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_doubleclick"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_doubleclick"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_doubleclick_defult"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_tworight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_tworight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_tworighticon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_tworight"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerright"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerright_defult"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_twoleft"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_twoleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_twolefticon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_twoleft"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerleft"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_twofingerleft_defult"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_palm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_2_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_palm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_palmicon_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_palm"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_palm"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_bigfontsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ds_2_title_2_marginleft"
+                android:gravity="center"
+                android:text="@string/ds_palm_defult"
+                android:textColor="@color/ds_font_selector"
+                android:textSize="@dimen/ds_twoline_smallfontsize" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ds_2_title_2_marginrightgo"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+</LinearLayout>

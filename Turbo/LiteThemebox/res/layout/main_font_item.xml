@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" >
+		
+		<ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/thumbImage"
+            android:scaleType="fitXY" 
+            android:src="@drawable/gallery_normal"
+            android:padding="6dip"
+            android:background="@drawable/imgview_selector"
+            android:visibility="invisible"/>
+		
+        <ImageView
+            android:id="@+id/imageThumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/imgview_selector"
+            android:contentDescription="@string/thumbImage"
+            android:layout_alignLeft="@+id/imageIcon"
+            android:layout_alignRight="@+id/imageIcon"
+            android:layout_alignBottom="@+id/imageIcon"
+            android:layout_alignTop="@+id/imageIcon"
+            android:padding="6dip"
+            android:scaleType="fitXY" />
+            
+         <ImageView
+            android:id="@+id/imageselect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/set_list_select"
+            android:contentDescription="@string/thumbImage"
+            android:padding="6dip"
+            android:scaleType="fitXY" 
+            android:visibility="gone"/>
+            
+        <ImageView
+            android:id="@+id/imageCover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/grid_bg"
+            android:layout_alignTop="@+id/imageThumb"
+            android:layout_alignBottom="@+id/imageThumb"
+            android:src="@drawable/grid_item_cover"
+            android:contentDescription="@string/thumbImage"
+            android:padding="6dip"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/imageUsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageThumb"
+            android:layout_alignRight="@id/imageThumb"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/used"
+            android:contentDescription="@string/thumbImage" />
+
+        <ProgressBar
+            android:id="@+id/barPause"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageThumb"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginBottom="@dimen/scrollGridPaddingBottom"
+            android:max="100"
+            android:minHeight="4dip"
+            android:progress="20"
+            android:progressDrawable="@drawable/progressbar_pause" />
+        <ProgressBar
+            android:id="@+id/barDownloading"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageThumb"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginBottom="@dimen/scrollGridPaddingBottom"
+            android:max="100"
+            android:minHeight="4dip"
+            android:progress="20"
+            android:progressDrawable="@drawable/progressbar_downloading" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageUsed"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="6dip"
+            android:background="@drawable/price_bg"
+            android:paddingRight="5dip"
+            android:textColor="#ffffff"
+			android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/live_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageUsed"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dip"
+            android:visibility="gone"
+            android:src="@drawable/livewallpaper_sign" />
+       
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#5a6063"
+        android:singleLine="true"
+        android:textSize="14dip" />
+
+</LinearLayout>

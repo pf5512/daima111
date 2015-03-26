@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3D Clock</string>
+    <string name="max_instance_alert">the clock already exists,can not add another one</string>
+
+    <!-- teapotXu add start -->
+    <!-- add function: widget will download cooee launcher when there is no cooee launcher installed -->
+	<string name="pop_to_download_title">download Comet Launcher</string>
+	<string name="pop_to_download_message">TIP:"\n"The Comet desktop is not installed the system, whether to immediately download ?  </string>
+	<string name="pop_to_download_botton_left">download</string>
+	<string name="pop_to_download_botton_right">download later</string>
+
+    <string name="server_download_file_name">Comet Launcher</string>
+    <string name="server_begin_download">start download</string>
+	<string name="server_download_finish">download is complete, click to Install</string>
+	<string name="server_download_fail">download failed</string>
+	<string name="server_downloading">downloading...</string>
+	<string name="textSdCardNotPrepare">SD card not ready</string>
+    <!-- teapotXu add end -->    
+    
+    
+    <integer name="spanX">4</integer>
+    <integer name="spanY">2</integer>
+    <integer name="max_instance">1</integer>
+
+</resources>

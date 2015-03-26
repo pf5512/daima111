@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferlockHomeTitle" >
+        <Preference
+            android:key="clearLauncher"
+            android:persistent="false"
+            android:title="@string/clearLauncher" />
+        <Preference
+            android:key="lockhome"
+            android:persistent="false"
+            android:title="@string/lockHome" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/chooseLauncher" >
+        <ListPreference
+            android:key="Launcher"
+            android:persistent="false"
+            android:title="@string/Launcher" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iLoong.ThemeClock"
+    android:versionCode="1"
+    android:versionName="1.0.18379" 
+     xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+
+    <application
+        android:icon="@drawable/widget_ico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.iLoong.ThemeClock.iLoongClock"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.iLoong.widget" />
+            </intent-filter>
+        </activity>
+        
+        <service 
+            android:icon="@drawable/widget_ico"
+            android:label="@string/app_name"
+            android:name="com.iLoong.ThemeClock.Timer.ClockTimerService">
+            <intent-filter>
+                <action android:name="com.iLoong.widget.Clock.start"/>
+                <action android:name="com.iLoong.Clock.stop"/>
+            </intent-filter>
+       </service>
+       
+        <meta-data 
+            android:name="preInitialize"
+            android:value="false"/>
+        <meta-data 
+            android:name="max_instance_count"
+            android:value="1"/>
+        <meta-data 
+            android:name="spanX"
+            android:value="4"/>
+        <meta-data 
+            android:name="spanY"
+            android:value="3"/>
+        <meta-data 
+            android:name="widget_width"
+            android:value="236.00"/>
+        <meta-data 
+            android:name="widget_height"
+            android:value="236.00"/>
+        <meta-data 
+            android:name="useTheme"
+            android:value="true"/>
+    </application>
+
+</manifest>

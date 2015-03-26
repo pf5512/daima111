@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PageSelect -->
+    <interge name="app_icon_size" type="dip" value="48" />
+    <interge name="pageselect_icon_width" type="dip" value="135" />
+    <interge name="pageselect_icon_height" type="dip" value="120" />
+    <interge name="page_indicator_origin_x" type="dip" value="27" />
+    <interge name="page_indicator_origin_y" type="dip" value="14" />
+    <interge name="page_indicator_radius" type="dip" value="48" />
+    <interge name="page_indicator_width" type="dip" value="24" />
+    <interge name="page_indicator_height" type="dip" value="24" />
+    <interge name="workspace_cell_width" type="dip" value="74" />
+    <interge name="workspace_cell_height" type="dip" value="86" />
+    <interge name="workspace_cell_adjust" type="dip" value="0" />
+    <interge name="workspace_cell_text_height" type="dip" value="32" />
+    <interge name="pageview_indicator_height" type="dip" value="8" />
+
+    <string name="appbar_tab_color" value="#FFFFFF" />
+    <string name="appbar_tab_select_color" value="#0091EB" />
+    <string name="appbar_tab_pop_color" value="#3B3B3B" />
+    <string name="appbar_tab_pop_select_color" value="#FFFFFF" />
+    <string name="appbar_menu_color" value="#FFFFFF" />
+
+    <interge name="appbar_height" type="dip" value="50" />
+    <interge name="appbar_tab_padding" type="dip" value="16" />
+    <interge name="appbar_indicator_height" type="dip" value="8" />
+    <interge name="appbar_menu_right" type="dip" value="10" />
+     <interge name="appbar_menu_width" type="dip" value="40" />
+    <interge name="appbar_menu_height" type="dip" value="30" />
+    <interge name="appbar_divider_width" type="px" value="2" />
+    <interge name="appbar_padding_left" type="dip" value="0" />
+    <interge name="appbar_menuitem_paddingleft" type="dip" value="6" />
+    <interge name="appbar_menuitem_width" type="dip" value="130" />
+    <interge name="appbar_menuitem_height" type="dip" value="50" />
+    <interge name="app_widget3d_gap" type="dip" value="5" />
+    <interge name="appbar_home_right" type="dip" value="5" />
+    <interge name="appbar_more_width" type="px" value="72" />
+    <interge name="appbar_tab_width" type="px" value="162" />
+    <interge name="appbar_tab_popitem_height" type="px" value="69" />
+    <interge name="tip_point_width" type="dip" value="54" />
+    <interge name="tip_point_height" type="dip" value="54" />
+    <interge name="icongroup_button_height" type="dip" value="40" />
+    <interge name="icongroup_button_width" type="dip" value="40" />
+    <interge name="circle_unfocus_backgroud_width" type="dip" value="189" />
+    <interge name="circle_unfocus_backgroud_height" type="dip" value="189" />
+    <interge name="circle_focus_backgroud_width" type="dip" value="134" />
+    <interge name="circle_focus_backgroud_height" type="dip" value="72" />
+    <interge name="circle_focus_offset_y" type="dip" value="5" />
+    <interge name="circle_autosort_width" type="dip" value="36" />
+    <interge name="circle_autosort_height" type="dip" value="40" />
+    <interge name="circle_overlap_width" type="dip" value="36" />
+    <interge name="circle_overlap_height" type="dip" value="40" />
+    <interge name="circle_multiselect_width" type="dip" value="36" />
+    <interge name="circle_multiselect_height" type="dip" value="40" />
+    <interge name="circle_delall_width" type="dip" value="36" />
+    <interge name="circle_delall_height" type="dip" value="40" />
+    <interge name="circle_folder_width" type="dip" value="36" />
+    <interge name="circle_folder_height" type="dip" value="40" />
+    <interge name="circle_drawtext_x" type="dip" value="33" />
+    <interge name="circle_drawtext_y" type="dip" value="10" />
+    <interge name="icongroup_margin_left" type="dip" value="9" />
+    <interge name="icongroup_margin_top" type="dip" value="6" />
+    <interge name="icongroup_round_radius" type="px" value="30" />
+    <interge name="icongroup_bottom_limit" type="dip" value="54" />
+    <interge name="pop_toast_width" type="dip" value="80" />
+    <interge name="pop_toast_height" type="dip" value="21" />
+    <!-- Folder3D Start -->
+
+
+    <!-- AppList -->
+    <interge name="applist_padding_left" type="dip" value="10" />
+    <interge name="applist_padding_right" type="dip" value="10" />
+    <interge name="applist_padding_top" type="dip" value="6" />
+    <interge name="applist_padding_bottom" type="dip" value="22" />
+    <interge name="applist_padding_left_ex" type="dip" value="30" />
+    <interge name="applist_padding_right_ex" type="dip" value="30" />
+    <interge name="applist_padding_top_large" type="dip" value="20" />
+    <interge name="applist_padding_bottom_large" type="dip" value="50" />
+    <interge name="applist_indicator_y" type="dip" value="10" />
+    <interge name="applist_indicator_y_large" type="dip" value="20" />
+
+    <!-- folder params need config by different theme -->
+    <interge name="folder_front_icon_w" type="dip" value="54" />
+    <interge name="folder_front_icon_h" type="dip" value="30" />
+    <interge name="folder_front_margin_offset" type="dip" value="0" />
+    <interge name="folder_front_width" type="dip" value="60" />
+    <interge name="folder_front_height" type="dip" value="58" />
+    <interge name="folder_front_padding_left" type="dip" value="4" />
+    <interge name="folder_front_padding_top" type="dip" value="4" />
+    <interge name="folder_front_padding_right" type="dip" value="4" />
+    <interge name="folder_front_padding_bottom" type="dip" value="4" />
+    <interge name="folder_front_height_large" type="dip" value="71" />
+    <interge name="folder_icon_rotation_degree" type="" value="20" />
+    <interge name="folder_icon_rotation_offsetx" type="dip" value="12" />
+    <interge name="folder_icon_rotation_offsety" type="dip" value="7" />
+    <interge name="folder_transform_num" type=" " value="3" />
+    <interge name="folder_icon_row_num" type=" " value="1" />
+    <interge name="folder_icon_scale_factor" type=" " value="62" />
+
+    <!-- folder params end config -->
+    <interge name="folder_num_width" type="dip" value="14" />
+    <interge name="folder_num_height" type="dip" value="12" />
+    <interge name="folder_num_offset_y" type="dip" value="0" />
+    <interge name="folder_num_circle_width" type="dip" value="15" />
+    <interge name="folder_back_width" type="dip" value="54" />
+    <interge name="folder_back_height" type="dip" value="33" />
+    <interge name="folder_gap_height" type="dip" value="0" />
+    <interge name="folder_group_left_margin" type="dip" value="2" />
+    <interge name="folder_group_right_margin" type="dip" value="2" />
+    <interge name="folder_group_top_margin" type="dip" value="2" />
+    <interge name="folder_group_bottom_margin" type="dip" value="5" />
+    <interge name="folder_group_left_round" type="px" value="14" />
+    <interge name="folder_group_top_round" type="dip" value="10" />
+    <interge name="folder_group_right_round" type="px" value="14" />
+    <interge name="folder_group_bottom_round" type="px" value="44" />
+    <interge name="folder_group_text_height" type="dip" value="40" />
+    <interge name="folder_group_text_round" type="px" value="10" />
+    <interge name="folder_front_two_line_rotate_height" type="dip" value="64" />
+    <interge name="folder_front_two_line_rotate_height_large" type="dip" value="77" />
+    <!-- Folder3D Ended -->
+
+    <!-- android 4.0 seekbar -->
+    <interge name="android4_seekbar_padding_left" type="dip" value="12" />
+    <interge name="android4_seekbar_padding_top" type="dip" value="15" />
+    <interge name="android4_seekbar_padding_right" type="dip" value="12" />
+    <interge name="android4_seekbar_padding_bottom" type="dip" value="30" />
+
+    <!-- Sidebar -->
+    <interge name="sidebar_height" type="dip" value="110" />
+    <interge name="sidebar_button_width" type="dip" value="200" />
+    <interge name="sidebar_button_height" type="dip" value="43" />
+    <interge name="sidebar_button_icon_width" type="dip" value="18" />
+    <interge name="sidebar_button_icon_height" type="dip" value="18" />
+    <interge name="sidebar_button_focus_size" type="dip" value="28" />
+    <interge name="sidebar_button_icon1_x" type="dip" value="85" />
+    <interge name="sidebar_button_icon1_y" type="dip" value="13" />
+    <interge name="sidebar_button_icon2_x" type="dip" value="116" />
+    <interge name="sidebar_button_icon2_y" type="dip" value="13" />
+    <string name="name" value="" />
+
+    <!-- Trash -->
+    <interge name="trash_icon_width" type="dip" value="0" />
+    <interge name="trash_icon_height" type="dip" value="41" />
+    <interge name="toolbar_height" type="dip" value="40" />
+    <interge name="toolbar_icon_region_width" type="dip" value="180" />
+    <interge name="toolbar_icon_region_height" type="dip" value="40" />
+    <interge name="toolbar_icon_region_y" type="dip" value="20" />
+    <interge name="toolbar_title_region_y" type="dip" value="5" />
+    <interge name="trash_cap_x" type="dip" value="37" />
+    <interge name="trash_cap_y" type="dip" value="22" />
+    <interge name="trash_cap_w" type="dip" value="28" />
+    <interge name="trash_cap_h" type="dip" value="12" />
+
+    <!-- HotSeat -->
+    <interge name="hot_obj_origin_z" type="dip" value="0" />
+    <interge name="hot_obj_height" type="dip" value="67" />
+    <interge name="hot_obj_rot_deg" type=" " value="180" />
+    <interge name="hot_obj_trans_y" type="dip" value="11" />
+    <interge name="hot_obj_trans_y_small" type="dip" value="19" />
+    <interge name="hot_obj_trans_y_large" type="dip" value="0" />
+    <interge name="hot_obj_trans_z" type="dip" value="7" />
+    <interge name="hot_grid_left_margin" type="dip" value="12" />
+    <interge name="hot_grid_right_margin" type="dip" value="12" />
+    <interge name="hot_frontgrid_origin_z" type="dip" value="21" />
+    <interge name="hot_grid_bottom_margin" type="dip" value="0" />
+    <interge name="hot_grid_bottom_margin_large" type="dip" value="5" />
+    <interge name="hot_top_ascent_distance_hide_title" type="dip" value="0" />
+    <interge name="hot_sidebar_top_margin" type="dip" value="1" />
+    <interge name="hot_dock_trans_y" type="dip" value="16" />
+    <interge name="hot_dock_item_num" type="" value="4" />
+    <interge name="icon_title_gap" type="" value="10" />
+
+    <!-- HotButton -->
+
+
+    <!-- IconBg -->
+    <interge name="icon_bg_num" type="" value="0" />
+
+    <!-- page indicator -->
+    <interge name="page_indicator_size" type="dip" value="24" />
+    <interge name="page_indicator_style" type="" value="3" />
+ 	<!-- -1:coco - 0:android4.0 - 1:S3 - 2:S2 - 3:coco+android4.0 -->
+
+    <!-- include margin -->
+    <interge name="page_indicator_focus_w" type="dip" value="14" />
+    <interge name="page_indicator_focus_h" type="dip" value="14" />
+    <interge name="page_indicator_focus_w_small" type="dip" value="16" />
+    <interge name="page_indicator_normal_w" type="dip" value="14" />
+    <interge name="page_indicator_normal_h" type="dip" value="14" />
+    <interge name="page_indicator_normal_w_small" type="dip" value="12" />
+    <interge name="page_indicator_size_s2" type="dip" value="30" />
+    <!-- include margin -->
+    <interge name="page_indicator_focus_w_s2" type="dip" value="18" />
+    <interge name="page_indicator_normal_w_s2" type="dip" value="8" />
+    <interge name="page_indicator_focus_w_s2_small" type="dip" value="20" />
+    <interge name="page_indicator_normal_w_s2_small" type="dip" value="10" />
+    <interge name="page_indicator_height" type="dip" value="41" />
+    <interge name="page_indicator_width" type="dip" value="0" />
+    <!-- 0:screen width -->
+    <interge name="page_indicator_x" type="dip" value="0" />
+    <interge name="page_indicator_y" type="dip" value="90" />
+    <interge name="page_indicator_y_meizu" type="dip" value="112" />
+    <interge name="page_indicator_y_small" type="dip" value="67" />
+    <interge name="page_indicator_y_high" type="dip" value="135" />
+
+    <!-- s4 style -->
+    <interge name="s4_page_indicator_bg_height" type="dip" value="8" />
+    <interge name="s4_page_indicator_scroll_width" type="dip" value="45" />
+    <interge name="s4_page_indicator_scroll_height" type="dip" value="31" />
+    <interge name="s4_page_indicator_number_bg_size" type="dip" value="54" />
+    <interge name="s4_page_indicator_number_x_offset" type="dip" value="2" />
+    <!-- celllayout -->
+    <interge name="celllayout_topPadding_small" type="dip" value="5" />
+    <interge name="celllayout_bottomPadding_small" type="dip" value="105" />
+    <interge name="celllayout_topPadding" type="dip" value="10" />
+    <interge name="celllayout_bottomPadding" type="dip" value="125" />
+    <interge name="celllayout_editmode_padding" type="dip" value="40" />
+    <interge name="celllayout_editmode_padding_h" type="dip" value="0">
+    <!-- border -->
+    <interge name="drag_border_width" type="dip" value="15" />
+
+    <!-- pack? -->
+    <interge name="iloong_pack_tosd" type="" value="1" />
+    <interge name="bottombar_height" type="dip" value="60" />
+    <interge name="bottombar_title_height" type="dip" value="30" />
+
+    <!-- explore -->
+
+    <interge name="photo_height" type="dip" value="70" />
+    <interge name="photo_width" type="dip" value="100" />
+    <interge name="photo_padding" type="dip" value="6" />
+    <interge name="photo_bucket_height" type="dip" value="90" />
+    <interge name="photo_bucket_width" type="dip" value="120" />
+    <interge name="photo_title_size" type="px" value="20" />
+    <interge name="photo_title_line" type="px" value="2" />
+    <interge name="video_height" type="dip" value="82" />
+    <interge name="video_width" type="dip" value="120" />
+    <interge name="video_padding" type="dip" value="4" />
+    <interge name="audio_left_padding" type="dip" value="8" />
+    <interge name="audio_bottom_padding" type="dip" value="2" />
+    <interge name="audio_height" type="dip" value="78" />
+    <interge name="audio_width" type="dip" value="78" />
+    <!-- xiatian del -->
+    <!-- explorer to adaptive difference resolution -->
+
+
+    <!-- teapotXu add -->
+    <!-- Icon scaleFactor: move this variable from default_layout.xml -->
+    <!-- <interge name="theme_thirdapk_icon_scaleFactor" type="" value="70" /> -->
+    <!-- teapotXu add end -->
+
+
+    <!-- xiatian add start -->
+    <!-- New AppList Popmenu -->
+    <string name="applist_menu_color" value="#1a1a1a" />
+
+    <interge name="applist_menu_padding_top" type="dip" value="5" />
+    <interge name="applist_menu_height" type="dip" value="50" />
+    <!-- xiatian add end -->
+
+
+    <!-- zqh add for butterfly -->
+    <interge name="page_edit_ygap234" type="dip" value="40" />
+    <interge name="page_edit_xgap234" type="dip" value="2" />
+    <interge name="page_edit_ygap567" type="dip" value="20" />
+    <interge name="page_edit_ygap567_small" type="dip" value="15" />
+    <interge name="page_edit_xgap567" type="dip" value="20" />
+    <!-- zqh end -->
+
+
+    <!-- teapotXu add start -->
+    <!-- optimize the hotseat's scroll effect -->
+    <interge name="scroll_back_hotseat_offset" type="dip" value="20" />
+    <interge name="scroll_up_and_down_min_delta_y" type="dip" value="4" />
+    <!-- teapotXu add end -->
+
+
+    <!-- widgetHost -->
+    <interge name="miui_widget_indicator_height" type="dip" value="12" />
+
+    <!-- teapotXu add start -->
+    <interge name="paopao_state_icon_padding_x" type="dip" value="0" />
+    <interge name="paopao_state_icon_padding_y" type="dip" value="0" />
+    <!-- teapotXu add end -->
+
+    <interge name="icon_and_text_spaceing" type="dip" value="10" />
+ 	<!-- zjp -->
+    <interge name="setupmenu_icon_and_text_spacing" type="dip" value="4" />
+    <interge name="setupmenu_android4_item_height" type=" " value="48" />
+    <interge name="setupmenu_square_item_height" type=" " value="70" />
+    <interge name="setupmenu_text_font_size" type=" " value="14" />
+    <interge name="setupmenu_item_padding_y" type="dip" value="0" />
+    <interge name="setupmenu_items_btw_space" type="dip" value="0" />
+    <interge name="setupmenu_icon_padding_top" type="dip" value="8" />
+    <interge name="appmenu_icon_padding_top" type="dip" value="13" />
+    <interge name="workspace_editmode_optimum_widget_icon_size" type="dip" value="-1" />
+    <interge name="default_icon_size" type=" " value="1" />
+ 	<!-- 0:Big - 1:Nomal - 2:Small -->
+    <string name="addList_item_text_color" value="#000000" />
+    <string name="folder_rename_text_color" value="#000000" />
+
+    <!-- show_icon_size start  by jbc -->
+    <!-- show_icon_size_different_layout==false start -->
+    <interge name="app_icon_size_big_screen_big_icon_same_layout" type="dip" value="64" />
+    <interge name="app_icon_size_big_screen_normal_icon_same_layout" type="dip" value="58" />
+    <interge name="app_icon_size_big_screen_small_icon_same_layout" type="dip" value="48" />
+    <interge name="app_icon_size_normal_screen_big_icon_same_layout" type="dip" value="58" />
+    <interge name="app_icon_size_normal_screen_normal_icon_same_layout" type="dip" value="48" />
+    <interge name="app_icon_size_normal_screen_small_icon_same_layout" type="dip" value="46" />
+    <interge name="app_icon_size_small_screen_big_icon_same_layout" type="dip" value="54" />
+    <interge name="app_icon_size_small_screen_normal_icon_same_layout" type="dip" value="48" />
+    <interge name="app_icon_size_small_screen_small_icon_same_layout" type="dip" value="45" />
+    <!-- show_icon_size_different_layout==false end -->
+
+
+    <!-- big screen start -->
+    <interge name="app_icon_size_big_screen_big_icon" type="dip" value="63" />
+    <interge name="icon_title_font_big_screen_big_icon" type="dip" value="19" />
+    <interge name="workspace_row_num_big_screen_big_icon" type="" value="3" />
+    <interge name="workspace_col_num_big_screen_big_icon" type="" value="3" />
+    <interge name="workspace_topPadding_big_screen_big_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_big_screen_big_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_big_screen_big_icon" type="dip" value="90" />
+    <interge name="applist_row_num_big_screen_big_icon" type="" value="4" />
+    <interge name="applist_col_num_big_screen_big_icon" type="" value="3" />
+    <interge name="applist_padding_left_big_screen_big_icon" type="dip" value="10" />
+    <interge name="applist_padding_right_big_screen_big_icon" type="dip" value="10" />
+    <interge name="applist_padding_top_big_screen_big_icon" type="dip" value="25" />
+    <interge name="applist_padding_bottom_big_screen_big_icon" type="dip" value="50" />
+    <interge name="applist_indicator_y_big_screen_big_icon" type="dip" value="21" />
+    <interge name="workspace_cell_width_big_screen_big_icon" type="dip" value="100" />
+    <interge name="workspace_cell_height_big_screen_big_icon" type="dip" value="100" />
+    <interge name="app_icon_size_big_screen_normal_icon" type="dip" value="58" />
+    <interge name="icon_title_font_big_screen_normal_icon" type="dip" value="14" />
+    <interge name="workspace_row_num_big_screen_normal_icon" type="" value="4" />
+    <interge name="workspace_col_num_big_screen_normal_icon" type="" value="4" />
+    <interge name="workspace_topPadding_big_screen_normal_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_big_screen_normal_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_big_screen_normal_icon" type="dip" value="90" />
+    <interge name="applist_row_num_big_screen_normal_icon" type="" value="5" />
+    <interge name="applist_col_num_big_screen_normal_icon" type="" value="4" />
+    <interge name="applist_padding_left_big_screen_normal_icon" type="dip" value="10" />
+    <interge name="applist_padding_right_big_screen_normal_icon" type="dip" value="10" />
+    <interge name="applist_padding_top_big_screen_normal_icon" type="dip" value="19" />
+    <interge name="applist_padding_bottom_big_screen_normal_icon" type="dip" value="49" />
+    <interge name="applist_indicator_y_big_screen_normal_icon" type="dip" value="20" />
+    <interge name="workspace_cell_width_big_screen_normal_icon" type="dip" value="74" />
+    <interge name="workspace_cell_height_big_screen_normal_icon" type="dip" value="86" />
+    <interge name="app_icon_size_big_screen_small_icon" type="dip" value="42" />
+    <interge name="icon_title_font_big_screen_small_icon" type="dip" value="12" />
+    <interge name="workspace_row_num_big_screen_small_icon" type="" value="5" />
+    <interge name="workspace_col_num_big_screen_small_icon" type="" value="5" />
+    <interge name="workspace_topPadding_big_screen_small_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_big_screen_small_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_big_screen_small_icon" type="dip" value="90" />
+    <interge name="applist_row_num_big_screen_small_icon" type="" value="6" />
+    <interge name="applist_col_num_big_screen_small_icon" type="" value="5" />
+    <interge name="applist_padding_left_big_screen_small_icon" type="dip" value="0" />
+    <interge name="applist_padding_right_big_screen_small_icon" type="dip" value="0" />
+    <interge name="applist_padding_top_big_screen_small_icon" type="dip" value="15" />
+    <interge name="applist_padding_bottom_big_screen_small_icon" type="dip" value="30" />
+    <interge name="applist_indicator_y_big_screen_small_icon" type="dip" value="13" />
+    <interge name="workspace_cell_width_big_screen_small_icon" type="dip" value="64" />
+    <interge name="workspace_cell_height_big_screen_small_icon" type="dip" value="78" />
+    <!-- big screen end -->
+
+
+    <!-- normal screen start -->
+    <interge name="app_icon_size_normal_screen_big_icon" type="dip" value="48" />
+    <interge name="icon_title_font_normal_screen_big_icon" type="dip" value="18" />
+    <interge name="workspace_row_num_normal_screen_big_icon" type="" value="3" />
+    <interge name="workspace_col_num_normal_screen_big_icon" type="" value="3" />
+    <interge name="workspace_topPadding_normal_screen_big_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_normal_screen_big_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_normal_screen_big_icon" type="dip" value="90" />
+    <interge name="applist_row_num_normal_screen_big_icon" type="" value="4" />
+    <interge name="applist_col_num_normal_screen_big_icon" type="" value="3" />
+    <interge name="applist_padding_left_normal_screen_big_icon" type="dip" value="10" />
+    <interge name="applist_padding_right_normal_screen_big_icon" type="dip" value="10" />
+    <interge name="applist_padding_top_normal_screen_big_icon" type="dip" value="13" />
+    <interge name="applist_padding_bottom_normal_screen_big_icon" type="dip" value="26" />
+    <interge name="applist_indicator_y_normal_screen_big_icon" type="dip" value="11" />
+    <interge name="workspace_cell_width_normal_screen_big_icon" type="dip" value="100" />
+    <interge name="workspace_cell_height_normal_screen_big_icon" type="dip" value="100" />
+    <interge name="app_icon_size_normal_screen_normal_icon" type="dip" value="48" />
+    <interge name="icon_title_font_normal_screen_normal_icon" type="dip" value="14" />
+    <interge name="workspace_row_num_normal_screen_normal_icon" type="" value="4" />
+    <interge name="workspace_col_num_normal_screen_normal_icon" type="" value="4" />
+    <interge name="workspace_topPadding_normal_screen_normal_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_normal_screen_normal_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_normal_screen_normal_icon" type="dip" value="90" />
+    <interge name="applist_row_num_normal_screen_normal_icon" type="" value="5" />
+    <interge name="applist_col_num_normal_screen_normal_icon" type="" value="4" />
+    <interge name="applist_padding_left_normal_screen_normal_icon" type="dip" value="10" />
+    <interge name="applist_padding_right_normal_screen_normal_icon" type="dip" value="10" />
+    <interge name="applist_padding_top_normal_screen_normal_icon" type="dip" value="6" />
+    <interge name="applist_padding_bottom_normal_screen_normal_icon" type="dip" value="22" />
+    <interge name="applist_indicator_y_normal_screen_normal_icon" type="dip" value="10" />
+    <interge name="workspace_cell_width_normal_screen_normal_icon" type="dip" value="74" />
+    <interge name="workspace_cell_height_normal_screen_normal_icon" type="dip" value="86" />
+    <interge name="app_icon_size_normal_screen_small_icon" type="dip" value="40" />
+    <interge name="icon_title_font_normal_screen_small_icon" type="dip" value="12" />
+    <interge name="workspace_row_num_normal_screen_small_icon" type="" value="5" />
+    <interge name="workspace_col_num_normal_screen_small_icon" type="" value="5" />
+    <interge name="workspace_topPadding_normal_screen_small_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_normal_screen_small_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_normal_screen_small_icon" type="dip" value="90" />
+    <interge name="applist_row_num_normal_screen_small_icon" type="" value="6" />
+    <interge name="applist_col_num_normal_screen_small_icon" type="" value="5" />
+    <interge name="applist_padding_left_normal_screen_small_icon" type="dip" value="0" />
+    <interge name="applist_padding_right_normal_screen_small_icon" type="dip" value="0" />
+    <interge name="applist_padding_top_normal_screen_small_icon" type="dip" value="10" />
+    <interge name="applist_padding_bottom_normal_screen_small_icon" type="dip" value="21" />
+    <interge name="applist_indicator_y_normal_screen_small_icon" type="dip" value="10" />
+    <interge name="workspace_cell_width_normal_screen_small_icon" type="dip" value="64" />
+    <interge name="workspace_cell_height_normal_screen_small_icon" type="dip" value="78" />
+    <!-- normal screen end -->
+
+
+    <!-- small screen start -->
+    <interge name="app_icon_size_small_screen_big_icon" type="dip" value="60" />
+    <interge name="icon_title_font_small_screen_big_icon" type="dip" value="20" />
+    <interge name="workspace_row_num_small_screen_big_icon" type="" value="3" />
+    <interge name="workspace_col_num_small_screen_big_icon" type="" value="3" />
+    <interge name="workspace_topPadding_small_screen_big_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_small_screen_big_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_small_screen_big_icon" type="dip" value="90" />
+    <interge name="applist_row_num_small_screen_big_icon" type="" value="4" />
+    <interge name="applist_col_num_small_screen_big_icon" type="" value="3" />
+    <interge name="applist_padding_left_small_screen_big_icon" type="dip" value="10" />
+    <interge name="applist_padding_right_small_screen_big_icon" type="dip" value="10" />
+    <interge name="applist_padding_top_small_screen_big_icon" type="dip" value="10" />
+    <interge name="applist_padding_bottom_small_screen_big_icon" type="dip" value="25" />
+    <interge name="applist_indicator_y_small_screen_big_icon" type="dip" value="10" />
+    <interge name="workspace_cell_width_small_screen_big_icon" type="dip" value="95" />
+    <interge name="workspace_cell_height_small_screen_big_icon" type="dip" value="95" />
+    <interge name="app_icon_size_small_screen_normal_icon" type="dip" value="48" />
+    <interge name="icon_title_font_small_screen_normal_icon" type="dip" value="14" />
+    <interge name="workspace_row_num_small_screen_normal_icon" type="" value="4" />
+    <interge name="workspace_col_num_small_screen_normal_icon" type="" value="4" />
+    <interge name="workspace_topPadding_small_screen_normal_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_small_screen_normal_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_small_screen_normal_icon" type="dip" value="90" />
+    <interge name="applist_row_num_small_screen_normal_icon" type="" value="5" />
+    <interge name="applist_col_num_small_screen_normal_icon" type="" value="4" />
+    <interge name="applist_padding_left_small_screen_normal_icon" type="dip" value="10" />
+    <interge name="applist_padding_right_small_screen_normal_icon" type="dip" value="10" />
+    <interge name="applist_padding_top_small_screen_normal_icon" type="dip" value="6" />
+    <interge name="applist_padding_bottom_small_screen_normal_icon" type="dip" value="22" />
+    <interge name="applist_indicator_y_small_screen_normal_icon" type="dip" value="10" />
+    <interge name="workspace_cell_width_small_screen_normal_icon" type="dip" value="74" />
+    <interge name="workspace_cell_height_small_screen_normal_icon" type="dip" value="86" />
+    <interge name="app_icon_size_small_screen_small_icon" type="dip" value="40" />
+    <interge name="icon_title_font_small_screen_small_icon" type="dip" value="12" />
+    <interge name="workspace_row_num_small_screen_small_icon" type="" value="5" />
+    <interge name="workspace_col_num_small_screen_small_icon" type="" value="5" />
+    <interge name="workspace_topPadding_small_screen_small_icon" type="dip" value="10" />
+    <interge name="workspace_bottomPadding_small_screen_small_icon" type="dip" value="125" />
+    <interge name="page_indicator_y_small_screen_small_icon" type="dip" value="90" />
+    <interge name="applist_row_num_small_screen_small_icon" type="" value="6" />
+    <interge name="applist_col_num_small_screen_small_icon" type="" value="5" />
+    <interge name="applist_padding_left_small_screen_small_icon" type="dip" value="0" />
+    <interge name="applist_padding_right_small_screen_small_icon" type="dip" value="0" />
+    <interge name="applist_padding_top_small_screen_small_icon" type="dip" value="6" />
+    <interge name="applist_padding_bottom_small_screen_small_icon" type="dip" value="22" />
+    <interge name="applist_indicator_y_small_screen_small_icon" type="dip" value="10" />
+    <interge name="workspace_cell_width_small_screen_small_icon" type="dip" value="64" />
+    <interge name="workspace_cell_height_small_screen_small_icon" type="dip" value="78" />
+    <!-- small screen end -->
+
+
+    <!-- desktopEdit begin -->
+    <interge name="pop_menu_height_xxh" type="dip" value="150" />
+    <interge name="pop_menu_height" type="dip" value="150" />
+    <interge name="pop_menu_height_h" type="dip" value="130" />
+    <interge name="pop_menu_height_s" type="dip" value="125" />
+    
+    <interge name="pop_menu_container_height_xxh" type="dip" value="230"/>
+    <interge name="pop_menu_container_height" type="dip" value="240" />
+    <interge name="pop_menu_container_height_zdy" type="dip" value="230"/>
+    <interge name="pop_menu_container_height_h" type="dip" value="210"/>
+    <interge name="pop_menu_container_height_s" type="dip" value="190"/>
+    
+    <interge name="pop_menu_indicator_height_xxh" type="dip" value="4"/>
+    <interge name="pop_menu_indicator_height" type="dip" value="4" />
+    <interge name="pop_menu_indicator_height_h" type="dip" value="3"/>
+    <interge name="pop_menu_indicator_height_s" type="dip" value="3"/>
+    
+    <interge name="pop_menu_title_height_xxh" type="dip" value="40" />
+    <interge name="pop_menu_title_height" type="dip" value="40" />
+    <interge name="pop_menu_title_height_h" type="dip" value="38" />
+    <interge name="pop_menu_title_height_s" type="dip" value="35" />
+    
+    <interge name="pop_menu_page_grid_padding_top_xxh" type="dip" value="14"/>
+    <interge name="pop_menu_page_grid_padding_top" type="dip" value="14"/>
+    <interge name="pop_menu_page_grid_padding_top_h" type="dip" value="6"/>
+    <interge name="pop_menu_page_grid_padding_top_s" type="dip" value="0"/>
+    
+    <interge name="pop_menu_page_grid_padding_bottom_xxh" type="dip" value="5"/>
+    <interge name="pop_menu_page_grid_padding_bottom" type="dip" value="10"/>
+    <interge name="pop_menu_page_grid_padding_bottom_h" type="dip" value="8"/>
+    <interge name="pop_menu_page_grid_padding_bottom_s" type="dip" value="0"/>
+    
+    <interge name="pop_menu_indicator_bar_height_xxh" type="dip" value="2" />
+    <interge name="pop_menu_indicator_bar_height" type="dip" value="2" />
+    <interge name="pop_menu_indicator_bar_height_h" type="dip" value="1" />
+    <interge name="pop_menu_indicator_bar_height_s" type="dip" value="1" />
+    
+    <interge name="workspace_offset_low_y_xxh" type="dip" value="45" />
+    <interge name="workspace_offset_low_y" type="dip" value="45" />
+    <interge name="workspace_offset_low_y_h" type="dip" value="40" />
+    <interge name="workspace_offset_low_y_s" type="dip" value="40" />
+    
+    <interge name="pop_menu_bottom_ind_height_xxh" type="dip" value="2" />
+    <interge name="pop_menu_bottom_ind_height" type="dip" value="2" />
+    <interge name="pop_menu_bottom_ind_height_h" type="dip" value="1" />
+    <interge name="pop_menu_bottom_ind_height_s" type="dip" value="1" />
+    
+    <interge name="pop_menu_bottom_ind_bar_height_xxh" type="dip" value="1" />
+    <interge name="pop_menu_bottom_ind_bar_height" type="dip" value="1" />
+    <interge name="pop_menu_bottom_ind_bar_height_h" type="dip" value="1" />
+    <interge name="pop_menu_bottom_ind_bar_height_s" type="dip" value="1" />
+    
+    <interge name="workspace_offset_high_y_xxh" type="dip" value="85" />
+    <interge name="workspace_offset_high_y" type="dip" value="85" />
+    <interge name="workspace_offset_high_y_h" type="dip" value="75" />
+    <interge name="workspace_offset_high_y_s" type="dip" value="75" />
+    
+    <interge name="workspace_celllayout_offset_y_xxh" type="dip" value="20"/>
+    <interge name="workspace_celllayout_offset_y" type="dip" value="20"/>
+    <interge name="workspace_celllayout_offset_y_w" type="dip" value="16"/>
+    <interge name="workspace_celllayout_offset_y_h" type="dip" value="27"/>
+    <interge name="workspace_celllayout_offset_y_s" type="dip" value="50"/>
+    
+    <interge name="workspace_celllayout_bg_padding_top_xxh" type="dip" value="18"/>
+    <interge name="workspace_celllayout_bg_padding_top" type="dip" value="18"/>
+    <interge name="workspace_celllayout_bg_padding_top_w" type="dip" value="17"/>
+    <interge name="workspace_celllayout_bg_padding_top_h" type="dip" value="25"/>
+    <interge name="workspace_celllayout_bg_padding_top_s" type="dip" value="50"/>
+    
+    <interge name="edit_mode_indicator_offset_4x1_xxh" type="dip" value="15"/>
+    <interge name="edit_mode_indicator_offset_4x1" type="dip" value="0"/>
+    <interge name="edit_mode_indicator_offset_4x1_h" type="dip" value="0"/>
+   	<interge name="edit_mode_indicator_offset_4x1_s" type="dip" value="20"/>
+   	
+   	<interge name="edit_mode_indicator_offset_4x2_xxh" type="dip" value="18"/>
+    <interge name="edit_mode_indicator_offset_4x2" type="dip" value="7"/>
+    <interge name="edit_mode_indicator_offset_4x2_zdy" type="dip" value="18"/>
+    <interge name="edit_mode_indicator_offset_4x2_h" type="dip" value="0"/>
+   	<interge name="edit_mode_indicator_offset_4x2_s" type="dip" value="-25"/>
+   	
+    <string name="pop_menu_title_color" value="#FFFFFF" />
+    <!-- desktopEdit end -->
+    
+   	<interge name="app_pop_menu_padding_top" type="dip" value="10" />
+    <interge name="app_pop_menu_padding_right" type="dip" value="10" />
+    <interge name="app_pop_menu_item_height" type="dip" value="40" />
+    <interge name="app_pop_menu_item_width" type="dip" value="120" />
+    <interge name="app_pop_menu_item_gap" type="dip" value="10" />
+    <interge name="app_pop_menu_img_size" type="dip" value="30" />
+    
+    <!-- Quick search start-->
+    <string name="qs_guess_title_text_color" value="#FFFFFF" />
+    <string name="qs_all_app_list_icon_text_color" value="#9e9e9e" />
+    <string name="qs_letter_text_color" value="#979797" />
+    <string name="qs_app_list_item_title_text_color" value="#ffffff" />
+    <string name="qs_no_search_result_tip_color" value="#bbbaba" />
+    
+    <interge name="qs_app_list_row_height_s" type="dip" value="100" />
+    <interge name="qs_app_list_row_height_m" type="dip" value="80" /> 
+    <interge name="qs_app_list_row_height_l" type="dip" value="100" /> 
+    <interge name="qs_app_list_row_height_xh" type="dip" value="90" />  
+        
+    <interge name="qs_category_grid_padding_left_s" type="dip" value="10" />
+    <interge name="qs_category_grid_padding_left_m" type="dip" value="10" />
+    <interge name="qs_category_grid_padding_left_l" type="dip" value="10" />
+    <interge name="qs_category_grid_padding_left_xh" type="dip" value="15" />
+    
+    <interge name="qs_category_grid_padding_right_s" type="dip" value="10" />
+    <interge name="qs_category_grid_padding_right_m" type="dip" value="10" />
+    <interge name="qs_category_grid_padding_right_l" type="dip" value="10" />
+    <interge name="qs_category_grid_padding_right_xh" type="dip" value="15" />
+    
+    <interge name="qs_category_grid_padding_top_s" type="dip" value="0" />
+    <interge name="qs_category_grid_padding_top_m" type="dip" value="0" />
+    <interge name="qs_category_grid_padding_top_l" type="dip" value="0" />
+    <interge name="qs_category_grid_padding_top_xh" type="dip" value="0" />
+    
+    <interge name="qs_category_grid_padding_bottom_s" type="dip" value="0" />
+    <interge name="qs_category_grid_padding_bottom_m" type="dip" value="0" />
+    <interge name="qs_category_grid_padding_bottom_l" type="dip" value="0" />
+    <interge name="qs_category_grid_padding_bottom_xh" type="dip" value="0" />
+    <!-- Quick search end -->
+</resources>

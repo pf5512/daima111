@@ -1,0 +1,63 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="tool_bar_height">38.66667dp</dimen>
+    <dimen name="nodata_layout_height">473.3333dp</dimen>
+    <dimen name="weather_image_height">320dp</dimen>
+    <dimen name="weather_image_width">320dp</dimen>
+    <dimen name="feature_weather_height">205.3333dp</dimen>
+ <!--    <dimen name="feature_weather_height">153.3333dp</dimen> -->
+    <dimen name="status_bar_height">26.66667dp</dimen>
+    <dimen name="feature_weather_cell_width">80dp</dimen>
+    <dimen name="feature_weather_cell_height">126.66667dp</dimen>
+    <dimen name="feature_weather_img_width">80dp</dimen>
+    <dimen name="feature_weather_img_height">66dp</dimen>
+    <dimen name="today_tmp_layout_height">66.66667dp</dimen>
+    <dimen name="popup_window_width">184dp</dimen>
+    <dimen name="popup_item_height">38dp</dimen>
+    <dimen name="edit_list_height">434.666667dp</dimen>
+    <dimen name="add_button_width">53.333333333dp</dimen>
+    <!-- add 3d widget -->
+    <dimen name="model_width">306.666667dp</dimen>
+    <dimen name="model_height">216dp</dimen>
+    <dimen name="move_offset_x">306.666667dp</dimen>
+    <dimen name="move_offset_y">216dp</dimen>
+    <dimen name="marine_shelf_width">106.666667dp</dimen>
+    <dimen name="marine_shelf_height">216dp</dimen>
+    <dimen name="light_dx">-103.683942dp</dimen>
+    <dimen name="light_dy">47.38414dp</dimen>
+    <dimen name="light_dz">103.073883dp</dimen>
+    <dimen name="coco_dx">86.279175dp</dimen>
+    <dimen name="coco_dy">11.532582dp</dimen>
+    <dimen name="coco_dz">-130.616577dp</dimen>
+    <dimen name="camel_distance">172.652648dp</dimen>
+    <dimen name="condition_width">90dp</dimen>
+    <dimen name="condition_height">36.666667dp</dimen>
+    <dimen name="date_width">112.592244dp</dimen>
+    <dimen name="date_height">27.431045dp</dimen>
+    <dimen name="info_width">112.592244dp</dimen>
+    <dimen name="info_height">20.431045dp</dimen>
+    <dimen name="info_x">-123.220550dp</dimen>
+    <dimen name="info_y">40.014572dp</dimen>
+     <dimen name="ConditionViewTS">30dp</dimen>
+     <dimen name="InfoViewTS">12dp</dimen>
+     <dimen name="DataViewTS">12dp</dimen>
+     <dimen name="AddressViewTS">12dp</dimen>
+     
+     <dimen name="draw_text_x">-27.666667dp</dimen>
+     <dimen name="draw_text_condition_y">170.66667dp</dimen>
+     <dimen name="draw_text_address_y">150.66667dp</dimen>
+     <dimen name="draw_text_info_y">135.66667dp</dimen>
+     <dimen name="draw_text_data_y">115.66667dp</dimen>
+     
+     <dimen name="Condition_height_offset">0dp</dimen>
+     
+     <dimen name="city_item_bg_h">140dp</dimen>
+     
+          <dimen name="clock_center_offset_x">-16dp</dimen>
+     <dimen name="point_in_weather_x">72dp</dimen>
+     <dimen name="point_in_weather_y">-16dp</dimen>
+     <dimen name="point_in_weather_width">-24dp</dimen>
+</resources>

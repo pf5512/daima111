@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+   	<ImageView android:layout_width="86dip"
+	    	android:layout_height="86dip"
+	    	android:id="@+id/thumbnail"
+           	android:layout_centerHorizontal="true"
+            android:background="@drawable/imgview_selector"
+            android:contentDescription="@string/thumbImage"
+            android:padding="6dip"
+            android:scaleType="fitXY" 
+	    	/>
+    <ImageView
+        android:id="@+id/imageUsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/thumbnail"
+        android:layout_alignRight="@id/thumbnail"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/used"
+        android:contentDescription="@string/thumbImage" />
+    
+    <TextView
+        android:id="@+id/indication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#5a6063"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="14dip" 
+        android:layout_marginTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/thumbnail"/>
+
+</RelativeLayout>

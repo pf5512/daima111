@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diamond music</string>
+    <string name="max_instance_alert">the Diamond music already exists,can not add another one</string>
+    <string name="music_next_action">com.android.music.musicservicecommand.next</string>
+    <string name="music_previous_action">com.android.music.musicservicecommand.previous</string>
+    <string name="music_pause_action">com.android.music.musicservicecommand.pause</string>
+    <string name="music_togglepause_action">com.android.music.musicservicecommand.togglepause</string>
+    <string name="music_command_servicecmd">com.android.music.musicservicecommand</string>
+    <string name="music_command_togglepause">togglepause</string>
+    <string name="music_command_stop">stop</string>
+    <string name="music_command_pause">pause</string>
+    <string name="music_command_previous">previous</string>
+    <string name="music_command_next">next</string>
+    <string name="music_changed_metachanged">com.android.music.metachanged</string>
+    <string name="music_changed_queuechanged">com.android.music.queuechanged</string>
+    <string name="music_changed_playbackcomplete">com.android.music.playbackcomplete</string>
+    <string name="music_changed_playstatechanged">com.android.music.playstatechanged</string>
+
+    <integer name="spanX">4</integer>
+    <integer name="spanY">3</integer>
+    <integer name="max_instance">1</integer>
+
+    <string name="server_download_file_name">CoCo Launcher</string>
+    <string name="server_begin_download">start download</string>
+    <string name="server_download_finish">download is complete, click to Install</string>
+    <string name="server_download_fail">download failed</string>
+    <string name="server_downloading">downloading...</string>
+    <string name="textSdCardNotPrepare">SD card not ready</string>
+    <string name="pop_to_download_title">download CoCo Launcher</string>
+    <string name="pop_to_download_message">TIP:"\n"The CoCo desktop is not installed the system, whether to immediately download ? </string>
+    <string name="pop_to_download_botton_left">download</string>
+    <string name="pop_to_download_botton_right">download later</string>
+    <string name="pop_to_install_title">CoCo Theme</string>
+    <string name="pop_to_install_message">Need install the CoCo launcher to apply this theme.</string>
+    <string name="pop_to_install_botton_left">OK</string>
+    <string name="turbo_launcher_name">Turbo Launcher</string>
+    <string name="turbo_launcher_desc">Smooth 3D speed launcher</string>
+    <string name="turbo_apply_content">Appling the theme in the official launcher </string>
+    <string name="turbo_button_download">Download Turbo Launcher</string>
+
+</resources>

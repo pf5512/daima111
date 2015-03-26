@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">天氣時鐘</string>
+	<string name="max_instance_alert">已經存在，不可以重復添加
+	</string>
+	<string name="download_toast">請鏈接網絡後重試.</string>
+	<string name="dialog_title">天氣時鐘</string>
+    <string name="dialog_message">還沒有安裝Ami天氣客戶端，是否現在安裝？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ami_download_dialog_title_text">Ami 天气</string>
+<string name="ami_download_dialog_message_text">及時掌握每日天氣</string>
+</resources>

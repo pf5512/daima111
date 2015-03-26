@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee" >
+    
+     <include
+        android:id="@+id/easou_search_sdk_search_box_blue_recomend"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        layout="@layout/easou_search_sdk_search_box" />
+	
+     <LinearLayout
+         android:id="@+id/easou_search_sdk_hot_word_gray"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+         android:background="@drawable/easou_search_sdk_hot_word_margin"
+         android:orientation="vertical" />
+</LinearLayout>

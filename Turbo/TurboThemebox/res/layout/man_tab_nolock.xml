@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hometabs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff" >
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <include
+                    android:id="@+id/grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    layout="@layout/lock_main" />
+
+                <include
+                    android:id="@+id/theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    layout="@layout/theme_download" />
+            </FrameLayout>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/manager_bar"
+                android:orientation="horizontal" >
+            </TabWidget>
+        </LinearLayout>
+    </TabHost>
+	<ImageView 
+        android:id="@+id/imageViewRecom"
+        android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:clickable="false"/>
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="520dip"
+	    android:layout_marginTop="-450dip"
+	    android:id="@+id/mainRelLayout"
+	    android:visibility="gone" >
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" >
+			<LinearLayout 
+				android:id="@+id/linLayout"
+				android:layout_width="fill_parent"
+				android:layout_height="450dp"
+				android:orientation="vertical" >
+                <RelativeLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content" >
+				    <ImageView 
+				       	android:layout_width="fill_parent"
+					   	android:layout_height="wrap_content"
+					    android:background="@drawable/recommend_title" />
+				    <TextView 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:textSize="20sp"
+				        android:textColor="#ffffff"
+				        android:text="@string/recommend"
+				        android:layout_centerVertical="true"
+				        android:layout_marginLeft="10dp"/>
+			    </RelativeLayout>
+			    <RelativeLayout
+			        android:layout_width="fill_parent"
+					android:layout_height="wrap_content" >
+					<ListView
+					    android:id="@+id/pushListView"
+					    android:layout_width="fill_parent"
+					    android:layout_height="fill_parent"
+					    android:cacheColorHint="#00000000"
+					    android:divider="@drawable/strips"
+					    android:background="#f3f3f3" />
+					<TextView 
+					    android:id="@+id/internetPrompt" 
+         				android:layout_width="wrap_content"   
+         				android:layout_height="wrap_content"  
+         				android:visibility="invisible"
+         				android:layout_centerInParent="true"
+         				android:text="@string/internet_unusual"
+         				android:textColor="#000000"
+         				android:textSize="12sp" />
+					<ProgressBar 
+					    android:id="@+id/circleProgressBar"    
+         				style="?android:attr/progressBarStyleLarge"  
+         				android:layout_width="wrap_content"   
+         				android:layout_height="wrap_content"  
+         				android:visibility="invisible"
+         				android:layout_centerInParent="true" />
+				</RelativeLayout>
+			</LinearLayout>
+            <ImageView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="438dp"
+				android:background="@drawable/recommemd_bg"/>
+            <LinearLayout 
+				android:id="@+id/linLayout"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="445dp"
+				android:orientation="vertical" >
+			   	<RelativeLayout
+			        android:id="@+id/relLayout"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="13dp"
+			        android:layout_below="@id/linLayout" >
+	               	
+			        <ImageView
+			            android:id="@+id/labelImageView"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_centerHorizontal="true"
+			            android:layout_marginTop="0dp"
+			            android:background="@drawable/label" />
+			
+			        <ImageView
+			            android:id="@+id/starImageView"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_centerHorizontal="true"
+			            android:layout_marginTop="8dp"
+			            android:background="@drawable/star" />
+			    </RelativeLayout>
+			</LinearLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<RelativeLayout android:id="@+id/load"
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent" 
+    	android:visibility="gone">
+	     <ImageView android:id="@+id/loadbg"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:contentDescription="@string/bgTheme"
+	        android:scaleType="fitXY">
+	    </ImageView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/text"
+			android:textSize="16dip" android:textColor="#87939d" android:text=""
+			android:layout_alignParentBottom="true"
+			android:background="@android:color/transparent"
+			android:layout_centerHorizontal="true" android:layout_marginBottom="43dp"></TextView>
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:id="@+id/loadtext" android:text=""
+			android:textSize="16dip" android:textColor="#87939d"
+			android:background="@android:color/transparent"
+			android:layout_alignBottom="@+id/text" android:layout_toRightOf="@+id/text"></TextView>
+	</RelativeLayout>
+</RelativeLayout>

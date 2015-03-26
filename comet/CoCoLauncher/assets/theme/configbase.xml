@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PageSelect -->
+    <interge name="app_icon_size" type="dip" value="48"/>
+    <interge name="pageselect_icon_width" type="dip" value="135" />
+    <interge name="pageselect_icon_height" type="dip" value="120" />
+    <interge name="page_indicator_origin_x" type="dip" value="27" />
+    <interge name="page_indicator_origin_y" type="dip" value="14" />
+    <interge name="page_indicator_radius" type="dip" value="48" />
+    <interge name="page_indicator_width" type="dip" value="24" />
+    <interge name="page_indicator_height" type="dip" value="24" />
+    <interge name="workspace_cell_width" type="dip" value="64" />
+    <interge name="workspace_cell_width_large" type="dip" value="74" />
+    <interge name="workspace_cell_height" type="dip" value="86" />
+    <interge name="workspace_cell_height_small" type="dip" value="75" />
+    <interge name="workspace_cell_height_large" type="dip" value="88" />
+    <interge name="workspace_cell_adjust" type="dip" value="0" />
+    <interge name="workspace_cell_text_height" type="dip" value="32" />
+    <interge name="pageview_indicator_height" type="dip" value="8" />
+
+    <string name="appbar_tab_color" value="#FFFFFF" />
+    <string name="appbar_menu_color" value="#FFFFFF" />
+
+    <interge name="appbar_height" type="dip" value="50" />
+    <interge name="appbar_tab_width" type="dip" value="59" />
+    <interge name="appbar_tab_padding" type="dip" value="16" />
+    <interge name="appbar_indicator_height" type="dip" value="8" />
+    <interge name="appbar_menu_right" type="dip" value="10" />
+    <interge name="appbar_menu_width" type="dip" value="32" />
+    <interge name="appbar_menu_height" type="dip" value="32" />
+    <interge name="appbar_divider_width" type="px" value="2" />
+    <interge name="appbar_padding_left" type="dip" value="0" />
+    <interge name="appbar_menuitem_paddingleft" type="dip" value="6" />
+    <interge name="appbar_menuitem_width" type="dip" value="130" />
+    <interge name="appbar_menuitem_height" type="dip" value="50" />
+    <interge name="app_widget3d_gap" type="dip" value="5" />
+    <interge name="appbar_home_right" type="dip" value="5" />
+    <interge name="tip_point_width" type="dip" value="54" />
+    <interge name="tip_point_height" type="dip" value="54" />
+    <interge name="icongroup_button_height" type="dip" value="40" />
+    <interge name="icongroup_button_width" type="dip" value="40" />
+    <interge name="circle_unfocus_backgroud_width" type="dip" value="189" />
+    <interge name="circle_unfocus_backgroud_height" type="dip" value="189" />
+    <interge name="circle_focus_backgroud_width" type="dip" value="134" />
+    <interge name="circle_focus_backgroud_height" type="dip" value="72" />
+    <interge name="circle_focus_offset_y" type="dip" value="5" />
+    <interge name="circle_autosort_width" type="dip" value="36" />
+    <interge name="circle_autosort_height" type="dip" value="40" />
+    <interge name="circle_overlap_width" type="dip" value="36" />
+    <interge name="circle_overlap_height" type="dip" value="40" />
+    <interge name="circle_multiselect_width" type="dip" value="36" />
+    <interge name="circle_multiselect_height" type="dip" value="40" />
+    <interge name="circle_delall_width" type="dip" value="36" />
+    <interge name="circle_delall_height" type="dip" value="40" />
+    <interge name="circle_folder_width" type="dip" value="36" />
+    <interge name="circle_folder_height" type="dip" value="40" />
+    <interge name="circle_drawtext_x" type="dip" value="33" />
+    <interge name="circle_drawtext_y" type="dip" value="10" />
+    <interge name="icongroup_margin_left" type="dip" value="6" />
+    <interge name="icongroup_margin_top" type="dip" value="6" />
+    <interge name="icongroup_round_radius" type="px" value="30" />
+    <interge name="icongroup_bottom_limit" type="dip" value="54" />
+    <interge name="pop_toast_width" type="dip" value="80" />
+    <interge name="pop_toast_height" type="dip" value="21" />
+    <!-- Folder3D Start -->
+
+
+    <!-- folder params need config by different theme -->
+    <interge name="folder_front_icon_w" type="dip" value="54" />
+    <interge name="folder_front_icon_h" type="dip" value="30" />
+    <interge name="folder_front_margin_offset" type="dip" value="0" />
+    <interge name="folder_front_width" type="dip" value="60" />
+    <interge name="folder_front_height" type="dip" value="58" />
+    <interge name="folder_front_padding_left" type="dip" value="4" />
+    <interge name="folder_front_padding_top" type="dip" value="4" />
+    <interge name="folder_front_padding_right" type="dip" value="4" />
+    <interge name="folder_front_padding_bottom" type="dip" value="4" />
+    <interge name="folder_front_height_large" type="dip" value="71" />
+    <interge name="folder_icon_rotation_degree" type="" value="20" />
+    <interge name="folder_icon_rotation_offsetx" type="dip" value="12" />
+    <interge name="folder_icon_rotation_offsety" type="dip" value="7" />
+    <interge name="folder_transform_num" type=" " value="3" />
+    <interge name="folder_icon_row_num" type=" " value="1" />
+    <interge name="folder_icon_scale_factor" type=" " value="62" />
+
+    <string name="folder_title_color" value="#000000" />
+    <!-- folder params end config -->
+    <interge name="folder_num_width" type="dip" value="14" />
+    <interge name="folder_num_height" type="dip" value="12" />
+    <interge name="folder_num_offset_y" type="dip" value="0" />
+    <interge name="folder_num_circle_width" type="dip" value="15" />
+    <interge name="folder_back_width" type="dip" value="54" />
+    <interge name="folder_back_height" type="dip" value="33" />
+    <interge name="folder_gap_height" type="dip" value="0" />
+    <interge name="folder_group_left_margin" type="dip" value="2" />
+    <interge name="folder_group_right_margin" type="dip" value="2" />
+    <interge name="folder_group_top_margin" type="dip" value="2" />
+    <interge name="folder_group_bottom_margin" type="dip" value="5" />
+    <interge name="folder_group_left_round" type="px" value="14" />
+    <interge name="folder_group_top_round" type="px" value="16" />
+    <interge name="folder_group_right_round" type="px" value="14" />
+    <interge name="folder_group_bottom_round" type="px" value="44" />
+    <interge name="folder_group_text_height" type="dip" value="35" />
+    <interge name="folder_group_text_round" type="px" value="10" />
+    <interge name="folder_front_two_line_rotate_height" type="dip" value="64" />
+    <interge name="folder_front_two_line_rotate_height_large" type="dip" value="77" />
+    <!-- Folder3D Ended -->
+
+
+    <!-- Sidebar -->
+
+    <interge name="sidebar_height" type="dip" value="110" />
+    <interge name="sidebar_button_width" type="dip" value="200" />
+    <interge name="sidebar_button_height" type="dip" value="43" />
+    <interge name="sidebar_button_icon_width" type="dip" value="18" />
+    <interge name="sidebar_button_icon_height" type="dip" value="18" />
+    <interge name="sidebar_button_focus_size" type="dip" value="28" />
+    <interge name="sidebar_button_icon1_x" type="dip" value="85" />
+    <interge name="sidebar_button_icon1_y" type="dip" value="13" />
+    <interge name="sidebar_button_icon2_x" type="dip" value="116" />
+    <interge name="sidebar_button_icon2_y" type="dip" value="13" />
+
+    <string name="name" value="" />
+
+    <!-- Trash -->
+
+    <interge name="trash_icon_width" type="dip" value="0" />
+    <interge name="trash_icon_height" type="dip" value="41" />
+    <interge name="trash_cap_x" type="dip" value="37" />
+    <interge name="trash_cap_y" type="dip" value="22" />
+    <interge name="trash_cap_w" type="dip" value="28" />
+    <interge name="trash_cap_h" type="dip" value="12" />
+
+    <!-- HotSeat -->
+
+    <interge name="hot_obj_origin_z" type="dip" value="32" />
+    <interge name="hot_obj_height" type="dip" value="67" />
+    <interge name="hot_obj_rot_deg" type=" " value="127" />
+    <interge name="hot_obj_trans_y" type="dip" value="11" />
+    <interge name="hot_obj_trans_y_small" type="dip" value="19"/>
+	<interge name="hot_obj_trans_y_large" type="dip" value="0"/>
+    <interge name="hot_obj_trans_z" type="dip" value="7" />
+    <interge name="hot_grid_left_margin" type="dip" value="12" />
+    <interge name="hot_grid_right_margin" type="dip" value="12" />
+    <interge name="hot_frontgrid_origin_z" type="dip" value="21" />
+    <interge name="hot_grid_bottom_margin" type="dip" value="22" />
+    <interge name="hot_grid_bottom_margin_large" type="dip" value="22" />
+    <interge name="hot_sidebar_top_margin" type="dip" value="4" />
+    <interge name="hot_dock_trans_y" type="dip" value="16" />
+    <!-- HotButton -->
+
+
+    <!-- IconBg -->
+
+    <interge name="icon_bg_num" type="" value="0" />
+
+    <!-- page indicator -->
+
+    <interge name="page_indicator_size" type="dip" value="24" />
+    <!-- include margin -->
+    <interge name="page_indicator_focus_w" type="dip" value="14" />
+    <interge name="page_indicator_focus_w_small" type="dip" value="16" />
+    <interge name="page_indicator_normal_w" type="dip" value="10" />
+    <interge name="page_indicator_normal_w_small" type="dip" value="12" />
+    <interge name="page_indicator_size_s2" type="dip" value="30" />
+    <!-- include margin -->
+    <interge name="page_indicator_focus_w_s2" type="dip" value="18" />
+    <interge name="page_indicator_normal_w_s2" type="dip" value="8" />
+    <interge name="page_indicator_focus_w_s2_small" type="dip" value="20" />
+    <interge name="page_indicator_normal_w_s2_small" type="dip" value="10" />
+    <interge name="page_indicator_height" type="dip" value="41" />
+    <interge name="page_indicator_width" type="dip" value="0" />
+    <!-- 0:screen width -->
+    <interge name="page_indicator_x" type="dip" value="0" />
+    <interge name="page_indicator_y" type="dip" value="90" />
+    <interge name="page_indicator_y_small" type="dip" value="67" />
+    <interge name="applist_indicator_y" type="dip" value="10" />
+    <interge name="applist_indicator_y_large" type="dip" value="16" />
+    <interge name="applist_padding_bottom_large" type="dip" value="30" />
+    <!-- s4 style -->
+	<interge name="s4_page_indicator_bg_height" type="dip" value="8"/>
+	<interge name="s4_page_indicator_scroll_width" type="dip" value="45"/>
+	<interge name="s4_page_indicator_scroll_height" type="dip" value="31"/>
+	<interge name="s4_page_indicator_number_bg_size" type="dip" value="54"/>
+    <!-- celllayout -->
+    <interge name="celllayout_topPadding_small" type="dip" value="5" />
+    <interge name="celllayout_bottomPadding_small" type="dip" value="105" />
+    <interge name="celllayout_topPadding" type="dip" value="10" />
+    <interge name="celllayout_bottomPadding" type="dip" value="125" />
+    <!-- border -->
+    <interge name="drag_border_width" type="dip" value="15" />
+
+    <!-- pack? -->
+    <interge name="iloong_pack_tosd" type="" value="1" />
+    <interge name="bottombar_height" type="dip" value="60" />
+    <interge name="bottombar_title_height" type="dip" value="30" />
+
+    <!-- explore -->
+
+    <interge name="photo_height" type="dip" value="70" />
+    <interge name="photo_width" type="dip" value="100" />
+    <interge name="photo_padding" type="dip" value="6" />
+    <interge name="photo_bucket_height" type="dip" value="90" />
+    <interge name="photo_bucket_width" type="dip" value="120" />
+    <interge name="photo_title_size" type="px" value="20" />
+    <interge name="photo_title_line" type="px" value="2" />
+    <interge name="video_height" type="dip" value="82" />
+    <interge name="video_width" type="dip" value="120" />
+    <interge name="video_padding" type="dip" value="4" />
+    <interge name="audio_left_padding" type="dip" value="8" />
+    <interge name="audio_bottom_padding" type="dip" value="2" />
+    <interge name="audio_height" type="dip" value="78" />
+    <interge name="audio_width" type="dip" value="78" />
+    <!-- xiatian del -->
+    <!-- explorer to adaptive difference resolution -->
+    
+    <!-- teapotXu add -->
+    <!-- Icon scaleFactor: move this variable from default_layout.xml-->        
+    <interge name="theme_thirdapk_icon_scaleFactor" type="" value="70" />
+    <!-- teapotXu add end-->
+    
+    <!-- xiatian add start --><!-- New AppList Popmenu -->
+	<string name="applist_menu_color" value="#1a1a1a"/>
+	<interge name="applist_menu_padding_top" type="dip" value="5"/>
+	<interge name="applist_menu_height" type="dip" value="50"/>    
+	<!-- xiatian add end -->
+	
+</resources>

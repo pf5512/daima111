@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="app_effects_list_preference">
+        <item>стандарт</item>
+        <item>случайный</item>
+        <item>Stacked</item>
+        <item>Внутри коробки</item>
+        <item>коробка</item>
+        <item>повернуть</item>
+        <item>Крест Отразить</item>
+        <item>ветряная мельница</item>
+        <item>волна</item>
+        <item>колесо</item>
+        <item>сфера</item>
+        <item>цилиндр</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>стандарт</item>
+        <item>случайный</item>
+        <item>Внутри коробки</item>
+        <item>коробка</item>
+        <item>повернуть</item>
+        <item>Крест Отразить</item>
+        <item>ветряная мельница</item>
+        <item>волна</item>
+        <item>умолчание</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>

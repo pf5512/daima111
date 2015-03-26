@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="robot_width">285.6dp</dimen>
+    <dimen name="robot_height">73.3dp</dimen>
+    <dimen name="battery_percent_font">30dp</dimen>
+    <dimen name="battery_clear_button_width">44dp</dimen>
+    <dimen name="battery_clear_button_height">44dp</dimen>
+    <dimen name="battery_clear_button_x">48.25dp</dimen>
+    <dimen name="battery_clear_button_y">160dp</dimen>
+    <dimen name="battery_clear_button_ring_move_y">-30.5333333dp</dimen>
+    <dimen name="battery_clear_button_ring_move_x">0dp</dimen>
+    <dimen name="battery_outer_temperature_width">150dp</dimen>
+    <dimen name="battery_outer_temperature_height">38dp</dimen>
+    <dimen name="battery_top_border">7.333333dp</dimen>
+    <dimen name="battery_bottom_border">6dp</dimen>
+    <dimen name="battery_height">79.33333dp</dimen>
+    <dimen name="battery_inner_border">10.666667dp</dimen>
+    <dimen name="robot_arm_delta_x">-43dp</dimen>
+    <dimen name="robot_arm_delta_y">25dp</dimen>
+    <dimen name="robot_message_delta_top">45dp</dimen>
+    <dimen name="robot_message_font">14dp</dimen>
+    <dimen name="robot_message_padding_top">6.7dp</dimen>
+    <dimen name="robot_message_cell_space">3dp</dimen>
+	<!-- weijie add ,use antenna -->
+    <dimen name="robot_antenna_delta_x">-43dp</dimen>
+    <dimen name="robot_antenna_delta_y">53.2dp</dimen>
+</resources>

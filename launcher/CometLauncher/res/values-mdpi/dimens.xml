@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!-- xiatian add --><!--  explorer to adaptive difference resolution  -->
+<resources>
+	<dimen name="photo_height">70dip</dimen>
+	<dimen name="photo_width">100dip</dimen>
+	<dimen name="photo_padding">4dip</dimen>
+	<dimen name="photo_bucket_height">85dip</dimen>
+	<dimen name="photo_bucket_width">140dip</dimen>
+	<integer name="photo_title_size">14</integer>
+	<integer name="photo_title_line">2</integer>
+	<dimen name="video_height">74dip</dimen>
+	<dimen name="video_width">112dip</dimen>
+	<dimen name="video_padding">6dip</dimen>
+	<dimen name="audio_left_padding">4dip</dimen>
+	<dimen name="audio_bottom_padding">1dip</dimen>
+	<dimen name="audio_height">60dip</dimen>
+	<dimen name="audio_width">60dip</dimen>    
+    <integer name="audio_item_height">60</integer>
+</resources>

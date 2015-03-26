@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="210dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_dl_bg" >
+
+    <ImageView
+        android:id="@+id/iv_install_cleanmaster_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_install_cleanmaster_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_install_cleanmaster_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#5e5e5e"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_install_cleanmaster_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_install_cleanmaster_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#7f7f7f" />
+
+    <ImageButton
+        android:id="@+id/btn_install_cleanmaster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/install_clean_master_btn" />
+
+    <RelativeLayout
+        android:id="@+id/rl_install_cleanmaster_close"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/dialog_dl_cancel" />
+    </RelativeLayout>
+
+</RelativeLayout>

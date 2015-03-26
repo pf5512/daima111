@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#343839">
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:paddingTop="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="@string/textLockSize"
+        android:textColor="#7e8486"
+        android:textSize="16dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="10dip"
+        android:text="@string/textIntroduction"
+        android:lineSpacingExtra = "6dip"
+        android:textColor="#b3bcc3"
+        android:textSize="14dip" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_del" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnUninstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_del" >
+    </Button>
+    
+</LinearLayout>

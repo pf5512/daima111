@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:background="#ffffff" >
+	<ImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" 
+        android:background="#80ffffff">
+
+        <ImageButton
+            android:id="@+id/btnReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:contentDescription="@string/btnReturn" >
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/wallpaper"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/wallpaper"
+            android:textColor="#6a7175"
+            android:textSize="16dip" />
+        
+         <ImageButton
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_delete"
+            android:visibility="visible"
+            android:contentDescription="@string/btnReturn" >
+        </ImageButton>
+    </LinearLayout>
+
+    
+	<FrameLayout 
+	    android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dip" 
+        android:layout_alignParentBottom="true"
+       	>
+
+        <RelativeLayout
+            android:id="@+id/layoutDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:visibility="invisible" >
+
+             <LinearLayout
+                android:id="@+id/linearDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8.7dip"
+                android:paddingRight="8.7dip"
+                android:paddingTop="24dip" >
+                
+	            <ProgressBar
+	                android:id="@+id/progressBarDown"
+	                style="@android:style/Widget.ProgressBar.Horizontal"
+	                android:layout_width="match_parent"
+	                android:layout_height="10.7dip"
+	                android:max="100"
+	                android:minHeight="10.7dip"
+	                android:progress="0"
+	                android:progressDrawable="@drawable/progressbar_big_downloading" />
+				
+	            <TextView
+	                android:id="@+id/textDownPercent"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+	                android:text="@string/textDownloading"
+	                android:textColor="#5fddfc"
+	                android:textSize="12dip" />
+	            
+			</LinearLayout>
+			<LinearLayout
+			    android:id="@+id/linearPause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8.7dip"
+                android:paddingRight="8.7dip"
+                android:paddingTop="24dip" >
+	            
+	            <ProgressBar
+	                android:id="@+id/progressBarPause"
+	                style="@android:style/Widget.ProgressBar.Horizontal"
+	                android:layout_width="match_parent"
+	                android:layout_height="10.7dip"
+	                android:max="100"
+	                android:minHeight="10.7dip"
+	                android:progress="0"
+	                android:progressDrawable="@drawable/progressbar_big_pause" />
+	
+	            <TextView
+	                android:id="@+id/textPausePercent"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+	                android:text="@string/textDownloading"
+	                android:textColor="#fd2323"
+	                android:textSize="12dip" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="5dip"
+		        android:layout_marginLeft="25dip"
+		        android:layout_marginRight="25dip"
+                android:text="@string/btnDownload"
+                android:visibility="gone"/>
+			<Button
+                android:id="@+id/btnInstall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+               	android:layout_marginBottom="5dip"
+		        android:layout_marginLeft="25dip"
+		        android:layout_marginRight="25dip"
+                android:text="@string/btnInstall"
+                android:visibility="gone"/>
+            <Button
+		        android:id="@+id/setwallpaper"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="5dip"
+		        android:layout_marginLeft="25dip"
+		        android:layout_marginRight="25dip"
+		        android:text="@string/setwallpaper"
+		        android:visibility="gone" />
+            
+             <Button
+                android:id="@+id/btnBuy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="5dip"
+		        android:layout_marginLeft="25dip"
+		        android:layout_marginRight="25dip"
+                android:text="@string/btnBuy"
+                android:visibility="gone"/>
+       </RelativeLayout>
+    </FrameLayout>
+    <Gallery
+        android:id="@+id/thumbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom"
+        android:spacing="0dip"
+        android:layout_marginBottom="5dip" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/progressBarStyleLarge"  
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

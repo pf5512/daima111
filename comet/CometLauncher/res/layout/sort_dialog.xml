@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <RadioButton
+            android:id="@+id/radioDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_default"
+            android:textSize="16sp"/>       <RadioButton
+            android:id="@+id/radioFactory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_init"
+            android:textSize="16sp"/>
+        
+        <RadioButton
+            android:id="@+id/radioInstall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_install_time" 
+            android:textSize="16sp"/>
+        
+        <RadioButton
+            android:id="@+id/radioName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_name"
+            android:textSize="16sp"/>
+        <RadioButton
+            android:id="@+id/radioFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_app_use_frequency" 
+            android:textSize="16sp"/>
+
+        
+
+    </RadioGroup>
+
+</LinearLayout>

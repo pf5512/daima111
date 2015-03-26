@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+  	 android:layout_height="fill_parent"
+	 android:orientation="horizontal" 
+	 >
+	   <ImageView 
+	     android:id="@+id/notice_iv"
+	     android:layout_width="64dp"
+	     android:layout_height="64dp"
+	     android:scaleType="centerInside"	
+	     android:layout_gravity="center_vertical"
+	     android:paddingRight="5dp"
+	     android:paddingLeft="5dp"/>
+	   	   <FrameLayout 
+	       android:layout_width="0dp"
+ 		 	 android:layout_height="70dp"
+ 		 	 android:layout_weight="1"
+ 		 	 >
+		      <LinearLayout 
+		          android:id="@+id/download"
+		         android:layout_width="fill_parent"
+	 		 	 android:layout_height="fill_parent"
+		 		 android:orientation="vertical" 
+		 		 android:layout_gravity="center_vertical">
+			 	 <TextView
+			        android:id="@+id/notice_title1_tv"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="#FF4D4D4D" />
+		 
+				<TextView
+		        android:id="@+id/notice_title2_tv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#FF4D4D4D"/>
+				<ProgressBar
+			      android:id="@+id/notice_pb"
+			      style="?android:attr/progressBarStyleHorizontal"
+			      android:layout_width="fill_parent"
+			      android:layout_height="wrap_content"
+			     />
+	  		</LinearLayout>
+	  		<LinearLayout 
+	  		    android:id="@+id/show"
+		         android:layout_width="fill_parent"
+	 		 	 android:layout_height="fill_parent"
+		 		 android:orientation="vertical" 
+		 		 android:layout_gravity="center_vertical">
+			 	 <TextView
+			        android:id="@+id/notice_title"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="#FF4D4D4D" 
+			        android:textSize="20sp"
+			        android:paddingTop="5dp"/>
+		 
+				<TextView
+		        android:id="@+id/notice_content"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#FF4D4D4D"
+		        android:singleLine="true"/>
+	  		</LinearLayout>
+  		</FrameLayout>
+ </LinearLayout>

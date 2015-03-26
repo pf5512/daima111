@@ -1,0 +1,87 @@
+<resources>
+    <integer name="config_allAppsFadeInTime">700</integer>
+    <integer name="config_allAppsFadeOutTime">700</integer>
+    <integer name="config_allAppsBatchLoadDelay">0</integer>
+    <integer name="config_allAppsBatchSize">0</integer>
+    <integer name="config_crosshairsFadeInTime">600</integer>
+    <integer name="config_dragOutlineMaxAlpha">128</integer>
+    <integer name="config_dragOutlineFadeTime">900</integer>
+    
+    <!-- 场景数据 王红剑add -->
+    <integer name="scene_mMytitle_size">19</integer>
+    <integer name="scene_mMytitle_height">60</integer>
+    <integer name="scene_GridLayout_marginTop">30</integer>
+    <integer name="scene_gridView_height">585</integer>
+    <integer name="scene_gridView_width">468</integer>
+    <integer name="scene_GridLayout_marginLeft">42</integer>
+    <integer name="scene_GridLayout_marginRight">18</integer>
+    <integer name="scene_GridLayout_marginBottom">27</integer>
+    <integer name="scene_GridLayout_marginBetween">2</integer>
+    
+    <integer name="scene_mMytitle_size_five">24</integer>
+    <integer name="scene_GridLayout_marginTop_five">45</integer>
+    <integer name="scene_mMytitle_height_five">60</integer>
+    <integer name="scene_gridView_height_five">683</integer>
+    <integer name="scene_gridView_width_five">525</integer>  
+    <integer name="scene_GridLayout_marginBetween_seven">8</integer>
+    <integer name="scene_GridLayout_marginLeft_seven">65</integer>
+    <integer name="scene_GridLayout_marginBottom_seven">27</integer>
+    <integer name="scene_GridLayout_marginRight_seven">18</integer>
+    
+    <!-- SetupMenu -->
+    <integer name="setup_menu_row">2</integer>
+    <integer name="setup_menu_columns">3</integer>
+        <string-array translatable="false" name="setupMenu0">
+        <item>"0,mostly_used"</item>
+	    <item>"1001,system_widget,m1"</item>
+	    <item>"1002,wallpaper,m2"</item>
+	    <item>"1003,theme,m3"</item>
+	    <item>"1005,screen_editor,m5"</item>
+	    <item>"1006,desktop_setting,m6"</item>
+	    <item>"1007,system_setting,m7"</item>
+    </string-array>
+    <string-array translatable="false" name="setupMenu1">
+        <item>"0,mostly_used"</item>
+	    <item>"1001,system_widget,m1"</item>
+	    <item>"1002,wallpaper,m2"</item>
+	    <item>"1004,software_manager,m4"</item>
+	    <item>"1005,screen_editor,m5"</item>
+	    <item>"1006,desktop_setting,m6"</item>
+	    <item>"1007,system_setting,m7"</item>
+    </string-array>
+    <string-array translatable="false" name="setupMenu2">
+        <item>"0,mostly_used"</item>
+	    <item>"1001,system_widget,m1"</item>
+	    <item>"1002,wallpaper,m2"</item>
+	    <item>"1003,theme,m3"</item>
+	    <item>"1117,locker_setting,m10"</item>
+	    <item>"1006,desktop_setting,m6"</item>
+	    <item>"1007,system_setting,m7"</item>
+    </string-array>
+    <string-array translatable="false" name="setupMenuAll">
+        <item>"0,mostly_used"</item>
+	    <item>"1001,system_widget,m1"</item>
+	    <item>"1025,menu_OnKeyLove,m25"</item>
+	    <item>"1002,wallpaper,m2"</item>
+	    <item>"1003,theme,m3"</item>
+	    <item>"1004,software_manager,m4"</item>
+	    <item>"1005,screen_editor,m5"</item>
+	    
+	    <item>"1118,start_scene,m18"</item><!-- xiatian addDefaultScene -->
+	    
+	    <item>"1117,locker_setting,m10"</item>    
+	    <item>"1006,desktop_setting,m6"</item> 
+	    <item>"1007,system_setting,m7"</item> 
+	    <item>"1024,menu_OnKeyLove,m24"</item> 
+   </string-array>
+    <string-array translatable="false" name="setupMenu_eton">
+        <item>"0,mostly_used"</item>
+	    <item>"1002,set_wallpaper,m2"</item>
+	    <item>"1005,desktop_manager,m5"</item>
+	    <item>"1006,desktop_setting,m6"</item> 
+	    <item>"1205,application_manager,m4"</item> 
+	    <item>"1007,system_setting,m7"</item>
+    </string-array>
+
+    
+</resources>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Turbo Launcher</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">پوشه</string>
+    <string name="contact_name">مخاطبین</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">انتخاب تصویر زمینه از</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">انتخاب یک ویجت سه بعدی</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">تنظیم تصویر زمینه</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">تصاویر زمینه</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure...</string>
+    <string name="iloong_shellstr">در حال بارگذاری اجراکننده...</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="circle_autoSort">مرتب سازی خودکار</string>
+    <string name="circle_iconOverlap">روی هم افتادن</string>
+    <string name="circle_iconTrans">ترجمه</string>
+    <string name="circle_multiSelect">انتخاب چندین مورد</string>
+    <string name="circle_createFolder">ایجاد پوشه</string>
+    <string name="circle_deleteAll">حذف همه</string>
+    <string name="circle_noticeToast">بازگشت به اصلی برای انتخاب</string>
+    <string name="circle_dstOverToast">فراتر از محدوده </string>
+    <string name="circle_deleteALLToast">از حذف همه اطمینان دارید؟?</string>
+    <string name="circle_selectMutiToOperToast">عملیات نمادهای چندگانه</string>
+    <string name="circle_notSupportToast">ین نسخه موقتاً نمی تواند از این قابلیت استفاده کند</string>
+    <string name="circle_ok_action">تأیید</string>
+    <string name="circle_cancel_action">لغو</string>
+    <string name="circle_unselectAppIconToast">هیچ نمادی انتخاب نشده است</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">تغییر نام پوشه</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">تأیید</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">لغو</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder3D_del_toast">از حذف این پوشه اطمینان دارید؟?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">Not yet installed on your phone, click OK to download and install!</string>
+    <string name="apk_cannot_found_content">APK برای این برنامه در کارت SD شما موجود نیست!</string>
+    <string name="folder3D_full">پوشه پر است</string>
+    <string name="folder3D_name">پوشه</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">برنامه ها</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">میانبرها</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">پوشه</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">ویجت ها</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_wallpapers">تصاویر زمینه</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_3D_widgets">3D ویجت ها</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_contacts">مخاطبین</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">پوشه</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">No more room on this Home screen.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">انتخاب میانبر</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">انتخاب برنامه</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!-- All applications label for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_button_label">All applications</string>
+    <!--
+         Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">خانه</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google".
+    -->
+    <string name="default_browser_url">        http://www.google.com/m?client=ms-{CID}source=android-home-hotseat</string>
+    <string name="errorHint">A error has happened %1$s.Please click <i><b>"REPORT"</b></i> to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">افزودن به این صفحه امکان پذیر نیست</string>
+    <string name="can_not_delete_page">تعداد صفحه ها به حداقل رسید</string>
+    <string name="delete_page">این صفحه خالی نیست، از حذف آن اطمینان دارید؟</string>
+
+    <!-- AppBar -->
+    <string name="appbar_tab_app">برنامه ها</string>
+    <string name="appbar_tab_widget">ویجت ها</string>
+
+    <string name="appbar_tab_uninstall">حذف برنامه ها</string>
+    <string name="appbar_tab_hide">مخفی کردن برنامه ها</string>
+    <string name="sort_app_init">مرتب سازی برحسب داده های کارخانه</string>
+    <string name="sort_app_name">مرتب سازی برحسب نام برنامه</string>
+    <string name="sort_app_install_time">مرتب سازی برحسب زمان نصب</string>
+    <string name="sort_app_use_frequency">مرتب سازی برحسب دفعات استفاده</string>
+    <string name="sort_dialog_title">مرتب سازی نمادها</string>
+    <string name="widget_empty_dialog">این ویجت سه بعدی نصب نشده است، لطفاً ابتدا آن را نصب کرده و سپس اضافه کنید</string>
+    <string name="widget_empty_title">3D ویجت ها</string>
+    <string name="hotseat_mainmenu">برنامه ها</string>
+    <string name="hotseat_workspace">خانه</string>
+    <string name="main_menu">برنامه ها</string>
+    <string name="trash_icon_title">حذف</string>
+    <!-- adjust -->
+    <string name="fold_name_too_long">نام پوشه از حداکثر طول بیشتر است</string>
+    <string name="app_downloading">در حال دانلود</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>استاندارد</item>
+        <item>تصادفی</item>
+        <item>سهام</item>
+        <item>جعبه داخلی</item>
+        <item>جعبه خارجی</item>
+        <item>ضربه</item>
+        <item>ضربه عرضی</item>
+        <item>آسیاب بادی</item>
+        <item>موج</item>
+        <item>چرخ</item>
+        <item>توپ</item>
+        <item>استوانه</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>استاندارد</item>
+        <item>تصادفی</item>
+        <item>جعبه داخلی</item>
+        <item>جعبه خارجی</item>
+        <item>ضربه</item>
+        <item>ضربه عرضی</item>
+        <item>آسیاب بادی</item>
+        <item>موج</item>
+        <item>پیش فرض</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="effect_standard">استاندارد</string>
+    <string name="effect_random">تصادفی</string>
+    <string name="effect_cascade">سهام</string>
+    <string name="effect_outbox">جعبه خارجی</string>
+    <string name="effect_inbox">جعبه داخلی</string>
+    <string name="effect_flip">ضربه</string>
+    <string name="effect_bigfan">ضربه عرضی</string>
+    <string name="effect_fan">آسیاب بادی</string>
+    <string name="effect_wave">موج</string>
+    <string name="effect_ball">توپ</string>
+    <string name="effect_wheel">چرخ</string>
+    <string name="effect_cylinder">استوانه</string>
+    <string name="effect_default">پیش فرض</string>
+
+    <string name="uninstall_app">حذف برنامه ها</string>
+  
+     <string name="download_apps">دانلود برنامه ها</string>
+    <string name="hide_icon">مخفی کردن نماد</string>
+    <string name="sort_icon">مرتب سازی نماد</string>
+    <string name="no_space_add_icon">فضا برای اضافه کردن موجود نیست</string>
+    <string name="exceed_num_add_icon">تعداد نمادهای انتخابی از فضای موجود بیشتر است، افزودن ناموفق بود!</string>
+    <string name="contact_error_pls_check">افزودن مخاطب ناموفق بود، لطفاً بررسی کنید که اطلاعات مخاطب کامل باشد</string>
+    <string name="download_to_install">این ویجت نصب نشده است، لطفاً آن را دانلود کنید</string>
+    <string name="add_failure">افزودن ناموفق بود</string>
+    <string name="deny_add_on_mainmenu">این مدخل منوی اصلی است</string>
+    <string name="dlmng_check_network">دریافت اطلاعات دانلود ناموفق بود، لطفاً شبکه را بررسی کرده و دوباره تلاش کنید!</string>
+    <string name="dlmng_comeout_soon">به زودی</string>
+    <string name="dlmng_pls_insert_SD">لطفاً کارت SD را وارد کرده و سپس دانلود کنید!</string>
+     <string name="backup_pls_insert_SD">لطفاً کارت SD را وارد کرده و سپس پشتیبان گیری کنید!</string>
+    <string name="dlmng_network_error">خطای شبکه، لطفاً بعداً دوباره تلاش کنید!</string>
+    <string name="dlmng_download_error">خطای اتصال، لطفاً بعداً دوباره تلاش کنید!</string>
+    <string name="dlmng_download_configwrong">پارامتر دانلود اشتباه است</string>
+    <string name="backup_title_back">CooeeHomeS3 Backup</string>
+    <string name="backup_back_to_SD">پشتیبان گیری از تنظیمات CooeeHomeS3 در کارت SD!</string>
+    <string name="backup_title_restore">بازگردانی تنظیم CooeeHomeS3</string>
+    <string name="backup_restore">تنظیم بازگردانی، CooeeHomeS3 دوباره راه اندازی خواهد شد!</string>
+    <string name="backup_latest">آخرین زمان پشتیبان گیری</string>
+    <string name="backup_no_back">این سیستم دارای پشتیبان نیست</string>
+    <string name="backup_success">پشتیبان گیری موفق بود!</string>
+    <string name="backup_fail">پشتیبان گیری ناموفق بود!</string>
+    <string name="restore_fail">بازگردانی ناموفق بود!</string>
+    <string name="guide_title">راهنمای کاربر</string>
+    <string name="guide_proceed">راهنمای کاربر نشان داده شود، برنامه دوباره راه اندازی خواهد شد</string>
+    <string name="lock_editor_title">قفل کردن ویرایش</string>
+    <string name="lock_editor">نکته: قفل ویرایش را باز کنید، کشیدن صفحه پاسخ نمی دهد، روی دکمه دوباره کلیک کنید تا قفل ویرایش باز شود.</string>
+    <string name="warning_msg">پیام هشدار</string>
+    <string name="version_msg_title">پیام نسخه</string>
+    <string name="version_msg">نرم افزار شما به روز است!</string>
+    <string name="update_msg_title">نسخه نرم افزار شما:</string>
+    <string name="update_needed_version">آخرین نسخه:</string>
+    <string name="update_need_now">اکنون به روز رسانی کنید!</string>
+    <string name="system_update">به روز رسانی سیستم</string>
+    <string name="max_added_thirty">تنها می توانید 30 عدد اضافه کنید</string>
+    <string name="max_added_twenty">تنها می توانید 20 عدد اضافه کنید</string>
+    <string name="catnot_add_to_sidebar">افزودن این ویجت به نوار کناری امکان پذیر نیست</string>
+    <string name="common_add">افزودن</string>
+    <string name="common_commit">اجرا</string>
+    <string name="reach_max">به محدوده بالایی رسید</string>
+    <string name="can_drag_to_desktop">برای کشیدن به دسک تاپ، فشار طولانی دهید</string>
+    <string name="setting_backup_restore">تنظیمات پشتیبان گیری / بازگردانی</string>
+    <string name="setting_add_system_widget">افزودن صفحه اصلی</string>
+    <string name="setting_share_friend">"Hi, I'm using CooeeHomeS3, it is so cool, browse the following URL http://www.coolauncher.cn"</string>
+    <string name="setting_feedback">لطفاً بازخورد خود را ارائه دهید</string>
+    <string name="defaulttheme">تم پیش فرض</string>
+    <string name="localtheme">تم من</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">اعمال تم</string>
+    <string name="removetheme">حذف تم</string>
+    <string name="onlinetheme">تم آنلاین</string>
+    <string name="themetype">نوع:</string>
+    <string name="themeversion">نسخه:</string>
+    <string name="themeauthor">مؤلف:</string>
+    <string name="themedata">تاریخ:</string>
+    <string name="themefeedback">بازخورد:</string>
+   
+    <string name="basic_setting">تنظیمات اولیه</string>
+    <string name="vibrator">لرزاننده</string>
+    <string name="vibrate_on_long_click">لرزش کلیک طولانی</string>
+    <string name="circle_select">انتخاب دایره</string>
+    <string name="circle_select_switch">کلید انتخاب دایره</string>
+    <string name="effect_setting">تنظیم جلوه</string>
+    <string name="shake_wallpaper">تکان دادن تصاویر زمینه</string>
+    <string name="shake_wallpaper_description">برای تغییر دادن تصاویر زمینه، تکان دهید</string>
+	<string name="shake_wallpaper_not_supported">این برنامه در تلفن شما پشتیبانی نمی شود</string>
+    <bool name="enable_setting_key_shake_wallpaper">true</bool>    
+
+    <string name="desktop_slide">اسلاید دسک تاپ</string>
+    <string name="app_list_slide">اسلاید فهرست برنامه</string>
+    <string name="backup_and_restore">پشتیبان گیری و بازگردانی</string>
+    <string name="backup_desktop">پشتیبان گیری دسک تاپ</string>
+    <string name="restore_desktop">بازگردانی دسک تاپ</string>
+    <string name="more">بیشتر</string>
+    <string name="restart_launcher">راه اندازی دوباره CooeeHomeS3</string>
+    <string name="version_update">به روز رسانی</string>
+    <string name="share_friends">اشتراک گذاری با دوستان</string>
+    <string name="feedback">بازخورد</string>
+    <string name="guide_help">راهنما</string>
+    <string name="guide_install">راهنما</string>
+    <string name="reset_guide">بازنشانی پرچم راهنما</string>
+    <string name="exit_launcher">خروج</string>
+    <string name="backup_restore_setting">تنظیمات پشتیبان گیری / بازگردانی</string>
+    <string name="update_feedback">به روز رسانی بازخورد</string>
+    <string name="mostly_used">بیشتر استفاده شده</string>
+    <string name="clear_data">Clear data</string>
+     <string name="desktop_setting">تنظیم دسک تاپ</string>
+    <string name="system_widget">ویجت ها</string>
+    <string name="wallpaper">تصاویر زمینه</string>
+    <string name="theme">دانلود</string>
+    <string name="software_manager">Software</string>
+    <string name="screen_editor">ویرایشگر صفحه</string>
+    <string name="locker_editor">تنظیم قفل کننده</string>
+    <string name="system_setting">تنظیم سیستم</string>
+    <string name="clock">ساعت سه بعدی</string>
+    <string name="memo">یادداشت سه بعدی</string>
+    <string name="robot">روبات سه بعدی</string>
+    <string name="theme_select">انتخاب تم</string>
+    <string name="theme_change">جابجایی تم</string>
+    <string name="no_theme_to_be_replaced">هیچ تمی برای جایگزینی وجود ندارد!</string>    
+    <string name="Internet">اینترنت</string>
+    <string name="Explorer">کاوشگر</string>    
+    <string name="beyond_mtkwidget_num">این ویجت موجود است، افزودن ویجت بیشتر امکان پذیر نیست!</string>
+   
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/comet_layout_bg" >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+        <RelativeLayout 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginTop="46dip">
+			<ImageView 
+			    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/comet_theme_list"/>
+			
+			<TextView 
+			    android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_centerVertical="true"
+		    	android:layout_marginLeft="11dip"
+		    	android:text="@string/theme_list"
+		    	android:textColor="#ffffffff"
+		    	android:textSize="15dip"/>
+		</RelativeLayout>
+		
+	    <RelativeLayout 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			<ImageView 
+			    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/comet_title_bg"/>
+			
+			<ImageView 
+			    android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/comet_theme"
+		    	android:layout_centerInParent="true"/>
+		</RelativeLayout>
+	
+	</RelativeLayout>
+	
+    <GridView 
+        android:id="@+id/themeList"
+        android:layout_width="match_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="1"
+    	android:numColumns="2"
+    	android:paddingBottom="11dip"
+	    android:paddingLeft="11dip"
+	    android:paddingRight="11dip"
+	    android:paddingTop="15dip"
+	    android:horizontalSpacing="10dip"
+	    android:verticalSpacing="15dip" 
+	    android:fadingEdgeLength="0dip"
+	    android:stretchMode="columnWidth"
+	    android:listSelector="@drawable/grid_selector" >
+    
+    </GridView>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	    <ImageView 
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/comet_wating1"/>
+	    <ImageView 
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/comet_wating2"
+		    android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    
+</LinearLayout>

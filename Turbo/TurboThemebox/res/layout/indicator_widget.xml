@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dip"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:drawableTop="@drawable/button_manager_widget"
+        android:text="@string/textWidget"
+        android:gravity="center"
+        android:textColor="@drawable/tab_font_style"
+        android:textSize="13dip"
+        android:singleLine="true"
+        android:ellipsize="end" >
+    </TextView>
+
+</LinearLayout>

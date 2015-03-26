@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- customID type: 1. widget 2. serve 3. default -->
+
+<widgetConfig ver="1.0">
+	<widget packageName="com.iLoong.Clock">
+		<themeConfig>
+			<theme name="iLoong">
+				<hostTheme name="com.iLoong" />
+			</theme>
+			<theme name="female">
+				<hostTheme name="com.iLoong.themes.female" />
+			</theme>
+			<theme name="orange">
+				<hostTheme name="com.iLoong.themes.orange" />
+				<hostTheme name="com.iLoong.themes.female" />
+				<hostTheme name="com.iLoong.themes.bluesea" />
+			</theme>
+		</themeConfig>
+	</widget>
+	<widget packageName="com.iLoong.Robot">
+		<themeConfig>
+			<theme name="iLoong">
+				<hostTheme name="com.iLoong" />
+			</theme>
+			<theme name="female">
+				<hostTheme name="com.iLoong.themes.female" />
+			</theme>
+			<theme name="orange">
+				<hostTheme name="com.iLoong.themes.orange" />
+				<hostTheme name="com.iLoong.themes.female" />
+				<hostTheme name="com.iLoong.themes.bluesea" />
+			</theme>
+		</themeConfig>
+	</widget>
+</widgetConfig>

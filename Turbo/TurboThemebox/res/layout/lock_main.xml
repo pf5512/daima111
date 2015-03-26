@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="#d0dbdf"
+	android:orientation="vertical">
+
+	 <LinearLayout android:id="@+id/containHot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/underline" >
+        
+        <ImageButton android:contentDescription="@string/btnSetting" 
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/button_setting"
+			android:visibility="invisible" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/btnLocalLock"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/button_underline"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/btnLocalLock"
+                android:textColor="@drawable/button_font_style"
+                android:textSize="14dip" />
+
+            <RadioButton
+                android:id="@+id/btnHotLock"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/button_underline"
+                android:button="@android:color/transparent"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/btnHotLock"
+                android:textColor="@drawable/button_font_style"
+                android:textSize="14dip" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/btnSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_setting"
+            android:contentDescription="@string/btnSetting" />
+    </LinearLayout>
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/gridPager" android:layout_width="match_parent"
+		android:layout_height="0dip" android:layout_weight="1"
+		android:background="@android:color/transparent" android:flipInterval="30"
+		android:persistentDrawingCache="animation">
+	</android.support.v4.view.ViewPager>
+
+</LinearLayout>

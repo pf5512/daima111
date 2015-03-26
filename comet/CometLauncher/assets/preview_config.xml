@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="2.0" >
+
+    <app className="com.cooeecomet.themes.DefaultActivity1" >
+        <version value="1.0" />
+        <info date="2012/5/1" author="cooee" name="iLoong" type="经典/普通/主题" feedback="iloong@cooee.cn" />
+        <theme path="theme" />
+        <default path="default" />
+        <item image="default.jpg"/>
+        <item image="1.jpg"/>
+        <item image="2.jpg"/>
+        <widget_theme theme="iLoong" />
+        <thumb path="thumb.png" />
+        <introduction>Default</introduction>
+    </app>
+
+    <app className="com.cooeecomet.themes.DefaultActivity2" >
+        <version value="1.0" />
+        <info date="2012/5/1" author="cooee" name="iLoong" type="经典/普通/主题" feedback="iloong@cooee.cn" />
+        <theme path="theme1" />
+        <default path="default" />
+        <item image="default.jpg"/>
+        <item image="1.jpg"/> 
+        <item image="2.jpg"/>
+        <widget_theme theme="iLoong" />
+        <thumb path="thumb.png" />
+        <introduction>Default2.0</introduction>
+    </app>
+    
+    <virtual packageName="com.cooeecomet.themes.galaxy001">
+        <thumb path="virtualThumb/galaxy001.png"/>
+        <displayname>Galaxy</displayname>
+    </virtual>
+
+</config>

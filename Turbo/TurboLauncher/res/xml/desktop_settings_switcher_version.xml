@@ -1,0 +1,115 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:setting="http://schemas.android.com/apk/res/com.cooeeui.brand.turbolauncher"
+    xmlns:switch="http://schemas.android.com/apk/res/com.iLoong.launcher.SetupMenu.Actions"
+    android:key="@string/setting_key_desktop_setting"
+    android:title="@string/desktop_setting" >
+
+    <PreferenceCategory
+        android:key="@string/setting_key_basic_setting"
+        android:title="@string/basic_setting" >
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/screen_scroll_circle"
+            android:summary="@string/desktop_screen_scroll_circle"
+            android:title="@string/desktop_screen_scroll_circle" />
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/desktop_wallpaper_mv"
+            android:summary="@string/desktop_wallpaper_scroll"
+            android:title="@string/desktop_wallpaper_scroll" />
+
+        <PreferenceScreen
+            android:key="@string/desktop_manual_control"
+            android:title="@string/desktop_settins_manual_control" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.iLoong.launcher.SetupMenu.Actions.DesktopSettingManualCtrlActivity"
+                android:targetPackage="com.cool.launcher" />
+        </PreferenceScreen>
+
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/setting_key_vibrator"
+            android:summary="@string/vibrate_on_long_click"
+            android:title="@string/vibrator" />
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/setting_key_circled"
+            android:summary="@string/circle_select_switch"
+            android:title="@string/circle_select" />
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/setting_key_shake_wallpaper"
+            android:summary="@string/shake_wallpaper_description"
+            android:title="@string/shake_wallpaper" />
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/setting_key_shake_theme"
+            android:summary="@string/shake_theme_description"
+            android:title="@string/shake_theme" />
+
+        <!-- xiatian add start -->
+        <!-- Widget3D adaptation "Naked eye 3D" -->
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/setting_key_sensor"
+            android:summary="@string/sensor_summary"
+            android:title="@string/sensor_title" />
+        <!-- xiatian add end -->
+
+
+        <!-- added by zhenNan.ye begin -->
+        <!-- particle -->
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/setting_key_particle"
+            android:summary="@string/particle_summary"
+            android:title="@string/particle_title" />
+        <!-- added by zhenNan.ye end -->
+        <!-- zjp -->
+        <com.iLoong.launcher.SetupMenu.Actions.SwitchPreferenceUserDefined
+            android:key="@string/setting_key_edit_mode"
+            android:summary="@string/edit_mode_summary"
+            android:title="@string/edit_mode_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/setting_key_effect_setting"
+        android:title="@string/effect_setting" >
+        <ListPreference
+            android:entries="@array/workspace_effects_list_preference"
+            android:entryValues="@array/workspace_effectsvalue_list_preference"
+            android:key="@string/setting_key_desktopeffects"
+            android:title="@string/desktop_slide" />
+        <ListPreference
+            android:entries="@array/app_effects_list_preference"
+            android:entryValues="@array/app_effectsvalue_list_preference"
+            android:key="@string/setting_key_appeffects"
+            android:title="@string/app_list_slide" />
+        <ListPreference
+            android:entries="@array/particle_list_preference"
+            android:entryValues="@array/particle_values"
+            android:key="@string/setting_key_new_particle"
+            android:title="@string/new_particle_title" />
+        <ListPreference
+            android:entries="@array/icon_size_display"
+            android:entryValues="@array/icon_size_value"
+            android:key="@string/icon_size_key"
+            android:title="@string/icon_size_title" />
+
+        <!-- xiatian add start -->
+        <!-- Mainmenu Bg -->
+        <ListPreference
+            android:entries="@array/mainmenu_bg"
+            android:entryValues="@array/mainmenu_bg_value"
+            android:key="@string/mainmenu_bg_key"
+            android:title="@string/mainmenu_bg_title" />
+        <!-- xiatian add end -->
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/setting_key_backup_and_restore"
+        android:title="@string/backup_and_restore" >
+        <Preference
+            android:key="@string/setting_key_backup"
+            android:title="@string/backup_desktop" />
+        <Preference
+            android:key="@string/setting_key_restore"
+            android:title="@string/restore_desktop" />
+        <Preference
+            android:key="@string/setting_update_desktop"
+            android:title="@string/update_desktop" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

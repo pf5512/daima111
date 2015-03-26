@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="140dp"
+    android:layout_marginTop="150dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_flush"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:text="@string/weathercurve_title"
+            android:textColor="@color/fontcolor"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/iv_flush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/buttonflush" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_fengexian"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_flush"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/content_halving" />
+
+    <RelativeLayout
+        android:id="@+id/rl_curveshow"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/iv_fenxianxia"
+        android:layout_below="@+id/iv_fengexian"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_weathersmallicon"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_firsticon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:src="@drawable/smallweather_cloudy" />
+
+            <ImageView
+                android:id="@+id/iv_secondicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:src="@drawable/smallweather_cloudy" />
+
+            <ImageView
+                android:id="@+id/iv_thirdicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:src="@drawable/smallweather_cloudy" />
+
+            <ImageView
+                android:id="@+id/iv_forthicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:src="@drawable/smallweather_cloudy" />
+
+            <ImageView
+                android:id="@+id/iv_fiveicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:src="@drawable/smallweather_cloudy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_weatherconditionname"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_weathersmallicon"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_weatherconditionname"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_weekname"
+            android:layout_below="@+id/ll_weatherconditionname"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/iv_curve"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:src="@drawable/bigweather_sand" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_weekname"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="9dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_weekname"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_weight="1.0"
+                android:src="@drawable/background" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_fenxianxia"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/content_halving" />
+
+    <RelativeLayout
+        android:id="@+id/rl_tempertureunit"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/default_foreigncorf"
+            android:textColor="@color/fontcolor"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/iv_corf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/current_f" />
+    </RelativeLayout>
+
+</RelativeLayout>

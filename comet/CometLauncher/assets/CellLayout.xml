@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout ver="1.0" >
+	<widget class="com.iLoong.Memo.WidgetMemo" num="5"/>
+	<widget class="com.iLoong.Clock.WidgetClock" num="1"/>	
+</layout>	

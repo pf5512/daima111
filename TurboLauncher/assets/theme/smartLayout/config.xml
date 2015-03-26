@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <!--Author: zhongqihong 2014/09/02. We design layout with following ordered applications on the specified screen -->
+    <application_cn label="qq" class="" package="com.tencent.mobileqq" />
+	<application_cn label="wechat" class="" package="com.tencent.mm" />
+	<application_cn label="qzone" class="" package="com.qzone" />
+	<application_cn label="weibo" class="" package="com.sina.weibog3" />
+	<application_cn label="taobao" class="" package="com.taobao.taobao" />
+	<application_cn label="UCMobile" class="" package="com.UCMobile" />
+	<application_cn label="AlipayGphone" class="" package="com.eg.android.AlipayGphone" />
+	<application_cn label="kugou" class="" package="com.kugou.android" />
+	<application_cn label="baidumap" class="" package="com.baidu.BaiduMap" />
+	<application_cn label="wifilocating" class="" package="com.snda.wifilocating" />
+	<application_cn label="youku" class="" package="com.youku.phone" />
+	<application_cn label="sinaweibo" class="" package="com.sina.weibo" />
+	<application_cn label="googlemap" class="" package="com.google.android.apps.maps" />
+	<application_cn label="tencentbrowser" class="" package="com.tencent.mtt" />
+	<application_cn label="qqmusic" class="" package="com.tencent.qqmusic" />
+	<application_cn label="qqcoolrun" class="" package="com.tencent.pao" />
+	<application_cn label="qqlive" class="" package="com.tencent.qqlive" />
+	<application_cn label="qqpimsecure" class="" package="com.tencent.qqpimsecure" />
+	<application_cn label="ttpod" class="" package="com.sds.android.ttpod" />
+	<application_cn label="googleplay" class="" package="com.android.vending" />
+	<application_cn label="mtxx" class="" package="com.mt.mtxx.mtxx" />
+	<application_cn label="aqiyi" class="" package="com.qiyi.video" />
+	<application_cn label="wps" class="" package="cn.wps.moffice_eng" />
+	<application_cn label="liebao" class="" package="com.cleanmaster.mguard_cn" />
+	<application_cn label="qqnews" class="" package="com.tencent.news" />
+	<application_cn label="gaodemap" class="" package="com.autonavi.minimap" />
+	<application_cn label="meituan" class="" package="com.baidu.tieba" />
+	<application_cn label="sohuvideo" class="" package="com.sohu.sohuvideo" />
+	<application_cn label="momo" class="" package="com.immomo.momo" />
+	<application_cn label="mjweather" class="" package="com.moji.mjweather" />
+	<application_cn label="storm" class="" package="com.storm.smart" />
+	<application_cn label="hlddz" class="" package="com.qqgame.hlddz" />
+	<application_cn label="jingdong" class="" package="com.jingdong.app.mall" />
+	<application_cn label="qsbk" class="" package="qsbk.app" />
+	<application_cn label="kuwo" class="" package="cn.kuwo.player" />
+	<application_cn label="chaton" class="" package="com.sec.chaton" />
+	<application_cn label="wangxin" class="" package="com.alibaba.mobileim" />
+	<application_cn label="changba" class="" package="com.changba" />
+	<application_cn label="iReaderFree" class="" package="com.chaozh.iReaderFree" />
+	<application_cn label="tudou" class="" package="com.tudou.android" />
+	<application_cn label="duowan" class="" package="com.duowan.mobile" />
+	<application_cn label="meiyancamera" class="" package="com.meitu.meiyancamera" />
+	<application_cn label="letv" class="" package="com.letv.android.client" />
+	<application_cn label="baiduvideo" class="" package="com.baidu.video" />
+	<application_cn label="baidubrowser" class="" package="com.baidu.browser.apps" />
+	<application_cn label="meipaimv" class="" package="com.meitu.meipaimv" />
+	<application_cn label="dianping" class="" package="com.dianping.v1" />	
+	<application_cn label="camera360" class="" package="vStudio.Android.Camera360" />
+	<application_cn label="tianqitong" class="" package="sina.mobile.tianqitong" />
+	<application_cn label="qqmail" class="" package="com.tencent.androidqqmail" />
+	<application_cn label="qunar" class="" package="com.Qunar" />
+	<application_cn label="neteasenews" class="" package="com.netease.newsreader.activity" />
+	<application_cn label="xunlei" class="" package="com.xunlei.downloadprovider" />		
+	<application_cn label="wuba" class="" package="com.wuba" />		
+	<application_cn label="facebook" class="" package="com.facebook.katana" />		
+	<application_cn label="lovebizhi" class="" package="com.lovebizhi.wallpaper" />		
+	<application_cn label="pps" class="" package="tv.pps.mobile" />		
+	<application_cn label="flipboard" class="" package="flipboard.cn" />	    
+	<application_cn label="qqweibo" class="" package="com.tencent.WBlog" />		
+	<application_cn label="renren" class="" package="com.renren.mobile.android" />	   
+	<application_cn label="shuqi" class="" package="com.shuqi.controller" />		
+	<application_cn label="jinshan" class="" package="com.ijinshan.kbatterydoctor" />		
+	<application_cn label="yixin" class="" package="im.yixin" />		
+	<application_cn label="ibuka" class="" package="cn.ibuka.manga.ui" />		
+	<application_cn label="baiduyinyue" class="" package="com.ting.mp3.android" />		
+	<application_cn label="mxplay" class="" package="com.mxtech.videoplayer" />	    
+	<application_cn label="line" class="" package="jp.naver.line.android" />	
+	<application_cn label="qqdianchiguanjia" class="" package="com.tencent.powermanager" />	
+	<application_cn label="shanchuan" class="" package="cn.andouya" />	
+	<application_cn label="evernote" class="" package="com.evernote" />		
+	<application_cn label="fetion" class="" package="cn.com.fetion" />	
+	<application_cn label="sketchbookhd" class="" package="com.adsk.sketchbookhd.galaxy.oem" />	
+	<application_cn label="bili" class="" package="tv.danmaku.bili" />	
+	<application_cn label="dropbox" class="" package="com.dropbox.android" />	
+	<application_cn label="xunleikankan" class="" package="com.xunlei.kankan" />	
+	<application_cn label="xiecheng" class="" package="ctrip.android.view" />		
+	<application_cn label="instagram" class="" package="com.instagram.android" />	
+	<application_cn label="funshion" class="" package="com.funshion.video.mobile" />	
+	<application_cn label="myoface" class="" package="com.miantan.myoface" />			
+	<application_cn label="jiakao" class="" package="com.handsgo.jiakao.android" />	
+	<application_cn label="baiduyun" class="" package="com.baidu.netdisk_ss" />				
+	<application_cn label="kingsoft" class="" package="com.kingsoft" />		
+	<application_cn label="package" class="" package="com.brianbaek.popstar" />	
+	<application_cn label="nuomi" class="" package="com.nuomi" />		
+	<application_cn label="jinshanbrowser" class="" package="com.ijinshan.browser_fast" />		
+	<application_cn label="baozoumanhua" class="" package="com.baozoumanhua.android" />			
+	<application_cn label="vipshop" class="" package="com.achievo.vipshop" />			
+	<application_cn label="ximalayatingshu" class="" package="com.ximalaya.ting.android" />	
+	<application_cn label="lanrentingshu" class="" package="bubei.tingshu" />				
+	<application_cn label="didi" class="" package="com.sdu.didi.psnger" />		
+	<application_cn label="zhihu" class="" package="com.zhihu.android" />	
+	<application_cn label="neihanjoke" class="" package="com.ss.android.essay.joke" />		
+	<application_cn label="zaker" class="" package="com.myzaker.ZAKER_Phone" />			
+	<application_cn label="zhihu" class="" package="com.zhihu.android" />		
+	<application_cn label="alibaba" class="" package="com.alibaba.wireless" />		
+	<application_cn label="oupeng" class="" package="com.oupeng.browser" />	
+	<application_cn label="youdao" class="" package="com.youdao.note" />	
+	
+    <!--  The index  begins with 0 (not 1). 
+    cellX:表示X方向
+    cellY:表示Y方向
+    -->
+    
+    <layout screen="1" cellX="0" cellY="0"/>
+    <layout screen="1" cellX="1" cellY="0"/>
+    <layout screen="1" cellX="2" cellY="0"/>
+    <layout screen="1" cellX="3" cellY="0"/>
+    
+        
+    <layout screen="2" cellX="0" cellY="2"/>
+    <layout screen="2" cellX="1" cellY="2"/>
+    <layout screen="2" cellX="2" cellY="2"/>
+    <layout screen="2" cellX="3" cellY="2"/>
+    
+     <layout screen="2" cellX="0" cellY="1"/>
+    <layout screen="2" cellX="1" cellY="1"/>
+    <layout screen="2" cellX="2" cellY="1"/>
+    <layout screen="2" cellX="3" cellY="1"/>
+    
+    
+        <application_en label="googleplus" class="com.google.android.apps.plus.phone.HomeActivity" package="com.google.android.apps.plus" />
+	<application_en label="googleplay" class="" package="com.android.vending" />
+	<application_en label="gmail" class="" package="com.google.android.gm" />
+	<application_en label="youtube" class="" package="com.google.android.youtube" />
+	<application_en label="chrome" class="" package="com.android.chrome" />
+	<application_en label="chaton" class="" package="com.sec.chaton" />
+	<application_en label="todos" class="" package="com.mediatek.todos" />
+	<application_en label="netflix" class="" package="com.netflix.mediaclient" />
+	<application_en label="facebook" class="" package="com.facebook.katana" />
+	<application_en label="flipboard" class="" package="flipboard.app" />
+	<application_en label="youku" class="" package="com.youku.phone" />
+	<application_en label="opera" class="" package="com.opera.mini.android" />
+	<application_en label="googlemap" class="" package="com.google.android.apps.maps" />
+	<application_en label="line" class="" package="jp.naver.line.android" />
+	<application_en label="liebao" class="" package="com.cleanmaster.mguard_cn" />
+    <application_en label="twitter" class="" package="com.twitter.android" />
+	<application_en label="dropbox" class="" package="com.dropbox.android" />
+	<application_en label="instagram" class="" package="com.instagram.android" />
+	<application_en label="linedeco" class="" package="com.campmobile.android.linedeco" />
+	<application_en label="amazon" class="" package="cn.amazon.mShop.android" />
+	<application_en label="cleanmaster" class="" package="com.cleanmaster.security" />
+	<application_en label="maxmpz" class="" package="com.maxmpz.audioplayer" />
+	<application_en label="skype" class="" package="com.skype.raider" />
+	<application_en label="whatsapp" class="" package="com.whatsapp" />
+	<application_en label="wechat" class="" package="com.tencent.mm" />
+	<application_en label="snapchat" class="" package="com.snapchat.android" />
+	<application_en label="ebay" class="" package="com.ebay.mobile" />
+	<application_en label="linecamera" class="" package="jp.naver.linecamera.android" />
+	<application_en label="pinterest" class="" package="com.pinterest" />
+	<application_en label="myoface" class="" package="com.miantan.myoface" />		
+	<application_en label="clashofclans" class="" package="com.supercell.clashofclans" />
+	<application_en label="weatherchannel" class="" package="com.weather.Weather" />
+	<application_en label="vine" class="" package="co.vine.android" />
+	<application_en label="link" class="" package="com.igg.android.im" />
+	<application_en label="remind" class="" package="com.remind101" />
+	<application_en label="wish" class="" package="com.contextlogic.wish" />
+	<application_en label="tunein" class="" package="tunein.player" />
+	<application_en label="kik" class="" package="kik.android" />
+	<application_en label="pandora" class="" package="com.pandora.android" />
+	<application_en label="espnfootball" class="" package="com.espn.fantasy.lm.football" />
+	<application_en label="zedge" class="" package="net.zedge.android" />
+	<application_en label="tango" class="" package="com.sgiggle.production" />
+	<application_en label="walmart" class="" package="com.walmart.android" />
+	<application_en label="yahoomail" class="" package="com.yahoo.mobile.client.android.mail" />
+	<application_en label="nflgamecenter" class="" package="com.gotv.nflgamecenter.us.lite" />
+	<application_en label="swing" class="" package="com.dotgears.swing" />
+	<application_en label="iheartradio" class="" package="com.clearchannel.iheartradio.controller" />
+	<application_en label="voicechanger" class="" package="com.baviux.voicechanger" />
+	<application_en label="chasemobile" class="" package="com.chase.sig.android" />
+	<application_en label="tinder" class="" package="com.tinder" />
+	<application_en label="viber" class="" package="com.viber.voip" />
+	<application_en label="tunnybroeser" class="" package="mobi.mgeek.TunnyBrowser" />
+	<application_en label="shazam" class="" package="com.shazam.android" />
+	<application_en label="soundcloud" class="" package="com.soundcloud.android" />
+	<application_en label="tumblr" class="" package="com.tumblr" />
+	<application_en label="paypal" class="" package="com.paypal.android.p2pmobile" />
+	<application_en label="bankofamerica" class="" package="com.infonow.bofa" />
+	<application_en label="mercariapp" class="" package="com.mercariapp.mercari" />
+	<application_en label="groupon" class="" package="com.groupon" />
+	<application_en label="flipagram" class="" package="=com.cheerfulinc.flipagram" />
+	<application_en label="linkedin" class="" package="com.linkedin.android" />
+	<application_en label="hulu" class="" package="com.hulu.plus" />
+	<application_en label="firefox" class="" package="org.mozilla.firefox" />
+	<application_en label="kiwi" class="" package="com.papayamobile.kiwi" />
+	<application_en label="retrica" class="" package="com.venticake.retrica" />
+	<application_en label="piccollage" class="" package="com.cardinalblue.piccollage.google" />
+	<application_en label="accuweather" class="" package="com.accuweather.android" />
+	<application_en label="zillowmap" class="" package="com.zillow.android.zillowmap" />
+	<application_en label="lumosity " class="" package="com.lumoslabs.lumosity" />	
+	<application_en label="dictionary" class="" package="com.dictionary" />
+	<application_en label="triviacrack" class="" package="com.etermax.preguntados.lite" />
+	<application_en label="bestsmusic" class="" package="com.beatsmusic.android.client" />
+	<application_en label="goupeme" class="" package="com.groupme.android" />
+	<application_en label="duolingo" class="" package="com.duolingo" />
+	<application_en label="swiftkey" class="" package="com.touchtype.swiftkey" />
+	<application_en label="instasize" class="" package="com.jsdev.instasize" />
+	<application_en label="redbox" class="" package="com.redbox.android.activity" />
+	<application_en label="magicjack" class="" package="com.magicjack" />
+	<application_en label="mxplay" class="" package="com.mxtech.videoplayer.ad" />
+	<application_en label="thescore" class="" package="com.fivemobile.thescore" />
+	<application_en label="musicplayer" class="" package="com.music.player.v1000" />
+	<application_en label="textnow" class="" package="com.enflick.android.TextNow" />
+	<application_en label="imdb" class="" package="com.imdb.mobile" />
+	<application_en label="badoo" class="" package="com.badoo.mobile" />
+	<application_en label="cnn" class="" package="com.cnn.mobile.android.phone" />
+	<application_en label="hbo" class="" package="com.HBO" />
+	<application_en label="zoosk" class="" package="com.zoosk.zoosk" />
+	<application_en label="callapp" class="" package="com.callapp.contacts" />	
+	<application_en label="realtor" class="" package="com.move.realtor" />
+	<application_en label="expressweather" class="" package="com.handmark.expressweather" />
+	<application_en label="pixlr" class="" package="com.pixlr.express" />
+	<application_en label="photocollage2" class="" package="com.zentertain.photocollage2" />
+	<application_en label="evernote" class="" package="com.evernote" />
+	<application_en label="kakao" class="" package="com.kakao.talk" />
+	<application_en label="target" class="" package="com.target.ui" />
+	<application_en label="hotornot" class="" package="com.hotornot.app" />
+	<application_en label="camera360" class="" package="vStudio.Android.Camera360" />
+	<application_en label="life360" class="" package="com.life360.android.safetymapd" />
+	<application_en label="quizup" class="" package="com.quizup.core" />
+	<application_en label="cycamera" class="" package="com.cyworld.camera" />	
+	
+	
+    
+</resources>

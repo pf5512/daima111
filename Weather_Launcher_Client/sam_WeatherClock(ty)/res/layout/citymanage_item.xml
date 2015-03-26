@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" 
+    android:background="#ff000000">
+
+    <LinearLayout
+        android:id="@+id/linearcitys"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!--
+             <com.cooee.app.cooeeweather.component.citymanageFrame
+            android:id="@+id/popcity_item"
+            android:layout_width="106dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+        -->
+
+        <FrameLayout
+            android:id="@+id/popcity_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <!--
+                 <Button
+                android:id="@+id/imageweatherbg"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/city_item_bg"
+                android:focusable="true" />
+            -->
+
+            <LinearLayout
+                android:id="@+id/linearcitys"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <com.cooee.app.cooeeweather.component.cityButton
+                    android:id="@+id/imageweatherbg"
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/city_item_bg"
+                    android:layout_marginTop="6dp"
+                    android:focusable="true"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true" >
+
+                <ImageView
+                    android:id="@+id/imageweathertype"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginTop="3dip"
+                    android:src="@drawable/cloudy_day_medium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textcity_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingTop="60dp" >
+
+                <TextView
+                    android:id="@+id/textweathertype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_below="@+id/imageweathertype"
+                    android:layout_marginTop="20dp"
+                    android:text="晴"
+                    android:textColor="#ffc3c3c3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textcitytemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_below="@+id/textweathertype"
+                    android:layout_marginTop="5dp"
+                    android:text="150-120"
+                    android:textColor="#ffc3c3c3"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textcityname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:text="上海"
+            android:lines="2"
+            android:textColor="#ffc3c3c3"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/popcity_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <!--
+        <LinearLayout
+        android:id="@+id/addlinearcitys"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        -->
+
+        <LinearLayout
+            android:id="@+id/linearcit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.cooee.app.cooeeweather.component.cityButton
+                android:id="@+id/imageaddcitys"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/edit_add_city_bg"
+                android:gravity="center"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/addtextspace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="  "
+            android:textColor="#ffc3c3c3"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</FrameLayout>

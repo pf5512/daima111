@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 09.09.2013 16:31:52
+
+mtllib color.mtl
+
+#
+# object Circle01
+#
+
+v  22.5461 214.5062 0.0000
+v  0.0006 215.6878 0.0000
+v  0.0000 0.0000 0.0000
+v  -22.5455 -214.5063 0.0001
+v  0.0000 -215.6878 0.0001
+# 5 vertices
+
+vt 0.0470 0.4437 0.0029
+vt 0.0401 0.3612 0.0000
+vt 0.7989 0.3392 0.5000
+vt 0.9652 0.0585 0.9971
+vt 0.9664 0.1471 1.0000
+vt 0.1548 0.1142 0.5000
+# 6 texture coords
+
+g Circle01
+usemtl Material__26
+s 1
+f 1/1 2/2 3/3 
+f 4/4 5/5 3/6 
+# 0 polygons - 2 triangles
+

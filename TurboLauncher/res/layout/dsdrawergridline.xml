@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BigBackgroundColor"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/drawergl_backll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dstopbackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="21dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/dsback_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/drawer_gridsizetxt"
+            android:textColor="@color/TitleColor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/dsdrawer_adjust"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dsdesktop_selector"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drawer_adjust"
+                            android:textColor="@color/dsfont_selector"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <RadioButton
+                        android:id="@+id/dsdrawer_radioadjust"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/dsradio_selector"
+                        android:button="@null" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dsdrawer_thin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dsdesktop_selector"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drawer_hangshuthin"
+                            android:textColor="@color/dsfont_selector"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <RadioButton
+                        android:id="@+id/dsdrawer_radiothin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/dsradio_selector"
+                        android:button="@null" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dsdrawer_modest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dsdesktop_selector"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drawer_hangshumodest"
+                            android:textColor="@color/dsfont_selector"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <RadioButton
+                        android:id="@+id/dadrawer_radiomodest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/dsradio_selector"
+                        android:button="@null" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dsdrawer_dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dsdesktop_selector"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drawer_hangshudense"
+                            android:textColor="@color/dsfont_selector"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <RadioButton
+                        android:id="@+id/dsdrawer_radiodense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/dsradio_selector"
+                        android:button="@null" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dsdrawer_custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drawer_customsdjuse"
+                            android:textColor="@color/dsfont_selector"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <RadioButton
+                        android:id="@+id/dadrawer_radiocustom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/dsradio_selector" 
+                        android:button="@null"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/dsdrawer_hangshutxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/drawer_hangshu"
+                        android:textColor="@color/dsfont_selector"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/drawer_linenumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="@color/dsfont_selector"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/dsdrawer_hang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp" >
+
+                    <SeekBar
+                        android:id="@+id/drawer_seekbarhang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_marginTop="20dp"
+                        android:max="100"
+                        android:maxHeight="5dp"
+                        android:minHeight="5dp"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/dsseekbarstyle"
+                        android:thumb="@drawable/dsseekbar_selector"
+                        android:thumbOffset="-1dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/dsdrawer_hangshuzitxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="68dp"
+                        android:text="3"
+                        android:textColor="@color/dsfont_selector" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="53dp"
+                        android:text="6"
+                        android:textColor="@color/dsfont_selector" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/dsdrawer_lieshutxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/drawer_lieshu"
+                        android:textColor="@color/dsfont_selector"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/drawer_columnnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="@color/dsfont_selector"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/dsdrawer_lie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp" >
+
+                    <SeekBar
+                        android:id="@+id/drawer_seekbarlie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_marginTop="20dp"
+                        android:max="100"
+                        android:maxHeight="5dp"
+                        android:minHeight="5dp"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/dsseekbarstyle"
+                        android:thumb="@drawable/dsseekbar_selector" 
+                        android:thumbOffset="-1dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/dsdrawer_lieshuzitxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="68dp"
+                        android:text="3"
+                        android:textColor="@color/PromptColor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="53dp"
+                        android:text="6"
+                        android:textColor="@color/PromptColor" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dscutoffline" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

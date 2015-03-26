@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+桌面编辑模块代码
+@author LinYu
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_hot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/default_theme_bg"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/de_hot_themes_text"
+            android:textColor="@drawable/desktop_edit_hot_title_text_color"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_hot"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/de_hot_theme_bg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_local"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/default_theme_bg"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/de_default_theme_text"
+            android:textColor="@drawable/desktop_edit_hot_title_text_color"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_local"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/de_default_theme_bg" />
+    </RelativeLayout>
+
+</LinearLayout>

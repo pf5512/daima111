@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <boolean name="load_compressed_obj">true</boolean>
+</resources>

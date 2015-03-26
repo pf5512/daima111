@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efe7dd" >
+
+    <FrameLayout
+        android:id="@+id/fl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_advertisement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/advertisement" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_bar_bg" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/text_history" />
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                android:src="@drawable/arrow" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bar_bg" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/iv_bottom"
+        android:layout_below="@id/fl_title" >
+
+       <!--  <ListView
+            android:id="@+id/lv_history"
+            android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/line" >
+        </ListView> -->
+        <com.iLoong.scan.LinearLayoutListView 
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+        </com.iLoong.scan.LinearLayoutListView>
+    </ScrollView>
+
+</RelativeLayout>

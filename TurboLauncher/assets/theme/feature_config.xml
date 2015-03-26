@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<feature ver="1.0" >	
+		
+	<!-- 一般的配置说明
+		enable_themebox:主题盒子开关，默认为true
+		enable_WallpaperBox:壁纸盒子开关，默认为false
+		enable_SceneBox:场景盒子开关,默认为false
+		isDefaultPkg:判断是否使用默认的pkg和cls作为默认场景桌面，默认为false
+		default_theme_package_name:设置桌面默认主题的包名（实现内置第三方主题并设置为默认主题），默认为nothing
+		lite_edition:设置为true时是精简版本，可以降低内存占用，默认为false。
+			【注意：lite_edition设置为true后代码会自动进行如下配置:
+				DefaultLayout.enable_texture_pack = false;
+				DefaultLayout.disable_circled = true;
+				DefaultLayout.enable_explorer = false;
+				DefaultLayout.miui_v5_folder = false;
+				DefaultLayout.blur_enable = false;
+				DefaultLayout.enable_air_default_layout = false;
+				DefaultLayout.enable_hotseat_rolling = false;
+				DefaultLayout.newHotSeatMainGroup = false;】
+		use_new_theme:旧的主题管理界面是否识别新的主题apk，默认为false不识别。
+	 -->	
+   <general_config   
+   		enable_themebox="true"
+		enable_WallpaperBox="false"
+		enable_SceneBox="false"
+		isDefaultPkg="true"
+		default_theme_package_name="com.cooeeui.brand.turbolauncher"
+		lite_edition="false"
+		use_new_theme="false"
+   />
+	
+</feature>

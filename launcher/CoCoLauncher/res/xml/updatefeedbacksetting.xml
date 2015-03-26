@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/update_feedback" >
+
+    <Preference
+        android:key="@string/setting_key_update"
+        android:title="@string/version_update" />
+    <Preference
+        android:key="@string/setting_key_share"
+        android:title="@string/share_friends" />
+    <Preference
+        android:key="@string/setting_key_feedback"
+        android:title="@string/share_friends" />
+
+</PreferenceScreen>

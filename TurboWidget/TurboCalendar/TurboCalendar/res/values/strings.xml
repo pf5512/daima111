@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3D Calendar</string>
+    <string name="max_instance_alert">the calendar already exists,can not add another one</string>
+    <integer name="spanX">4</integer>
+    <integer name="spanY">4</integer>
+    <integer name="max_instance">1</integer>
+<string name="download_toast">Please check the network connection and try again.</string>
+
+<string name="turbo_launcher_name">Turbo Launcher</string>
+	<string name="turbo_launcher_desc">Smooth 3D speed launcher</string>
+	<string name="turbo_apply_content">Appling the theme in the official launcher </string>
+	<string name="turbo_button_download">Download Turbo Launcher</string>
+</resources>

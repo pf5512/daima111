@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 静默安装应用【内置launcher时才有效】 -->
+<!--
+	说明：
+		1.在目录"\assets\apk"下添加需要静默安装的应用（应用名称为【非中文（文字和符号）】【不含有空格】【以".apk"结束】的名称（该名称推荐写包名），类似：aaa_b.c.apk）；
+		2.修改本文件，添加类似"<item apkname="aaa_b.c.apk"/>"；
+		3.现在静默安装的默认延迟时间为60秒，如需修改请在"\assets\default\default_layout.xml"中配置开关项"install_apk_delay"(单位为秒)；
+-->
+
+
+<apkconfig>
+	<!-- <item apkname="aaa_b.c.apk"/> -->
+</apkconfig>

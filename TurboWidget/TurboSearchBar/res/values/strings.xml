@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TurboSearchBar</string>
+    
+    <string name="edit_text_hint">Search</string>
+    <string name="nothing_input_tips">Please input a key</string>
+    <string name="menu_clear_history">Clear history</string>
+    <string name="menu_exit">Exit</string>
+    
+    <integer name="spanX">4</integer>
+    <integer name="spanY">1</integer>
+    <integer name="max_instance">1</integer>
+    <string name="max_instance_alert">Already exists, can not add another one</string>
+
+    <string name="searchbar_no_voice_search_alert">No voice search tool is found.</string>
+</resources>

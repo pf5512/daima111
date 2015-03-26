@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="app_effects_list_preference">
+        <item>معيار</item>
+        <item>عشوائي</item>
+        <item>مكدسة</item>
+        <item>داخل منطقة الجزاء</item>
+        <item>خارج منطقة الجزاء</item>
+        <item>تحول</item>
+        <item>عبور الوجه</item>
+        <item>طاحونة هوائية</item>
+        <item>موجة</item>
+        <item>عجلة</item>
+        <item>ميدان</item>
+        <item>أسطوانة</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>معيار</item>
+        <item>عشوائي</item>
+        <item>مكدسة</item>
+        <item>داخل منطقة الجزاء</item>
+        <item>خارج منطقة الجزاء</item>
+        <item>تحول</item>
+        <item>عبور الوجه</item>
+        <item>طاحونة هوائية</item>
+        <item>موجة</item>
+        <item>الافتراضي</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+</resources>

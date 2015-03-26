@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/comet_layout_bg" >
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+        <LinearLayout 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginTop="46dip"
+	    	android:background="@drawable/comet_theme_list">
+	    	
+			<TextView
+	            android:id="@+id/textAppName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical"
+	            android:text="@string/textPreview"
+	            android:textColor="#ffffffff"
+	            android:textSize="15dip"
+	            android:layout_marginLeft="10dip"
+	            android:layout_gravity="center_vertical"
+	            android:drawableLeft="@drawable/comet_button_back" />
+
+		</LinearLayout>
+		
+	    <RelativeLayout 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			<ImageView 
+			    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/comet_title_bg"/>
+			
+			<ImageView 
+			    android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/comet_theme"
+		    	android:layout_centerInParent="true"/>
+		</RelativeLayout>
+
+    </RelativeLayout>
+    
+    <!-- 
+    <com.coco.theme.themebox.PageControl
+		android:id="@+id/page_control"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+ 	    android:paddingTop="5dip" 
+	    android:orientation="horizontal"
+	    android:gravity="center_horizontal" />
+     -->
+     
+	<ImageView
+		android:id="@+id/page_control"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+ 	    android:scaleType="fitStart" />
+	
+    <com.coco.theme.themebox.PreViewGallery
+        android:id="@+id/galleryPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:spacing="10dp" 
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:unselectedAlpha="1.0" />
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" >
+	    <ImageButton
+	        android:id="@+id/buttonApply"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/button_apply"
+	        android:paddingTop="5dip" />
+	    
+	    <ImageButton
+	        android:id="@+id/buttonUsed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/comet_used"
+	        android:paddingTop="5dip" />
+	    
+	</RelativeLayout>
+    
+    <ImageView
+	   	android:layout_width="wrap_content"
+	    android:layout_height="10dip" />
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	    <ImageView 
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/comet_wating1"/>
+	    <ImageView 
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/comet_wating2"
+		    android:layout_centerInParent="true"/>
+    </RelativeLayout>
+       
+</LinearLayout>

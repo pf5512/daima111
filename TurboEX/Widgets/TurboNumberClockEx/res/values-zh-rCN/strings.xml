@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="numberclockapp_name">Turbo_数字时钟</string>
+    <string name="default_cityname">未知</string>
+    <string name="default_prompt">请输入你要查找的城市</string>
+    <string name="weathercurve_title">天气预报</string>
+    <string name="firstweek">周一</string>
+    <string name="secondweek">周二</string>
+    <string name="thirdweek">周三</string>
+    <string name="forthweek">周四</string>
+    <string name="fiveweek">周五</string>
+    <string name="sixweek">周六</string>
+    <string name="sevenweek">周日</string>
+    <string name="defaultWeatherconditionName">多云</string>
+    <string name="unkonwweek">未知</string>
+    <string name="notsetcity">你还未设置城市，请先设置城市</string>
+    <string name="flushfailed">更新失败</string>
+    <string name="flushsuccess">更新成功</string>
+    <string name="networkerror">网络连接异常</string>
+    <string name="flush_Prompt">正在刷新，请稍候...</string>
+    <string name="citynotfound">没有发现此城市</string>
+
+</resources>

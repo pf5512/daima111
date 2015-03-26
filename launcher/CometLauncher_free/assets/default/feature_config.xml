@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<feature ver="1.0" >	
+		
+	<!-- 一般的配置说明
+		enable_themebox:主题盒子开关，默认为true
+		enable_WallpaperBox:壁纸盒子开关，默认为false
+		enable_SceneBox:场景盒子开关,默认为false
+		enable_DefaultScene:是否支持"默认场景桌面"功能,默认为false
+		isDefaultPkg:判断是否使用默认的pkg和cls作为默认场景桌面，默认为false
+	 -->	
+   <general_config   
+   		enable_themebox="true"
+		enable_WallpaperBox="false"
+		enable_SceneBox="false"
+		enable_DefaultScene="false"
+		isDefaultPkg="true"
+		default_scene_cls="com.cooee.freescene.CooeeMainScene"
+		default_scene_pkg="com.cooee.cooeescene"
+   />
+	
+</feature>

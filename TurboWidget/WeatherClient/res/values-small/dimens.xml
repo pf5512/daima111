@@ -1,0 +1,11 @@
+<resources>   
+    <dimen name="feature_weather_height">160.3333dp</dimen> 
+     <dimen name="draw_text_x">20dp</dimen>
+     <dimen name="draw_text_condition_y">250dp</dimen>
+     <dimen name="draw_text_y_offset">5dp</dimen>
+      <dimen name="ConditionViewTS">40dp</dimen>
+     <dimen name="InfoViewTS">18dp</dimen>
+     <dimen name="DataViewTS">18dp</dimen>
+     <dimen name="AddressViewTS">18dp</dimen>
+     <dimen name="city_item_bg_h">120dp</dimen>
+</resources>

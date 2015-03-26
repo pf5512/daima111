@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="music_services" translatable="false">
+        <item>com.android.music;com.android.music.MediaPlaybackService</item>
+    </string-array>
+    <string-array name="music_playback_activity" translatable="false">
+     	<item>com.android.music;com.android.music.MediaPlaybackActivity</item>
+    </string-array>
+    <string-array name="music_brower_activity" translatable="false">
+        <item>com.android.music;com.android.music.HQMusicMainActivity</item>
+     	<item>com.android.music;com.android.music.MusicBrowserActivity</item>
+    </string-array>
+
+</resources>

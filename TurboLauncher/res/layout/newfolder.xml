@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     android:background="@drawable/portal_container_holo"
+
+<com.iLoong.launcher.folder.Folder
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.iLoong"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#50000000">
+    
+    <com.iLoong.launcher.folder.CellPage
+        android:id="@+id/folder_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dip"
+        android:paddingRight="0dip"
+        android:paddingTop="0dip"
+        android:paddingBottom="0dip"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000"
+        android:hapticFeedbackEnabled="false"
+        launcher:widthGap="@dimen/folder_width_gap"
+        launcher:heightGap="@dimen/folder_height_gap"
+        launcher:cellWidth="@dimen/folder_cell_width"
+        launcher:cellHeight="@dimen/folder_cell_height"
+        launcher:maxGap=="@dimen/folder_width_gap"
+         />
+    <com.iLoong.launcher.folder.FolderEditText
+        android:id="@+id/folder_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/folder_name_padding"
+        android:paddingBottom="@dimen/folder_name_padding"
+        android:background="#00000000"
+        android:hint="@string/folder_hint_text"
+        android:textSize="14sp"
+        android:textColor="#ff33b5e5"
+        android:textColorHighlight="#ff333333"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:imeOptions="flagNoExtractUi"/>
+</com.iLoong.launcher.Folder.Folder>
+-->
+
+<com.iLoong.launcher.folder.Folder xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.cooeeui.brand.turbolauncher"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#50000000"
+    android:orientation="vertical" >
+
+    <com.iLoong.launcher.folder.FolderEditText
+        android:id="@+id/folder_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:hint="@string/folder_hint_text"
+        android:paddingBottom="@dimen/folder_name_padding"
+        android:paddingTop="@dimen/folder_name_padding"
+        android:textColor="#ffffffff"
+        android:textColorHighlight="#ff333333"
+        android:textSize="14sp"
+		android:gravity="center_horizontal"         
+        android:singleLine="true"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="30" 
+    />
+
+
+	<com.iLoong.launcher.folder.CellPage
+	    android:id="@+id/folder_content"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="#00000000"
+	    android:cacheColorHint="#00000000"
+	    launcher:cellHeight="@dimen/folder_cell_height"
+	    launcher:cellWidth="@dimen/folder_cell_width"
+	    android:hapticFeedbackEnabled="false"
+	    launcher:heightGap="@dimen/folder_height_gap"
+	    android:paddingBottom="0dip"
+	    android:paddingLeft="0dip"
+	    android:paddingRight="0dip"
+	    android:paddingTop="0dip"
+	    launcher:widthGap="@dimen/folder_width_gap" 
+	    />
+
+</com.iLoong.launcher.folder.Folder>

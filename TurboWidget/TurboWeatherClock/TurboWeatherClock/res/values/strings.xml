@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather Clock</string>
+    <string name="max_instance_alert">Already exists,can not add another one</string>
+
+    <integer name="spanX">4</integer>
+    <integer name="spanY">2</integer>
+    <integer name="max_instance">1</integer>
+
+    <string name="download_toast">Please check the network connection and try again.</string>
+    <string name="dialog_title">Weather Clock</string>
+    <string name="dialog_message">Ami no weather client installed, installed?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="ami_download_dialog_title_text">Ami Weather</string>
+	<string name="ami_download_dialog_message_text">Access to daily weather timely</string>
+	
+	<string name="networt_notconneted">Network is not connected</string>
+	<string name="networt_notconnetederror">Network Timeout</string>
+	<string name="city_notfound">Not found this city</string>
+	<string name="requestfailed">Request failed</string>
+	<string name="network_exception">Network connection exception</string>
+</resources>

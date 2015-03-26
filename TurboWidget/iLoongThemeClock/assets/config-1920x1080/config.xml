@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <boolean name="load_compressed_obj">true</boolean>
+    
+    <!-- Widget模型的Type 0表示3D模型   
+                          1表示2D模拟时钟 
+                          2表示2D数字时钟 
+    -->
+	<interger name="clock_mode_type" type="" value="0"/>
+	
+    <!-- Widget模型的缩放比例-->
+    <dimen name="model_scale">1px</dimen>
+    
+     <!-- Widget模型的宽高-->
+    <float name="clock_width" type="dp" value="180" />
+    <float name="clock_height" type="dp" value="170" />  
+    
+     <!-- 3D 时钟Widget的模型资源配置-->
+    <string-array name="watch_hour_obj">
+        <item>watch_hour.obj</item>
+        <item>watch_hour_shade.obj</item>
+    </string-array>
+    
+    <string-array name="watch_minute_obj">
+        <item>watch_minute.obj</item>
+        <item>watch_minute_shade.obj</item>
+    </string-array>
+    
+    <string-array name="watch_second_obj" >
+        <item>watch_second.obj</item>
+		<item>watch_second_shade.obj</item>  
+    </string-array>
+	
+    <!-- 2D 模拟时钟 Widget的模型资源配置-->
+    <string name="watch_back_png">watch_back.png</string>
+	
+	<string name="watch_hour_png">watch_hour.png</string>
+	
+	<string name="watch_minute_png">watch_minute.png</string>
+	
+	<string name="watch_second_png">watch_second.png</string>
+	
+	<string name="watch_dot_png">watch_dot.png</string>
+	
+	<!-- 2D 模拟时钟 Widget的模型资源配置-->
+	
+	<!-- true是使用系统字体来显示时间  false是使用图片资源来显示时间-->
+	<boolean name="use_system_source">false</boolean>
+	
+	<!-- 字体的大小设置-->
+	<float name="time_font_size" type="dp" value="50" />
+	<float name="ddmmyy_font_size" type="dp" value="10" />
+	<float name="apm_font_size" type="dp" value="30" />
+	
+	<!-- 时间的显示坐标-->
+	<float name="hour_left_x" type="dp" value="0" />
+	<float name="hour_left_y" type="dp" value="74.5" />
+	<float name="hour_right_x" type="dp" value="40" />
+	<float name="hour_right_y" type="dp" value="74.5" />
+	
+	<float name="dot_x" type="dp" value="20" />
+	<float name="dot_y" type="dp" value="150" />
+	
+	<float name="minute_left_x" type="dp" value="100" />
+	<float name="minute_left_y" type="dp" value="74.5" />
+	<float name="minute_right_x" type="dp" value="140" />
+	<float name="minute_right_y" type="dp" value="74.5" />
+	
+	<float name="ddmmyy_x" type="dp" value="66" />
+	<float name="ddmmyy_y" type="dp" value="40" />
+	
+	<float name="apm_x" type="dp" value="160" />
+	<float name="apm_y" type="dp" value="50" />
+	
+</resources>

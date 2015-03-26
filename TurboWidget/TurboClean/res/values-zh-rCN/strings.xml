@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="clean_up">一键清理</string>
+    <string name="cleaning">为您释放%1$dM内存</string>
+    <string name="complete_clean">您的设备已达最佳状态</string>
+
+</resources>

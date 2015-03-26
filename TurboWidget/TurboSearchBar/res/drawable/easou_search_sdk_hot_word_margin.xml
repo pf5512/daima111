@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="@color/easou_search_sdk_hot_word_solid" />
+	<stroke android:color="@color/easou_search_sdk_hot_word_stroke" android:width="@dimen/easou_search_sdk_search_box_stroke_height"/>
+    <corners android:radius="@dimen/easou_search_sdk_radius" />
+
+</shape>

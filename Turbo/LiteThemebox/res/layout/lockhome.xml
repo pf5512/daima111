@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:id="@+id/lockhomeview">
+	<TextView android:id="@+id/textView1" android:text="提示"
+		android:paddingLeft="2dip" android:paddingRight="2dip"
+		android:textColor="#ffff" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content"></TextView>
+	<TextView android:layout_width="wrap_content" android:id="@+id/textView2"
+		android:text="在接下来的页面，请勾选“默认使用此方式发送”，并选择“CoCo锁屏”项" android:textColor="#ffff"
+		android:paddingLeft="2dip" android:paddingRight="2dip"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_height="wrap_content" android:layout_below="@+id/textView1"
+		android:layout_alignParentLeft="true"></TextView>
+	<ImageView android:layout_width="wrap_content"
+		android:id="@+id/imageView01"
+		android:layout_height="wrap_content" android:layout_below="@+id/textView2"
+		android:layout_centerHorizontal="true"></ImageView>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- status_bar_height, tool_bar_height,  edit_list_height, tool_bar_height -->
+    <dimen name="weLayout">300dp</dimen>
+    <dimen name="nodata_layout_height">473.3333dp</dimen>
+    <dimen name="weather_image_height">400dp</dimen>
+    <dimen name="weather_image_width">400dp</dimen>
+    <dimen name="feature_weather_height">174dp</dimen>
+    <dimen name="status_bar_height">26.66667dp</dimen>
+    <dimen name="feature_weather_cell_width">80dp</dimen>
+    <dimen name="feature_weather_cell_height">136.66667dp</dimen>
+    <dimen name="feature_weather_img_width">80dp</dimen>
+    <dimen name="feature_weather_img_height">66dp</dimen>
+    <dimen name="today_tmp_layout_height">66.66667dp</dimen>
+    <dimen name="popup_window_width">184dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="edit_list_height">434.666667dp</dimen>
+    <dimen name="tool_bar_height">38.66667dp</dimen>
+    <dimen name="add_button_width">53.333333333dp</dimen>
+    <dimen name="popup_item_height">38dp</dimen>
+    <dimen name="textview_city">18sp</dimen>
+    <dimen name="add_post_text">16sp</dimen>
+    <dimen name="popcitys">28sp</dimen>
+    <dimen name="cur_postalCode">20sp</dimen>
+    <dimen name="textweathertype">12sp</dimen>
+    <dimen name="tadayDate">9dp</dimen>
+    <dimen name="curadress">9dp</dimen>
+    <dimen name="curTemperature">16dp</dimen>
+    <dimen name="citymanage">20dp</dimen>
+    <dimen name="textview_week1">15sp</dimen>
+    <dimen name="textview_condition1">13sp</dimen>
+    <dimen name="schemas.android.com">14dp</dimen>
+    <dimen name="updating">14sp</dimen>
+    <dimen name="textview_now_c">22sp</dimen>
+    <dimen name="textview_now_tmp">40sp</dimen>
+    <dimen name="AM_PM_left">22dp</dimen>
+    <dimen name="AM_PM_top">92dp</dimen>
+    <dimen name="dateRigth1">185dp</dimen>
+    <dimen name="curweatherImage_width">75dp</dimen>
+    <dimen name="curweatherImage_height">120dp</dimen>
+    <dimen name="dateLeft_left">24dp</dimen>
+    <dimen name="dateLeft_top">24dp</dimen>
+    <dimen name="cell2_layout">12dp</dimen>
+    <dimen name="button_citymange">274dp</dimen>
+    <dimen name="textweathertype_left">12dp</dimen>
+    <dimen name="textview_now_left">235dp</dimen>
+    <dimen name="datetime_left">40dp</dimen>
+    <dimen name="nodata">140dp</dimen>
+    <dimen name="datetime_size">45dp</dimen>
+    <dimen name="curweather_top">115dp</dimen>
+    <dimen name=" curTemperature_top">140dp</dimen>
+    <dimen name="todayDate_size">14dp</dimen>
+    <dimen name="curTemperature_size">30dp</dimen>
+    <dimen name="curweather_size">20dp</dimen>
+    <dimen name="tadayDate_top">53dp</dimen>
+    <dimen name="curadress_top">70dp</dimen>
+
+</resources>

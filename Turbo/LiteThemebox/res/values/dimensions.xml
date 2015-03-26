@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gridItemWidth">120dip</dimen>
+    <dimen name="gridItemHeight">190dip</dimen>
+    <dimen name="gridProgressWidth">73dip</dimen>
+    <dimen name="scrollGridPaddingBottom">20dip</dimen>
+    
+    <!-- do not delete -->
+    <dimen name="workspace_cell_width">80dp</dimen>
+    <dimen name="workspace_cell_height">100dp</dimen>
+    <!-- do not delete -->
+    <dimen name="widgetItemWidth">100dip</dimen>
+    
+</resources>

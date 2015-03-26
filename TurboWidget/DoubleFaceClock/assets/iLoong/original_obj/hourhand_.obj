@@ -1,0 +1,27 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 10.09.2013 18:04:44
+
+mtllib 01.mtl
+
+#
+# object Rectangle14
+#
+
+v  16.0000 -82.9475 -4.2344
+v  -16.0000 -82.9475 -4.2344
+v  -16.0000 82.9475 -4.2344
+v  16.0000 82.9475 -4.2344
+# 4 vertices
+
+vt 0.0005 0.0005 0.5000
+vt 0.9995 0.0005 0.5000
+vt 0.9995 0.9995 0.5000
+vt 0.0005 0.9995 0.5000
+# 4 texture coords
+
+g Rectangle14
+usemtl 12___Default
+s 1
+f 1/1 2/2 3/3 4/4 
+# 1 polygons
+

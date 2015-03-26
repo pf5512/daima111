@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     /* * Copyright (C) 2008 The Android Open Source Project * * Licensed 
+	under the Apache License, Version 2.0 (the "License"); * you may not use 
+	this file except in compliance with the License. * You may obtain a copy 
+	of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless 
+	required by applicable law or agreed to in writing, software * distributed 
+	under the License is distributed on an "AS IS" BASIS, * WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. * See the License for 
+	the specific language governing permissions and * limitations under the License. 
+	*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Comet Launcher</string>
+    <string name="default_theme">default_theme</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">Folder</string>
+    <string name="contact_name">Contacts</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">Select wallpaper from</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">Choose a 3D Widget</string>
+    <!--
+         Button label on Wallpaper Gallery screen; user selects this button 
+		to set a specific wallpaper
+    -->
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Wallpapers</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <string name="activity_not_found_from_intent">No Application can handle this.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure...</string>
+    <string name="iloong_shellstr">Launcher Loading...</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="system_shortcut">Loading...</string>
+    
+    <string name="circle_autoSort">AutoSort</string>
+    <string name="circle_iconOverlap">Overlap</string>
+    <string name="circle_iconTrans">Translation</string>
+    <string name="circle_multiSelect">MultiSelect</string>
+    <string name="circle_createFolder">Create Folder</string>
+    <string name="circle_deleteAll">DeleteAll</string>
+    <string name="circle_noticeToast">Return to the origin to select</string>
+    <string name="circle_dstOverToast">Beyond the trap range limit</string>
+    <string name="circle_deleteALLToast">Sure to delete all?</string>
+    <string name="circle_selectMutiToOperToast">Multiple icons operation</string>
+    <string name="circle_notSupportToast">This version is temporarily unable to use this
+		feature</string>
+    <string name="circle_ok_action">OK</string>
+    <string name="circle_cancel_action">Cancel</string>
+    <string name="circle_unselectAppIconToast">No icon selected</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">Rename Folder</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">Cancel</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder3D_del_toast">Sure to delete this folder?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">Not yet installed on your phone, click OK to
+		download and install!</string>
+    <string name="apk_cannot_found_content">Cannot found APK for this application on your SD
+		card!</string>
+    <string name="folder3D_full">Folder is full</string>
+    <string name="folder3D_name">Folder</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all apps
+    -->
+    <string name="group_applications">Applications</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all shortcuts
+    -->
+    <string name="group_shortcuts">Shortcuts</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all live folders
+    -->
+    <string name="group_live_folders">Folder</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of all widgets/gadgets
+    -->
+    <string name="group_widgets">Widgets</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_wallpapers">Wallpaper</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_3D_widgets">3D widgets</string>
+    <!--
+         Options in "Add to Home" dialog box; Title of the group containing 
+		the list of apps that can set the wallpaper
+    -->
+    <string name="group_contacts">Contacts</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">No more room on this Home screen.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">		Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">		Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" was removed.</string>
+    <!--
+         Message displayed when an external application attemps to create a 
+		shortcut that already exists
+    -->
+    <string name="shortcut_duplicate">		Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>		\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Select shortcut</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">Select application</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!--
+         All applications label for accessibilty (spoken when the button gets 
+		focus).
+    -->
+    <string name="all_apps_button_label">All applications</string>
+    <!--
+         Label for button in all applications label to go back home (to the 
+		workspace / desktop) for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+		shortcuts without user
+		intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+		shortcuts without
+		user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+		shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+		shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. Attempts to 
+		mimic homepage_base in Browser; {CID} should be replaced by the client-id, 
+		e.g. "android-google".
+    -->
+    <string name="default_browser_url" translatable="true">		http://www.google.com/m?client=ms-{CID}source=android-home-hotseat</string>
+    <string name="errorHint">		A error has happened %1$s.Please click<i><b>"REPORT"</b></i>		to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">Can\'t add to this page</string>
+    <string name="can_not_delete_page">The minimum number of screens has reached</string>
+    <string name="delete_page">Page is not empty, sure to delete it?</string>
+
+    <!-- AppBar -->
+    <string name="appbar_tab_app">Apps</string>
+    <string name="appbar_tab_widget">Widgets</string>
+    <string name="appbar_tab_uninstall">Uninstall apps</string>
+    <string name="appbar_tab_hide">Hide apps</string>
+    <string name="appbar_tab_edit_mode">Editor Mode</string>
+    <string name="sort_app_default">Sort by default</string>
+    <string name="sort_app_init">Sort by factory data</string>
+    <string name="sort_app_name">Sort by app name</string>
+    <string name="sort_app_install_time">Sort by install time</string>
+    <string name="app_bar_navigator_audioalbum">Audio</string>
+    <string name="app_bar_navigator_video">Video</string>
+    <string name="app_bar_navigator_photobucket">Photo</string>
+    <string name="app_bar_title_photo">Photo</string>
+    <string name="app_bar_title_audio">Song</string>
+    <string name="sort_app_use_frequency">Sort by frequency of use</string>
+    <string name="sort_dialog_title">Sort Icons</string>
+    <string name="widget_empty_dialog">This 3D widget is not installed, please install and then add it</string>
+    <string name="widget_empty_title">3D widget</string>
+    <string name="hotseat_mainmenu">Apps</string>
+    <string name="hotseat_workspace">Home</string>
+    <string name="main_menu">Apps</string>
+    <string name="trash_icon_title">Delete</string>
+    <string name="insert_sd_card">Please plug in SD card</string>
+    <string name="choose_widget">Choose widget</string>
+    <!-- adjust -->
+    <string name="fold_name_too_long">Folder name exceeds the maximum length</string>
+    <string name="app_downloading">Downloading</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>Standard</item>
+        <item>Random</item>
+        <item>Stack</item>
+        <item>Inner Box</item>
+        <item>Outer Box</item>
+        <item>Flip</item>
+        <item>Cross Flip</item>
+        <item>Windmill</item>
+        <item>Wave</item>
+        <item>Wheel</item>
+        <item>Ball</item>
+        <item>Cylinder</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>Standard</item>
+        <item>Random</item>
+        <item>Outer Box</item>
+        <item>Flip</item>
+        <item>Cross Flip</item>
+        <item>Default</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+    <string-array name="icon_size_display">
+        <item>big</item>
+        <item>middle</item>
+        <item>small</item>
+    </string-array>
+    <string-array name="icon_size_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="effect_standard">Standard</string>
+    <string name="effect_random">Random</string>
+    <string name="effect_cascade">Stack</string>
+    <string name="effect_outbox">Outer Box</string>
+    <string name="effect_inbox">Inner Box</string>
+    <string name="effect_flip">Flip</string>
+    <string name="effect_bigfan">Cross Flip</string>
+    <string name="effect_fan">Windmill</string>
+    <string name="effect_wave">Wave</string>
+    <string name="effect_ball">Ball</string>
+    <string name="effect_wheel">Wheel</string>
+    <string name="effect_cylinder">Cylinder</string>
+    <string name="effect_default">Default</string>
+    
+    <!-- teapotXu add start: adding new effect -->
+    <string name="effect_binaries">Twin Stars</string>
+	<string name="effect_blind">jalousie</string>
+	<string name="effect_jump">bounce</string>
+	<string name="effect_melt">dissolve</string>
+	<string name="effect_upright">vertical</string>
+	<string name="effect_rotate">rotation</string>
+	<string name="effect_press">extrude</string>
+	<string name="effect_roll">roller blinds</string>
+	<string name="effect_window">window</string>
+	<string name="effect_tornado">tornado</string>
+	<string name="effect_erase">erasure</string> 
+	<string name="effect_wind">blowing</string>
+	<string name="effect_hump">hump</string> 
+	<string name="effect_cross">cross</string>
+	<string name="effect_electric_fan">fan</string>
+	<string name="effect_ceraunite">falling stone</string>	
+	<string name="effect_elasticity">elasticity</string>
+	<string name="effect_snake">retro snaker</string>
+	<!-- teapotXu add end  -->
+    
+    <string name="uninstall_app">Uninstall app</string>
+    <string name="edit_mode">Edit Mode</string>
+    <string name="download_apps">Downloaded applications</string>
+    <string name="hide_icon">Hide icon</string>
+    <string name="sort_icon">Sort icon</string>
+    <string name="effect_icon">Switch Effect</string>
+    <string name="no_space_add_icon">No space to add</string>
+    <string name="exceed_num_add_icon">The selected icon number exceeds the maximum available
+		space, add fail!</string>
+    <string name="contact_error_pls_check">Add contact failed, please check the contact
+		information is complete</string>
+    <string name="download_to_install">This widget has not been installed, please download
+		it</string>
+    <string name="add_failure">Add failed</string>
+    <string name="deny_add_on_mainmenu">This is the main menu entry</string>
+    <string name="dlmng_check_network">Unable to get the download information, please
+		check the network and try again!</string>
+    <string name="dlmng_comeout_soon">Coming soon</string>
+    <string name="dlmng_pls_insert_SD">Please insert the SD card, and then download!</string>
+    <string name="backup_pls_insert_SD">Please insert the SD card, and then backup!</string>
+    <string name="dlmng_network_error">Network error, please try again later!</string>
+    <string name="dlmng_download_error">Download error, please try again later!</string>
+    <string name="dlmng_download_configwrong">Download wrong parameter </string>
+    <string name="backup_title_back">Comet Launcher Backup</string>
+    <string name="backup_back_to_SD">Create a new Backup to SD card?</string>
+    <string name="backup_title_restore">Comet Launcher setting restore</string>
+    <string name="backup_restore">Restore setting, the Comet Launcher will restart!</string>
+    <string name="backup_latest">Last backup time</string>
+    <string name="backup_no_back">Backup app configuration and desktop</string>
+    <string name="backup_success">Backup success</string>
+    <string name="backup_fail">Backup fail</string>
+    <string name="restore_fail">Restore Fail</string>
+    <string name="guide_title">User guide</string>
+    <string name="guide_proceed">Show user guide, application will be restarted</string>
+    <string name="lock_editor_title">Lock edit</string>
+    <string name="lock_editor">Note: Open the edit lock, screen dragging will no
+		longer responding, click the button again will unlock edit.</string>
+    <string name="warning_msg">Warning message</string>
+    <string name="version_msg_title">Version message</string>
+    <string name="version_msg">Your software is up to date!</string>
+    <string name="update_msg_title">Your software version:</string>
+    <string name="update_needed_version">The latest version:</string>
+    <string name="update_need_now">Update now!\n</string>
+    <string name="system_update">System update</string>
+    <string name="max_added_thirty">You can only add up to 30</string>
+    <string name="max_added_twenty">You can only add up to 20</string>
+    <string name="catnot_add_to_sidebar">This widget can\'t be added to the sidebar</string>
+    <string name="common_add">Add</string>
+    <string name="common_commit">Commit</string>
+    <string name="reach_max">Reached the upper limit</string>
+    <string name="can_drag_to_desktop">Long press to drag to the desktop</string>
+    <string name="setting_backup_restore">Backup / Restore Settings</string>
+    <string name="setting_add_system_widget">Add main screen</string>
+    <string name="setting_share_friend">"Hi, I'm using Comet Launcher. It is so cool, browse
+		the following URL http://www.coolauncher.cn"</string>
+    <string name="setting_feedback">Please submit your feedback;</string>
+    <string name="defaulttheme">Default Theme</string>
+    <string name="localtheme">My theme</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">Apply theme</string>
+    <string name="removetheme">Remove theme</string>
+    <string name="onlinetheme">Online theme</string>
+    <string name="themetype">Type:</string>
+    <string name="themeversion">Version:</string>
+    <string name="themeauthor">Author:</string>
+    <string name="themedata">Date:</string>
+    <string name="themefeedback">Feedback:</string>
+    <string name="desktop_setting">Desktop </string>
+    <string name="basic_setting">Basic Settings</string>
+    <string name="vibrator">Vibrator</string>
+    <string name="vibrate_on_long_click">Long click vibrate</string>
+    <string name="circle_select">Circle select</string>
+    <string name="circle_select_switch">Circle select switch</string>
+    <string name="effect_setting">Effect setting</string>
+    <string name="desktop_download_info">I am using a desktop named Comet. It is really funny. Do you want to have a try? The download path is: http://ui.coolauncher.com/cooeeui/apk/f1762cometlauncher.apk</string>
+    <string name="shake_wallpaper">Shake wallpapers</string>
+    <string name="shake_wallpaper_description">shake to change wallpapers</string>
+    <string name="shake_wallpaper_not_supported">this application not supported on your phone</string>
+
+    <bool name="enable_setting_key_shake_wallpaper">true</bool>
+
+    <string name="appeffects_dialog_title">Switch Effect</string>
+    <string name="desktop_slide">Desktop slide</string>
+    <string name="app_list_slide">MainMenu slide</string>
+    <string name="backup_and_restore">Backup and restore</string>
+    <string name="backup_desktop">Backup</string>
+    <string name="restore_desktop">Restore</string>
+    <string name="more">More</string>
+    <string name="restart_launcher">Restart Comet Launcher</string>
+    <string name="version_update">Update</string>
+    <string name="share_friends">Share with Friends</string>
+    <string name="feedback">Feedback</string>
+    <string name="guide_help">Guide Help</string>
+    <string name="guide_install">Guide</string>
+    <string name="reset_guide">Reset guide Flag</string>
+    <string name="exit_launcher">Exit</string>
+    <string name="backup_restore_setting">Backup / Restore Settings</string>
+    <string name="update_feedback">Update Feedback</string>
+    <string name="mostly_used">Most Used</string>
+    <string name="system_widget">widgets</string>
+    <string name="update_check">Update </string>
+    <string name="user_feedback">Feedback</string>
+     <string name="desktop_effect">Effect</string>
+    <string name="show_desktop">Share</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="theme">Theme</string>
+    <string name="software_manager">Software manager</string>
+    <string name="screen_editor">Screen editor</string>
+    <string name="system_setting"> Setting</string>
+      <string name="setup_menu_test1">setup_menu_test1</string>
+    <string name="locker_setting">Locker setting</string>
+    <string name="clock">3D Clock</string>
+    <string name="memo">3D Memo</string>
+    <string name="robot">3D Robot</string>
+    <string name="theme_select">Themes</string>
+    <string name="theme_change">ThemeSwitchover</string>
+    <string name="no_theme_to_be_replaced">No theme to be replaced!</string>
+    <string name="Internet">Internet</string>
+    <string name="Explorer">Explorer</string>
+    <string name="beyond_mtkwidget_num">This widget is exist,can not add more!</string>
+    <string name="bottombar_selectall">Select All</string>
+    <string name="bottombar_share">Share</string>
+    <string name="bottombar_setting">Setting As</string>
+    <string name="bottombar_delete">Delete</string>
+    <string name="media_share">Share</string>
+    <string name="media_setting_as">Setting As</string>
+    <string name="bottombar_album">Album</string>
+    <string name="bottombar_artist">Artist</string>
+    <string name="bottombar_folder">Folder</string>
+    <string name="default_album_name">unknow</string>
+    <string name="internet_err">The network connection is not available, please check your network settings</string>
+    <string name="applist_load_toast">Please wait for loading...</string>
+    <string name="medialist_no_photo">can not find image on your phone,please check your sdcard is properly connected</string>
+    <string name="medialist_no_audio">can not find audio on your phone,please check your sdcard is properly connected</string>
+    <string name="medialist_no_video">can not find video on your phone,please check your sdcard is properly connected</string>
+    <string name="app_unknow">unknow</string>
+    <string name="media_delete_ok">Has Delete</string>
+    <string name="icon_size_title">Icon Size</string>
+
+    <!-- xiatian add start -->
+    <!-- Widget3D adaptation "Naked eye 3D" -->
+    <string name="sensor_summary">Open sensor</string>
+    <string name="sensor_title">Sensor</string>
+    <string name="sensor_not_supported">this application not supported on your phone</string>
+    <!-- xiatian add end -->
+    <string name="update_desktop">Update</string>
+    
+     <!-- added by zhenNan.ye begin -->
+    <!-- particle -->
+    <string name="particle_summary">Enable Click effect</string>
+    <string name="particle_title">Click effect</string>
+    <!-- added by zhenNan.ye end -->
+    <string name="others">Others</string>
+    <string name="others_rate">Rate Comet Launcher</string>
+
+    <!-- launcher update -->
+    <string name="soft_update_no">Already the newest version</string>
+    <string name="soft_update_title">Software updates</string>
+    <string name="soft_update_checking"> Checking for updates, please wait</string>
+    <string name="soft_update_info">To the new version is detected, Update</string>
+    <string name="soft_update_updatebtn">Update</string>
+    <string name="soft_update_later">Later update</string>
+    <string name="soft_updating">Being updated</string>
+    <string name="soft_update_cancel">Cancel</string>
+    <string name="noneed_update">Already the newest version</string>
+    <string name="update_err">Network connection error, check for updates failed</string>
+    <string name="soft_need_update">The Comet Locker has new update</string>
+    <string name="soft_check_update">For updates, click Update</string>
+    <string name="virtual_lock_name">CometLock</string>
+    <string name="coco_launcher_download_name">Comet Launcher</string>
+    
+    <string name="start_scene">Scene Launcher</string><!-- xiatian add --><!-- DefaultScene -->
+    <string name="delete_main_menu_tip">You can re-find the Main Menu from the Shortcut Group</string>
+    <!-- wanghongjian add start --><!-- enable_DefaultScene -->
+    <string name="thumbSceneImage">Thumbnail</string>    
+    <string name="localScene">My Scene</string>
+    <string name="applytheme">Apply theme</string>
+    <string name="applyScene">Apply Scene</string>
+    <string name="removetheme">Remove theme</string>
+    <string name="removeScene">Remove Scene</string>
+    <string name="onlinetheme">Online theme</string>
+    <string name="onlineScene">Online scene</string>
+    <string name="sceneToast">Set the scene success,please wait...</string>
+    <string name="sceneChangeToast">Change the scene success,please wait...</string>
+    <string name="sceneDeleteTaost">Delete the scene success</string>
+    <!-- wanghongjian add end -->
+    
+	<!-- xiatian add start --><!-- Mainmenu Bg -->
+    <string-array name="mainmenu_bg">
+        <item>default</item>
+        <item>darken</item>
+        <item>balck</item>
+    </string-array>
+    
+    <string-array name="mainmenu_bg_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="mainmenu_bg_title">Mainmenu Bg</string>
+    <!-- xiatian add end -->
+    <string name="mainmenu">Main Menu</string>
+    <string name="wallpapers">Wallpaper</string>
+    <string name="themes">Themes</string>
+    <string name="preferences">Preferences</string>
+    <string name="default_theme1">Default theme</string>
+    <string name="default_theme2">Comet theme 2.0</string>
+    
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_updtae">Update</string>
+    <string name="menu_feedback">Feedback</string>
+    
+    <string name="add_add_app">Add app</string>
+    <string name="add_widget">widget</string>
+    <string name="add_folder">folder</string>
+    <string name="add_shortcut">shortcut</string>
+    
+</resources>

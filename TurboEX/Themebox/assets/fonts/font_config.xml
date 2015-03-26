@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<font ver="1.0" >
+
+    <item
+        font_name="默认字体"
+        font_type="1"
+        font_file=""/>
+
+    <item
+        font_name="方正静蕾体"
+        font_type="5"
+        font_file=""/>
+
+    <item
+        font_name="简娃娃篆"
+        font_type="6"
+        font_file=""/>
+
+    <item
+        font_name="熊兔体"
+        font_type="7"
+        font_file=""/>
+    
+
+</font>

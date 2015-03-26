@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Turbo Launcher</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Teras Android Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">Folder</string>
+    <string name="contact_name">kenalan</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">Pilih kertas dinding dari</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">Pilih Widget 3D</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Tetapkan kertas dinding</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Wallpaper</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Aplikasi tidak dipasang pada telefon anda.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Konfigurasi ...</string>
+    <string name="iloong_shellstr">Loading Pelancar ...</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="circle_autoSort">Susun Auto</string>
+    <string name="circle_iconOverlap">bertindih</string>
+    <string name="circle_iconTrans">terjemahan</string>
+    <string name="circle_multiSelect">Multi-Pilih</string>
+    <string name="circle_createFolder">Cipta Folder</string>
+    <string name="circle_deleteAll">Padam Semua</string>
+    <string name="circle_noticeToast">Kembali kepada asal untuk memilih</string>
+    <string name="circle_dstOverToast">Melebihi had pelbagai perangkap</string>
+    <string name="circle_deleteALLToast">Pasti untuk memadam semua?</string>
+    <string name="circle_selectMutiToOperToast">Pelbagai ikon operasi</string>
+    <string name="circle_notSupportToast">Versi ini adalah sementara dapat menggunakan ciri ini</string>
+    <string name="circle_ok_action">OK</string>
+    <string name="circle_cancel_action">Batal</string>
+    <string name="circle_unselectAppIconToast">Tiada ikon yang dipilih</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">nama folder</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">Namakan Semula Folder</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">Batal</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Folder Tanpa Nama</string>
+    <string name="folder3D_del_toast">Pasti untuk memadam folder ini?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">Belum dipasang pada telefon anda, klik OK untuk memuat turun dan memasang!</string>
+    <string name="apk_cannot_found_content">Tidak boleh didapati APK bagi permohonan ini pada kad SD anda!</string>
+    <string name="folder3D_full">Folder penuh</string>
+    <string name="folder3D_name">Folder</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">aplikasi</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">pintasan</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">folder baru</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">Widgets</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_wallpapers">Wallpaper</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_3D_widgets">widget 3D</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_contacts">kenalan</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">jam</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">bingkai gambar</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">Tiada lebih banyak ruang pada skrin Utama ini.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">pintasan \"<xliff:g id="name" example="pelayar">%s</xliff:g>\" dicipta.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">pintasan \"<xliff:g id="name" example="pelayar">%s</xliff:g>\" telah dibuang.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">pintasan \"<xliff:g id="name" example="pelayar">%s</xliff:g>\" sudah wujud.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">pilih jalan pintas</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">pilih aplikasi</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">pilih folder</string>
+
+    <!-- All applications label for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_button_label">Semua permohonan</string>
+    <!--
+         Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">rumah</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">memasang pintasan</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Membenarkan aplikasi menambah pintasan tanpa campur tangan pengguna.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall pintasan</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Membenarkan aplikasi mengalih keluar pintasan tanpa campur tangan pengguna.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">membaca tetapan dan pintasan Laman</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Membenarkan aplikasi untuk membaca tetapan dan pintasan di Laman Utama.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">menulis tetapan dan pintasan Laman</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Membenarkan aplikasi untuk menukar tetapan dan pintasan di Laman Utama.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Masalah memuatkan widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google".
+    -->
+    <string name="default_browser_url" >        http://www.google.com/m?client=ms-{CID}source=android-home-hotseat</string>
+    <string name="errorHint">Ralat telah berlaku %1$s.Sila klik <i><b>"REPORT"</b></i> untuk menghantar maklumat ralat kepada kami melalui e-mel, Terima kasih!!</string>
+    <string name="hello">hello iLoong pengguna</string>
+    <string name="folder_renamed">Folder dinamakan semula kepada %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">Tidak boleh menambah ke halaman ini</string>
+    <string name="can_not_delete_page">Bilangan minimum skrin telah mencapai</string>
+    <string name="delete_page">Halaman tidak kosong, pasti untuk memadamnya?</string>  
+
+    <!-- AppBar -->
+    <!-- 
+    <string name="appbar_tab_app">Apps</string>
+    <string name="appbar_tab_widget">Widgets</string>
+     -->
+    <string name="appbar_tab_widget_ex">Widgets</string>    
+    <string name="appbar_tab_uninstall">Uninstall apps</string>
+    <string name="appbar_tab_hide">Hide apps</string>
+    <string name="sort_app_init">     Sort oleh data kilang</string>
+    <string name="sort_app_name">     Susun dengan nama app</string>
+    <string name="sort_app_install_time">     Susun mengikut masa memasang</string>
+    <string name="sort_app_use_frequency">     Susun mengikut kekerapan penggunaan</string>
+    <string name="sort_dialog_title">Susun Ikon</string>
+    <string name="widget_empty_dialog">Ini widget 3D tidak dipasang, sila memasang dan kemudian menambah ia</string>
+    <string name="widget_empty_title">3D widget</string>
+    <string name="hotseat_mainmenu">Apps</string>
+    <string name="hotseat_workspace">Rumah</string>
+    <string name="main_menu">Apps</string>
+    <string name="trash_icon_title">Padam</string>
+    <!-- adjust -->
+    <string name="fold_name_too_long">Nama folder melebihi panjang maksimum</string>
+    <string name="app_downloading">Memuat turun</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>Standard</item>
+        <item>Rawak</item>
+        <item>Timbunan</item>
+        <item>Peti Inner</item>
+        <item>Kotak luar</item>
+        <item>Flip</item>
+        <item>Menyeberangi Flip</item>
+        <item>Kincir Angin</item>
+        <item>Gelombang</item>
+        <item>Roda</item>
+        <item>Bola</item>
+        <item>Silinder</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>Standard</item>
+        <item>Rawak</item>
+        <item>Peti Inner</item>
+        <item>Kotak luar</item>
+        <item>Flip</item>
+        <item>Menyeberangi Flip</item>
+        <item>Kincir Angin</item>
+        <item>Gelombang</item>
+        <item>Lalai</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="effect_standard">Standard</string>   
+    <string name="effect_random">rawak</string>
+    <string name="effect_cascade">Stack</string>
+    <string name="effect_outbox">Kotak luar</string>
+    <string name="effect_inbox">Peti Inner</string>
+    <string name="effect_flip">Flip</string>
+    <string name="effect_bigfan">Cross Flip</string>
+    <string name="effect_fan">Windmill</string>
+    <string name="effect_wave">Wave</string>
+    <string name="effect_ball">Ball</string>
+    <string name="effect_wheel">roda</string>
+    <string name="effect_cylinder">silinder</string>
+    <string name="effect_default">Default</string>
+    <string name="uninstall_app">menyahpasang apl</string>
+     <string name="download_apps">aplikasi yang dimuat turun</string>
+    <string name="hide_icon">Hide icon</string>
+    <string name="sort_icon">ikon Susun</string>
+    <string name="no_space_add_icon">Tiada ruang untuk menambah</string>
+    <string name="exceed_num_add_icon">Ikon dipilih bilangan melebihi ruang yang ada maksimum, menambah gagal!</string>
+    <string name="contact_error_pls_check">Tambah kenalan gagal, sila semak maklumat kenalan lengkap</string>
+    <string name="download_to_install">Widget ini belum dipasang, sila muat turun</string>
+    <string name="add_failure">Tambah gagal</string>
+    <string name="deny_add_on_mainmenu">Ini adalah kemasukan menu utama</string>
+    <string name="dlmng_check_network">Gagal untuk mendapatkan maklumat muat turun, sila semak rangkaian dan cuba lagi!</string>
+    <string name="dlmng_comeout_soon">datang tidak lama lagi</string>
+    <string name="dlmng_pls_insert_SD">Sila memasukkan kad SD, dan kemudian memuat turun!</string>
+     <string name="backup_pls_insert_SD">Sila memasukkan kad SD, dan kemudian sandaran!</string>
+    <string name="dlmng_network_error">Ralat rangkaian, sila cuba lagi kemudian!</string>
+    <string name="dlmng_download_error">Sambung kesilapan, sila cuba lagi kemudian!</string>
+    <string name="dlmng_download_configwrong">Muat parameter yang salah </string>
+    <string name="backup_title_back">CooeeHomeS3 Sandaran</string>
+    <string name="backup_back_to_SD">Sandaran CooeeHomeS3 tetapan ke kad SD!</string>
+    <string name="backup_title_restore">CooeeHomeS3 penetapan memulihkan</string>
+    <string name="backup_restore">Kembalikan tetapan, CooeeHomeS3 akan restart!</string>
+    <string name="backup_latest">Sandaran Kali terakhir</string>
+    <string name="backup_no_back">Sistem ini tidak mempunyai sandaran</string>
+    <string name="backup_success">kejayaan sandaran</string>
+    <string name="backup_fail">Backup gagal</string>
+    <string name="restore_fail">Kembalikan Gagal</string>
+    <string name="guide_title">panduan pengguna</string>
+    <string name="guide_proceed">Tunjukkan panduan pengguna, permohonan akan dimulakan semula</string>
+    <string name="lock_editor_title">Kunci sunting</string>
+    <string name="lock_editor">Nota: Buka kunci edit, seretan skrin akan tidak lagi bertindak balas, klik butang sekali lagi membuka akan mengedit.</string>
+    <string name="warning_msg">mesej amaran</string>
+    <string name="version_msg_title">mesej versi</string>
+    <string name="version_msg">Perisian anda adalah up to date!</string>
+    <string name="update_msg_title">Versi perisian Anda:</string>
+    <string name="update_needed_version">Versi terbaru:</string>
+    <string name="update_need_now">Kemas kini sekarang!\n</string>
+    <string name="system_update">sistem update</string>
+    <string name="max_added_thirty">Anda hanya boleh menambah sehingga 30</string>
+    <string name="max_added_twenty">Anda hanya boleh menambah sehingga 20</string>
+    <string name="catnot_add_to_sidebar">Widget ini tidak boleh ditambah ke sidebar</string>
+    <string name="common_add">Tambah</string>
+    <string name="common_commit">Mengkomitedkan</string>
+    <string name="reach_max">Mencapai had atas</string>
+    <string name="can_drag_to_desktop">Tekan Long seret ke desktop</string>
+    <string name="setting_backup_restore">Backup / Restore Tetapan</string>
+    <string name="setting_add_system_widget">Tambah skrin utama</string>
+    <string name="setting_share_friend">"Hi, saya menggunakan CooeeHomeS3, ia adalah begitu sejuk, melayari http://www.coolauncher.cn URL berikut"</string>
+    <string name="setting_feedback">Sila hantar maklum balas anda;</string>
+    <string name="defaulttheme">Tema lalai</string>
+    <string name="localtheme">saya tema</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">Guna tema</string>
+    <string name="removetheme">Buang tema</string>
+    <string name="onlinetheme">online tema</string>
+    <string name="themetype">jenis:</string>
+    <string name="themeversion">versi:</string>
+    <string name="themeauthor">Pengarang:</string>
+    <string name="themedata">tarikh:</string>
+    <string name="themefeedback">balas:</string>
+    <string name="desktop_setting">persekitaran desktop</string>
+    <string name="basic_setting">Tetapan Asas</string>
+    <string name="vibrator">Vibrator</string>
+    <string name="vibrate_on_long_click">Long klik bergetar</string>
+    <string name="circle_select">Circle pilih</string>
+    <string name="circle_select_switch">Circle pilih suis</string>
+    <string name="effect_setting">tetapan kesan</string>
+    <string name="shake_wallpaper">Shake wallpapers</string>
+    <string name="shake_wallpaper_description">goncang untuk menukar wallpaper</string>
+	<string name="shake_wallpaper_not_supported">permohonan ini tidak disokong pada telefon anda</string>
+
+    <string name="desktop_slide">slaid desktop</string>
+    <string name="app_list_slide">slaid Applist</string>
+    <string name="backup_and_restore">Sandaran dan memulihkan</string>
+    <string name="backup_desktop">Backup desktop</string>
+    <string name="restore_desktop">Kembalikan desktop</string>
+    <string name="more">More</string>
+    <string name="restart_launcher">Restart CooeeHomeS3</string>
+    <string name="version_update">Update</string>
+    <string name="share_friends">Kongsi dengan Rakan</string>
+    <string name="feedback">balas</string>
+    <string name="guide_help">Panduan Bantuan</string>
+    <string name="guide_install">Panduan</string>
+    <string name="reset_guide">Reset Bendera panduan</string>
+    <string name="exit_launcher">keluar</string>
+    <string name="backup_restore_setting">Backup / Restore Tetapan</string>
+    <string name="update_feedback">Update balas</string>
+    <string name="mostly_used">kebanyakan Digunakan</string>
+    <string name="clear_data">data yang jelas</string>
+    <string name="system_widget">widgets</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="theme">tema</string>
+    <string name="software_manager">perisian</string>
+    <string name="screen_editor">editor skrin</string>
+    <string name="locker_editor">penetapan Locker</string>
+    <string name="system_setting">tetapan sistem</string>
+    <string name="clock">3D jam</string>
+    <string name="memo">3D Memo</string>
+    <string name="robot">3D Robot</string>
+    <string name="theme_select">Pemilihan tema</string>
+    <string name="theme_change">peralihan tema</string>
+    <string name="no_theme_to_be_replaced">Tiada tema perlu diganti!</string>    
+    <string name="Internet">Internet</string>
+    <string name="Explorer">Explorer</string>    
+    <string name="beyond_mtkwidget_num">Widget ini adalah wujud, tidak boleh menambah lebih!</string>
+    
+</resources>

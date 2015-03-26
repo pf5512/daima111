@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cooee.searchbar"
+    android:versionCode="1"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="10" />
+
+　　     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission 	android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission 	android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission 	android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission 	android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity 
+            android:name="com.cooee.searchbar.TurboSearchBar"
+            android:label="@string/app_name">
+            <intent-filter >
+                <action android:name="com.iLoong.widget" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.cooee.searchbar.EasouActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+				<action android:name="com.iLoong.searchbar.MAIN" />
+            </intent-filter>
+        </activity>
+                
+        <activity
+            android:name="com.cooee.searchbar.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+				<action android:name="com.iLoong.searchbar.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <meta-data
+            android:name="preInitialize"
+            android:value="false" >
+        </meta-data>
+        <meta-data
+            android:name="max_instance_count"
+            android:value="1" />
+        <meta-data
+            android:name="spanX"
+            android:value="4" />
+        <meta-data
+            android:name="spanY"
+            android:value="1" />
+        <meta-data
+            android:name="widget_width"
+            android:value="236.00" />
+        <meta-data
+            android:name="widget_height"
+            android:value="236.00" />
+        <meta-data
+            android:name="useTheme"
+            android:value="true" />
+        
+        <meta-data
+            android:name="EASOU_SEARCH_SDK_CID"
+            android:value="ps_4194_90" />
+    </application>
+
+</manifest>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    
+   
+    <LinearLayout
+        android:id="@+id/linearcitys"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!-- <com.cooee.app.cooeeweather.component.citymanageFrame
+            android:id="@+id/popcity_item"
+            android:layout_width="106dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" > -->
+            
+            <!-- weijie 这里改成 width=100dp  height=120dp
+                                                           是因为 背景图的高宽是恒定的，便于设置下面的TEXTVIEW的宽度-->
+             <!--  android:layout_width="wrap_content"
+        android:layout_height="wrap_content" -->
+             <FrameLayout
+            android:id="@+id/popcity_item"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/city_item_bg_h"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+           <!--  <Button
+                android:id="@+id/imageweatherbg"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/city_item_bg"
+                android:focusable="true" /> -->
+                
+                <!-- 既然背景图就是那样大的话，可以直接将所有的东西都在这个区域内布局 -->
+		       <LinearLayout
+		        android:id="@+id/linearcitys"
+		        android:layout_width="100dp"
+		        android:layout_height="@dimen/city_item_bg_h"
+		        android:gravity="center"
+		        android:orientation="vertical" >
+	               <com.cooee.app.cooeejewelweather3D.component.cityButton
+	                android:id="@+id/imageweatherbg"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:gravity="center"
+	                android:layout_gravity="center"
+	                android:layout_marginTop="6dp"
+	                android:background="@drawable/city_item_bg"
+	                android:focusable="true" />
+               </LinearLayout>
+               
+                
+                
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:paddingTop="8dp"
+                android:gravity="center_horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/imageweathertype"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:src="@drawable/cloudy_day_medium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textcity_item"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingTop="60dp" >
+
+                <TextView
+                    android:id="@+id/textweathertype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="晴"
+                    android:textColor="#ffc3c3c3"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/textcitytemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="35dp"
+                    android:text="150-120"
+                    android:textColor="#ffc3c3c3"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+             <!-- weijie 原来的TEXTVIEW 的宽度设置 android:layout_width="wrap_content" -->
+        <TextView
+            android:id="@+id/textcityname"
+            android:layout_marginTop="1dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="上海国国国国国国"
+            android:textColor="#ffc3c3c3"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/popcity_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+       <!--  <LinearLayout
+        android:id="@+id/addlinearcitys"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" > -->
+        <LinearLayout
+		        android:id="@+id/linearcit"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:gravity="center"
+		        android:orientation="vertical" >
+	               <com.cooee.app.cooeejewelweather3D.component.cityButton
+	                android:id="@+id/imageaddcitys"
+	                android:layout_width="100dp"
+	                android:layout_height="120dp"
+	                android:gravity="center"
+	                android:layout_gravity="center"
+	                android:layout_marginTop="6dp"
+	                android:background="@drawable/edit_add_city_bg"
+	                 android:visibility="invisible" />
+               </LinearLayout>
+          <TextView
+            android:id="@+id/addtextspace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="  "
+            android:textColor="#ffc3c3c3"
+            android:visibility="invisible"
+            android:textSize="18dp" />
+       
+    </LinearLayout>
+
+</FrameLayout>

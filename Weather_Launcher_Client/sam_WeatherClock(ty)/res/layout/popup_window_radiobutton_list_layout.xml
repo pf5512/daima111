@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/tool_bar_height"
+       android:paddingTop="9dp"
+	   android:paddingLeft="9dp"
+       android:background="@drawable/setting_bar">
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="#ffffff"
+		    android:text="@string/liststr5"></TextView>
+    </FrameLayout>
+    <ListView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/popup_list" /> 
+     <FrameLayout
+       android:id="@+id/bottom"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/tool_bar_height"
+       android:paddingTop="4dp"
+	   android:paddingLeft="110dp"
+       android:background="@drawable/setting_bar"
+       android:gravity="center">
+		<TextView
+		    android:id="@+id/cancel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+
+		    android:text="@string/cancel"></TextView>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
+    package="com.iLoong.Clock"
+    android:versionCode="2885"
+    android:versionName="1.0.1.20130116" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/widget_ico"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".iLoongClock" >
+            <intent-filter >
+                <action android:name="com.iLoong.widget" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.ClockSettings" >
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:icon="@drawable/widget_ico"
+            android:label="@string/app_name"
+            android:name=".Timer.ClockTimerService" >
+            <intent-filter >
+                <action android:name="com.iLoong.widget.Clock.start" />
+                <action android:name="com.iLoong.Clock.stop" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preInitialize"
+            android:value="false" >
+        </meta-data>
+        <meta-data
+            android:name="max_instance_count"
+            android:value="1" />
+        <meta-data
+            android:name="spanX"
+            android:value="2" />
+        <meta-data
+            android:name="spanY"
+            android:value="2" />
+        <meta-data
+            android:name="widget_width"
+            android:value="236.00" />
+        <meta-data
+            android:name="widget_height"
+            android:value="236.00" />
+        <meta-data
+            android:name="useTheme"
+            android:value="true" />
+    </application>
+
+</manifest>

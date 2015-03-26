@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<!-- xiatian add whole file --><!-- mainmenu_background_alpha_progress -->  
+	    <SeekBar
+		  android:id="@+id/seekbar"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:layout_gravity="center_horizontal"
+		  android:indeterminate="false"
+		  android:layout_marginTop="6dip"
+		  android:layout_marginBottom="6dip"
+		  android:paddingLeft="8dip"
+		  android:paddingRight="8dip"/>
+</LinearLayout>

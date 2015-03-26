@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0dbdf"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/underline"
+        >
+
+        <ImageButton
+            android:id="@+id/btnReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:contentDescription="@string/btnReturn" >
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/textAppName"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/textPreview"
+            android:textColor="#6a7175"
+            android:textSize="16dip"
+            android:layout_gravity="center_vertical" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_share"
+            android:contentDescription="@string/btnShare" />
+
+        <ImageButton
+            android:id="@+id/btnSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_setting"
+            android:contentDescription="@string/btnSetting" />
+    </LinearLayout>
+
+    <com.coco.theme.themebox.PreViewGallery
+        android:id="@+id/galleryPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:spacing="10dp" 
+        android:paddingTop="24dip"
+        android:paddingBottom="10dip"
+        android:unselectedAlpha="1.0" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" 
+        android:paddingBottom="10dip" 
+        android:background="#d0dbdf">
+
+        <SeekBar
+            android:id="@+id/scrollGallery"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:max="0"
+            android:minHeight="9dip"
+            android:progress="0"
+            android:progressDrawable="@drawable/scrollbar_bg"
+            android:thumb="@drawable/scrollbar_control" 
+            android:paddingBottom="10dip"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/layoutDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="fill_vertical"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/manager_bar"
+                android:contentDescription="@string/bgSpace" />
+
+            <LinearLayout
+                android:id="@+id/linearDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8.7dip"
+                android:paddingRight="8.7dip"
+                android:paddingTop="24dip" >
+                
+	            <ProgressBar
+	                android:id="@+id/progressBarDown"
+	                style="@android:style/Widget.ProgressBar.Horizontal"
+	                android:layout_width="match_parent"
+	                android:layout_height="10.7dip"
+	                android:max="100"
+	                android:minHeight="10.7dip"
+	                android:progress="0"
+	                android:progressDrawable="@drawable/progressbar_big_downloading" />
+				
+	            <TextView
+	                android:id="@+id/textDownPercent"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+	                android:text="@string/textDownloading"
+	                android:textColor="#5fddfc"
+	                android:textSize="12dip" />
+	            
+			</LinearLayout>
+			<LinearLayout
+			    android:id="@+id/linearPause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8.7dip"
+                android:paddingRight="8.7dip"
+                android:paddingTop="24dip" >
+	            
+	            <ProgressBar
+	                android:id="@+id/progressBarPause"
+	                style="@android:style/Widget.ProgressBar.Horizontal"
+	                android:layout_width="match_parent"
+	                android:layout_height="10.7dip"
+	                android:max="100"
+	                android:minHeight="10.7dip"
+	                android:progress="0"
+	                android:progressDrawable="@drawable/progressbar_big_pause" />
+	
+	            <TextView
+	                android:id="@+id/textPausePercent"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+	                android:text="@string/textDownloading"
+	                android:textColor="#fd2323"
+	                android:textSize="12dip" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/manager_bar"
+                android:contentDescription="@string/bgSpace" />
+
+            <Button
+                android:id="@+id/btnDownload"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnDownload"
+                android:textColor="#f6fafd"
+                android:textSize="18dip" 
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btnInstall"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnInstall"
+                android:textColor="#f6fafd"
+                android:textSize="18dip"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btnApply"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnApply"
+                android:textColor="#f6fafd"
+                android:textSize="18dip" 
+                android:gravity="center"/>
+			 <Button
+                android:id="@+id/btnBuy"
+                android:layout_width="113dip"
+                android:layout_height="44dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/button_blue"
+                android:text="@string/btnBuy"
+                android:textColor="#f6fafd"
+                android:textSize="18dip" 
+                android:visibility="gone"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btnMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_more" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/detile_scene_title"
+    android:orientation="horizontal" 
+    android:background="@drawable/underline">
+     <ImageButton
+            android:id="@+id/btnSceneReturn"
+            android:layout_width="@dimen/detile_scene_title"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_back"
+            android:layout_gravity="left"
+         
+            android:contentDescription="@string/thumbSceneImage" >
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/textSceneAppName"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="@dimen/detile_scene_title"
+            android:gravity="left|center_vertical"
+            android:text="@string/textPreview"
+            android:layout_gravity="center_vertical" />
+		
+        <ImageButton
+            android:id="@+id/btnSceneDelete"
+            android:layout_width="@dimen/detile_scene_title"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:background="@drawable/scene_delete_button_selector"
+            android:contentDescription="@string/thumbSceneImage" />
+     
+
+</LinearLayout>

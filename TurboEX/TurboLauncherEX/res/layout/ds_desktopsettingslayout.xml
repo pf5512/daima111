@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ds_logofontcolor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_height"
+        android:background="@color/ds_logobackgroudcolor" >
+
+        <ImageView
+            android:id="@+id/ds_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_marginleft"
+            android:src="@drawable/ds_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_logo"
+            android:gravity="center"
+            android:text="@string/ds_logoname"
+            android:textColor="@color/ds_logofontcolor"
+            android:textSize="@dimen/ds_title_fontsize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_1_height"
+        android:background="@color/ds_background_1_color" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_1_marginleft"
+            android:gravity="center"
+            android:text="@string/ds_basicsettings"
+            android:textColor="@color/ds_font_1_color"
+            android:textSize="@dimen/ds_title_1_fontsize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_defaultlaucher"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_defaultlauncher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_defaulticon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_defaultlauncher"
+            android:gravity="center"
+            android:text="@string/ds_setdefaultlaucher"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginrightbutton"
+            android:src="@drawable/ds_button_off" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_screen"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_screenicon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_screen"
+            android:gravity="center"
+            android:text="@string/ds_basicsettings_screen"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginright"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_appdrawer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_appdrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_appdrawericon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_appdrawer"
+            android:gravity="center"
+            android:text="@string/ds_basicsettings_appdrawer"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginright"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_icon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_iconicon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_icon"
+            android:gravity="center"
+            android:text="@string/ds_basicsettings_icons"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginright"
+            android:src="@drawable/ds_goicon_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_1_height"
+        android:background="@color/ds_background_1_color" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_1_marginleft"
+            android:gravity="center"
+            android:text="@string/ds_expandfunction"
+            android:textColor="@color/ds_font_1_color"
+            android:textSize="@dimen/ds_title_1_fontsize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_gesture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_gesture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_gestureicon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_gesture"
+            android:gravity="center"
+            android:text="@string/ds_expandfunction_gesture"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginright"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_appbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_appbaricon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_appbar"
+            android:gravity="center"
+            android:text="@string/ds_expandfunction_appbar"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginright"
+            android:src="@drawable/ds_goicon_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_1_height"
+        android:background="@color/ds_background_1_color" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_1_marginleft"
+            android:gravity="center"
+            android:text="@string/ds_about"
+            android:textColor="@color/ds_font_1_color"
+            android:textSize="@dimen/ds_title_1_fontsize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_system"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_systemicon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_system"
+            android:gravity="center"
+            android:text="@string/ds_about_system"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginright"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_update"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_updateicon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_update"
+            android:gravity="center"
+            android:text="@string/ds_about_update"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginright"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ds_rl_about"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_title_2_height"
+        android:background="@drawable/ds_background_selector" >
+
+        <ImageView
+            android:id="@+id/ds_iv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:src="@drawable/ds_abouticon_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_title_2_marginleft"
+            android:layout_toRightOf="@+id/ds_iv_about"
+            android:gravity="center"
+            android:text="@string/ds_about_about"
+            android:textColor="@color/ds_font_selector"
+            android:textSize="@dimen/ds_title_2_fontsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_title_2_marginright"
+            android:src="@drawable/ds_goicon_selector" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ds_cutline" />
+    </RelativeLayout>
+
+</LinearLayout>

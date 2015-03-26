@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <bitmap
+            android:dither="true"
+            android:src="@drawable/bar_pause_bg" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+	        <bitmap
+	            android:dither="true"
+	            android:src="@drawable/bar_pause" />
+	    </clip>
+    </item>
+
+</layer-list>

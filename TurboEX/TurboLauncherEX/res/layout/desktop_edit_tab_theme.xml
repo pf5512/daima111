@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+桌面编辑模块代码
+@author LinYu
+
+
+
+
+
+
+
+
+
+
+-->
+<com.cooee.launcher.desktopedit.TabThemeContent xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.cooeeui.brand.turbolauncher"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/desktop_edit_container_height" >
+
+    <include
+        android:id="@+id/page_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        layout="@layout/page_indicator" />
+
+    <com.cooee.launcher.desktopedit.DesktopEditThemePage
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/page_indicator"
+        launcher:pageIndicator="@+id/page_indicator" >
+    </com.cooee.launcher.desktopedit.DesktopEditThemePage>
+
+</com.cooee.launcher.desktopedit.TabThemeContent>

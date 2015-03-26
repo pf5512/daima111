@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clearlauncherview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:text="提示"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffff" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:text="在接下来的页面，请点击“清除默认值”的按钮"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffff" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2" >
+    </ImageView>
+
+</RelativeLayout>

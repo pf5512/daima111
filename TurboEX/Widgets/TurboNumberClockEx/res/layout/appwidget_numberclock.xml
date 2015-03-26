@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="17dp"
+    android:gravity="center_horizontal" >
+
+    <ImageView
+        android:id="@+id/img_weathercode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bigweather_cloudy" />
+
+    <TextView
+        android:id="@+id/tv_tempture"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_weathercode"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="26°/22°"
+        android:textColor="@color/fontcolor"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/img_halvingline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@+id/img_weathercode"
+        android:src="@drawable/halving_line" />
+
+    <TextView
+        android:id="@+id/tv_ampm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/img_halvingline"
+        android:text="AM"
+        android:textColor="@color/fontcolor"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ampm"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/img_halvingline"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/num_0" />
+
+        <ImageView
+            android:id="@+id/iv_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/num_0" />
+
+        <ImageView
+            android:id="@+id/iv_maohao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/maohao" />
+
+        <ImageView
+            android:id="@+id/iv_num3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/num_0" />
+
+        <ImageView
+            android:id="@+id/iv_num4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/num_0" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_ncfluash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ll_time"
+        android:src="@drawable/imageviewflush" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_time"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/tv_ampm"
+        android:gravity="right"
+        android:text="Mon.Nov.11.2014"
+        android:textColor="@color/fontcolor"
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_city"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_date"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/tv_ampm"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_vityicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/city" />
+
+        <TextView
+            android:id="@+id/tv_cityname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="@string/default_cityname"
+            android:textColor="@color/fontcolor"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>

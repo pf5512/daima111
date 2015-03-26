@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light" 
+    >
+    
+    <Button
+        android:id="@+id/button_in_appwidget"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="button"
+        />
+    
+    <TextView
+        android:id="@+id/textview_in_appwidget"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个widget的demo"
+        />
+
+</LinearLayout>

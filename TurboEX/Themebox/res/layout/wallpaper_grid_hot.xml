@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0dbdf"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/wallpaperradioGroup"
+        android:layout_width="170dip"
+        android:layout_height="28dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/wallpaper_radiobutton_normal_bg"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioStatic"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="28dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/button_radiobutton"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/wallpaper_static"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/radioLive"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="28dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/button_radiobutton"
+            android:button="@android:color/transparent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/wallpaper_live"
+            android:textColor="#ffffff" />
+    </RadioGroup>
+
+    <com.coco.theme.themebox.PullToRefreshView
+        android:id="@+id/wallpaper_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/gridStatic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdgeLength="0dip"
+            android:listSelector="@drawable/grid_selector"
+            android:numColumns="2"
+            android:stretchMode="columnWidth" >
+        </GridView>
+
+        <GridView
+            android:id="@+id/gridLive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="@dimen/gridItemWidth"
+            android:fadingEdgeLength="0dip"
+            android:listSelector="@drawable/grid_selector"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:visibility="gone" >
+        </GridView>
+    </com.coco.theme.themebox.PullToRefreshView>
+
+</LinearLayout>

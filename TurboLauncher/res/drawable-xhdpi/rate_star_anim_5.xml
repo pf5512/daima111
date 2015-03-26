@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="true" >
+    
+    <item android:drawable="@drawable/dsratetransstar" android:duration="2200"></item>
+    <item android:drawable="@drawable/dsratestar1" android:duration="200"></item>
+  	<item android:drawable="@drawable/dsratestar2" android:duration="200"></item>
+  	<item android:drawable="@drawable/dsratestar22" android:duration="200"></item>
+  	<item android:drawable="@drawable/dsratestar3" android:duration="200"></item>
+  	<item android:drawable="@drawable/dsratestar32" android:duration="200"></item>
+  	<item android:drawable="@drawable/dsratestar4" android:duration="200"></item>
+  	<item android:drawable="@drawable/dsratestar5" android:duration="2000"></item>
+
+</animation-list>

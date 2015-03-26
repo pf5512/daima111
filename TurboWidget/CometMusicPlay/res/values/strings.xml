@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Music Play</string>
+    
+    
+    <string name="music_next_action">com.android.music.musicservicecommand.next</string>
+    <string name="music_previous_action">com.android.music.musicservicecommand.previous</string>
+    <string name="music_pause_action">com.android.music.musicservicecommand.pause</string>
+    <string name="music_togglepause_action">com.android.music.musicservicecommand.togglepause</string>
+    <string name="music_command_servicecmd">com.android.music.musicservicecommand</string>
+    <string name="music_command_togglepause">togglepause</string>
+    <string name="music_command_stop">stop</string>
+    <string name="music_command_pause">pause</string>
+    <string name="music_command_previous">previous</string>
+    <string name="music_command_next">next</string>
+    <string name="music_changed_metachanged">com.android.music.metachanged</string>
+    <string name="music_changed_queuechanged">com.android.music.queuechanged</string>
+    <string name="music_changed_playbackcomplete">com.android.music.playbackcomplete</string>
+    <string name="music_changed_playstatechanged">com.android.music.playstatechanged</string>
+    
+    
+    <string name="max_instance_alert">the music play already exists,can not add another one</string>
+    <integer name="spanX">4</integer>
+    <integer name="spanY">2</integer>
+    <integer name="max_instance">1</integer>
+<string name="download_toast">Please check the network connection and try again.</string>
+
+</resources>

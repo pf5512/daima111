@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginRoot
+    name="widgetClock"
+    backgroundName=""
+    height="354"
+    refRegionName=""
+    regionName=""
+    scale="0.85"
+    width="354"
+    x="0"
+    y="0" >
+
+    <ShareRegion name="music_back.png" />
+
+    <Object3D
+        name="AlbumBackView"
+        height="354"
+        objName="album_back.obj"
+        regionName="default_back_album.png"
+        width="354"
+        x="0"
+        y="0" />
+
+    <Object3D
+        name="MusicBackView"
+        height="354"
+        objName="music_back.obj"
+        refRegionName="music_back.png"
+        regionName=""
+        width="354"
+        x="0"
+        y="0" />
+
+    <Object3D
+        name="NextView"
+        height="354"
+        objName="next.obj"
+        regionName="next.png"
+        width="354"
+        x="0"
+        y="0" />
+
+    <Object3D
+        name="PauseView"
+        height="354"
+        objName="pause.obj"
+        regionName="pause.png"
+        width="354"
+        x="0"
+        y="0" />
+
+    <Object3D
+        name="PreviousView"
+        height="354"
+        objName="previous.obj"
+        regionName="previous.png"
+        width="354"
+        x="0"
+        y="0" />
+
+    <Object3D
+        name="AlbumFrontView"
+        height="354"
+        objName="album_front.obj"
+        regionName="default_album.png"
+        width="354"
+        x="0"
+        y="0" />
+
+    <Object3D
+        name="LyricsView"
+        height="354"
+        objName="lyrics.obj"
+        regionName="default_lyrics.png"
+        width="354"
+        x="0"
+        y="0" />
+
+</PluginRoot>

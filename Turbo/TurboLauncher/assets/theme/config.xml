@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <interge name="page_indicator_radius" type="dip" value="88" />
+    <interge name="icon_bg_num" type="" value="1" />
+ <!-- IconBg -->
+
+    <string name="appbar_tab_color" value="#ffffff" />
+    <string name="appbar_menu_color" value="#ffffff" />
+
+    <!-- folder config begin -->
+    <interge name="folder_front_height" type="dip" value="80" />
+    <interge name="folder_front_height_large" type="dip" value="88" />
+    <interge name="folder_icon_scale_factor" type="" value="36" />
+    <interge name="folder_icon_rotation_offsetx" type="dip" value="6" />
+    <interge name="folder_icon_rotation_offsety" type="px" value="8" />
+    <interge name="folder_front_margin_offset" type="dip" value="7" />
+    <interge name="folder_text_posx" type="dip" value="0" />
+    <interge name="folder_text_posy" type="dip" value="0" />
+    <interge name="folder_transform_num" type=" " value="4" />
+    <interge name="folder_icon_rotation_degree" type="" value="0" />
+    <interge name="folder_icon_row_num" type=" " value="2" />
+    <interge name="folder_front_icon_w" type="dip" value="60" />
+    <interge name="folder_front_icon_h" type="dip" value="60" />
+    <!-- xiatian add start -->
+    <!-- folder transform icon offset -->
+    <interge name="folder_transform_icon_offset_x" type="dip" value="0" />
+    <interge name="folder_transform_icon_offset_y" type="dip" value="0" />
+    <!-- xiatian add end -->
+    <!-- zhujieping add start -->
+    <interge name="folder_group_child_count_x" type=" " value="4" />
+    <interge name="open_folder_margin_left" type="dip" value="12" />
+    <interge name="open_folder_margin_right" type="dip" value="12" />
+    <boolean name="miui_v5_folder" value="false" />
+    <!-- zhujieping add end -->
+    <!-- folder config end -->
+    
+    <interge name="app_icon_size" type="dip" value="48" />
+
+    <!-- xiatian add start -->
+    <!-- add new page_indicator_style -->
+    <!-- page indicator -->
+    <interge name="page_indicator_style" type="" value="3" />
+ 	<!-- -1:coco - 0:android4.0 - 1:S3 - 2:S2 - 3:coco+android4.0 -->
+    <interge name="page_indicator_total_size" type="dip" value="300" />
+    <!-- xiatian add end -->
+
+    <!-- teapotXu add start -->
+    <!-- Icon scaleFactor: move this variable from default_layout.xml -->
+    <interge name="theme_thirdapk_icon_scaleFactor" type="" value="108" />
+    <!-- teapotXu add end -->
+
+    <!-- xiatian add start -->
+    <!-- adjust third apk icon offset when have iconbg -->
+    <interge name="third_apk_icon_offset_x" type="dip" value="0" />
+    <interge name="third_apk_icon_offset_y" type="dip" value="0" />
+    <!-- xiatian add end -->
+
+
+    
+
+</resources>

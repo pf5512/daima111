@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <nine-patch
+            android:dither="true"
+            android:src="@drawable/bar_big_downloading_bg" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <nine-patch
+                android:dither="true"
+                android:src="@drawable/bar_big_downloading" />
+        </clip>
+    </item>
+
+</layer-list>

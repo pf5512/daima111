@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="model_scale">1px</dimen>
+    <dimen name="model_move_offset_x">290dp</dimen>
+    <dimen name="model_move_offset_y">168dp</dimen>
+
+    <boolean name="load_compressed_obj">true</boolean>
+
+    <float name="clock_width" type="dp" value="290" />
+    <float name="clock_height" type="dp" value="168" />
+    <float name="button_size" type="dp" value="32" />
+    <float name="previous_x" type="dp" value="105" />
+    <float name="previous_y" type="dp" value="0" />
+    <float name="previous_width" type="dp" value="98" />
+    <float name="previous_height" type="dp" value="52" />
+    <float name="play_x" type="dp" value="203" />
+    <float name="play_y" type="dp" value="21" />
+    <float name="play_width" type="dp" value="61" />
+    <float name="play_height" type="dp" value="64" />
+    <float name="next_x" type="dp" value="270" />
+    <float name="next_y" type="dp" value="20" />
+    <float name="next_width" type="dp" value="46" />
+    <float name="next_height" type="dp" value="170" />
+    <float name="album_front_x" type="dp" value="0" />
+    <float name="album_front_y" type="dp" value="82" />
+    <float name="album_front_width" type="dp" value="293" />
+    <float name="album_front_height" type="dp" value="67" />
+    <float name="lyrics_width" type="dp" value="341" />
+    <float name="lyrics_height" type="dp" value="28" />
+    <float name="lyrics_font_size" type="dp" value="14" />
+    <float name="x_origin_offset" type="dp" value="0" />
+    <float name="z_origin_offset" type="px" value="-40" />
+
+    <integer name="lyrics_font_size" type="dp" value="14" />
+
+    <dimen name="lyrics_width">341dp</dimen>
+    <dimen name="lyrics_height">28px</dimen>
+    <dimen name="lyrics_font_size">8sp</dimen>
+
+</resources>

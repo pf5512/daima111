@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfig>
+    <!-- default_lockscreen_package 默认解锁的包名-->
+    <item name="default_lockscreen_package" value="com.coco.lock2.lockbox.s4" />
+    
+    <!-- default_lockscreen_class 默认解锁的类名-->
+    <item name="default_lockscreen_class" value="com.coco.lock2.lockbox.s4.S4Activity" />
+    
+    <!-- default_lockscreen_wrap 默认解锁的反射名-->
+    <item name="default_lockscreen_wrap" value="com.coco.lock2.lockbox.s4.S4Wrap" />
+    
+    <!-- zheshanVisible 内置解锁是否显示折扇     显示/true  不显�?false  默认为true-->
+    <item name="zheshanVisible" value="true" />
+    
+    <!-- themeVisible 是否显示提示下载launcher页面（当有launcher的时候此页面会显示为launcher主题主页面）     显示/true  不显/false  默认为true-->
+    <item name="themeVisible" value="true" />
+  
+</AppConfig>

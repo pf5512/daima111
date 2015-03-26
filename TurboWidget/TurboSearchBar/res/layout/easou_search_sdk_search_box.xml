@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/easou_search_sdk_search_box_margin"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal" >
+
+    
+   <ImageView
+        android:id="@+id/easou_search_sdk_icon"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_marginLeft="@dimen/easou_search_sdk_search_box_icon_marginleft"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/easou_search_sdk_icon_bg"
+        android:src="@drawable/easou_search_sdk_icon"
+        android:padding="2dip"
+        android:contentDescription="@string/easou_search_sdk_img"
+        android:paddingRight="@dimen/easou_search_sdk_search_box_iv_paddingright"
+    />
+        
+        
+	<AutoCompleteTextView
+        android:id="@+id/easou_search_sdk_input"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@null"
+        android:completionThreshold="1"
+        android:singleLine="true"
+        android:dropDownVerticalOffset="0dp"
+        android:dropDownWidth="match_parent"
+        android:hint="@string/easou_search_sdk_input_keyword"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingLeft="@dimen/easou_search_sdk_search_box_tv_paddingleft"
+        android:popupBackground="@drawable/easou_search_sdk_sugbg"
+        android:textColorHint="@color/easou_search_sdk_search_box_txt_color_hit"
+        android:textColor="@color/easou_search_sdk_search_box_txt_color"
+        android:textSize="@dimen/easou_search_sdk_search_box_txt_size" />
+	
+    <ImageView
+        android:id="@+id/easou_search_sdk_clear"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/easou_search_sdk_clear"
+        android:contentDescription="@string/easou_search_sdk_img"
+        android:paddingRight="@dimen/easou_search_sdk_search_box_iv_paddingright"
+        android:visibility="gone"
+    />
+        
+     <ImageView
+        android:id="@+id/easou_search_sdk_submit"
+        android:layout_width="@dimen/easou_search_sdk_search_box_search_iv_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/easou_search_sdk_search_btn_bg"
+        android:padding="8dip"
+        android:src="@drawable/easou_search_sdk_search_ic"
+        android:contentDescription="@string/easou_search_sdk_img" />
+
+</LinearLayout>

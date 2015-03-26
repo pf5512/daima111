@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item apkname="wld1.apk" -->
+<!-- item apkname="wld2.apk" -->
+<!--
+配置方法：
+需要在APK中安装的应用程序添枚举在此，如需要添加test.apk，则填写如下：
+
+item apkname="test.apk"
+
+如果不需要绑定，则此文件不需要修改。
+-->
+
+<apkconfig>
+
+    <!-- item apkname="wld1.apk" -->
+    <!-- item apkname="wld2.apk" -->
+
+</apkconfig>

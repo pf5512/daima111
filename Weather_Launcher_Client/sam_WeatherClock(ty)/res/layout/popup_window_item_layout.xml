@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/listitem_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/popup_item_bg_normal" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/listitem_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/listitem_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/popup_item_divider" >
+    </ImageView>
+
+</FrameLayout>

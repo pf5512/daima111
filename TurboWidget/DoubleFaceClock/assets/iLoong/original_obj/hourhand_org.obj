@@ -1,0 +1,27 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 10.09.2013 09:25:39
+
+mtllib hourhand.mtl
+
+#
+# object Rectangle13
+#
+
+v  -184.5352 90.3756 -0.9365
+v  -170.5352 114.6243 -0.9365
+v  184.5352 -90.3756 -0.9364
+v  170.5352 -114.6244 -0.9364
+# 4 vertices
+
+vt 0.9995 0.9995 0.5000
+vt 0.0005 0.9995 0.5000
+vt 0.0005 0.0005 0.5000
+vt 0.9995 0.0005 0.5000
+# 4 texture coords
+
+g Rectangle13
+usemtl 11___Default
+s 1
+f 1/1 2/2 3/3 4/4 
+# 1 polygons
+

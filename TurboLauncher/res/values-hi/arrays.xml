@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="app_effects_list_preference">
+        <item>मानक</item>
+        <item>यादृच्छिक</item>
+        <item>स्टैक्ड</item>
+        <item>बॉक्स के अंदर</item>
+        <item>बॉक्स के बाहर</item>
+        <item>मोड़</item>
+        <item>क्रॉस पलटें</item>
+        <item>विंडमिल</item>
+        <item>लहर</item>
+        <item>पहिया</item>
+        <item>क्षेत्र</item>
+        <item>बेलन</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>मानक</item>
+        <item>यादृच्छिक</item>
+        <item>बॉक्स के अंदर</item>
+        <item>बॉक्स के बाहर</item>
+        <item>मोड़</item>
+        <item>क्रॉस पलटें</item>
+        <item>विंडमिल</item>
+        <item>लहर</item>
+        <item>चूक</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>

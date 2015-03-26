@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
+    package="com.cooeecomet.clock"
+    android:versionCode="2885"
+    android:versionName="1.0.2.20120914" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <!-- teapotXu add start -->
+    <!-- in !CoCoLauncher show theme icon in Launcher.if CoCoLauncher uninstalled goto download CoCoCoCoLauncher,else goto themes activity. -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>	
+	<uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <!-- teapotXu add end -->
+    
+    <application
+        android:icon="@drawable/widget_ico"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="com.iLoong.Clock.iLoongClock" >
+            <intent-filter >
+                <action android:name="com.cooeecomet.widget" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iLoong.Clock.View.ClockSettings" >
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- teapotXu add start -->
+        <!-- in !CoCoLauncher show theme icon in Launcher.if CoCoLauncher uninstalled goto download CoCoCoCoLauncher,else goto themes activity. -->
+		<activity 
+		    android:name="com.iLoong.Clock.Launcher.WidgetLoadIndepandentActivity" 
+		    android:label="@string/app_name"
+			android:icon="@drawable/widget_ico"
+			android:theme="@android:style/Theme.NoDisplay"
+			>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.iLoong.Clock.Launcher.DownloadCoCoLauncherService"
+            android:enabled="true" >
+        </service>
+        
+        <receiver android:name="com.iLoong.Clock.Launcher.InstallCoCoLauncherReceiver">  
+             <intent-filter>  
+                 <action android:name="android.intent.action.PACKAGE_ADDED" />                
+                 <data android:scheme="package"/>  
+             </intent-filter>  
+             <intent-filter>  
+                 <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                 <data android:scheme="package"/>                 
+             </intent-filter>
+             <intent-filter>  
+                 <action android:name="com.coco.lock.action.CHECK_ICON" />
+             </intent-filter>
+                          
+             <intent-filter>  
+                 <action android:name="com.iLoong.Clock.Launcher.DownloadCoCoLauncherComplete"/>   
+             </intent-filter>  
+
+             <intent-filter>  
+                 <action android:name="com.iLoong.Clock.Launcher.ToDownloadCoCoLauncher"/>   
+             </intent-filter>
+        </receiver> 
+		<!-- teapotXu add end -->        
+        
+        <service
+            android:icon="@drawable/widget_ico"
+            android:label="@string/app_name"
+            android:name="com.iLoong.Clock.Timer.ClockTimerService" >
+            <intent-filter >
+                <action android:name="com.iLoong.widget.Clock.start" />
+                <action android:name="com.iLoong.Clock.stop" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preInitialize"
+            android:value="false" >
+        </meta-data>
+        <meta-data
+            android:name="max_instance_count"
+            android:value="1" />
+        <meta-data
+            android:name="spanX"
+            android:value="4" />
+        <meta-data
+            android:name="spanY"
+            android:value="2" />
+        <meta-data
+            android:name="widget_width"
+            android:value="236.00" />
+        <meta-data
+            android:name="widget_height"
+            android:value="236.00" />
+        <meta-data
+            android:name="useTheme"
+            android:value="true" />
+    </application>
+
+</manifest>

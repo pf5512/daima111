@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 工具条 -->
+
+    <FrameLayout
+        android:id="@+id/tool_bar_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tool_bar_background"
+            android:contentDescription="@string/app_name" />
+
+        <com.cooee.app.cooeeweather.view.WeatherComboBox
+            android:id="@+id/combo_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:background="#00000000" >
+
+            <TextView
+                android:id="@+id/cur_postalCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/na"
+                android:textColor="#ffffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/combo_icon" />
+        </com.cooee.app.cooeeweather.view.WeatherComboBox>
+
+        <LinearLayout
+            android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_citymange"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/citymanagebg"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/split" />
+
+            <Button
+                android:id="@+id/button_refresh"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/refreshbg"
+                android:gravity="right"
+                android:onClick="onClick" />
+        </LinearLayout>
+    </FrameLayout>
+    <!-- 天气效果的图片和视频 -->
+
+    <LinearLayout
+        android:id="@+id/linerimageview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool_bar_layout"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!--
+         <com.cooee.app.cooeeweather.view.WeatherImageView
+        android:id="@+id/weather_image_shoot"
+        android:layout_width="@dimen/weather_image_height"
+        android:layout_height="@dimen/weather_image_height"
+        android:scaleType="fitCenter"
+        android:src="@drawable/weather_clear" 
+        android:visibility="visible"/>
+        -->
+
+        <com.cooee.app.cooeeweather.view.WeatherImageView
+            android:id="@+id/weather_image_shoot"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/weather_clear"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <!-- 当前天气 -->
+
+    <include layout="@layout/today_tmp_layout" />
+
+    <!-- 未来天气 -->
+
+    <include layout="@layout/feature_weather_layout" />
+
+    <!-- 没数据 -->
+
+    <include layout="@layout/no_data_layout" />
+
+</RelativeLayout>

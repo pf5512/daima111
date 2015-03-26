@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iLoong.WeatherClock"
+    android:installLocation="auto"
+    android:versionCode="24380"
+    android:versionName="1.0.3" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="com.htc.task" />
+    <!-- teapotXu add end -->
+    <application
+        android:icon="@drawable/widget_ico"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.iLoong.WeatherClock.iLoongWeatherClock"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.iLoong.widget" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iLoong.WeatherClock.view.CityFinderActivity" >
+        </activity>
+
+        <service
+            android:name="com.iLoong.WeatherClock.Timer.ClockTimerService"
+            android:icon="@drawable/widget_ico"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.iLoong.widget.Clock.start" />
+                <action android:name="com.iLoong.Clock.stop" />
+            </intent-filter>
+        </service>
+        
+        <service android:name="com.iLoong.WeatherClock.view.WeatherDataService" >
+        </service>
+        
+        <meta-data
+            android:name="preInitialize"
+            android:value="false" >
+        </meta-data>
+        <meta-data
+            android:name="max_instance_count"
+            android:value="1" />
+        <meta-data
+            android:name="spanX"
+            android:value="4" />
+        <meta-data
+            android:name="spanY"
+            android:value="2" />
+        <meta-data
+            android:name="widget_width"
+            android:value="236.00" />
+        <meta-data
+            android:name="widget_height"
+            android:value="236.00" />
+        <meta-data
+            android:name="useTheme"
+            android:value="true" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5365f96a56240bd7e30fa89b" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="develop" />
+    </application>
+
+</manifest>

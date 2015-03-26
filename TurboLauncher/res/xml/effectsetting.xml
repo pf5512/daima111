@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/effect_setting">
+        <ListPreference
+            android:entries="@array/app_effects_list_preference"
+            android:entryValues="@array/app_effectsvalue_list_preference"
+            android:title="@string/app_list_slide" 
+            android:defaultValue="@integer/default_zeor" android:key="appeffects">
+            </ListPreference>
+</PreferenceScreen>

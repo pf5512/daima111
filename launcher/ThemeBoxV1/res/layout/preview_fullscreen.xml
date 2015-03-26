@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <com.coco.theme.themebox.PreViewGallery
+        android:id="@+id/fullgalleryPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff000000"
+        android:spacing="0.0dip"
+        android:unselectedAlpha="1.0" 
+     	
+       />
+       <com.coco.theme.themebox.PageControl
+		android:id="@+id/page_control"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+ 	    android:paddingTop="0dip" 
+        android:paddingBottom="10dip" 
+	    android:orientation="horizontal"
+	    android:gravity="center_horizontal"
+	    android:layout_alignParentBottom="true"
+	    android:background="#00000000"/>
+</RelativeLayout>

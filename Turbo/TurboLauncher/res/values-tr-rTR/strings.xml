@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Turbo Launcher</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">Klasör</string>
+    <string name="contact_name">İrtibatlar</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">da Duvar Kağıdı Seç</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_3dwidget">Bir 3D Parçacık Seç</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Duvar Kağıdı Yap</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Duvar Kağıtları</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure</string>
+    <string name="iloong_shellstr">Başlatıcı yükleniyor</string>
+    <!-- CircleSelect -->
+    <skip />
+
+    <string name="circle_autoSort">Otomatik Sırala</string>
+    <string name="circle_iconOverlap">Örtüşme</string>
+    <string name="circle_iconTrans">Çeviri</string>
+    <string name="circle_multiSelect">Çoklu seç</string>
+    <string name="circle_createFolder">Klasör Oluştur</string>
+    <string name="circle_deleteAll">Hepsini Sil</string>
+    <string name="circle_noticeToast">Seçmek için orjine dön</string>
+    <string name="circle_dstOverToast">Kapan aralık sınırı dışında</string>
+    <string name="circle_deleteALLToast">Hepsini Silmek istediğinizden emin misiniz?</string>
+    <string name="circle_selectMutiToOperToast">Multiple ikon işletimi</string>
+    <string name="circle_notSupportToast">Bu versiyon geçici bir süreyle bu özelliği kullanamıyor</string>
+    <string name="circle_ok_action">Tamam</string>
+    <string name="circle_cancel_action">İptal</string>
+    <string name="circle_unselectAppIconToast">Herhangi bir ikon seçilmedi</string>
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">Klasörü Yeniden Adlandır</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">Tamam</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">İptal</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder3D_del_toast">Bu Klasörü Silmek istediğinizden emin misiniz?</string>
+    <!-- Widget download -->
+    <string name="widget_download_content">Telefonunuzda yüklü değil, indirmek ve yüklemek için Tamama basın</string>
+    <string name="apk_cannot_found_content">SD kartınızda bu uygulama hakkında APK bulunamadı!</string>
+    <string name="folder3D_full">Klasör dolu</string>
+    <string name="folder3D_name">Klasör</string>
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item"></string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">Uygulamalar</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">Kısayollar</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">Klasör</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">Parçacıklar</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_wallpapers">Duvar Kağıtları</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_3D_widgets">3D widgets</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper -->
+    <string name="group_contacts">İrtibatlar</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget -->
+    <string name="add_folder">Klasör</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget -->
+    <string name="add_clock">Saat</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget -->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">Bu Ana ekranda yer yok.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Kısayol Seç</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">Uygulama Seç</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!-- All applications label for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_button_label">All applications</string>
+    <!--
+         Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--
+         URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google".
+    -->
+    <string name="default_browser_url" >        http://www.google.com/m?client=ms-{CID}source=android-home-hotseat</string>
+    <string name="errorHint">A error has happened %1$s.Please click <i><b>"REPORT"</b></i> to send the error information to us by email, Thanks!!!</string>
+    <string name="hello">hello iLoong User</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- PageSelect -->
+    <skip />
+
+    <string name="can_not_add_widget">Bu sayfaya eklenemiyor</string>
+    <string name="can_not_delete_page">Minimum ekran sayısına ulaşıldı</string>
+    <string name="delete_page">Sayfa boş değil, silmek istediğinizden emin misiniz?</string>
+
+    <!-- AppBar -->
+    <string name="appbar_tab_app">Uygulamalar</string>
+    <string name="appbar_tab_widget">Widgets</string>
+    <string name="appbar_tab_uninstall">Uygulamaları Sil</string>
+    <string name="appbar_tab_hide">Uygulamaları Gizle</string>
+    <string name="sort_app_init">     Fabrika verilerine göre sırala</string>
+    <string name="sort_app_name">     Uygulama adına göre sırala</string>
+    <string name="sort_app_install_time">     Yükleme zamanına göre sırala</string>
+    <string name="sort_app_use_frequency">     Kullanım sıklığına göre sırala</string>
+    <string name="sort_dialog_title">İkonları sırala</string>
+    <string name="widget_empty_dialog">Bu 3D parçacığı yüklenmemiş, lütfen önce yükleyin ve daha sonra ekleyin</string>
+    <string name="widget_empty_title">3D widget</string>
+    <string name="hotseat_mainmenu">Uygulamalar</string>
+    <string name="hotseat_workspace">Ana Sayfa</string>
+    <string name="main_menu">Apps</string>
+    <string name="trash_icon_title">Sil</string>
+    <!-- adjust -->
+    <string name="fold_name_too_long">Klasör adı maksimum uzunluğu geçiyor</string>
+    <string name="app_downloading">Yükleniyor</string>
+
+    <string-array name="app_effects_list_preference">
+        <item>Standart</item>
+        <item>Rastgele</item>
+        <item>Yığınla</item>
+        <item>İç Kutu</item>
+        <item>Dış Kutu</item>
+        <item>Döndür</item>
+        <item>Çapraz döndür</item>
+        <item>Değirmen</item>
+        <item>Dalga</item>
+        <item>Tekerlek</item>
+        <item>Bilye</item>
+        <item>Silindir</item>
+    </string-array>
+    <string-array name="app_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="workspace_effects_list_preference">
+        <item>Standart</item>
+        <item>Rastgele</item>
+        <item>İç Kutu</item>
+        <item>Dış Kutu</item>
+        <item>Döndür</item>
+        <item>Çapraz döndür</item>
+        <item>Değirmen</item>
+        <item>Dalga</item>
+        <item>Varsayılan</item>
+    </string-array>
+    <string-array name="workspace_effectsvalue_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="effect_standard">Standart</string>
+    <string name="effect_random">Rastgele</string>
+    <string name="effect_cascade">Yığınla</string>
+    <string name="effect_outbox">Dış Kutu</string>
+    <string name="effect_inbox">İç Kutu</string>
+    <string name="effect_flip">Döndür</string>
+    <string name="effect_bigfan">Çapraz döndür</string>
+    <string name="effect_fan">Değirmen</string>
+    <string name="effect_wave">Dalga</string>
+    <string name="effect_ball">Bilye</string>
+    <string name="effect_wheel">Tekerlek</string>
+    <string name="effect_cylinder">Silindir</string>
+    <string name="effect_default">Varsayılan</string>
+    <string name="uninstall_app">Kaldırmak</string>
+     <string name="download_apps">İndirilen uygulamalar</string>
+    <string name="hide_icon">İkonu sakla</string>
+    <string name="sort_icon">İkonu sırala</string>
+    <string name="no_space_add_icon">Ekleme yeri yok</string>
+    <string name="exceed_num_add_icon">Seçilen ikon sayısı maksimum mevcut alandan fazla, ekleme başarısız!</string>
+    <string name="contact_error_pls_check">Kişi ekeleme başarısız, kişi bilgilerinin tam olup olmadığını kontrol edin.</string>
+    <string name="download_to_install">Bu parçacık yüklenmemiş, lütfen ind</string>
+    <string name="add_failure">Ekleme başarısız</string>
+    <string name="deny_add_on_mainmenu">Bu ana menü girişidir.</string>
+    <string name="dlmng_check_network">İndirme bilgisi alınamadı, lütfen ağı kontrol edip yeniden deneyin!</string>
+    <string name="dlmng_comeout_soon">Yakında</string>
+    <string name="dlmng_pls_insert_SD">Lütfen SD kartı yerleştirin ve daha sonra indirin!</string>
+     <string name="backup_pls_insert_SD">Lütfen SD karı yerleştirin ve daha sonra yedekleyin!</string>
+    <string name="dlmng_network_error">Ağ hatası, lütfen daha sonra tekrar deneyin!</string>
+    <string name="dlmng_download_error">Bağlantı hatası, lütfen daha sonra tekrar deneyin!</string>
+    <string name="dlmng_download_configwrong">DYanlış parametre indirildi</string>
+    <string name="backup_title_back">CooeeHomeS3 Backup</string>
+    <string name="backup_back_to_SD">CooeeHomeS3 ayarlarını SD karta yedekle!</string>
+    <string name="backup_title_restore">CooeeHomeS3 ayarlarını geri al </string>
+    <string name="backup_restore">Ayarı geri al, CooeeHomeS3 yeniden başlatılacak!</string>
+    <string name="backup_latest">son yedekleme zamanı</string>
+    <string name="backup_no_back">Sistemde yedekleme mevcut değil</string>
+    <string name="backup_success">Yedekleme başarılı!</string>
+    <string name="backup_fail">Yedekleme başarısız!</string>
+    <string name="restore_fail">RGeri alma başarısız!</string>
+    <string name="guide_title">Kullanıcı rehberi</string>
+    <string name="guide_proceed">Kullanıcı rehberini göster, uygulama yeniden başlatılacak</string>
+    <string name="lock_editor_title">Kilit düzenle</string>
+    <string name="lock_editor">Not: Kilit ayarını aç, ekran taşıma artık yanıt vermeyecektir, tuşa yeniden basarak dü.</string>
+    <string name="warning_msg">Uyarı mesajı</string>
+    <string name="version_msg_title">Versiyon mesajı</string>
+    <string name="version_msg">Yazılımınız güncel!</string>
+    <string name="update_msg_title">Yazılım versiyonunuz:</string>
+    <string name="update_needed_version">Son versiyon:</string>
+    <string name="update_need_now">Şimdi güncelle!\n</string>
+    <string name="system_update">Sistem güncellemesi</string>
+    <string name="max_added_thirty">Sadece 30a kadar ekleyebilirsiniz</string>
+    <string name="max_added_twenty">Sadece 20a kadar ekleyebilirsiniz</string>
+    <string name="catnot_add_to_sidebar">Bu parçacık kenar çubuğuna eklenemiyor.</string>
+    <string name="common_add">Ekle</string>
+    <string name="common_commit">Teslim et</string>
+    <string name="reach_max">Üst sınıra ulaşıldı</string>
+    <string name="can_drag_to_desktop">Masaüstüne taşımak için uzun bas</string>
+    <string name="setting_backup_restore">Ayarları yedekle/ geri al</string>
+    <string name="setting_add_system_widget">Ana ekran ekle</string>
+    <string name="setting_share_friend">"Hi, I'm using CooeeHomeS3, it is so cool, browse the following URL http://www.coolauncher.cn"</string>
+    <string name="setting_feedback">Lütfen geri bildiriminizi gönderin;</string>
+    <string name="defaulttheme">Varsayılan Tema</string>
+    <string name="localtheme">Temam</string>
+    <string name="zorespace"></string>
+    <string name="applytheme">Temayı uygula</string>
+    <string name="removetheme">Temayı sil</string>
+    <string name="onlinetheme">Online tema</string>
+    <string name="themetype">TTürü:</string>
+    <string name="themeversion">Versiyon:</string>
+    <string name="themeauthor">Yazan:</string>
+    <string name="themedata">Tarih:</string>
+    <string name="themefeedback">Geribildirim::</string>
+   
+    <string name="basic_setting">Ana ayarlar</string>
+    <string name="vibrator">Vibratör</string>
+    <string name="vibrate_on_long_click">Uzun tık titreşimi+B91</string>
+    <string name="circle_select">Dönge seç</string>
+    <string name="circle_select_switch">Dönge seç/ değiştir</string>
+    <string name="effect_setting">Efektayarı</string>
+    <string name="shake_wallpaper">Duvar kağıtlarını salla</string>
+    <string name="shake_wallpaper_description">Duvar kağıtlarını değiştirmek için salla</string>
+	<string name="shake_wallpaper_not_supported">this application not supported on your phone</string>
+    <bool name="enable_setting_key_shake_wallpaper">true</bool>    
+
+    <string name="desktop_slide">Masaüstü kaydıre</string>
+    <string name="app_list_slide">Uygulama listesini kaydır</string>
+    <string name="backup_and_restore">Yedekle ve geri al</string>
+    <string name="backup_desktop">Masaüstünü yedekle</string>
+    <string name="restore_desktop">Mastaüsrünü geri al</string>
+    <string name="more">Daha fazla</string>
+    <string name="restart_launcher">CooeeHomeS3 i yeniden başlat</string>
+    <string name="version_update">Güncelle</string>
+    <string name="share_friends">Arkadaşlarla Paylaş</string>
+    <string name="feedback">Geribildirim</string>
+    <string name="guide_help">Rehber yardımp</string>
+    <string name="guide_install">Rehber</string>
+    <string name="reset_guide">Rrehber Bayrağı sıfırla</string>
+    <string name="exit_launcher">Çıkış</string>
+    <string name="backup_restore_setting">Yedekleme /Geri Alma ayarları</string>
+    <string name="update_feedback">Geribildirimi güncelle</string>
+    <string name="mostly_used">En sık kullanınanlar</string>
+     <string name="desktop_setting">Masaüstü ayarı</string>
+    <string name="system_widget">widgets</string>
+    <string name="wallpaper">gözatılıyor</string>
+    <string name="theme">konu</string>
+    <string name="software_manager">Yazılım yöneticisi</string>
+    <string name="screen_editor">Ekran editörü</string>
+    <string name="locker_editor">Kilit ayarı</string>
+    <string name="system_setting">Sistem ayarı</string>
+    <string name="clock">3D Saat</string>
+    <string name="memo">3D Hafıza</string>
+    <string name="robot">3D Robot</string>
+    <string name="theme_select">Tema Seçimi</string>
+    <string name="theme_change">Tema Sistem Değişikliğir</string>
+    <string name="no_theme_to_be_replaced">Değiştirilecek tema yok!</string>    
+    <string name="Internet">Internet</string>
+    <string name="Explorer">Explorer</string>    
+    <string name="beyond_mtkwidget_num">Bu parçacık mevcut, daha fazla eklenemez!</string>
+ 
+</resources>

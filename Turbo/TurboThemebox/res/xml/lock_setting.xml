@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="enableLock"
+        android:title="@string/preferLock" />
+   	<Preference
+        android:title="@string/lockHome"   
+        android:dependency="enableLock" 
+        android:persistent="false"  
+        android:key="lockhome" />
+    <!-- <PreferenceCategory android:title="@string/preferTitle1" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="enableLock"
+            android:key="enableSound"
+            android:summaryOff="@string/preferOff"
+            android:summaryOn="@string/preferOn"
+            android:title="@string/preferSound" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="enableLock"
+            android:key="enableVibrate"
+            android:summaryOff="@string/preferOff"
+            android:summaryOn="@string/preferOn"
+            android:title="@string/preferVibrate" />
+    </PreferenceCategory> -->
+    
+
+</PreferenceScreen>
